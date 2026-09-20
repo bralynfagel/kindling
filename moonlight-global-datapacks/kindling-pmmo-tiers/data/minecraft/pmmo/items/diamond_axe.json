@@ -3,10 +3,10 @@
     "requirements": {
         "WEAR": {},
         "TOOL": {
-            "woodcutting": 20
+            "woodcutting": 0
         },
         "WEAPON": {
-            "combat": 20
+            "combat": 0
         },
         "USE": {},
         "PLACE": {},

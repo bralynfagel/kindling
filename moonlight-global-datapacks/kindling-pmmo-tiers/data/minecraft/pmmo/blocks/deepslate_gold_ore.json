@@ -1,0 +1,11 @@
+{
+    "override": true,
+    "requirements": {
+        "BREAK": {
+            "mining": 8
+        },
+        "PLACE": {},
+        "USE": {},
+        "INTERACT": {}
+    }
+}

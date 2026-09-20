@@ -3,10 +3,10 @@
     "requirements": {
         "WEAR": {},
         "TOOL": {
-            "farming": 10
+            "farming": 0
         },
         "WEAPON": {
-            "combat": 10
+            "combat": 0
         },
         "USE": {},
         "PLACE": {},

@@ -2,7 +2,7 @@
     "override": true,
     "requirements": {
         "WEAR": {
-            "endurance": 20
+            "endurance": 0
         },
         "TOOL": {},
         "WEAPON": {},
