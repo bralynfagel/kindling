@@ -117,6 +117,10 @@ file = "config/amendments-common.toml"
 hash = "88a7589f5f621ab65ccf7445b1553206390ae7e89a99d04e129fdd195bb40feb"
 
 [[files]]
+file = "config/announcement_config.json5"
+hash = "f4b84cff3079706b15460b8acd1324f61804361b13ec796d9d98686c31798ca4"
+
+[[files]]
 file = "config/apotheosis/apotheosis.cfg"
 hash = "0d567c27b10feb3945d329fc6ff0bf4f3eaeace7456aa814b7912063b2281e42"
 
