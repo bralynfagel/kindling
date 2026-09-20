@@ -1,0 +1,13 @@
+filename = 'player-locator-plus-neoforged-1.21.1-2.5.1.jar'
+name = 'PlayerLocatorPlus NeoForged'
+side = 'both'
+
+[download]
+hash = '9c7af957dc2629df8bd364d7328e2e765df3a4a6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8618788
+project-id = 1637606

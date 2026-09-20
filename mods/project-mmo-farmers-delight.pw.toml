@@ -1,0 +1,13 @@
+filename = 'pmmo_farmers_compat-1.21.1-1.2.2.jar'
+name = "Project MMO: Farmer's Delight Compat"
+side = 'both'
+
+[download]
+hash = '9ec7f1438d371aae4b6e6645751bd75facdc743617f3c7bddfa00b60e7465fecedd81692518f6fe40a294536729781138a5892bdcd70257088d21d440d6ba3c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kKiocPqN/versions/HLlN8Wiz/pmmo_farmers_compat-1.21.1-1.2.2.jar'
+
+[update.modrinth]
+mod-id = 'kKiocPqN'
+version = 'HLlN8Wiz'

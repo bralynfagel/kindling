@@ -1,0 +1,42 @@
+filename = 'ATi Structures V1.4.6.jar'
+name = 'ATi Structures'
+side = 'both'
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+
+[download]
+hash = '786b7aab0865c7ba91a88244ca5630d96a1b5db76258a1108fea26dd1cedfe6695710856da532470f8959bccc2adfd2fd5ffc0d46d0f2c7c184fefaec5ce0e25'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bii8qPSt/versions/lFd2h8Yh/ATi Structures V1.4.6.jar'
+
+[update.modrinth]
+mod-id = 'bii8qPSt'
+version = 'lFd2h8Yh'

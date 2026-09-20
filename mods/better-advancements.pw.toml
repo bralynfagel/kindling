@@ -1,0 +1,13 @@
+filename = 'BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar'
+name = 'Better Advancements'
+side = 'both'
+
+[download]
+hash = '870521cfaa1a4cb6c830e2409e8b9e4cf179aff2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5850587
+project-id = 272515

@@ -1,0 +1,13 @@
+filename = 'rustlingspots-neoforge-5.0.1.jar'
+name = 'Cobblemon Rustling Spots'
+side = 'both'
+
+[download]
+hash = '07c7cff6f15ac2d9ee562cde8d3556dec2e764557145f985a64d13d8665bf2307bd873f287a4f93afed5e7c4501af69e1d72f89ff1d83480de44e104e9c79e7a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/JqMS1LKC/versions/pkeOFyfo/rustlingspots-neoforge-5.0.1.jar'
+
+[update.modrinth]
+mod-id = 'JqMS1LKC'
+version = 'pkeOFyfo'

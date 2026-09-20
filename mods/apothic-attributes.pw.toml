@@ -1,0 +1,13 @@
+filename = 'ApothicAttributes-1.21.1-2.10.1.jar'
+name = 'Apothic Attributes'
+side = 'both'
+
+[download]
+hash = 'ecfa2c6b9eca3793977a29d57961a0f552cfc1995ee5d7c6e6dcca888d4c427c4d940c484ebd13c6d2db7c7341d4da0d212e6897ec1f26f0e5c093ce508d4858'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DGaH8Rh0/versions/Xtaunf84/ApothicAttributes-1.21.1-2.10.1.jar'
+
+[update.modrinth]
+mod-id = 'DGaH8Rh0'
+version = 'Xtaunf84'

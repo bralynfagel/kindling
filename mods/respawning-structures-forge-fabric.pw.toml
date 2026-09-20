@@ -1,0 +1,13 @@
+filename = 'respawningstructures-1.21.1-4.4.jar'
+name = 'Respawning Structures'
+side = 'both'
+
+[download]
+hash = '0a9de154de5ae3831527935475b5dc5b46db8d1c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8528892
+project-id = 969937

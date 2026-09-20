@@ -1,0 +1,13 @@
+name = "Kindling"
+author = "Bralyn"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "59e62dbe565a526459e7ec5520cbb5ad73cd4b469752483bca97959cb580483f"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.251"

@@ -1,0 +1,92 @@
+#How often (in ticks) the spawning handler attempts to spawn shoppers near active shops/ATMs.
+# Default: 400
+# Range: > 20
+spawnRate = 400
+#The maximum number of shoppers allowed around a single economic hub.
+# Default: 10
+# Range: 1 ~ 100
+maxShoppers = 10
+#Minimum distance (in blocks) from the economic hub center where shoppers will spawn.
+# Default: 24.0
+# Range: 5.0 ~ 128.0
+spawnRadiusMin = 24.0
+#Maximum distance (in blocks) from the economic hub center where shoppers will spawn.
+# Default: 40.0
+# Range: 10.0 ~ 256.0
+spawnRadiusMax = 40.0
+#If a trade's price is greater than this multiplier times the item's fair value, shoppers will refuse to buy it.
+# Default: 3.0
+# Range: 1.0 ~ 100.0
+overpriceMultiplier = 3.0
+#How often (in ticks) the background simulator runs simulated visits for shops in unloaded chunks.
+# Default: 1200
+# Range: > 100
+simulatorTickRate = 1200
+#The probability (0.0 to 1.0) that a background simulation transaction succeeds per simulator check.
+# Default: 0.15
+# Range: 0.0 ~ 1.0
+simulatorChance = 0.15
+#The probability (0.0 to 1.0) that a wealthy shopper will bid on/buy out an item matching their interest from the Auction House.
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+auctionBidChance = 0.05
+#Probability that a spawned shopper will prioritize pathfinding to an ATM and executing simulated ATM actions first.
+# Default: 0.3
+# Range: 0.0 ~ 1.0
+atmSpawnChance = 0.3
+
+[tycoon]
+	#Spawn weight for the Elite Tycoon class (relative to other classes).
+	# Default: 5
+	# Range: 0 ~ 100
+	spawnWeight = 5
+	#Minimum Netherite coins a Tycoon shopper spawns with.
+	# Default: 1
+	# Range: 0 ~ 1000
+	minWallet = 1
+	#Maximum Netherite coins a Tycoon shopper spawns with.
+	# Default: 5
+	# Range: 1 ~ 1000
+	maxWallet = 5
+
+[merchant]
+	#Spawn weight for the Wealthy Merchant class.
+	# Default: 15
+	# Range: 0 ~ 100
+	spawnWeight = 15
+	#Minimum Emerald coins a Merchant shopper spawns with.
+	# Default: 16
+	# Range: 0 ~ 1000
+	minWallet = 16
+	#Maximum Emerald coins a Merchant shopper spawns with.
+	# Default: 64
+	# Range: 1 ~ 1000
+	maxWallet = 64
+
+[citizen]
+	#Spawn weight for the Common Citizen class.
+	# Default: 50
+	# Range: 0 ~ 100
+	spawnWeight = 50
+	#Minimum Gold coins a Citizen shopper spawns with.
+	# Default: 16
+	# Range: 0 ~ 1000
+	minWallet = 16
+	#Maximum Gold coins a Citizen shopper spawns with.
+	# Default: 64
+	# Range: 1 ~ 1000
+	maxWallet = 64
+
+[peasant]
+	#Spawn weight for the Poor Peasant class.
+	# Default: 30
+	# Range: 0 ~ 100
+	spawnWeight = 30
+	#Minimum Iron coins a Peasant shopper spawns with.
+	# Default: 5
+	# Range: 0 ~ 1000
+	minWallet = 5
+	#Maximum Iron coins a Peasant shopper spawns with.
+	# Default: 32
+	# Range: 1 ~ 1000
+	maxWallet = 32

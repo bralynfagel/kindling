@@ -1,0 +1,13 @@
+filename = 'mezz_config-1.21.1-neoforge-0.6.1.jar'
+name = 'MezzConfig'
+side = 'both'
+
+[download]
+hash = 'c790d69955b4e5561c3ff7180c8eca3a63d9208a6f43eadf751f405108326647fc8226ccf051b2cee088d6e1772f584eba65d588c06b14f7290d8cbc9c3e1eac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7tEfOcA7/versions/m8hTG9fV/mezz_config-1.21.1-neoforge-0.6.1.jar'
+
+[update.modrinth]
+mod-id = '7tEfOcA7'
+version = 'm8hTG9fV'

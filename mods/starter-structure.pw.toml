@@ -1,0 +1,13 @@
+filename = 'starterstructure-1.21.1-4.2.jar'
+name = 'Starter Structure'
+side = 'both'
+
+[download]
+hash = '50fce8cb3e642e851bf16ab56b0581ad48e0cd86136d0890e9317e59c0e52aaf67aae0675358310e984a3dbe8b81a0ce953dcc7d9110767ee73d5e8a2a710465'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gi80Z09B/versions/ogrAh9O2/starterstructure-1.21.1-4.2.jar'
+
+[update.modrinth]
+mod-id = 'gi80Z09B'
+version = 'ogrAh9O2'

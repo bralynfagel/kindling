@@ -1,0 +1,13 @@
+filename = 'shoppers-1.0.2.jar'
+name = 'Shoppers (Lightmans currency addon)'
+side = 'both'
+
+[download]
+hash = '437c9ebe73f0fe2f6ebe7d793ff21381e6184b4034c05c2724766fb5a6133271ea11ee1b76869e99a53f0ef5039a6605487d06e6e207a1e0f1f793feb7546094'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wKNjjOPW/versions/dz7zdEP1/shoppers-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'wKNjjOPW'
+version = 'dz7zdEP1'

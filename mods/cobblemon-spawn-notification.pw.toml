@@ -1,0 +1,13 @@
+filename = 'spawnnotification-neoforge-1.8.1-2.3.0.jar'
+name = 'Cobblemon Spawn Notification'
+side = 'both'
+
+[download]
+hash = '3a15635e96da76f37d0fe1bee92583380fd76cdfb3eacdc717b85b63d4d06aa9378441b0c9d9d8e3645dba1b3c457da1bfd032e3b770c5f7132ce7940569df90'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LPuJjiQz/versions/Pi0kveua/spawnnotification-neoforge-1.8.1-2.3.0.jar'
+
+[update.modrinth]
+mod-id = 'LPuJjiQz'
+version = 'Pi0kveua'

@@ -1,0 +1,13 @@
+filename = 'structures_tweaker-1.21.1-NeoForge-2.1.7.jar'
+name = 'Structures Tweaker'
+side = 'both'
+
+[download]
+hash = '6350c7356edf290919187e672e6256a40db5168b0e11128aedc58101a6def5774efa50e3fdbb0fc9dc05037e3a559ae3cf1e13c0995ed1a278d91572757c629b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KsN9btiw/versions/swSpw8OQ/structures_tweaker-1.21.1-NeoForge-2.1.7.jar'
+
+[update.modrinth]
+mod-id = 'KsN9btiw'
+version = 'swSpw8OQ'

@@ -1,0 +1,13 @@
+filename = 'ftbbackups2-neoforge-1.21-1.0.28.jar'
+name = 'FTB Backups 2'
+side = 'both'
+
+[download]
+hash = '878753a228d620c51b2f7a521867cab78fa259fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5501351
+project-id = 622737

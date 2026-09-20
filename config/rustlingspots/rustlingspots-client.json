@@ -1,0 +1,7 @@
+{
+  "shadow_opacity": 0.5,
+  "water_shadow_opacity": 0.8,
+  "show_pokemon_messages": true,
+  "show_loot_messages": false,
+  "show_empty_spot_messages": true
+}

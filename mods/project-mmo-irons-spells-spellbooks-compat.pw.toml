@@ -1,0 +1,13 @@
+filename = 'pmmo_spellbooks_compat-1.0.2.jar'
+name = "Project MMO: Iron's Spells & Spellbooks Compat"
+side = 'both'
+
+[download]
+hash = 'b4298bd786d647df280de41ae8475fbdf8c52cc8863216dc0d71bde50f37b037b20b832ccf284867ec55d1a0bed34e8ced0c477f34ba1aa802949c0c24a9fa46'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gGnLhnCP/versions/c6oKs3HC/pmmo_spellbooks_compat-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'gGnLhnCP'
+version = 'c6oKs3HC'
