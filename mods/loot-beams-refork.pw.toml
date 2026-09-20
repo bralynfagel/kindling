@@ -1,6 +1,6 @@
 filename = 'Loot Beams Refork-neoforge-1.21.1-3.4.7.jar'
 name = 'Loot Beams: Refork'
-side = 'both'
+side = 'client'
 
 [download]
 hash = '89c42087f9586184cf21810bbfe1309427c827685bfd0d24656b995ac2ddde298c913c8560bd48bab4a4fdb60184afa292497aad38ffef8ef64b109e95459d72'

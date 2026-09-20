@@ -1,6 +1,6 @@
 filename = 'visuality-forge-3.0.0.jar'
 name = 'Visuality: Reforged'
-side = 'both'
+side = 'client'
 
 [download]
 hash = 'f90754b93efff9fc466351446e916b1aac314e8834985f97725fff9a4978bc5519e3497303c7136a2e8b0aedda36ae674858ddfe3f01b63d1886fa906440e373'
