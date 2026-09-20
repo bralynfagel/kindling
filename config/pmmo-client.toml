@@ -6,11 +6,11 @@
 		#how far right from the top left corner the skill list should be
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		"Skill List Xoffset" = 0.01
+		"Skill List Xoffset" = 0.005
 		#how far down from the top left corner the skill list should be
 		# Default: 5.0E-4
 		# Range: 0.0 ~ 1.0
-		"Skill List Yoffset" = 5.0E-4
+		"Skill List Yoffset" = 0.28
 		#if true, uses the icon from the skill list instead of the skill name
 		"Skill List Use Icons" = false
 		#Should the skill list be displayed
