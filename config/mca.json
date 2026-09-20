@@ -289,14 +289,7 @@
   "allowBodyCustomizationInDestiny": true,
   "allowTraitCustomizationInDestiny": true,
   "destinySpawnLocations": [
-    "somewhere",
-    "minecraft:shipwreck_beached",
-    "minecraft:village_desert",
-    "minecraft:village_taiga",
-    "minecraft:village_snowy",
-    "minecraft:village_plains",
-    "minecraft:village_savanna",
-    "minecraft:ancient_city"
+    "somewhere"
   ],
   "destinyLocationsToTranslationMap": {
     "minecraft:shipwreck_beached": "destiny.story.sailing",

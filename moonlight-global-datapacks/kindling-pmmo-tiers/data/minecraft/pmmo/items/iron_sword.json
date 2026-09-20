@@ -1,0 +1,13 @@
+{
+    "requirements": {
+        "WEAR": {},
+        "TOOL": {},
+        "WEAPON": {
+            "combat": 10
+        },
+        "USE": {},
+        "PLACE": {},
+        "BREAK": {},
+        "INTERACT": {}
+    }
+}

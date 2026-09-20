@@ -98,11 +98,11 @@ hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
 
 [[files]]
 file = "config/advancementplaques.toml"
-hash = "fccc5bab6156c4c38bcdebf4b21c22488536da5631ba8d8d94e41fd5baaa7cad"
+hash = "da42de6fc506dc63f55f4556f5eb5d44af69483a3d9fe179666ea2ec3f83d5c5"
 
 [[files]]
 file = "config/aggroindicator-client.json"
-hash = "53abe528c21d53c2f39229f8c2858c6d14e4e49b8faa57711dcc5192ab529a99"
+hash = "e42491357e529cdc54da82534d14c71d2cf7a1723445d43fbceeeef663460651"
 
 [[files]]
 file = "config/ambientsounds-client.json"
@@ -146,7 +146,7 @@ hash = "eda93df8c30acf8d7e14f4f2baf583f77ec37fcc05d8acc85988ffd465d5038c"
 
 [[files]]
 file = "config/appleskin-client.toml"
-hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
+hash = "041ee552d59c5f6ca82ee09ab804ffc3c1fb44f5fde22abb938470073c585544"
 
 [[files]]
 file = "config/ars_n_spells-server.toml"
@@ -154,7 +154,7 @@ hash = "1a3ba9d09cb39cc818f387c6c265bf593c262f6ece820d372271c8acfa755214"
 
 [[files]]
 file = "config/ars_nouveau-client.toml"
-hash = "442e7d4aa8f85dc37e8bfa29a71126b1757056a82cb825e606fae4470a814a56"
+hash = "ce9ded026b710be62fa20cd28bd13562cf3080eeb989fa5163dbac4166439522"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
@@ -1206,7 +1206,7 @@ hash = "c1322190d23589bd63d45577b340904f45f73a246690b514d468e68f4b24d350"
 
 [[files]]
 file = "config/irons_spellbooks-client.toml"
-hash = "6beb668c942a607fd602e65ebec4281939eb0122c4fff02f01336bb47d257963"
+hash = "a7163b19076596b4fa2af5d40c69c7acee453b5e742796b42f6ef6405f6f7cb3"
 
 [[files]]
 file = "config/irons_spellbooks-server.toml"
@@ -1330,7 +1330,7 @@ hash = "c31852ce0f2efb1a3fbc53e678e07a27e06c885b424173c339e8b44e45ca48d4"
 
 [[files]]
 file = "config/mca.json"
-hash = "afdf0ee2d9aa93b2ccc99f8295d617f4cd092c1aa357be8b47701fe533f14bfc"
+hash = "eb75c151f8cb6273859d1e036bdaa008c8244fa8d7ba9f3ed38d719c9739334e"
 
 [[files]]
 file = "config/mezz_config/client/default/settings.ini"
@@ -1390,7 +1390,7 @@ hash = "5748707a4e8a0d338b662e9473494ef454c390ba499d668c35a7738bc69ff57a"
 
 [[files]]
 file = "config/pmmo-client.toml"
-hash = "61d4c7d558e45582a08643270979d0fb133d398478736837cae93d5eba3ee20a"
+hash = "c36c542f8240ccbd4e600df6ccb4c58bfc159e1e020c0c4210fd3c0400233990"
 
 [[files]]
 file = "config/pmmo-common.toml"
@@ -5758,3 +5758,243 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "14213b0633f6fb5e79c1a6940605bf3728b009d320164e30db7fac379179b752"
 metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/bow.json"
+hash = "7a63cfdd9fab95224f04a57a10e67f9d88edfeafa70f8236a94109abcf609828"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/chainmail_boots.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/chainmail_chestplate.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/chainmail_helmet.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/chainmail_leggings.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/crossbow.json"
+hash = "7a63cfdd9fab95224f04a57a10e67f9d88edfeafa70f8236a94109abcf609828"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_axe.json"
+hash = "cda224de15d86fcfbd6458aeef515a6ddc95e7a1c1ce0843018644a8128a4379"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_boots.json"
+hash = "e62c2dcf98933cbfd15066b2878efdb880ff46cbe7c821c1a2dfed2bd6e68587"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_chestplate.json"
+hash = "e62c2dcf98933cbfd15066b2878efdb880ff46cbe7c821c1a2dfed2bd6e68587"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_helmet.json"
+hash = "e62c2dcf98933cbfd15066b2878efdb880ff46cbe7c821c1a2dfed2bd6e68587"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_hoe.json"
+hash = "40d681b7d50a65b29c957b25135822c3f1ac02a05dced1ce31de7a38e9908687"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_leggings.json"
+hash = "e62c2dcf98933cbfd15066b2878efdb880ff46cbe7c821c1a2dfed2bd6e68587"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_pickaxe.json"
+hash = "eeec4380d8e148c1029025ef4c658caf506c4cd9cd5166fa75b727d9d7204e09"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_shovel.json"
+hash = "9d262d725932122ace30b174c3606b4307f7e4f35456a8941e44f12529a7f825"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/diamond_sword.json"
+hash = "291bbbef235c81e5a9c03ed4496105faf380a5fc0e6b2c10c27f0ba1f9cc221c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/elytra.json"
+hash = "7a63cfdd9fab95224f04a57a10e67f9d88edfeafa70f8236a94109abcf609828"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_axe.json"
+hash = "bf40bbefa28fca07a9768f3506fc99b57dfc441d5795e2ecb983a5639a6535f2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_boots.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_chestplate.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_helmet.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_hoe.json"
+hash = "3efced3be67abd33c14f6fb8060b9b99eab6879cf8af41526e9202bdca73b036"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_leggings.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_pickaxe.json"
+hash = "726e8a880470178859797f5be4c3c407b5c40031b4c4d0e0c4cf25112425e161"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_shovel.json"
+hash = "891f6a714d12df12b5a6b7520aa619c9901a886617465718accb074d0caa6f89"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/golden_sword.json"
+hash = "c679fc35b7751653e8c3e0bef0ae297838dcd4dd89d2da76289cf1bf5ef1efe9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_axe.json"
+hash = "7279b54d03c43c0b3bb677db072550715976f2738c69cd2f25870ffbbbb5ff54"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_boots.json"
+hash = "2b32b8cd38e1f24b2a72cbda2b3f4b3f51c0313e8711f49b4b45ce7dd1751cff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_chestplate.json"
+hash = "2b32b8cd38e1f24b2a72cbda2b3f4b3f51c0313e8711f49b4b45ce7dd1751cff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_helmet.json"
+hash = "2b32b8cd38e1f24b2a72cbda2b3f4b3f51c0313e8711f49b4b45ce7dd1751cff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_hoe.json"
+hash = "70f52b67b7bbfdceab9c96e879572867b50d55315d3680944c44e17189abcc94"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_leggings.json"
+hash = "2b32b8cd38e1f24b2a72cbda2b3f4b3f51c0313e8711f49b4b45ce7dd1751cff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_pickaxe.json"
+hash = "bfe6b57658330bfebe5e130965b7536d0ce71d2d012870916df0ba14b567a41e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_shovel.json"
+hash = "372324398beaa0a59f005d9cba322aa3db42465097011739ebd523603b485b8a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/iron_sword.json"
+hash = "118a0d70c404a64b7a873a8c43ddc62cbeb21e3a4ba024b42de6925647a9243e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/leather_boots.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/leather_chestplate.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/leather_helmet.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/leather_leggings.json"
+hash = "41757fb316161f3a527ac06f4ba1c4eeba0c9c24324517dba6f217c7d0695cd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_axe.json"
+hash = "aef8246ecba3f990afa1ab1017d6ba35bdc2b513bd5bf2f94ece40146d42dfa1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_boots.json"
+hash = "cf4916490af1cc1132619df75bf191459b0f41100d0b1f32aab4eb3b0a77c09c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_chestplate.json"
+hash = "cf4916490af1cc1132619df75bf191459b0f41100d0b1f32aab4eb3b0a77c09c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_helmet.json"
+hash = "cf4916490af1cc1132619df75bf191459b0f41100d0b1f32aab4eb3b0a77c09c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_hoe.json"
+hash = "253d6f209e7c3172a0fc24ed0ffacd41fad30d0e21f69ebe1ea171561e5dc42d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_leggings.json"
+hash = "cf4916490af1cc1132619df75bf191459b0f41100d0b1f32aab4eb3b0a77c09c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_pickaxe.json"
+hash = "ed9959f58a81c556d5bb1cf07132dbbea4c4b6ee05c6086c3328a46360f34c2a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_shovel.json"
+hash = "41b8d82c39e5431ea8b1777a5bf5a674dceac75ec38ab44868de8674dc26ec44"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/netherite_sword.json"
+hash = "c15eae80a3cc70818b987e456747460aab5cccc2cc4a578ecf6e37b7cd8f63c9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/shield.json"
+hash = "7a63cfdd9fab95224f04a57a10e67f9d88edfeafa70f8236a94109abcf609828"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/stone_axe.json"
+hash = "bf40bbefa28fca07a9768f3506fc99b57dfc441d5795e2ecb983a5639a6535f2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/stone_hoe.json"
+hash = "3efced3be67abd33c14f6fb8060b9b99eab6879cf8af41526e9202bdca73b036"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/stone_pickaxe.json"
+hash = "726e8a880470178859797f5be4c3c407b5c40031b4c4d0e0c4cf25112425e161"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/stone_shovel.json"
+hash = "891f6a714d12df12b5a6b7520aa619c9901a886617465718accb074d0caa6f89"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/stone_sword.json"
+hash = "c679fc35b7751653e8c3e0bef0ae297838dcd4dd89d2da76289cf1bf5ef1efe9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/turtle_helmet.json"
+hash = "7a63cfdd9fab95224f04a57a10e67f9d88edfeafa70f8236a94109abcf609828"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/wooden_axe.json"
+hash = "bf40bbefa28fca07a9768f3506fc99b57dfc441d5795e2ecb983a5639a6535f2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/wooden_hoe.json"
+hash = "3efced3be67abd33c14f6fb8060b9b99eab6879cf8af41526e9202bdca73b036"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/wooden_pickaxe.json"
+hash = "726e8a880470178859797f5be4c3c407b5c40031b4c4d0e0c4cf25112425e161"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/wooden_shovel.json"
+hash = "891f6a714d12df12b5a6b7520aa619c9901a886617465718accb074d0caa6f89"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/items/wooden_sword.json"
+hash = "c679fc35b7751653e8c3e0bef0ae297838dcd4dd89d2da76289cf1bf5ef1efe9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-tiers/pack.mcmeta"
+hash = "0a2469c878c09d0ee89f14ed77fa1f3944948f1d032b85967a1d60844ecc841b"

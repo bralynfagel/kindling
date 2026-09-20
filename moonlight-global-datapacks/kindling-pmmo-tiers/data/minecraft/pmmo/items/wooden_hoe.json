@@ -1,0 +1,15 @@
+{
+    "requirements": {
+        "WEAR": {},
+        "TOOL": {
+            "farming": 0
+        },
+        "WEAPON": {
+            "combat": 0
+        },
+        "USE": {},
+        "PLACE": {},
+        "BREAK": {},
+        "INTERACT": {}
+    }
+}
