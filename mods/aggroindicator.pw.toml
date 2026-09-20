@@ -1,6 +1,6 @@
 filename = 'aggroindicator-neoforge-1.21.1-2.0.4.jar'
 name = 'Aggro Indicator'
-side = 'client'
+side = 'both'
 
 [download]
 hash = '5293a52073c3817889abe8e28f6810cb5267493b'

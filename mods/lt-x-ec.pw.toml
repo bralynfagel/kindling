@@ -1,6 +1,6 @@
 filename = 'ltxec-neoforge-1.0.1.jar'
 name = 'Legendary Tooltips x Equipment Compare'
-side = 'client'
+side = 'both'
 
 [download]
 hash = '13f7318488d7a0b4786d54bf4b85459162b594a3f20d1101efb9331b690b7d1925ca90d6d523f1bb99b66a91c19acbeeaa06debe17f01f6539d27b402063e43d'

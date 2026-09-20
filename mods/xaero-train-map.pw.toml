@@ -1,6 +1,6 @@
 filename = 'xaerotrainmap-1.0.0.jar'
 name = 'Xaero Train Map'
-side = 'client'
+side = 'both'
 
 [download]
 hash = '6bdd0cc65492523cce939d2514632a60cbb38701ece15d4ab5caccc4a837fb28b0e1308698a0afe1921adb4f0ad0e6a69bf4aee68ab3277c47ea9b815d00068d'

@@ -1,6 +1,6 @@
 filename = 'invtweaks-1.21.1-1.2.0.jar'
 name = 'Inventory Tweaks: ReFoxed'
-side = 'client'
+side = 'both'
 
 [download]
 hash = 'a419544da8d943ccf17ed62f359fdbff04752735d370b18de3833a74277039e0313c8032e06462125b6b9b4e15b4eec057b680d302b465191ce51c13254bdeb2'
