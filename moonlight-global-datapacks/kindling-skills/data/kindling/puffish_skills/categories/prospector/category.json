@@ -1,0 +1,13 @@
+{
+  "title": "Prospector",
+  "description": "Mining and forestry. Levels from ore and logs \u2014 the rarer the ore, the more it's worth.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "background": "textures/block/deepslate.png",
+  "unlocked_by_default": true,
+  "starting_points": 1
+}

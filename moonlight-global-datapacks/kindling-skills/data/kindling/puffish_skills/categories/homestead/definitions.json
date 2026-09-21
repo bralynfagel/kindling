@@ -1,0 +1,200 @@
+{
+  "hands": {
+    "title": "Handy",
+    "description": "+1 block reach",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crafting_table"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "player.block_interaction_range",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "hearty": {
+    "title": "Well Fed",
+    "description": "+1 heart",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder": {
+    "title": "Builder's Reach",
+    "description": "+1 block reach",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scaffolding"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "player.block_interaction_range",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "sneak": {
+    "title": "Light Step",
+    "description": "+30% sneaking speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "player.sneaking_speed",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "stroll": {
+    "title": "Market Stroll",
+    "description": "+5% movement speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "fortune": {
+    "title": "Good Fortune",
+    "description": "+1 luck \u2014 better fishing and loot",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "hearth": {
+    "title": "Heart of the Hearth",
+    "description": "+2 hearts, +1 luck, +1 reach. The capstone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:campfire"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "player.block_interaction_range",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "pick",
+        "haste"
+      ],
+      [
+        "haste",
+        "reachb"
+      ],
+      [
+        "reachb",
+        "haste2"
+      ],
+      [
+        "pick",
+        "lungs"
+      ],
+      [
+        "lungs",
+        "fall"
+      ],
+      [
+        "fall",
+        "step"
+      ],
+      [
+        "haste2",
+        "luck"
+      ],
+      [
+        "step",
+        "luck"
+      ],
+      [
+        "luck",
+        "deep"
+      ]
+    ]
+  }
+}

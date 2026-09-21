@@ -1,0 +1,207 @@
+{
+  "level_limit": 30,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "level * 15 + 25"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:mine_block",
+      "data": {
+        "variables": {
+          "is_coal": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/coal"
+                }
+              }
+            ]
+          },
+          "is_copper": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/copper"
+                }
+              }
+            ]
+          },
+          "is_iron": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/iron"
+                }
+              }
+            ]
+          },
+          "is_redstone": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/redstone"
+                }
+              }
+            ]
+          },
+          "is_lapis": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/lapis"
+                }
+              }
+            ]
+          },
+          "is_gold": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/gold"
+                }
+              }
+            ]
+          },
+          "is_quartz": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/quartz"
+                }
+              }
+            ]
+          },
+          "is_diamond": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/diamond"
+                }
+              }
+            ]
+          },
+          "is_emerald": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/emerald"
+                }
+              }
+            ]
+          },
+          "is_netherite_scrap": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#c:ores/netherite_scrap"
+                }
+              }
+            ]
+          },
+          "is_log": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#minecraft:logs"
+                }
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "is_coal",
+            "expression": "2"
+          },
+          {
+            "condition": "is_copper",
+            "expression": "2"
+          },
+          {
+            "condition": "is_iron",
+            "expression": "4"
+          },
+          {
+            "condition": "is_redstone",
+            "expression": "3"
+          },
+          {
+            "condition": "is_lapis",
+            "expression": "5"
+          },
+          {
+            "condition": "is_gold",
+            "expression": "6"
+          },
+          {
+            "condition": "is_quartz",
+            "expression": "3"
+          },
+          {
+            "condition": "is_diamond",
+            "expression": "15"
+          },
+          {
+            "condition": "is_emerald",
+            "expression": "15"
+          },
+          {
+            "condition": "is_netherite_scrap",
+            "expression": "25"
+          },
+          {
+            "condition": "is_log",
+            "expression": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

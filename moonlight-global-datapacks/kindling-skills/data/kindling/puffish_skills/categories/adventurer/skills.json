@@ -1,0 +1,58 @@
+{
+  "hardy": {
+    "x": 0,
+    "y": 0,
+    "definition": "hardy",
+    "root": true
+  },
+  "edge": {
+    "x": -40,
+    "y": 30,
+    "definition": "edge"
+  },
+  "tempo": {
+    "x": -80,
+    "y": 60,
+    "definition": "tempo"
+  },
+  "edge2": {
+    "x": -40,
+    "y": 90,
+    "definition": "edge"
+  },
+  "reach": {
+    "x": -80,
+    "y": 120,
+    "definition": "reach"
+  },
+  "hide": {
+    "x": 40,
+    "y": 30,
+    "definition": "hide"
+  },
+  "footing": {
+    "x": 80,
+    "y": 60,
+    "definition": "footing"
+  },
+  "hide2": {
+    "x": 40,
+    "y": 90,
+    "definition": "hide"
+  },
+  "stride": {
+    "x": 80,
+    "y": 120,
+    "definition": "stride"
+  },
+  "vigor": {
+    "x": 0,
+    "y": 150,
+    "definition": "vigor"
+  },
+  "resolve": {
+    "x": 0,
+    "y": 190,
+    "definition": "resolve"
+  }
+}

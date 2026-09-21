@@ -1,0 +1,13 @@
+{
+  "title": "Adventurer",
+  "description": "Fighting, surviving, hunting. Levels from anything you defeat \u2014 wild Pok\u00e9mon count, and hit harder.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "background": "textures/block/stone_bricks.png",
+  "unlocked_by_default": true,
+  "starting_points": 1
+}

@@ -1,0 +1,55 @@
+{
+  "level_limit": 30,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "level * 15 + 25"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:craft_item",
+      "data": {
+        "variables": {},
+        "experience": [
+          {
+            "expression": "1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:eat_food",
+      "data": {
+        "variables": {},
+        "experience": [
+          {
+            "expression": "2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:smelt_item",
+      "data": {
+        "variables": {},
+        "experience": [
+          {
+            "expression": "1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:fish_item",
+      "data": {
+        "variables": {},
+        "experience": [
+          {
+            "expression": "8"
+          }
+        ]
+      }
+    }
+  ]
+}

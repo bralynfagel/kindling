@@ -1,0 +1,50 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "hardy",
+        "edge"
+      ],
+      [
+        "edge",
+        "tempo"
+      ],
+      [
+        "tempo",
+        "edge2"
+      ],
+      [
+        "edge2",
+        "reach"
+      ],
+      [
+        "hardy",
+        "hide"
+      ],
+      [
+        "hide",
+        "footing"
+      ],
+      [
+        "footing",
+        "hide2"
+      ],
+      [
+        "hide2",
+        "stride"
+      ],
+      [
+        "reach",
+        "vigor"
+      ],
+      [
+        "stride",
+        "vigor"
+      ],
+      [
+        "vigor",
+        "resolve"
+      ]
+    ]
+  }
+}

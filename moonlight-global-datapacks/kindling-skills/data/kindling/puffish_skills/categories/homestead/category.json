@@ -1,0 +1,13 @@
+{
+  "title": "Homestead",
+  "description": "Building, cooking, fishing and keeping a home. Levels from crafting, cooking, eating and fishing.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "background": "textures/block/oak_planks.png",
+  "unlocked_by_default": true,
+  "starting_points": 1
+}

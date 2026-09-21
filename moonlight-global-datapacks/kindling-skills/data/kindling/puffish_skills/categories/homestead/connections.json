@@ -1,0 +1,38 @@
+{
+  "normal": {
+    "bidirectional": [
+      [
+        "hands",
+        "builder"
+      ],
+      [
+        "builder",
+        "sneak"
+      ],
+      [
+        "hands",
+        "hearty"
+      ],
+      [
+        "hearty",
+        "stroll"
+      ],
+      [
+        "sneak",
+        "fortune"
+      ],
+      [
+        "stroll",
+        "fortune"
+      ],
+      [
+        "fortune",
+        "hearty2"
+      ],
+      [
+        "hearty2",
+        "hearth"
+      ]
+    ]
+  }
+}

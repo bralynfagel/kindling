@@ -1,0 +1,43 @@
+{
+  "hands": {
+    "x": 0,
+    "y": 0,
+    "definition": "hands",
+    "root": true
+  },
+  "builder": {
+    "x": -40,
+    "y": 30,
+    "definition": "builder"
+  },
+  "sneak": {
+    "x": -80,
+    "y": 60,
+    "definition": "sneak"
+  },
+  "hearty": {
+    "x": 40,
+    "y": 30,
+    "definition": "hearty"
+  },
+  "stroll": {
+    "x": 80,
+    "y": 60,
+    "definition": "stroll"
+  },
+  "fortune": {
+    "x": 0,
+    "y": 90,
+    "definition": "fortune"
+  },
+  "hearty2": {
+    "x": 0,
+    "y": 120,
+    "definition": "hearty"
+  },
+  "hearth": {
+    "x": 0,
+    "y": 160,
+    "definition": "hearth"
+  }
+}
