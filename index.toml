@@ -4562,7 +4562,8 @@ hash = "d5bd6673266995e82991f8b7200ef6cc12300dafbf481f010a0614eae4d74a0f"
 
 [[files]]
 file = "config/xaerohud.txt"
-hash = "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c"
+hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
+preserve = true
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -6154,3 +6155,13 @@ hash = "ca353f3d1e2c5c4410ad4a2148d4142f7179a10b9e1d21c03fcb85feb1c0c095"
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"
 hash = "b7852357c515151213169e7129c049981307f9a5a344055a213206638349c5a2"
+
+[[files]]
+file = "options.txt"
+hash = "824e8cb19ad5f726e8f575a8d7b06ed1ccd5ebd37ba6168d90a2330cba2c7b9a"
+preserve = true
+
+[[files]]
+file = "servers.dat"
+hash = "929e1540b0934501b0d10657ed5e71163d3a44957b947653a544045eed92d874"
+preserve = true
