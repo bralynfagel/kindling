@@ -1357,7 +1357,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "d3a3839bec8e21825fe791a24d6226c1dd3fc94b38588fa52d42cf773868b7c7"
+hash = "2410c01db9b5e01d6d7077f4e980a785f85a1dc03575434a84a2b26762416ee4"
 
 [[files]]
 file = "config/moogs_structures.json"
@@ -4678,7 +4678,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "352e48ce02e67137aaf4da7e1d65b9132dbfbf92f4eb79df6420fb0015c4d21f"
+hash = "750c630056d04b7563d3f530fbf3eaf728e2e91c5b1f716614aff74659a0f31b"
 metafile = true
 
 [[files]]
@@ -4748,7 +4748,7 @@ metafile = true
 
 [[files]]
 file = "mods/auroras.pw.toml"
-hash = "86e37b625356c7729cee04846d8e876fd85bffeed6f288c5b703c806eb4b84df"
+hash = "1ff66d0e80f7b10263163f1d09151b5e24b165a2e5359b59a57b2e3f3617c2f4"
 metafile = true
 
 [[files]]
@@ -4978,7 +4978,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "f17612afb43d640cccc051ee0b485abafaf97783aa7f254c2f549557b04c9e9d"
+hash = "6ecdaedab54eaece12ce6b237ee8ab0f27b0016e500cb910300615f6a1f8b483"
 metafile = true
 
 [[files]]
@@ -5183,7 +5183,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "63a45ee81c43d791397f0b7a221024cd25071b25a3f7bb17ea904871405880ba"
+hash = "3aae1febb3ad4a5ad8226ea2e895be21f5eb4ebb4c1de016ec791d342bd9bd5a"
 metafile = true
 
 [[files]]
@@ -5278,7 +5278,7 @@ metafile = true
 
 [[files]]
 file = "mods/loot-beams-refork.pw.toml"
-hash = "d4fce0511e4a1ef04166986c8bbfecfcfe72f657b46abc1fb39a18298061fe12"
+hash = "6eabacead6b5e2b856b01804a8df447d3f0bf12a8a9bd863980ded2c9a7e2d8e"
 metafile = true
 
 [[files]]
@@ -5663,7 +5663,7 @@ metafile = true
 
 [[files]]
 file = "mods/visuality-forge.pw.toml"
-hash = "34bc4a66fa8435d824e7e9010c8d4096f9d5a010ed70e28919916ce25829787a"
+hash = "cea601d75e8a34ca00ab19b46a9c9364c73ac6e544187e23ebf29ebd801e49e0"
 metafile = true
 
 [[files]]
@@ -5688,7 +5688,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaero-train-map.pw.toml"
-hash = "4fcc9de9ca9003e3308ea1db5900e4f79c1f04f01c87eb7a20a4df6e0c163cfa"
+hash = "793f26d40ea39d3bf4091e04200047a9fea7766ff4145bb7e757d8e26398a6ff"
 metafile = true
 
 [[files]]

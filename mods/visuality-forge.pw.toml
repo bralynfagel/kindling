@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/z13R7Et1/versions/kOdevgPm/visuality-forge-
 [update.modrinth]
 mod-id = 'z13R7Et1'
 version = 'kOdevgPm'
+
+[option]
+optional = true
+default = true
+description = 'Visuality: extra particles (sparkles, splashes). Pure eye candy.'

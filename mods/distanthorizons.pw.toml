@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/uCdwusMi/versions/IcOcoekl/DistantHorizons-
 [update.modrinth]
 mod-id = 'uCdwusMi'
 version = 'IcOcoekl'
+
+[option]
+optional = true
+default = true
+description = 'Distant Horizons: far-away terrain. Heavy on memory and GPU; untick on laptops or older PCs.'

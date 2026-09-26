@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/Ov2r3aVY/versions/mgDpAA4x/xaerotrainmap-1.
 [update.modrinth]
 mod-id = 'Ov2r3aVY'
 version = 'mgDpAA4x'
+
+[option]
+optional = true
+default = true
+description = 'Xaero Train Map: shows Create trains on the world map.'

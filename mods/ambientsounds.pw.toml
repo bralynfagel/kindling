@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/fM515JnW/versions/RZyxhsqY/AmbientSounds_NE
 [update.modrinth]
 mod-id = 'fM515JnW'
 version = 'RZyxhsqY'
+
+[option]
+optional = true
+default = true
+description = 'AmbientSounds: richer biome and weather sounds. Costs a little CPU.'

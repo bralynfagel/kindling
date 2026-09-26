@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.
 [update.modrinth]
 mod-id = 'YL57xq9U'
 version = 'KduFYu4t'
+
+[option]
+optional = true
+default = true
+description = 'Iris: shader support. Only matters if you use a shaderpack; untick to save memory.'

@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/Q7VPWopC/versions/L0KPECkM/Auroras-1.21-1.6
 [update.modrinth]
 mod-id = 'Q7VPWopC'
 version = 'L0KPECkM'
+
+[option]
+optional = true
+default = true
+description = 'Auroras: animated auroras in cold biomes at night. Eye candy.'

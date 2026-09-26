@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/rp7ooqvq/versions/lsOrQAr5/Loot%20Beams%20R
 [update.modrinth]
 mod-id = 'rp7ooqvq'
 version = 'lsOrQAr5'
+
+[option]
+optional = true
+default = true
+description = 'Loot Beams: light beams over rare dropped items.'
