@@ -509,26 +509,6 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5.cfe"
-hash = "f8a226a4f39576a6963c6697de598560e7eb0918409d5df75f74255639459166"
-
-[[files]]
-file = "config/ars_nouveau/search_index/_5.cfs"
-hash = "73d5e9979be5fc30150178bd8d97d17d877f55f6f78802f5d2f780388d7777c9"
-
-[[files]]
-file = "config/ars_nouveau/search_index/_5.si"
-hash = "8f8e079f130ea25b6b5388a72e0719e79d92421411dadabcef23311ad6d8154b"
-
-[[files]]
-file = "config/ars_nouveau/search_index/segments_6"
-hash = "c3a22bbeafcd1612e95c228baad8b9936e3a4bddd34331a0ee0a8c17a128e501"
-
-[[files]]
-file = "config/ars_nouveau/search_index/write.lock"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/ars_nouveau/wololo.toml"
 hash = "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4"
 
@@ -4842,7 +4822,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblenav.pw.toml"
-hash = "a42e89eb935953bb7d7cc37817aaa3b8137b00cc2c4f8fae9bbcba1e370d9501"
+hash = "3ba0d9f254d87d4f82b7aab9940d2dc23087f7b3c19b75241de3d9386dd09b3e"
 metafile = true
 
 [[files]]

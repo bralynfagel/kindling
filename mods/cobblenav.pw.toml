@@ -5,8 +5,4 @@ side = 'both'
 [download]
 hash = '345c31b807f27d463e249d72bfa0346d1fe1e16e'
 hash-format = 'sha1'
-mode = 'metadata:curseforge'
-
-[update.curseforge]
-file-id = 8837236
-project-id = 976014
+url = 'https://raw.githubusercontent.com/bralynfagel/kindling/main/hosted/cobblenav-neoforge-2.4.1.jar'
