@@ -706,7 +706,7 @@ hash = "53a0e119f787d75d376ce65b6856c53113e70889b33e3567fbe002246812dbf1"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "e8c2b3dfc0338e0e527f3dc1cd1fa8b60bbaf7e105ae2ff91d371023b32024d1"
+hash = "8e988022a6485ce7bb3fcfa09539b1c294bdd1996d648ce7abec0ced38f94c3a"
 
 [[files]]
 file = "config/cobblemonextrastructures-common.toml"
@@ -1682,7 +1682,7 @@ hash = "f1782c9607509e3afccec9bb773acff652859b573bec169d5a7ff544a2a8595f"
 
 [[files]]
 file = "config/spawn_notification.json"
-hash = "9908149dcfe0eb082f923c7ff823a6e9dc5d00408249a5a93e69313c648f1dd4"
+hash = "3b1f1bfb388cc5985b90a3aa432e9a4ebf2f15c23a2f2358bdce2c4a2d1f9f98"
 
 [[files]]
 file = "config/starterkit.json5"
@@ -4762,7 +4762,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "7bb96cca65d486095eaf3dc0f994cf70163c3e1acdf539f44e7d6ec088218e0c"
+hash = "ec76be321b49e163782c5e9c6793b048b55012a8dfc87bbeec6c25d297709a3b"
 metafile = true
 
 [[files]]
@@ -4777,7 +4777,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "ef7d0f474e20d2bad82edc4f2fcbd6dced6c7e34b148e0aee9190beb0641b632"
+hash = "1c65788d625d98392ffd17cabd967befb75176c6c7d4f07d9420ea6fef644a80"
 metafile = true
 
 [[files]]
@@ -4842,7 +4842,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblenav.pw.toml"
-hash = "95ccefd0d01cee4b3aeeed47c7b93beed7470abe24b1f4346479abe692b50679"
+hash = "a42e89eb935953bb7d7cc37817aaa3b8137b00cc2c4f8fae9bbcba1e370d9501"
 metafile = true
 
 [[files]]
@@ -5623,11 +5623,6 @@ metafile = true
 [[files]]
 file = "mods/transmog.pw.toml"
 hash = "f986056c069c262d65745cb6e9db5048969363d3d023b1b069ac328bb936c1fe"
-metafile = true
-
-[[files]]
-file = "mods/tschipcrafts-dynamic-lights-mod.pw.toml"
-hash = "d5aebbd4ce1bb52ca0ba490a45fadc862abb56169cedeb43dff115d8ee95fc71"
 metafile = true
 
 [[files]]

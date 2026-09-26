@@ -15,7 +15,11 @@
     "spawn_notification:coord_y": "WHITE",
     "spawn_notification:coord_z": "WHITE"
   },
-  "disabledSituations": [],
+  "disabledSituations": [
+    "spawn_notification:ultra_rare/spawned",
+    "spawn_notification:*/despawned",
+    "spawn_notification:*/snacked"
+  ],
   "disabledSegments": [],
   "disabledSegmentsBySituation": [
     {
