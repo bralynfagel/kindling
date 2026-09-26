@@ -4992,8 +4992,13 @@ hash = "59506690b65cf07f58900f795a3bf7fb73c39390b819cb59b3ecfe683561692f"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-celestials.pw.toml"
-hash = "42fde8d1cc26df1be2b7ccc1b5d6b6e257dba75bc000e26dc8a547165091bedf"
+file = "mods/enhanced-celestials-2-core.pw.toml"
+hash = "5fa18680c04eb5bab360a1181372cebc9b155b6c97c2ebeb9bccd0acff028ccc"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-2-default-lunar-events.pw.toml"
+hash = "d4b15ac759d983020f0f23d1aceaca95db6e29840cf48afe88f2bd441348d2e2"
 metafile = true
 
 [[files]]
@@ -5498,7 +5503,7 @@ metafile = true
 
 [[files]]
 file = "mods/rctmod.pw.toml"
-hash = "b3d509807f3164eabb4bdc89c1d171b0367f4118f434ed7f01769a6c38df6340"
+hash = "a42193fd1225c45913d71cf18422530ad16fac848df838392de7696a6e5b0134"
 metafile = true
 
 [[files]]
