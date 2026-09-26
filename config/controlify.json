@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "profiles": [],
+  "global": {
+    "keyboard_movement": false,
+    "keyboard_movement_whitelist": [],
+    "seen_servers": [],
+    "show_splitscreen_ad": false,
+    "notify_low_battery": true,
+    "ingame_button_guide_scale": 1.0,
+    "use_enhanced_steam_deck_driver": true,
+    "reach_around": "off",
+    "allow_server_rumble": true,
+    "extra_ui_sounds": true,
+    "virtual_mouse_screens": [
+      "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+      "xaero.lib.client.gui.ScreenBase",
+      "xaero.lib.client.gui.config.EditConfigScreen",
+      "dev.ftb.mods.ftblibrary.ui.ScreenWrapper",
+      "dev.ftb.mods.ftblibrary.ui.BaseScreen",
+      "com.cobblemon.mod.common.client.gui.summary.Summary",
+      "com.cobblemon.mod.common.client.gui.pc.PCGUI",
+      "com.cobblemon.mod.common.client.gui.battle.BattleGUI",
+      "com.metacontent.cobblenav.client.gui.pokenav.PokenavScreen",
+      "com.metacontent.cobblenav.client.gui.pokefinder.PokefinderScreen",
+      "net.puffish.skillsmod.client.gui.SkillsScreen",
+      "io.github.lightman314.lightmanscurrency.client.gui.screen.inventory.WalletScreen",
+      "io.github.lightman314.lightmanscurrency.client.gui.screen.inventory.WalletBankScreen"
+    ],
+    "mixed_input": false,
+    "out_of_focus_input": false
+  },
+  "devices": {}
+}

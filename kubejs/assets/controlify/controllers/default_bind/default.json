@@ -1,0 +1,11 @@
+{
+  "defaults": {
+    "fabric-key-binding-api-v1:key.cobblemon.throwpartypokemon": { "button": "controlify:button/east" },
+    "fabric-key-binding-api-v1:key.cobblemon.upshiftparty": { "button": "controlify:button/dpad_up" },
+    "fabric-key-binding-api-v1:key.cobblemon.downshiftparty": { "button": "controlify:button/dpad_down" },
+    "fabric-key-binding-api-v1:key.fightorflight.startbattle": { "button": "controlify:button/dpad_left" },
+    "controlify:open_chat": { "type": "empty" },
+    "controlify:drop": { "type": "empty" },
+    "controlify:pick_block": { "type": "empty" }
+  }
+}
