@@ -1,27 +1,11 @@
 filename = 'lootintegration_wda-1.8.jar'
 name = 'Loot Integrations: When Dungeons Arise & Co'
 side = 'both'
-    '1.18.2',
-    '1.19.2',
-    '1.20.1',
-    '1.21.1',
-    '1.21.4',
-    '1.21.5',
-    '1.21.6',
-    '1.21.7',
-    '1.21.8',
-    '1.21.10',
-    '1.21.11',
-    '26.1',
-    '26.1.1',
-    '26.1.2'
-]
 
 [download]
 hash = 'd5b8cd7712e9c6db2202b77e3ce3c115640b8395'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7925521
