@@ -28,11 +28,11 @@
 		#how far offset from center the gain list should be
 		# Default: 0.45
 		# Range: 0.0 ~ 1.0
-		"Gain List Xoffset" = 0.45
+		"Gain List Xoffset" = 0.005
 		#how far down from the top left corner the gain list should be
 		# Default: 5.0E-4
 		# Range: 0.0 ~ 1.0
-		"Gain List Yoffset" = 5.0E-4
+		"Gain List Yoffset" = 0.005
 		#Should the Gain list be displayed
 		"Display Gain List" = true
 		#what color should the background be for the section header lines in the glossary
