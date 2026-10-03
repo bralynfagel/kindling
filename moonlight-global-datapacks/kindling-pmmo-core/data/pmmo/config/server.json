@@ -1,0 +1,123 @@
+{
+  "xp_gains": {
+    "reuse_penalty": 0.0,
+    "perks_plus_config": false,
+    "player_actions": {},
+    "damage": {
+      "RECEIVE_DAMAGE": {
+        "minecraft:generic_kill": {
+          "endurance": 5
+        },
+        "#pmmo:impact": {
+          "endurance": 75
+        },
+        "#pmmo:magic": {
+          "magic": 75
+        },
+        "#pmmo:environment": {
+          "endurance": 50
+        },
+        "#minecraft:is_projectile": {
+          "endurance": 75
+        }
+      },
+      "DEAL_DAMAGE": {
+        "minecraft:generic_kill": {
+          "combat": 5
+        },
+        "#pmmo:gun": {
+          "gunslinging": 5
+        },
+        "#pmmo:magic": {
+          "magic": 75
+        },
+        "minecraft:player_attack": {
+          "combat": 5
+        },
+        "#minecraft:is_projectile": {
+          "archery": 5
+        }
+      }
+    }
+  },
+  "party": {
+    "party_range": 50,
+    "party_bonus": {
+      "combat": 1.05,
+      "endurance": 1.1
+    }
+  },
+  "mob_scaling": {
+    "use_exponential_formula": true,
+    "per_level": 1.0,
+    "power_base": 1.104088404342588,
+    "ratios": {
+      "minecraft:generic.attack_damage": {
+        "combat": 0.0001
+      },
+      "minecraft:generic.movement_speed": {
+        "combat": 1e-06
+      },
+      "minecraft:generic.max_health": {
+        "combat": 0.001
+      }
+    },
+    "enabled": false,
+    "scaling_aoe": 150,
+    "base_level": 0,
+    "boss_scaling": 1.1
+  },
+  "vein_miner": {
+    "default_consume": 1,
+    "charge_modifier": 1.0,
+    "blacklist": [
+      "silentgear:saw"
+    ],
+    "enabled": true,
+    "require_settings": false
+  },
+  "general": {
+    "creative_reach": 50.0,
+    "salvage_block": "minecraft:smithing_table",
+    "treasure_enabled": true,
+    "brewing_tracked": true
+  },
+  "levels": {
+    "xp_min": 800,
+    "xp_base": 1.25,
+    "per_level": 1.0,
+    "global_modifier": 1.0,
+    "skill_modifiers": {
+      "crafting": 0.25,
+      "smithing": 0.5,
+      "agility": 0.0,
+      "swimming": 0.0,
+      "charisma": 0.0
+    },
+    "max_level": 50,
+    "static_levels": [
+      -1
+    ],
+    "loss_on_death": 0.0,
+    "lose_only_excess": true
+  },
+  "requirements": {
+    "requirement_enabled": {
+      "TAME": false,
+      "TRAVEL": false,
+      "USE": false,
+      "ENTITY_INTERACT": false,
+      "USE_ENCHANTMENT": false,
+      "PLACE": false,
+      "INTERACT": false,
+      "WEAR": false,
+      "BREAK": true,
+      "WEAPON": false,
+      "BREED": false,
+      "KILL": false,
+      "RIDE": false,
+      "TOOL": false
+    }
+  },
+  "type": "SERVER"
+}

@@ -199,7 +199,7 @@
   "launchIntoDestiny": true,
   "allowDestinyCommandOnce": true,
   "allowDestinyCommandMoreThanOnce": false,
-  "allowDestinyTeleportation": true,
+  "allowDestinyTeleportation": false,
   "enablePlayerShaders": true,
   "enableVillagerPlayerModel": true,
   "forceVillagerPlayerModel": false,
