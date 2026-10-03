@@ -15,6 +15,14 @@ const COMPASS = 'minecraft:recovery_compass'
 // uuid -> { compasses, returnTo } ; in memory is fine, respawn follows death within minutes
 const pending = {}
 
+// Dimension id as 'namespace:path' from whatever KubeJS hands us: a ResourceLocation,
+// a ResourceKey ("ResourceKey[minecraft:dimension / minecraft:overworld]") or a getter.
+function dimId(v) {
+  try { if (typeof v === 'function') v = v() } catch (e) {}
+  const m = String(v).match(/([a-z0-9_.-]+:[a-z0-9_.\/-]+)\]?$/)
+  return m ? m[1] : 'minecraft:overworld'
+}
+
 // Damage cause id, e.g. 'lava', 'explosion.player'. Read defensively: KubeJS does not expose
 // DamageSource.getMsgId(), but the type record and toString ("DamageSource (lava)") both carry it.
 function causeOf(source) {
@@ -25,18 +33,21 @@ function causeOf(source) {
 
 EntityEvents.death('minecraft:player', event => {
   const player = event.entity
-  // Decide everything first; only touch the inventory once nothing else can fail.
-  let returnTo = null
-  if (player.tags.contains(RESPAWN_TAG) && HAZARDS.indexOf(causeOf(event.source)) < 0 && player.y > -64) {
-    returnTo = { dim: String(player.level.dimension().location()), x: player.x, y: player.y, z: player.z }
-  }
-  const entry = { compasses: 0, returnTo: returnTo }
+  const entry = { compasses: 0, returnTo: null }
   pending[String(player.uuid)] = entry
-  const inv = player.inventory
-  for (let i = 0; i < inv.containerSize; i++) {
-    const stack = inv.getItem(i)
-    if (stack.id == COMPASS) { entry.compasses += stack.count; inv.setItem(i, Item.empty) }
-  }
+  // Each step guarded on its own: a KubeJS naming surprise in one must not skip the others.
+  try {
+    if (player.tags.contains(RESPAWN_TAG) && HAZARDS.indexOf(causeOf(event.source)) < 0 && player.y > -64) {
+      entry.returnTo = { dim: dimId(player.level.dimension), x: player.x, y: player.y, z: player.z }
+    }
+  } catch (e) { console.error('death_recovery: respawn point: ' + e) }
+  try {
+    const inv = player.inventory
+    for (let i = 0; i < inv.containerSize; i++) {
+      const stack = inv.getItem(i)
+      if (stack.id == COMPASS) { entry.compasses += stack.count; inv.setItem(i, Item.empty) }
+    }
+  } catch (e) { console.error('death_recovery: compass: ' + e) }
 })
 
 PlayerEvents.respawned(event => {
@@ -75,7 +86,7 @@ ItemEvents.rightClicked(COMPASS, event => {
     event.cancel()
     return
   }
-  event.server.runCommandSilent(`execute in ${gp.dimension().location()} run tp ${player.username} ${pos.x + 0.5} ${pos.y} ${pos.z + 0.5}`)
+  event.server.runCommandSilent(`execute in ${dimId(gp.dimension)} run tp ${player.username} ${pos.x + 0.5} ${pos.y} ${pos.z + 0.5}`)
   player.tell(Text.aqua('The compass pulls you back to where you fell.'))
   player.cooldowns.addCooldown(item, RECALL_COOLDOWN_TICKS)
   event.cancel()
