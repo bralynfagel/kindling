@@ -1075,7 +1075,7 @@ hash = "134eca5eafff0ffe0d52cf8774dd02fb247a6e2f6ca617f0acac396c9565ebd6"
 
 [[files]]
 file = "config/equipmentcompare.toml"
-hash = "3cd6496878bf79cc2ab094f0c2d4736c7a11be1dc2812b62b0236bb35785a286"
+hash = "d277fe500a7257ec2fb525b0399c42ce2981295a535f5c7a1f63dbe5f35d4e4f"
 
 [[files]]
 file = "config/extradelight-common.toml"
@@ -1405,8 +1405,7 @@ hash = "5748707a4e8a0d338b662e9473494ef454c390ba499d668c35a7738bc69ff57a"
 
 [[files]]
 file = "config/pmmo-client.toml"
-hash = "6ad62c71f02a40890a29b58e1663eaf925d229dda54c78c92277f82e35478368"
-preserve = true
+hash = "ce05e4ed85fe5c06af1fb324ba00f3cd447f0700bd4886150435f3c9b789b45e"
 
 [[files]]
 file = "config/pmmo-common.toml"
@@ -4652,6 +4651,10 @@ hash = "101a17f4d9fc916d049921db13a8e36a630dcace66b9d1319e53ae3c1fa7073b"
 [[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/server_scripts/recall_compass.js"
+hash = "78e51572309fb162a007c63181db824f8658bb06f280b77ec6eec633cfa107d9"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
