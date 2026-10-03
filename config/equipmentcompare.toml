@@ -5,7 +5,7 @@
 		# The maximum number of comparison tooltips to show onscreen at once.
 		# Default: 3
 		# Range: 1 ~ 10
-		max_comparisons = 3
+		max_comparisons = 1
 		# If badge_text should override the built-in translatable text.
 		override_badge_text = false
 		# The text shown on the badge above equipped tooltips.
