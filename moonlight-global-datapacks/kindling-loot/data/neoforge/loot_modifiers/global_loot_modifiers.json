@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "entries": [
+    "kindling:affix_loot_structures",
+    "kindling:gem_loot_structures"
+  ]
+}

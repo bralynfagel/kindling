@@ -1,0 +1,55 @@
+{
+  "type": "apotheosis:affix_loot",
+  "conditions": [],
+  "entries": [
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "philipsruins",
+        "path_regex": "chest/.*"
+      }
+    },
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "structory",
+        "path_regex": ".*"
+      }
+    },
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "terralith",
+        "path_regex": ".*"
+      }
+    },
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "betterdungeons",
+        "path_regex": ".*chests.*"
+      }
+    },
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "kaisyn",
+        "path_regex": ".*"
+      }
+    },
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "explorify",
+        "path_regex": "chest/.*"
+      }
+    },
+    {
+      "chance": 0.3,
+      "pattern": {
+        "domain": "mss",
+        "path_regex": ".*"
+      }
+    }
+  ]
+}
