@@ -1,12 +1,16 @@
 // Kindling: hot deposit (Terraria-style "quick stack to nearby chests").
 //
-// Sneak + right-click a chest or barrel with an EMPTY main hand: every stackable item in your
-// main inventory goes into nearby containers that ALREADY hold that same item. Anything with
-// no matching container stays with you. Open to everyone for now (gating comes later).
+// Sneak + right-click a chest or barrel with an EMPTY main hand: items in your main inventory
+// go into nearby containers that already hold a match. Anything unmatched stays with you.
+// Open to everyone for now (gating comes later).
+//   Stackables match the exact item (cobblestone -> the chest with cobblestone).
+//   Gear matches by CATEGORY: a chest holding any helmet takes every helmet; likewise
+//   chestplates, leggings, boots, melee weapons, ranged weapons, shields, pickaxes, axes,
+//   shovels, hoes. Put one in a chest and that chest becomes the home for its kind.
 //
-// Never moved: hotbar, armor, offhand, Curios slots, anything that doesn't stack (tools,
-// weapons, backpacks, pouches, shulkers, bundles), items in the #kindling:never_stash tag,
-// and items on your personal keep list:
+// Never moved: hotbar, worn armor, offhand, Curios slots, storage items (backpacks, pouches,
+// shulkers, bundles) and other non-stackables outside those categories, the
+// #kindling:never_stash tag, and items on your personal keep list:
 //     /stash keep     (adds the item in your main hand)   /stash unkeep   /stash list   /stash clear
 const STASH_H = 8          // horizontal radius in blocks
 const STASH_V = 4          // vertical radius in blocks
@@ -16,6 +20,25 @@ const KEEP_KEY = 'kindlingStashKeep:'   // + uuid, JSON array of item ids in ser
 const ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
 const ItemHandlerHelper = Java.loadClass('net.neoforged.neoforge.items.ItemHandlerHelper')
 const ItemCaps = Java.loadClass('net.neoforged.neoforge.capabilities.Capabilities$ItemHandler')
+const C = n => Java.loadClass('net.minecraft.world.item.' + n)
+const ArmorItem = C('ArmorItem'), ShieldItem = C('ShieldItem'), BowItem = C('BowItem'),
+  CrossbowItem = C('CrossbowItem'), SwordItem = C('SwordItem'), TridentItem = C('TridentItem'),
+  MaceItem = C('MaceItem'), PickaxeItem = C('PickaxeItem'), AxeItem = C('AxeItem'),
+  ShovelItem = C('ShovelItem'), HoeItem = C('HoeItem')
+
+// Category for non-stackable gear, or null (never stashed).
+function gearCategory(stack) {
+  const it = stack.item
+  if (it instanceof ArmorItem) return 'armor:' + String(it.getType().getName())
+  if (it instanceof ShieldItem) return 'shield'
+  if (it instanceof BowItem || it instanceof CrossbowItem) return 'ranged'
+  if (it instanceof SwordItem || it instanceof TridentItem || it instanceof MaceItem) return 'melee'
+  if (it instanceof PickaxeItem) return 'pickaxe'
+  if (it instanceof AxeItem) return 'axe'
+  if (it instanceof ShovelItem) return 'shovel'
+  if (it instanceof HoeItem) return 'hoe'
+  return null
+}
 
 // Containers we deposit into. Deliberately an allow-list: Lootr chests, Lightman's traders/ATMs
 // and anything else not listed here are never touched.
@@ -53,12 +76,17 @@ function stash(player, level, server) {
   let moved = 0
   for (let i = 9; i < 36; i++) {           // main inventory only: 0-8 hotbar, 36-39 armor, 40 offhand
     let stack = inv.getItem(i)
-    if (stack.isEmpty() || stack.getMaxStackSize() <= 1) continue
+    if (stack.isEmpty()) continue
     if (stack.hasTag(NEVER_TAG) || keep.indexOf(String(stack.id)) >= 0) continue
+    const cat = stack.getMaxStackSize() <= 1 ? gearCategory(stack) : null
+    if (stack.getMaxStackSize() <= 1 && !cat) continue
     for (const t of handlers) {
       let holds = false
-      for (let s = 0; s < t.h.getSlots() && !holds; s++)
-        holds = ItemStack.isSameItemSameComponents(t.h.getStackInSlot(s), stack)
+      for (let s = 0; s < t.h.getSlots() && !holds; s++) {
+        const there = t.h.getStackInSlot(s)
+        if (there.isEmpty()) continue
+        holds = cat ? gearCategory(there) == cat : ItemStack.isSameItemSameComponents(there, stack)
+      }
       if (!holds) continue
       const before = stack.getCount()
       const rest = ItemHandlerHelper.insertItemStacked(t.h, stack.copy(), false)
