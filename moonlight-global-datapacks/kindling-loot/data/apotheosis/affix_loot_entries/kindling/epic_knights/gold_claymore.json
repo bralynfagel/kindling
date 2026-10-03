@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "magistuarmory:gold_claymore"
+  },
+  "weights": {
+    "frontier": {
+      "weight": 3
+    },
+    "ascent": {
+      "weight": 3
+    }
+  }
+}

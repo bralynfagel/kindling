@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "magistuarmory:iron_target"
+  },
+  "weights": {
+    "frontier": {
+      "weight": 2
+    },
+    "ascent": {
+      "weight": 2
+    },
+    "summit": {
+      "weight": 1,
+      "quality": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "magistuarmory:wood_pavese"
+  },
+  "weights": {
+    "haven": {
+      "weight": 3
+    }
+  }
+}

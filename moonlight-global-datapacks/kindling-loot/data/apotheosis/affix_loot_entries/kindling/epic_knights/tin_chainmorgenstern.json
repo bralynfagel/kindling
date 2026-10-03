@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "magistuarmory:tin_chainmorgenstern"
+  },
+  "weights": {
+    "haven": {
+      "weight": 4
+    },
+    "frontier": {
+      "weight": 3
+    }
+  }
+}

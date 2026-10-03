@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "magistuarmory:netherite_ellipticalshield"
+  },
+  "weights": {
+    "summit": {
+      "weight": 1,
+      "quality": 1.0
+    },
+    "pinnacle": {
+      "weight": 8,
+      "quality": 2.0
+    }
+  }
+}

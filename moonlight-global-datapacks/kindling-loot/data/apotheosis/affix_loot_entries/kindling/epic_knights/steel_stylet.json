@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "magistuarmory:steel_stylet"
+  },
+  "weights": {
+    "frontier": {
+      "weight": 3
+    },
+    "ascent": {
+      "weight": 5
+    },
+    "summit": {
+      "weight": 6,
+      "quality": 1.0
+    }
+  }
+}
