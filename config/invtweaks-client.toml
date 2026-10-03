@@ -294,147 +294,80 @@
 		containerClass = "aztech.modern_industrialization.*.gui.*Screen.java"
 		sortRange = ""
 
-	#Categor(y/ies) for sorting
+	#Categor(y/ies) for sorting, in order. Kindling order: weapons and tools, armor, Poke Balls,
+	#currency, gems, food, metals, ores, potions, farming, torches, cheap blocks, blocks, then
+	#everything else. This file is yours: edit or reorder categories freely (packwiz keeps your copy).
 	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+	#spec: each element is semicolon-separated clauses; an item must match all clauses of one
+	#element. /tag:<tag>, /instanceof:<class>, /class:<class>, /isFood:, or an item id. ! negates.
 	[[sorting.category]]
 		name = "sword"
 		spec = ["/instanceof:net.minecraft.world.item.SwordItem"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
+	[[sorting.category]]
+		name = "ranged"
+		spec = ["/instanceof:net.minecraft.world.item.BowItem", "/instanceof:net.minecraft.world.item.CrossbowItem", "/instanceof:net.minecraft.world.item.TridentItem"]
+
 	[[sorting.category]]
 		name = "axe"
 		spec = ["/instanceof:net.minecraft.world.item.AxeItem"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
 	[[sorting.category]]
 		name = "pickaxe"
 		spec = ["/instanceof:net.minecraft.world.item.PickaxeItem"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
 	[[sorting.category]]
 		name = "shovel"
 		spec = ["/instanceof:net.minecraft.world.item.ShovelItem"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
 	[[sorting.category]]
 		name = "hoe"
 		spec = ["/instanceof:net.minecraft.world.item.HoeItem"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
+	[[sorting.category]]
+		name = "armor"
+		spec = ["/instanceof:net.minecraft.world.item.ArmorItem", "/instanceof:net.minecraft.world.item.ShieldItem"]
+
+	[[sorting.category]]
+		name = "pokeballs"
+		spec = ["/tag:cobblemon:poke_balls"]
+
+	[[sorting.category]]
+		name = "currency"
+		spec = ["/tag:lightmanscurrency:coins", "/tag:lightmanscurrency:wallet", "/tag:lightmanscurrency:coupons"]
+
+	[[sorting.category]]
+		name = "gems"
+		spec = ["/tag:c:gems", "apotheosis:gem", "apotheosis:gem_dust", "/tag:cobblemon:type_gems"]
+
 	[[sorting.category]]
 		name = "acceptableFood"
 		spec = ["/isFood:; !minecraft:rotten_flesh; !minecraft:spider_eye; !minecraft:poisonous_potato; !minecraft:pufferfish"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
+	[[sorting.category]]
+		name = "metals"
+		spec = ["/tag:c:ingots", "/tag:c:raw_materials", "/tag:c:nuggets"]
+
+	[[sorting.category]]
+		name = "ores"
+		spec = ["/tag:c:ores"]
+
+	[[sorting.category]]
+		name = "potions"
+		spec = ["/instanceof:net.minecraft.world.item.PotionItem"]
+
+	[[sorting.category]]
+		name = "farming"
+		spec = ["/tag:c:seeds", "/tag:c:crops"]
+
 	[[sorting.category]]
 		name = "torch"
 		spec = ["minecraft:torch"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+
 	[[sorting.category]]
 		name = "cheapBlocks"
-		spec = ["/tag:forge:cobblestone", "/tag:minecraft:dirt"]
-	#Categor(y/ies) for sorting
-	#
-	#name: the name of the category
-	#
-	#spec:
-	#Each element denotes a series of semicolon-separated clauses
-	#Items need to match all clauses of at least one element
-	#Items matching earlier elements are earlier in order
-	#A clause of the form /tag:<tag_value> matches a tag
-	#Clauses /instanceof:<fully_qualified_name> or /class:<fully_qualified_name> check if item is
-	#instance of class or exactly of that class respectively
-	#Specifying an item's registry name as a clause checks for that item
-	#Prepending an exclamation mark at the start of a clause inverts it
+		spec = ["/tag:c:cobblestones", "/tag:minecraft:dirt"]
+
 	[[sorting.category]]
 		name = "blocks"
 		spec = ["/instanceof:net.minecraft.world.item.BlockItem"]
