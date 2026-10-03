@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:wood_stylet"
+    },
+    {
+      "item": "magistuarmory:wood_katzbalger"
+    },
+    {
+      "item": "magistuarmory:wood_pike"
+    },
+    {
+      "item": "magistuarmory:wood_ranseur"
+    },
+    {
+      "item": "magistuarmory:wood_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:wood_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:wood_bastardsword"
+    },
+    {
+      "item": "magistuarmory:wood_estoc"
+    },
+    {
+      "item": "magistuarmory:wood_claymore"
+    },
+    {
+      "item": "magistuarmory:wood_zweihander"
+    },
+    {
+      "item": "magistuarmory:wood_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:wood_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:wood_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:wood_heavymace"
+    },
+    {
+      "item": "magistuarmory:wood_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:wood_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:wood_morgenstern"
+    },
+    {
+      "item": "magistuarmory:wood_shortsword"
+    },
+    {
+      "item": "magistuarmory:wood_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:wood_guisarme"
+    },
+    {
+      "item": "magistuarmory:wood_heatershield"
+    },
+    {
+      "item": "magistuarmory:wood_rondache"
+    },
+    {
+      "item": "magistuarmory:wood_roundshield"
+    },
+    {
+      "item": "magistuarmory:wood_target"
+    },
+    {
+      "item": "magistuarmory:wood_buckler"
+    },
+    {
+      "item": "magistuarmory:wood_tartsche"
+    },
+    {
+      "item": "magistuarmory:wood_pavese"
+    },
+    {
+      "item": "magistuarmory:wood_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:wood_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:oak_planks"
+      }
+    }
+  ]
+}

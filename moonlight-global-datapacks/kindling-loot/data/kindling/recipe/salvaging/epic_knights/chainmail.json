@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:chainmail_helmet"
+    },
+    {
+      "item": "magistuarmory:chainmail_chestplate"
+    },
+    {
+      "item": "magistuarmory:chainmail_leggings"
+    },
+    {
+      "item": "magistuarmory:chainmail_boots"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 6,
+      "min_count": 2,
+      "stack": {
+        "count": 1,
+        "id": "magistuarmory:steel_ring"
+      }
+    }
+  ]
+}

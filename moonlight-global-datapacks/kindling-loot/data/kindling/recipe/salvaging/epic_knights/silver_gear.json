@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:silver_stylet"
+    },
+    {
+      "item": "magistuarmory:silver_katzbalger"
+    },
+    {
+      "item": "magistuarmory:silver_pike"
+    },
+    {
+      "item": "magistuarmory:silver_ranseur"
+    },
+    {
+      "item": "magistuarmory:silver_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:silver_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:silver_bastardsword"
+    },
+    {
+      "item": "magistuarmory:silver_estoc"
+    },
+    {
+      "item": "magistuarmory:silver_claymore"
+    },
+    {
+      "item": "magistuarmory:silver_zweihander"
+    },
+    {
+      "item": "magistuarmory:silver_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:silver_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:silver_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:silver_heavymace"
+    },
+    {
+      "item": "magistuarmory:silver_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:silver_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:silver_morgenstern"
+    },
+    {
+      "item": "magistuarmory:silver_shortsword"
+    },
+    {
+      "item": "magistuarmory:silver_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:silver_guisarme"
+    },
+    {
+      "item": "magistuarmory:silver_heatershield"
+    },
+    {
+      "item": "magistuarmory:silver_rondache"
+    },
+    {
+      "item": "magistuarmory:silver_roundshield"
+    },
+    {
+      "item": "magistuarmory:silver_target"
+    },
+    {
+      "item": "magistuarmory:silver_buckler"
+    },
+    {
+      "item": "magistuarmory:silver_tartsche"
+    },
+    {
+      "item": "magistuarmory:silver_pavese"
+    },
+    {
+      "item": "magistuarmory:silver_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:silver_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "magistuarmory:silver_ingot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:copper_stylet"
+    },
+    {
+      "item": "magistuarmory:copper_katzbalger"
+    },
+    {
+      "item": "magistuarmory:copper_pike"
+    },
+    {
+      "item": "magistuarmory:copper_ranseur"
+    },
+    {
+      "item": "magistuarmory:copper_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:copper_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:copper_bastardsword"
+    },
+    {
+      "item": "magistuarmory:copper_estoc"
+    },
+    {
+      "item": "magistuarmory:copper_claymore"
+    },
+    {
+      "item": "magistuarmory:copper_zweihander"
+    },
+    {
+      "item": "magistuarmory:copper_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:copper_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:copper_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:copper_heavymace"
+    },
+    {
+      "item": "magistuarmory:copper_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:copper_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:copper_morgenstern"
+    },
+    {
+      "item": "magistuarmory:copper_shortsword"
+    },
+    {
+      "item": "magistuarmory:copper_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:copper_guisarme"
+    },
+    {
+      "item": "magistuarmory:copper_heatershield"
+    },
+    {
+      "item": "magistuarmory:copper_rondache"
+    },
+    {
+      "item": "magistuarmory:copper_roundshield"
+    },
+    {
+      "item": "magistuarmory:copper_target"
+    },
+    {
+      "item": "magistuarmory:copper_buckler"
+    },
+    {
+      "item": "magistuarmory:copper_tartsche"
+    },
+    {
+      "item": "magistuarmory:copper_pavese"
+    },
+    {
+      "item": "magistuarmory:copper_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:copper_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:copper_ingot"
+      }
+    }
+  ]
+}

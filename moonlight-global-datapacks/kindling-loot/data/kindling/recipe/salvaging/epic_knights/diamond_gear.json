@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:diamond_stylet"
+    },
+    {
+      "item": "magistuarmory:diamond_katzbalger"
+    },
+    {
+      "item": "magistuarmory:diamond_pike"
+    },
+    {
+      "item": "magistuarmory:diamond_ranseur"
+    },
+    {
+      "item": "magistuarmory:diamond_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:diamond_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:diamond_bastardsword"
+    },
+    {
+      "item": "magistuarmory:diamond_estoc"
+    },
+    {
+      "item": "magistuarmory:diamond_claymore"
+    },
+    {
+      "item": "magistuarmory:diamond_zweihander"
+    },
+    {
+      "item": "magistuarmory:diamond_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:diamond_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:diamond_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:diamond_heavymace"
+    },
+    {
+      "item": "magistuarmory:diamond_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:diamond_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:diamond_morgenstern"
+    },
+    {
+      "item": "magistuarmory:diamond_shortsword"
+    },
+    {
+      "item": "magistuarmory:diamond_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:diamond_guisarme"
+    },
+    {
+      "item": "magistuarmory:diamond_heatershield"
+    },
+    {
+      "item": "magistuarmory:diamond_rondache"
+    },
+    {
+      "item": "magistuarmory:diamond_roundshield"
+    },
+    {
+      "item": "magistuarmory:diamond_target"
+    },
+    {
+      "item": "magistuarmory:diamond_buckler"
+    },
+    {
+      "item": "magistuarmory:diamond_tartsche"
+    },
+    {
+      "item": "magistuarmory:diamond_pavese"
+    },
+    {
+      "item": "magistuarmory:diamond_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:diamond_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:diamond"
+      }
+    }
+  ]
+}

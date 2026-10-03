@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:tin_stylet"
+    },
+    {
+      "item": "magistuarmory:tin_katzbalger"
+    },
+    {
+      "item": "magistuarmory:tin_pike"
+    },
+    {
+      "item": "magistuarmory:tin_ranseur"
+    },
+    {
+      "item": "magistuarmory:tin_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:tin_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:tin_bastardsword"
+    },
+    {
+      "item": "magistuarmory:tin_estoc"
+    },
+    {
+      "item": "magistuarmory:tin_claymore"
+    },
+    {
+      "item": "magistuarmory:tin_zweihander"
+    },
+    {
+      "item": "magistuarmory:tin_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:tin_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:tin_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:tin_heavymace"
+    },
+    {
+      "item": "magistuarmory:tin_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:tin_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:tin_morgenstern"
+    },
+    {
+      "item": "magistuarmory:tin_shortsword"
+    },
+    {
+      "item": "magistuarmory:tin_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:tin_guisarme"
+    },
+    {
+      "item": "magistuarmory:tin_heatershield"
+    },
+    {
+      "item": "magistuarmory:tin_rondache"
+    },
+    {
+      "item": "magistuarmory:tin_roundshield"
+    },
+    {
+      "item": "magistuarmory:tin_target"
+    },
+    {
+      "item": "magistuarmory:tin_buckler"
+    },
+    {
+      "item": "magistuarmory:tin_tartsche"
+    },
+    {
+      "item": "magistuarmory:tin_pavese"
+    },
+    {
+      "item": "magistuarmory:tin_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:tin_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "magistuarmory:tin_ingot"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "apotheosis:affix_loot_entry",
+  "stack": {
+    "count": 1,
+    "id": "irons_spellbooks:shadowwalker_boots"
+  },
+  "weights": {
+    "ascent": {
+      "weight": 2
+    },
+    "summit": {
+      "weight": 3,
+      "quality": 1.0
+    },
+    "pinnacle": {
+      "weight": 1,
+      "quality": 2.0
+    }
+  }
+}

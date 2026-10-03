@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:stone_stylet"
+    },
+    {
+      "item": "magistuarmory:stone_katzbalger"
+    },
+    {
+      "item": "magistuarmory:stone_pike"
+    },
+    {
+      "item": "magistuarmory:stone_ranseur"
+    },
+    {
+      "item": "magistuarmory:stone_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:stone_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:stone_bastardsword"
+    },
+    {
+      "item": "magistuarmory:stone_estoc"
+    },
+    {
+      "item": "magistuarmory:stone_claymore"
+    },
+    {
+      "item": "magistuarmory:stone_zweihander"
+    },
+    {
+      "item": "magistuarmory:stone_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:stone_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:stone_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:stone_heavymace"
+    },
+    {
+      "item": "magistuarmory:stone_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:stone_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:stone_morgenstern"
+    },
+    {
+      "item": "magistuarmory:stone_shortsword"
+    },
+    {
+      "item": "magistuarmory:stone_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:stone_guisarme"
+    },
+    {
+      "item": "magistuarmory:stone_heatershield"
+    },
+    {
+      "item": "magistuarmory:stone_rondache"
+    },
+    {
+      "item": "magistuarmory:stone_roundshield"
+    },
+    {
+      "item": "magistuarmory:stone_target"
+    },
+    {
+      "item": "magistuarmory:stone_buckler"
+    },
+    {
+      "item": "magistuarmory:stone_tartsche"
+    },
+    {
+      "item": "magistuarmory:stone_pavese"
+    },
+    {
+      "item": "magistuarmory:stone_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:stone_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:netherite_stylet"
+    },
+    {
+      "item": "magistuarmory:netherite_katzbalger"
+    },
+    {
+      "item": "magistuarmory:netherite_pike"
+    },
+    {
+      "item": "magistuarmory:netherite_ranseur"
+    },
+    {
+      "item": "magistuarmory:netherite_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:netherite_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:netherite_bastardsword"
+    },
+    {
+      "item": "magistuarmory:netherite_estoc"
+    },
+    {
+      "item": "magistuarmory:netherite_claymore"
+    },
+    {
+      "item": "magistuarmory:netherite_zweihander"
+    },
+    {
+      "item": "magistuarmory:netherite_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:netherite_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:netherite_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:netherite_heavymace"
+    },
+    {
+      "item": "magistuarmory:netherite_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:netherite_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:netherite_morgenstern"
+    },
+    {
+      "item": "magistuarmory:netherite_shortsword"
+    },
+    {
+      "item": "magistuarmory:netherite_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:netherite_guisarme"
+    },
+    {
+      "item": "magistuarmory:netherite_heatershield"
+    },
+    {
+      "item": "magistuarmory:netherite_rondache"
+    },
+    {
+      "item": "magistuarmory:netherite_roundshield"
+    },
+    {
+      "item": "magistuarmory:netherite_target"
+    },
+    {
+      "item": "magistuarmory:netherite_buckler"
+    },
+    {
+      "item": "magistuarmory:netherite_tartsche"
+    },
+    {
+      "item": "magistuarmory:netherite_pavese"
+    },
+    {
+      "item": "magistuarmory:netherite_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:netherite_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    }
+  ]
+}

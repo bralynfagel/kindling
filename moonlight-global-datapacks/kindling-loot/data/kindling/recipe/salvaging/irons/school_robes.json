@@ -1,0 +1,125 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "irons_spellbooks:pyromancer_helmet"
+    },
+    {
+      "item": "irons_spellbooks:pyromancer_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:pyromancer_leggings"
+    },
+    {
+      "item": "irons_spellbooks:pyromancer_boots"
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_helmet"
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_leggings"
+    },
+    {
+      "item": "irons_spellbooks:cryomancer_boots"
+    },
+    {
+      "item": "irons_spellbooks:electromancer_helmet"
+    },
+    {
+      "item": "irons_spellbooks:electromancer_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:electromancer_leggings"
+    },
+    {
+      "item": "irons_spellbooks:electromancer_boots"
+    },
+    {
+      "item": "irons_spellbooks:archevoker_helmet"
+    },
+    {
+      "item": "irons_spellbooks:archevoker_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:archevoker_leggings"
+    },
+    {
+      "item": "irons_spellbooks:archevoker_boots"
+    },
+    {
+      "item": "irons_spellbooks:cultist_helmet"
+    },
+    {
+      "item": "irons_spellbooks:cultist_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:cultist_leggings"
+    },
+    {
+      "item": "irons_spellbooks:cultist_boots"
+    },
+    {
+      "item": "irons_spellbooks:priest_helmet"
+    },
+    {
+      "item": "irons_spellbooks:priest_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:priest_leggings"
+    },
+    {
+      "item": "irons_spellbooks:priest_boots"
+    },
+    {
+      "item": "irons_spellbooks:plagued_helmet"
+    },
+    {
+      "item": "irons_spellbooks:plagued_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:plagued_leggings"
+    },
+    {
+      "item": "irons_spellbooks:plagued_boots"
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_helmet"
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_leggings"
+    },
+    {
+      "item": "irons_spellbooks:shadowwalker_boots"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "max_count": 2,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "irons_spellbooks:arcane_essence"
+      }
+    }
+  ]
+}

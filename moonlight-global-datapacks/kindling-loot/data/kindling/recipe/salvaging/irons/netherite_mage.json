@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "irons_spellbooks:netherite_mage_helmet"
+    },
+    {
+      "item": "irons_spellbooks:netherite_mage_chestplate"
+    },
+    {
+      "item": "irons_spellbooks:netherite_mage_leggings"
+    },
+    {
+      "item": "irons_spellbooks:netherite_mage_boots"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 2,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:netherite_scrap"
+      }
+    },
+    {
+      "max_count": 2,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "irons_spellbooks:magic_cloth"
+      }
+    }
+  ]
+}

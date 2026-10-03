@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:bronze_stylet"
+    },
+    {
+      "item": "magistuarmory:bronze_katzbalger"
+    },
+    {
+      "item": "magistuarmory:bronze_pike"
+    },
+    {
+      "item": "magistuarmory:bronze_ranseur"
+    },
+    {
+      "item": "magistuarmory:bronze_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:bronze_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:bronze_bastardsword"
+    },
+    {
+      "item": "magistuarmory:bronze_estoc"
+    },
+    {
+      "item": "magistuarmory:bronze_claymore"
+    },
+    {
+      "item": "magistuarmory:bronze_zweihander"
+    },
+    {
+      "item": "magistuarmory:bronze_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:bronze_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:bronze_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:bronze_heavymace"
+    },
+    {
+      "item": "magistuarmory:bronze_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:bronze_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:bronze_morgenstern"
+    },
+    {
+      "item": "magistuarmory:bronze_shortsword"
+    },
+    {
+      "item": "magistuarmory:bronze_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:bronze_guisarme"
+    },
+    {
+      "item": "magistuarmory:bronze_heatershield"
+    },
+    {
+      "item": "magistuarmory:bronze_rondache"
+    },
+    {
+      "item": "magistuarmory:bronze_roundshield"
+    },
+    {
+      "item": "magistuarmory:bronze_target"
+    },
+    {
+      "item": "magistuarmory:bronze_buckler"
+    },
+    {
+      "item": "magistuarmory:bronze_tartsche"
+    },
+    {
+      "item": "magistuarmory:bronze_pavese"
+    },
+    {
+      "item": "magistuarmory:bronze_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:bronze_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "magistuarmory:bronze_ingot"
+      }
+    }
+  ]
+}

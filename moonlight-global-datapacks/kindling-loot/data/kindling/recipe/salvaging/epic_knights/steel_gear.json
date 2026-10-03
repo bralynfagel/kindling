@@ -1,0 +1,108 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:steel_stylet"
+    },
+    {
+      "item": "magistuarmory:steel_katzbalger"
+    },
+    {
+      "item": "magistuarmory:steel_pike"
+    },
+    {
+      "item": "magistuarmory:steel_ranseur"
+    },
+    {
+      "item": "magistuarmory:steel_ahlspiess"
+    },
+    {
+      "item": "magistuarmory:steel_chivalrylance"
+    },
+    {
+      "item": "magistuarmory:steel_bastardsword"
+    },
+    {
+      "item": "magistuarmory:steel_estoc"
+    },
+    {
+      "item": "magistuarmory:steel_claymore"
+    },
+    {
+      "item": "magistuarmory:steel_zweihander"
+    },
+    {
+      "item": "magistuarmory:steel_flamebladedsword"
+    },
+    {
+      "item": "magistuarmory:steel_lochaberaxe"
+    },
+    {
+      "item": "magistuarmory:steel_concavehalberd"
+    },
+    {
+      "item": "magistuarmory:steel_heavymace"
+    },
+    {
+      "item": "magistuarmory:steel_heavywarhammer"
+    },
+    {
+      "item": "magistuarmory:steel_lucernhammer"
+    },
+    {
+      "item": "magistuarmory:steel_morgenstern"
+    },
+    {
+      "item": "magistuarmory:steel_shortsword"
+    },
+    {
+      "item": "magistuarmory:steel_chainmorgenstern"
+    },
+    {
+      "item": "magistuarmory:steel_guisarme"
+    },
+    {
+      "item": "magistuarmory:steel_heatershield"
+    },
+    {
+      "item": "magistuarmory:steel_rondache"
+    },
+    {
+      "item": "magistuarmory:steel_roundshield"
+    },
+    {
+      "item": "magistuarmory:steel_target"
+    },
+    {
+      "item": "magistuarmory:steel_buckler"
+    },
+    {
+      "item": "magistuarmory:steel_tartsche"
+    },
+    {
+      "item": "magistuarmory:steel_pavese"
+    },
+    {
+      "item": "magistuarmory:steel_ellipticalshield"
+    },
+    {
+      "item": "magistuarmory:steel_kiteshield"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "magistuarmory:steel_ingot"
+      }
+    }
+  ]
+}

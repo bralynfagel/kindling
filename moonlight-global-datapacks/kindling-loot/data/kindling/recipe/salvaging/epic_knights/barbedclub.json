@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:barbedclub"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 5,
+      "min_count": 2,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:iron_nugget"
+      }
+    }
+  ]
+}

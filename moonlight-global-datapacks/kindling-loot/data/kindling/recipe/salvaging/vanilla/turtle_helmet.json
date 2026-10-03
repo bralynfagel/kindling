@@ -1,0 +1,18 @@
+{
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "minecraft:turtle_helmet"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 3,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:turtle_scute"
+      }
+    }
+  ]
+}

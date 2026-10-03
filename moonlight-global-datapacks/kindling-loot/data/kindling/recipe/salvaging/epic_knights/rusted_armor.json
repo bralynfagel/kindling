@@ -1,0 +1,54 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "magistuarmory"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "magistuarmory:rustedbarbute"
+    },
+    {
+      "item": "magistuarmory:rustedhalfarmor_chestplate"
+    },
+    {
+      "item": "magistuarmory:rustednorman_helmet"
+    },
+    {
+      "item": "magistuarmory:rustedkettlehat"
+    },
+    {
+      "item": "magistuarmory:rustedgreathelm"
+    },
+    {
+      "item": "magistuarmory:rustedcrusader_chestplate"
+    },
+    {
+      "item": "magistuarmory:rustedcrusader_boots"
+    },
+    {
+      "item": "magistuarmory:rustedchainmail_helmet"
+    },
+    {
+      "item": "magistuarmory:rustedchainmail_chestplate"
+    },
+    {
+      "item": "magistuarmory:rustedchainmail_leggings"
+    },
+    {
+      "item": "magistuarmory:rustedchainmail_boots"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 6,
+      "min_count": 2,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:iron_nugget"
+      }
+    }
+  ]
+}
