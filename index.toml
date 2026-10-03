@@ -665,10 +665,6 @@ file = "config/buildinggadgets2-common.toml"
 hash = "596a9276f68bd49ad010420cbcad2c84d093553478fd1f91c3d66579f2416776"
 
 [[files]]
-file = "config/c2me.toml"
-hash = "0e6ece0db6b3accff23441bbc4c90739c4243d7df71f5b3b1462cd4dbf32cac3"
-
-[[files]]
 file = "config/capture_xp.json"
 hash = "e366ad9e6bec059e8fa8a6f2b2fa6b42fc1c82ac2199abc44b4313e5aedeb81b"
 
@@ -1125,7 +1121,7 @@ hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
 file = "config/ftbbackups2.json"
-hash = "8918825d748fa0f95a35ca2656ba3b8f2057d5e3979c6a327210e954bae1aae7"
+hash = "064aa649a7a15f9f4c21b96400cee0da8e3d8f00e13c306f398b3f54a39fba55"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
@@ -1284,7 +1280,7 @@ preserve = true
 
 [[files]]
 file = "config/lightmanscurrency-common.txt"
-hash = "8341f5e77c2074e7e7b7a7bac872f4abf88c4a3171d26a0957e081bd86ce153a"
+hash = "f2538bdec3a188ebe9380123fdc9d67e3823f8fdcc61790524ca75f7aa8b652b"
 
 [[files]]
 file = "config/lightmanscurrency-server.txt"
@@ -1292,7 +1288,7 @@ hash = "a3a1c88f2da0da45f7dd3b39d5de12b1914b4d64503462f8c8c367886165f7c1"
 
 [[files]]
 file = "config/lightmanscurrency/MasterCoinList.json"
-hash = "ee31f783c6c8ae53e7a56bd6b0ae8568b820f8373e4bba76d630b1937d398948"
+hash = "5b7c6cc8a53e5bfc6d5a143d4500635bf126714cc881d3ae110fa96fe4dd58d7"
 
 [[files]]
 file = "config/lightmanscurrency/PersistentTraders.json"
@@ -1345,7 +1341,7 @@ hash = "c31852ce0f2efb1a3fbc53e678e07a27e06c885b424173c339e8b44e45ca48d4"
 
 [[files]]
 file = "config/mca.json"
-hash = "eb75c151f8cb6273859d1e036bdaa008c8244fa8d7ba9f3ed38d719c9739334e"
+hash = "9fa39b891e13bcdbbba881881ad8f8c653479c09f06b1f3e91e48c7ddaafff35"
 
 [[files]]
 file = "config/mezz_config/client/default/settings.ini"
@@ -1439,7 +1435,7 @@ hash = "548156b84adda7e833d8f8d0cc5dd82dff1ba23a93011c4770ad548f1b9c82b0"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "f2f34b2d11ee3e9bb13d3d56c1813dc0ee55daa42f86a917cd3990c27937e235"
+hash = "92a56c2edcb3972e80d240112c014f08b0eb4e40a2d9fbd1822f45485a016e04"
 
 [[files]]
 file = "config/rctmod-client.toml"
@@ -1448,7 +1444,7 @@ preserve = true
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "89926b67048ef5df3eb27ad9a6569dd8f46463a88774e084751b79b65e240bb2"
+hash = "ea4af60e1918793b814129c36e40261f8d3c20a9ed1a143b3d1f2f3161e7fec7"
 
 [[files]]
 file = "config/refurbished_furniture.client.toml"
@@ -4728,7 +4724,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "483d8aaa51cd7a60f3bedc6a6987a597296f8638005561d4d9e9fbdc18467ba5"
+hash = "3e39c4e03cfe0c2d5a939a02e636a8e28cbeb9d48203b9aebae98357d89365c4"
 metafile = true
 
 [[files]]
@@ -4758,7 +4754,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "79c63e1d0b7a4befd3fed18296d94e6b7b700583af7b451724da985e1da707b7"
+hash = "6b861c377dc9952a89923d8777e48468140e0d9f0d383dd81effc24608341a7d"
 metafile = true
 
 [[files]]
@@ -4782,6 +4778,11 @@ hash = "c6073f8b3a61e79a05cde5804d6e5a747b4580bab71c71ef78b3f128096a5bd6"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "9a5dc2755b751675cd07c24838d1915c541eee4984e50af301c71319f9ea8dcc"
+metafile = true
+
+[[files]]
 file = "mods/bosses-of-mass-destruction-forge.pw.toml"
 hash = "8cb69089b1960af8a164ca5d25e6c792902f57a97d4a905753678697b54cf24f"
 metafile = true
@@ -4794,11 +4795,6 @@ metafile = true
 [[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "cdfa1b43710ffdc779a00287ea1544be4f38ab15cd4542bf9b17bee8d2e4e1da"
-metafile = true
-
-[[files]]
-file = "mods/c2me-neoforge.pw.toml"
-hash = "ec76be321b49e163782c5e9c6793b048b55012a8dfc87bbeec6c25d297709a3b"
 metafile = true
 
 [[files]]
@@ -4927,6 +4923,11 @@ hash = "0ec4d3a3050d86900c7197c7157eec42aaef67f3e0a6290ca2a7e854191f8890"
 metafile = true
 
 [[files]]
+file = "mods/create-bluemap.pw.toml"
+hash = "391b81b877a75f49d0753fc581ff3b96458be6904eec0753d3c942c536c7fe60"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "b206139f48c58f9a9fd41e01382145d1594274f6fb905777b35eb97d1f89e106"
 metafile = true
@@ -5003,7 +5004,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "90b56d1facca995bc567ac89e9e47e64528c528ad50cd5c04e1eac1b374d38ad"
+hash = "958a8c549295129bb924afef783b4c41c99f922ff30c4dc90ed29c86d26665f8"
 metafile = true
 
 [[files]]
@@ -5795,6 +5796,18 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "14213b0633f6fb5e79c1a6940605bf3728b009d320164e30db7fac379179b752"
 metafile = true
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-core/data/pmmo/config/autovalues.json"
+hash = "c76be141f52bdb0afabfd8ab1046fb072407a67a27d1639913de56e5a2b8d2c3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-core/data/pmmo/config/server.json"
+hash = "39ab6d9cfae9cb231717803ada5ccde19ed6ecb31d8f47414638011efb53efc5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-pmmo-core/pack.mcmeta"
+hash = "90bde8cfd0d20eff5f39878dcfde8c2d918988a93f1a915b81ec3e90ce963fb1"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-pmmo-tiers/data/minecraft/pmmo/blocks/ancient_debris.json"
