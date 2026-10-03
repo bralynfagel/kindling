@@ -1074,10 +1074,6 @@ file = "config/epicknights/weapons.json5"
 hash = "134eca5eafff0ffe0d52cf8774dd02fb247a6e2f6ca617f0acac396c9565ebd6"
 
 [[files]]
-file = "config/equipmentcompare.toml"
-hash = "d277fe500a7257ec2fb525b0399c42ce2981295a535f5c7a1f63dbe5f35d4e4f"
-
-[[files]]
 file = "config/extradelight-common.toml"
 hash = "3898ab965692ff4699f110c9d27212ce14c09102bb0988486f189ee692a7c125"
 
@@ -4650,7 +4646,7 @@ hash = "101a17f4d9fc916d049921db13a8e36a630dcace66b9d1319e53ae3c1fa7073b"
 
 [[files]]
 file = "kubejs/server_scripts/death_recovery.js"
-hash = "e6c1db24a675acd47600b9e42bf335d05325b27d129f7406bf9b69008db9621e"
+hash = "98dafb11306aa9ebf58aa15b2fedd5b6a57e9e480b144d35201379c53af87d40"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -5021,11 +5017,6 @@ hash = "0de7ae995eb4cc34b0ec4f14a4e399df46037453a93a4ddf66a3c244c06a3764"
 metafile = true
 
 [[files]]
-file = "mods/equipment-compare.pw.toml"
-hash = "d14291c1634e935b96435c3c841d1d8f27440410be3afb149444d7eb91c905e4"
-metafile = true
-
-[[files]]
 file = "mods/explorify.pw.toml"
 hash = "1c1f88964fe54d38347f2866e0602f288f89b85d81074dd978b0177c2cd2ed5a"
 metafile = true
@@ -5338,11 +5329,6 @@ metafile = true
 [[files]]
 file = "mods/lootrmon.pw.toml"
 hash = "80a5efe06fe5e4c6a9009f04cb880a03fb19f3472b10bd14c1193c275cf8fe84"
-metafile = true
-
-[[files]]
-file = "mods/lt-x-ec.pw.toml"
-hash = "98d5ec77b3ce4e22f188d291d77824181a9cec0733b42ce7c798840a68b11430"
 metafile = true
 
 [[files]]
