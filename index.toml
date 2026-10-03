@@ -4649,12 +4649,12 @@ file = "kubejs/config/web_server.json"
 hash = "101a17f4d9fc916d049921db13a8e36a630dcace66b9d1319e53ae3c1fa7073b"
 
 [[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+file = "kubejs/server_scripts/death_recovery.js"
+hash = "e6c1db24a675acd47600b9e42bf335d05325b27d129f7406bf9b69008db9621e"
 
 [[files]]
-file = "kubejs/server_scripts/recall_compass.js"
-hash = "78e51572309fb162a007c63181db824f8658bb06f280b77ec6eec633cfa107d9"
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
