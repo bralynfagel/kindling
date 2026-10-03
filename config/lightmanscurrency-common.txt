@@ -139,13 +139,13 @@ debugLevel=0
 	[villagers.modification]
 		#Whether vanilla villagers should have the Emeralds from their trades replaced with coins.
 		#Default: false
-		changeVanillaTrades=false
+		changeVanillaTrades=true
 		#Whether villagers added by other mods should have the Emeralds from their trades replaced with coins.
 		#Default: false
-		changeModdedTrades=false
+		changeModdedTrades=true
 		#Whether the wandering trader should have the emeralds from their trades replaced with the default replacement coin.
 		#Default: false
-		changeWanderingTrades=false
+		changeWanderingTrades=true
 		#The default coin to replace a trades emeralds with.
 		#May seperate and define villager type specific entries by adding multiple items seperated by '-' with region
 		defaultEmeraldReplacementItem="lightmanscurrency:coin_emerald-r;minecraft:snow;lightmanscurrency:coin_chocolate_emerald"
