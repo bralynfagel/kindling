@@ -9,31 +9,39 @@
 //    (that would be a death loop); they respawn at bed/spawn as normal.
 const RECALL_COOLDOWN_TICKS = 20 * 60
 const RESPAWN_TAG = 'kindling.respawn_at_death'
-const HAZARDS = ['lava', 'inFire', 'onFire', 'hotFloor', 'drown', 'outOfWorld', 'inWall', 'freeze', 'cramming', 'dryOut']
+const HAZARDS = ['lava', 'inFire', 'onFire', 'hotFloor', 'drown', 'outOfWorld', 'inWall', 'freeze', 'cramming', 'dryout']
 const COMPASS = 'minecraft:recovery_compass'
 
 // uuid -> { compasses, returnTo } ; in memory is fine, respawn follows death within minutes
 const pending = {}
 
+// Damage cause id, e.g. 'lava', 'explosion.player'. Read defensively: KubeJS does not expose
+// DamageSource.getMsgId(), but the type record and toString ("DamageSource (lava)") both carry it.
+function causeOf(source) {
+  try { return String(source.type().msgId()) } catch (e) {}
+  const m = String(source).match(/\(([^)]+)\)/)
+  return m ? m[1] : ''
+}
+
 EntityEvents.death('minecraft:player', event => {
   const player = event.entity
+  // Decide everything first; only touch the inventory once nothing else can fail.
+  let returnTo = null
+  if (player.tags.contains(RESPAWN_TAG) && HAZARDS.indexOf(causeOf(event.source)) < 0 && player.y > -64) {
+    returnTo = { dim: String(player.level.dimension().location()), x: player.x, y: player.y, z: player.z }
+  }
+  const entry = { compasses: 0, returnTo: returnTo }
+  pending[String(player.uuid)] = entry
   const inv = player.inventory
-  let compasses = 0
   for (let i = 0; i < inv.containerSize; i++) {
     const stack = inv.getItem(i)
-    if (stack.id == COMPASS) { compasses += stack.count; inv.setItem(i, Item.empty) }
+    if (stack.id == COMPASS) { entry.compasses += stack.count; inv.setItem(i, Item.empty) }
   }
-  let returnTo = null
-  const cause = event.source.getMsgId()
-  if (player.tags.contains(RESPAWN_TAG) && HAZARDS.indexOf(cause) < 0 && player.y > -64) {
-    returnTo = { dim: player.level.dimension().location().toString(), x: player.x, y: player.y, z: player.z }
-  }
-  pending[player.uuid.toString()] = { compasses: compasses, returnTo: returnTo }
 })
 
 PlayerEvents.respawned(event => {
   const player = event.player
-  const key = player.uuid.toString()
+  const key = String(player.uuid)
   const p = pending[key]
   if (!p) return // e.g. leaving the End, not a death
   delete pending[key]
