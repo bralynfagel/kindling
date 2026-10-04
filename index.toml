@@ -4677,11 +4677,11 @@ hash = "101a17f4d9fc916d049921db13a8e36a630dcace66b9d1319e53ae3c1fa7073b"
 
 [[files]]
 file = "kubejs/server_scripts/death_recovery.js"
-hash = "c3b9b355e0d66bf8d5f2527dfad93b8150d3210aab631e6351372a56e3bd0d9c"
+hash = "47ab07c4c5da9eb89ef43744c05d11bac0f86ff03ea9ff5a4d5afedc194a93fd"
 
 [[files]]
 file = "kubejs/server_scripts/hot_deposit.js"
-hash = "4b560e1784610532e44f1ad34249b04c544749680db6ce3c90551c12cddfb3f2"
+hash = "01de07a7dcb8952a0576279b690f6787af1ccd90e6d407cf93530524685bf0ce"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -4689,7 +4689,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
-hash = "c815beef8e3fa9c3ae606ad443174b5e4684ee0e237b1e4cc582d8df2fa33c1d"
+hash = "1c6b74a5197ce9eed00d4e9195c196ff4bb99b4bdede4a9fb78b9e8f12c7f190"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
