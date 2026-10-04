@@ -40,10 +40,13 @@ function gearCategory(stack) {
   return null
 }
 
-// Containers we deposit into. Deliberately an allow-list: Lootr chests, Lightman's traders/ATMs
-// and anything else not listed here are never touched.
+// Containers we deposit into. Deliberately an allow-list: Lootr chests, ender chests,
+// Lightman's traders/ATMs/coin chests and anything else not listed here are never touched.
+// Quark Variant Chests is on, so a chest made from spruce planks is quark:spruce_chest
+// (trapped: quark:trapped_spruce_chest). Quark's quark:lootr_*_chest are Lootr chests: excluded.
 function isStashTarget(id) {
   if (id == 'minecraft:chest' || id == 'minecraft:trapped_chest' || id == 'minecraft:barrel') return true
+  if (id.startsWith('quark:') && id.endsWith('_chest') && !id.startsWith('quark:lootr_')) return true
   return id.startsWith('sophisticatedstorage:') && /(chest|barrel)$/.test(id)
 }
 
