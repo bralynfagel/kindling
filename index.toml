@@ -4689,7 +4689,7 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
-hash = "1c6b74a5197ce9eed00d4e9195c196ff4bb99b4bdede4a9fb78b9e8f12c7f190"
+hash = "2d97692e820a0fc6e347e6238ebc4d3927ebdaa9beebce3abccb24ca44a635bf"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
