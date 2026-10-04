@@ -4681,7 +4681,7 @@ hash = "47ab07c4c5da9eb89ef43744c05d11bac0f86ff03ea9ff5a4d5afedc194a93fd"
 
 [[files]]
 file = "kubejs/server_scripts/hot_deposit.js"
-hash = "d6b3e124cc9009e131fba16c44747bc3e5a4993954042c43ed0aeb39a7d5f440"
+hash = "580986e76e793d9e23cc7c3c5d199b8fc3396313af174599ba2ff610b5391c83"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
