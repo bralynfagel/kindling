@@ -116,16 +116,18 @@ BlockEvents.rightClicked(event => {
   if (!player || !player.isShiftKeyDown()) return
   if (String(event.hand) != 'MAIN_HAND' || !player.mainHandItem.isEmpty()) return
   if (!isStashTarget(String(event.block.id))) return
-  event.cancel()   // sneak + empty hand on a chest = stash, not open
-  let r
-  try { r = stash(player, event.level, event.server) }
-  catch (e) { console.error('hot_deposit: ' + e); return }
-  let name = player.username
-  let msg = r.moved > 0
-    ? `Stashed ${r.moved} item${r.moved == 1 ? '' : 's'} into ${r.into} container${r.into == 1 ? '' : 's'}`
-    : 'Nothing to stash: no nearby container holds what you are carrying'
-  event.server.runCommandSilent(`title ${name} actionbar {"text":"${msg}","color":"${r.moved > 0 ? 'aqua' : 'gray'}"}`)
-  if (r.moved > 0) event.server.runCommandSilent(`execute at ${name} run playsound minecraft:block.barrel.close player ${name} ~ ~ ~ 0.6 1.3`)
+  // Sneak + empty hand on a chest = stash, not open. event.cancel() must come LAST:
+  // in KubeJS 2101 it throws to end the handler, so nothing after it runs.
+  try {
+    let r = stash(player, event.level, event.server)
+    let name = player.username
+    let msg = r.moved > 0
+      ? `Stashed ${r.moved} item${r.moved == 1 ? '' : 's'} into ${r.into} container${r.into == 1 ? '' : 's'}`
+      : 'Nothing to stash: no nearby container holds what you are carrying'
+    event.server.runCommandSilent(`title ${name} actionbar {"text":"${msg}","color":"${r.moved > 0 ? 'aqua' : 'gray'}"}`)
+    if (r.moved > 0) event.server.runCommandSilent(`execute at ${name} run playsound minecraft:block.barrel.close player ${name} ~ ~ ~ 0.6 1.3`)
+  } catch (e) { console.error('hot_deposit: ' + e) }
+  event.cancel()
 })
 
 ServerEvents.commandRegistry(event => {
