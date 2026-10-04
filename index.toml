@@ -1147,6 +1147,38 @@ hash = "1032e8651b80ddc5ddc712a56ae0d5a3408e9c28d5dcac2578705cce9ea4bcd0"
 preserve = true
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/basics.snbt"
+hash = "a2d90c109cb293ccad3c1e97ac8c3f2f0eb337993403f8263bca5c5fb1d17542"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/delver.snbt"
+hash = "5db5ff5b20eee5ca177968ca630d564d580e7ce598e4a23081e58d00fc0f8654"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market.snbt"
+hash = "c35c70e7b9eec7ea644e1bbe89302282a311ce14291180dff7e543533e37c9ab"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/trainer.snbt"
+hash = "7ef304b105c572c9d0b99d867eafee444862f5e2c693da42c41b13cea8a314f7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "e0b3cbfd5e25da45fdd62f7b54fce1022e18dea94f2b648d14337332801cf10b"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "e1c26f14e079b32556e3515fd1377a65eecfde120a9bbb3e9b34f4f64e70b652"
+
+[[files]]
 file = "config/ftbteams-server.snbt"
 hash = "61b37c30c24d841f4d993e933df0d60f198fbcf06671a87a73b9a23f8434858d"
 
@@ -1190,7 +1222,7 @@ hash = "d17cd4af4a3ad34d26f95d77414c40e7bfed0414d17565bf5441789e1abe6aad"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "2a9a897f047cc94623c3da03cdf0d9094d0e560c94490f80275c98a13a58c2f7"
+hash = "5952d813cde549057d43a7a5cc3b7618db3776430981119393687aff7359bc62"
 preserve = true
 
 [[files]]
@@ -1266,8 +1298,7 @@ hash = "24ff0a6e8d2d18678868edbb77056c1818dc0a02990e626f0d91c6d683c5b632"
 
 [[files]]
 file = "config/legendarytooltips.toml"
-hash = "3ee86b7d3db0c11d9e4288110804777e598f49a8445fa63d7fbec00f74a0f92f"
-preserve = true
+hash = "126c5a41ee47d06af5811c31fe7f75d286d076cd05ea9340bf4337235f8d40b6"
 
 [[files]]
 file = "config/lightmanscurrency-client.txt"
@@ -1430,7 +1461,7 @@ hash = "548156b84adda7e833d8f8d0cc5dd82dff1ba23a93011c4770ad548f1b9c82b0"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "92a56c2edcb3972e80d240112c014f08b0eb4e40a2d9fbd1822f45485a016e04"
+hash = "33677cb85fb7d3f6a1ca00b031a576ab69b7c55488bc7c5705ba8816b1407617"
 
 [[files]]
 file = "config/rctmod-client.toml"
@@ -4646,11 +4677,19 @@ hash = "101a17f4d9fc916d049921db13a8e36a630dcace66b9d1319e53ae3c1fa7073b"
 
 [[files]]
 file = "kubejs/server_scripts/death_recovery.js"
-hash = "98dafb11306aa9ebf58aa15b2fedd5b6a57e9e480b144d35201379c53af87d40"
+hash = "c3b9b355e0d66bf8d5f2527dfad93b8150d3210aab631e6351372a56e3bd0d9c"
+
+[[files]]
+file = "kubejs/server_scripts/hot_deposit.js"
+hash = "88e4a811a5195feb9af501d301cde1cbd689e91ec63a2e4cfbcb91c491eb1fc3"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/startup_scripts/kindling_skill_xp.js"
+hash = "974f7d942e3c3fa1c8957808fabff3d05493cb6491c2346cb82e90e907cc4044"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -5787,6 +5826,1910 @@ hash = "14213b0633f6fb5e79c1a6940605bf3728b009d320164e30db7fac379179b752"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/armet.json"
+hash = "fb7217b30f1b06b69e816d3793b3abec5a3e2eb948c4ff7a41686d3674e350be"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/barbedclub.json"
+hash = "11d1012db09cf952cdadb7cc9a71133199cdb1de1c5f231746eaceee1a8db18c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/barbute.json"
+hash = "0f4518b8a510d817af243043f69ef8347e6ae1a2a3b6b7d70a5f7e793ca0a9bb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bascinet.json"
+hash = "66df3c5176d86e92996a6ecf7ced04d63024181607a5a35bcd09ca5ff5a33db7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/brigandine_chestplate.json"
+hash = "7de2748b9de9c8d01413b383bfdedf551b0d0b4eed6f2c44cafb5bca06f65c74"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_ahlspiess.json"
+hash = "97e422600c7a985df65710e6a19146147b43cebec5193ab626649c7f96ea3be1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_bastardsword.json"
+hash = "4b21c26edfa8649175e73ac426f43e082645b602d9123ec2854a23584d68d530"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_buckler.json"
+hash = "535657d55c344ac1371f2702e2ed9aa6b1c7dbcfbf9687ffbb469a908017a2d6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_chainmorgenstern.json"
+hash = "7a7088a6c94ccb46ec35900ac97627816bb5eed56f9ccb50677132978e1bef5a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_chivalrylance.json"
+hash = "6bb94ce5a489763533e49286cf4acbe623da3266aae1899c7e83a004486c8102"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_claymore.json"
+hash = "430f320d0466696786c1109194709d1cb4f95e10a7a994269f89cea2d049a3e9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_concavehalberd.json"
+hash = "7390a3b107dfe6db0923f010423c870b3a39f501641d82b1e82a888721aab9e8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_ellipticalshield.json"
+hash = "758108b4f45d6aef746e0dcbb3447a7cbe6dbf8d9df102333dc92627cd2162b5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_estoc.json"
+hash = "c7bca53e7b0b6ea53666500a151c6fa070b885e00409d6a6cffaa3f92a5334c7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_flamebladedsword.json"
+hash = "68bb1d5604c147605d52d48508f96110c1c758666e100627c05432e8d5383cf1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_guisarme.json"
+hash = "e5d4677232acc284a85ba9252506db7ae062fabc43c57e010057e14a56ad1abc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_heatershield.json"
+hash = "343f58b4e92844ca42b32c257d24be6774ea70b58c0951e5c27bb5acf10766ae"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_heavymace.json"
+hash = "a5d04dbd2faa3adac7b0f452564f709925608af0253ec3ffd254c31b368b4cae"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_heavywarhammer.json"
+hash = "24f62194c997389c4f4f1c43a74d65635ac3c5459ade755dd9650fee12224f0f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_katzbalger.json"
+hash = "a0a2c8e1cfd350ecf039e51b23620c70e534b2e84f7b38800b84dbe19ab68c1b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_kiteshield.json"
+hash = "01a69496f18d3589cb25dcf6e313f85e466a8724acfa9696e59838c7a2f1ff22"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_lochaberaxe.json"
+hash = "9dde0d6230b056fd3098a27364dd91669aaefeb8da59f8f52bc16d3ec2cd1454"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_lucernhammer.json"
+hash = "6b5ddae16996fbe1bd0d66e6ff1ebd90f1a69fd9258d96c5609b0006fe54d275"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_morgenstern.json"
+hash = "be32d4c3270078ab85ded47d6332ac24c1ed7376a83acc4af90835704134ec2c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_pavese.json"
+hash = "0c835dfb4f4525c586865512e68d6aeaba9699d76f1f3112583a7bbd13517f12"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_pike.json"
+hash = "8566c0d11f0df5ef71b1ddf88041e343484031b51cb19bc336e92bdc981ac48b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_ranseur.json"
+hash = "516c73f65ae32f840944b40cd98163b33dfb5497750baabdc3cee8075bbf0ad5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_rondache.json"
+hash = "241aec5d255cf76012ed1668fc3ed70101ba169142cad61852add58cc6b2f822"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_roundshield.json"
+hash = "fe76ed5bfd7479af7e5c650c4282431c1a9aa6bb26091f50bcdeb0f294762385"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_shortsword.json"
+hash = "b1f65a241688f24e6c1a708339d88cc67da571ade872142c2a026a063a61f847"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_stylet.json"
+hash = "23fc87e5b0b0ab7b84706e7cd9dd171d892c07add53c08b831ebc520b1c24ca8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_target.json"
+hash = "6f9fb1d54e55bd6fd04385a921e9bdbcfbe7f9f3344ce94df39c39bf85fc6c15"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_tartsche.json"
+hash = "abe3f49731439b2afb0ed7d8092ad6f359b2123227861197ed22dddb1bb19e47"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/bronze_zweihander.json"
+hash = "6e7b22a0c1d3648150363c28f7b0c6ee5eb25dacb61f46e90d97169fb0efcb80"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/ceremonial_boots.json"
+hash = "6ed8d1d92c3472fd2bcd9bb717a54bb9f52402758f351612d84433f4af5229ec"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/ceremonial_chestplate.json"
+hash = "361878890d1fdb74b26489eb909abbfef7f7f3abe4ee115e6652ec01766d5c99"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/ceremonialarmet.json"
+hash = "57e15bef892dd82a7d72cbde1d5808b5592a0c7e4d4591dfac1f259888f3bc0b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/chainmail_boots.json"
+hash = "eb371ffdc555e1c982bf21aa1e0a54a881d03f96f92f244ef310a315f78dba71"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/chainmail_chestplate.json"
+hash = "7c243b4ae72dd3bf695913b120ec10d80c07fd352ef0295699f3ca8f49b10146"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/chainmail_helmet.json"
+hash = "de6bd85b5656ee3b9611b5f68c68f653fa5c42a2d52af73216ba7c80b56369c8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/chainmail_leggings.json"
+hash = "5d2f34b2e78fe60ab078af21f66ce50bf580783a5b69dabdaf25ceb68ab34d7d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/club.json"
+hash = "a71649ce560a8543aca57af0d69b1221e0914b5c803c7e3f901c953d86f299c7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_ahlspiess.json"
+hash = "49ca72f9b788d18f151f58fb2d50022df3db2d42d936f64f27be8f45ca16d0f6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_bastardsword.json"
+hash = "48af56cde887849651f6458eff75c2ff93c60ebd22be35d1e11a067e5cf9fec4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_buckler.json"
+hash = "539371650a15a8074f11b627d091a04bd255ec04f3f4e69cc9b8b7aff4f6f4a7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_chainmorgenstern.json"
+hash = "9291ed79f91593cacf51d828251ed2445afb900e3337fde2355490fb1e3c5624"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_chivalrylance.json"
+hash = "398179f6fd3d38bd95557cb1e12ad85e1484ec837c25012b261da13d5195e957"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_claymore.json"
+hash = "be6741c790809de441b01c14499f7de8780bf6418ed351518e4275490d41b805"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_concavehalberd.json"
+hash = "308edf8302ed9638943bea49510ebdf67fd700b165d5a2edfab3b2870d2d4f3e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_ellipticalshield.json"
+hash = "3ca6e40145c66173108d26e37ced42ffda57a73b36aec4cf032185bce5c60f52"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_estoc.json"
+hash = "d0c6bb9638d98f284745fc16e46511e83ea96bb61130d634f1dcf4fe6b187d9c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_flamebladedsword.json"
+hash = "37690beae24fd7b5f1fab550e5d7f3a6fab658f711ba438aa2492c616efcab0e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_guisarme.json"
+hash = "6963f311c06433825b5ce634a947af6f719f286664a3bacd1896b818c585b1c2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_heatershield.json"
+hash = "be672af6e72776d4c48cf61758ae63611d4602259615c10b87fe8b5517b6c23d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_heavymace.json"
+hash = "84ac72546e9f27080d2b66dd346fde4d3700c8c01a6e81ce28248fdcb75de580"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_heavywarhammer.json"
+hash = "b9e84940adf5033ea329722caecc98ec7ca33ebf45f1363e6ef3c4d4b3abeeac"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_katzbalger.json"
+hash = "c4e5293a11287670f65378266747fbff3aab7e4d276ff487302b8c5761c18866"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_kiteshield.json"
+hash = "6da8d8d5932feb4f7cd6c296465ab716d475b184e351f19e1f843472d2101f05"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_lochaberaxe.json"
+hash = "63612e01cf413cfb7ef8862a1cbfc42b1eb7cf8321988a15643b5614f9632092"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_lucernhammer.json"
+hash = "936d92601a1afd0f87d859268a74c3bee8bd8e11a07f751664cf67c36fb1b360"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_morgenstern.json"
+hash = "7dddb040dbaeea4bb57166f250942a95a9a5d21762397b8bfb806037061306f1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_pavese.json"
+hash = "bdf5ec3e3ae4f9dbd1b76c37ed512979d4716dc37ec906f7b9a68a28bedccf79"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_pike.json"
+hash = "4fcfb82ca75120b4d3adab5ae09bc2ebee73297363c7de030a1cf267b6f87617"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_ranseur.json"
+hash = "26e1eab1af0b221f1b8090fcca92b2c628b2ac862fd1685aa0e268facd1ae049"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_rondache.json"
+hash = "2a9b52c9be3c0059d986a2d07996b28a74bfda530e33bb13d3043d6a0a7f6d9f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_roundshield.json"
+hash = "128ebf296296c7b068a447875968ed5500b52975c61191960c4a634f00b3a410"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_shortsword.json"
+hash = "732be31dd843aeb3cb71c5164f6c3f718928a0ed76f6f7e9dd918c8b92385346"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_stylet.json"
+hash = "0d8fc61190112149621cfa10f80df517772388258ec786e63d7f9955adbb7ab7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_target.json"
+hash = "0b0dc79d8d7c5db5cdc693280fc2c2890c8796a0768faae8e4072707ecd093c9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_tartsche.json"
+hash = "b3ac3686c7107a314f76c97baee15a74039e0f68007764996f4ae9e471c24c78"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/copper_zweihander.json"
+hash = "5348b8e465e2846700345105ed0b0abd601d92321c776dbf7cb940eba3db1650"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/crusader_boots.json"
+hash = "d2a6c6d01a637b89fd9954d99bed18ed8b0bd735195ae819bd0bfc56ff610264"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/crusader_chestplate.json"
+hash = "113933e48ba76e34e8c62e7550fe9dc838ffe5079cd5067d54ac26f0565f7bb6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/crusader_leggings.json"
+hash = "99575e6e910bc23809fed15fa94629a5e3ccde10a53c8bceda5e1915336ac29a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/cuirassier_boots.json"
+hash = "d1b4b5f70bad9c5edfb72c93f7d793ff645b24e5f32c6adbbbeaa782d273fb94"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/cuirassier_chestplate.json"
+hash = "1bb4d447ec9cec45f1c7fa81be13ba7ac959f406a81ef407b1b5daff7ef974e4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/cuirassier_helmet.json"
+hash = "c267e7bd290b383f1f15655320b77a12ccd860b2896eb4962229d27b22d2730f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/cuirassier_leggings.json"
+hash = "0035dfaba9f21934508274a06c2c5c9ea446ed64bb8a00b5defcdb2219e47fdf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_ahlspiess.json"
+hash = "65d5aeb83ef6adb11c6d1ff71deed5f6c3a5801ebc51050c9f13997618b9deef"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_bastardsword.json"
+hash = "0db780ce4996e2def9347182fe8912f46727db67e0ce6d2bd436498c0bc9b72e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_buckler.json"
+hash = "82a14c6ab82a409feafe55e9bbfdaecffb0752f54cdd50828dad614e0823fdf4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_chainmorgenstern.json"
+hash = "6f7b61b4ca2887774a9c84df476c4f51b281deded4ee6dfcf3ce6d02273401ca"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_chivalrylance.json"
+hash = "ae8b2f41156af3fea9b5d677b3bf0f993d84481c267f76eaa36f020de12da924"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_claymore.json"
+hash = "bbfbdbd38a45951097a514a4e2fbddd8588f22e2eab63f1c813e4670fc0be1b0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_concavehalberd.json"
+hash = "c16ff421361709d4945ac1aea077cc2dc86936a90561d2abb32ea710b37e5447"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_ellipticalshield.json"
+hash = "d9deb49132a7b714c94342d71120922d85f429d1638f776f7e62bfaf343c60c4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_estoc.json"
+hash = "a0754ec2c59e27276a346e80c3c59ef90f7358b7fb3927656db38a44fdb70497"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_flamebladedsword.json"
+hash = "4005cfdbcc09a47375063fa4b762d6654d0fffc1e9bf1c11242aae0a42ddf6bf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_guisarme.json"
+hash = "c6b882ae365c02538aa83f34f568d7c826dbf60cb67e871815bae31555a70e57"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_heatershield.json"
+hash = "8e36aeddc435cde6c4e9efc6eaa15570b027c2ec5a2ab26cc6c66a49f67da56b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_heavymace.json"
+hash = "3134a083a2d22eac3ab12c47436d376ed482365cbe287f6de60034c791bddd69"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_heavywarhammer.json"
+hash = "c6ccedacaba94dcf8fd7d6c77a263572fba0fcadad69b97052fda320ddbb403b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_katzbalger.json"
+hash = "2715c41dcda20f3ffdbc2a5725ea57d5e942ea29baef19d7002adc46569d2333"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_kiteshield.json"
+hash = "eabfa3616a1910b8f624a93276a8fde090692e486b15f436b928414dcc192db7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_lochaberaxe.json"
+hash = "71f9bf3c28949dad9cf1e37dafe322ac631ff25a466461761af6456f76cfc240"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_lucernhammer.json"
+hash = "58b49ebb02e1d91532de8a6ccf43d7ea045d7a5ed7d144ec991497b7364f9fd4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_morgenstern.json"
+hash = "e066992268d5b5b6d6accd2faac7d8d86f451cd16a712d7fc5469fe615a14962"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_pavese.json"
+hash = "f22618a5a946cba4cd74944059573593d78ed8b67cb23e11313f45045e19c2bb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_pike.json"
+hash = "4406fb3b16a3a35092d71cbb9f26da6e5de27ab730d798e54dbb62a2d4e453d1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_ranseur.json"
+hash = "df30e46d9d923878d8b651318ec381b5fbbdac700535530cb0fb617478d3e8b9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_rondache.json"
+hash = "3522926215d4d0cebec44734b296a2e9d9fbc950c6f89c7395ff0961d04f08dd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_roundshield.json"
+hash = "ed9c7818f43f0c64302d03bb63511b002cb20f1c5acef96f1e3b8dad4e750cce"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_shortsword.json"
+hash = "3ab012d7251c68bc2cdb3bda4f2d2787d35d390ac8b540b0161f9bcfb8ecbd1b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_stylet.json"
+hash = "46573091d653fb34a2a8f6131d63328ecd167cbfe00ee53f34d6804927d9c4df"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_target.json"
+hash = "96ffa06959758493ce5a5a5396d36e2df3a059f197029a591162123254a5ba72"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_tartsche.json"
+hash = "2e97945322449b0c51b10251a7fd3590149b395d8ddc0c499dec21ff5e84dccd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/diamond_zweihander.json"
+hash = "a1566b7799f7b79cda766192e6546a9e0c7d1a128c9dac537dfb500d6e9d20d5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/face_helmet.json"
+hash = "9fb07ae32cb47bae3e075ae24883c0520d965186e4fe7e46218792b68996a121"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gambeson_boots.json"
+hash = "ae49053a6a873cbadf5b35b35d91011ac12f1de189f5dde5f1a72e4d272fe207"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gambeson_chestplate.json"
+hash = "8f81a454c9512dfcfc51ee793b16074b6a71b2221ef71e346166ddaefebca22a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_ahlspiess.json"
+hash = "b86a261d1c8a15b35a80c45b95c038488ca026fafe7bc17ab694a8b263f430ba"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_bastardsword.json"
+hash = "2a5d6a94639069a1150f1fc49b44f835dc625fd6579955f9f81030316f1c4c33"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_buckler.json"
+hash = "e5519c6f732abe91ad57360b758a2f9be303655c433d7e1085a4dcb4342a5963"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_chainmorgenstern.json"
+hash = "b2a451c835117a7a825bf59c689e68a77ae883a7dcf0a91dc6b8bd1a7de39085"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_chivalrylance.json"
+hash = "696ac81a0bab00feabb9ad4e81eb3447c054c8feda46aafe187c3bd1cedea46d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_claymore.json"
+hash = "012c15f38def03bd6e2d98f184d561c0e7d808430e956196447c7af565146803"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_concavehalberd.json"
+hash = "3893ff637cb464ef7ba03a2e6c753716d0fa22ee6c3f591c4568203c3a9fa00e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_ellipticalshield.json"
+hash = "0961b98435d158c8e8a06cd3efece434b6d69b7b691f22beec3ebcd4d63fdf0d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_estoc.json"
+hash = "2e8795419efd4e9f040d059380c13248d55dce582d0f771076569b1189e91f41"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_flamebladedsword.json"
+hash = "53f5381699e34ffe24af3aa183a04ea47512f377b2d3911f0afbc681710a99b9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_guisarme.json"
+hash = "8a939ed7b962cda47fd07887a34f001de587c5cdae31604a7fe9642297f2e839"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_heatershield.json"
+hash = "4e29c740c06d46b5e21869acfbe201fa46a7a101241442d1726a7c2f879adb18"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_heavymace.json"
+hash = "68e48f8262251a3388b9dfe46af457023fa57f4c8d7667153b5eef0a0afbab6f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_heavywarhammer.json"
+hash = "26e7ebd39ea6e2a61aa1bbb9299da43a47f230af313179e9fa8c8fffbb1e9b82"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_katzbalger.json"
+hash = "0feed52b8201926165e5295c678704236d2e4ccbf4d0877a14ecf7e113fa7d9d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_kiteshield.json"
+hash = "3055fb66647b4a576e38d871b3a1170134f0a98ddfd6993cb9b3eddde86479d4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_lochaberaxe.json"
+hash = "fda27907f508360c9d6f1ac5dcb2b584926bba2c720ce6f401a3d254b592958a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_lucernhammer.json"
+hash = "294a54955dfb2fe4cc73deee62eec3dfddf8b0a422ec5aa0357133c04c84ad84"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_morgenstern.json"
+hash = "34544a1d1535fcfa208f94aa70e5123d7302c7ff175c40323533035baac7f8d6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_pavese.json"
+hash = "1e6b2769d360fec486adac3f38c71f0210bfd962be94b2be11ea59a73f1ed7c9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_pike.json"
+hash = "6e6a03d9dfe72eb565fc41d3eac322c06018ec2cb5facb146e9b2a71f9a6adca"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_ranseur.json"
+hash = "5d875c709b792a2d6afbd86e856e33c1f916cac1246df81c455a9aaedb77b6e9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_rondache.json"
+hash = "4b81968cd841776f651a1dfe32eeb86021107543a3db12cf195437083bbcb5fc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_roundshield.json"
+hash = "fc515d17488607c6525131ae5f94addc060b9d73d5767de5359fff5750b91fb8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_shortsword.json"
+hash = "7a3bfa443dd65d2a20257b9231a61dc6bb0ab97854bfa113cd53fa82bfe9966b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_stylet.json"
+hash = "250da7f6c0a167bce52acf121be765690c605a53d6f21752fc445a65489e1370"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_target.json"
+hash = "35d56cfd9bd403480801319d0061ed78108bfe8de2cc35ea7167913b76f1cce6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_tartsche.json"
+hash = "522eb339a2756504557062d95233ae3b8c637139c4e0a66e37a21c403f965e29"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gold_zweihander.json"
+hash = "80e3d1dd3c38f6b4785caf8935cf9f234264efb35f3b9cf95a7e8b81b7e87d32"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gothic_boots.json"
+hash = "03cc7fef3ecb76fe2c486d93b4fb1b66d789af4ba58f46f0cf69e8f435b9bdb0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gothic_chestplate.json"
+hash = "5f8544be016e769a8e1723dea50ca9486b1fc06985b324e3e8f9dfe5cea094b7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/gothic_leggings.json"
+hash = "9c05b7343a521769d5c745f77a74dc6b80297b3c0f4fa18ea71119a8030560c9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/grand_bascinet.json"
+hash = "8ea63c85b690be4260065f6f3f54148aa488d9bf7949066b002c1b557567dfa2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/greathelm.json"
+hash = "215c13705308129c6e9691ccde3e6e76657a874a09cc1b7d256198604f18229e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/halfarmor_chestplate.json"
+hash = "0c45ce36a1a3a845f7bd79dbb1c0bcdff28e578a34bcf08a0364c09e6517fdbf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/heavy_crossbow.json"
+hash = "8eb6a5258849d36a717bd350ec135704851b2b9fc85f9cc6bd92d72988bd3749"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_ahlspiess.json"
+hash = "07947aab81dfbddb02e1a48d1d592f52443f9c65c73f2de588a14bc09979f678"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_bastardsword.json"
+hash = "506ec7749f9735c02233704fffedfc676157b9ba9b8e5da93e8b2c57d6c86f0c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_buckler.json"
+hash = "67c2807e4949648baf44c1f4cf6a7199a85b131c65288c03c1537fa625dc3cf1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_chainmorgenstern.json"
+hash = "1b46cafefe1629f2c779287c9eafd28359e5cc924058bb6dba5666f5613b44ed"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_chivalrylance.json"
+hash = "5d40c8738a8c31f41d876dba4b2300085e2cf3ec56f3804cc707c6bfca27dabc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_claymore.json"
+hash = "9e8d68012cfeb81474062abb7555c6d8dcef7944e582066c6c3744f52058e643"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_concavehalberd.json"
+hash = "4496caf71dd7e262085236e26849620675211b692d6ae33e98d251550dde357e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_ellipticalshield.json"
+hash = "618cf2e43ecfa77d109f62bf2284564e6e9f5fb4fbbdc68a4b9c8a78e2bba8eb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_estoc.json"
+hash = "df080d862e7115fd056b47bea5aef81d9c67536993b38ba15ed412f926977780"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_flamebladedsword.json"
+hash = "da0b52f6d878d2bf591fb12063ff8843b56335a72045552e3b9a91a09bbf36be"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_guisarme.json"
+hash = "d935a0728331baab1db7da7d300f8d1cd063486eb1568d6b6e0a65935be93564"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_heatershield.json"
+hash = "af513114016d59d39ad6b80c82f878a0e4f7556755625e79974f9cd12c53b4b7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_heavymace.json"
+hash = "27b71013d8e6bb5d1b15114458363f17086d5bfee1ee4ab19a4ccc0885808a93"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_heavywarhammer.json"
+hash = "88efe6c13330c153bcf384748788a0ce418ff46defb905d8e4c516d1e0acd696"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_katzbalger.json"
+hash = "c4cd6291ad725d98c7e595e633c4a036bf8dfa64e8d41dad7e5ebfaa9cc5f816"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_kiteshield.json"
+hash = "4f6f1396edf3f8d29d1c4834ec838aace2abebc7521c1ae7906edc5cdaf9500b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_lochaberaxe.json"
+hash = "5ddf403d52e024960addceddfa2b5e37469587ea3d4cc0da0bc2e3d71bc51518"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_lucernhammer.json"
+hash = "a109151f09d56f55df744e21af79db06366e0bbe7ce6578fa58b51298a0715c5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_morgenstern.json"
+hash = "ab84fcf8382ab303c16632860a07faf32376a3fd3e06880c9a39497968e89985"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_pavese.json"
+hash = "1d38b54f1a1d1e18e10a111ff4cb8677cb32436230fcae895dbab39a4ebfcb2f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_pike.json"
+hash = "969a099097ff13262ad66fdaa3fa925b38d56aefba530ba32c09315cac73a276"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_ranseur.json"
+hash = "159d5d381137d775120c42e0148424b839395133adefc54d6afaf9aadadf4564"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_rondache.json"
+hash = "17a2250660b3180e4a80d1e7d8874f2d2814a71e67964edd143bdec2d986bb68"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_roundshield.json"
+hash = "c68c5f9d73c5163051edb5516a592a74cb173138a6e93a92fc8fc39dd05605fd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_shortsword.json"
+hash = "d0481334ea9627641da8abe342fc90ea5a22a10c0613948b893a1f9c1f5e9777"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_stylet.json"
+hash = "d08766ca803bb4737a61d9e5ae6c8247b530f8dae02239b25cb9cef8e37c19ec"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_target.json"
+hash = "c1c51a8b2584900612fffc5cf94190269c4a99f3a105588e0c9337f5fe71278a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_tartsche.json"
+hash = "746d2a934d2d3fb07e679bc29f8d279d1c66fe7ea9f6a4d64f2a77f86dd3cd17"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/iron_zweihander.json"
+hash = "a9dc9f1409e28c1ccfb474f93ab694c972344e9a4c23362c472fd97236879520"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/jousting_boots.json"
+hash = "4f0fd178cfcc314fe0bc993cd559b40d0c1ec120e61982065c4ce4e3dd96fe70"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/jousting_chestplate.json"
+hash = "3c6d192542683dd272d0c73eeb3b5b20b2c350367b51c3535e35a4346b547f13"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/jousting_leggings.json"
+hash = "6b087fc3cf263b96a9944366772d1aa0465c1e93aad1405fb707c8a9b66bd9a6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/kastenbrust_boots.json"
+hash = "5a98d9ef169e69261bd8047004222547ebb1d4b8327577bd8b6c64c0a28032ba"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/kastenbrust_chestplate.json"
+hash = "afcc8fc28551eade473668325f172f0c5272e4dc849c16b4a158a07007d88961"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/kastenbrust_leggings.json"
+hash = "e2c6755e3a24385c7a2b28f0d97af64d6846eb08b9b82ef5a379a1cece7605d8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/kettlehat.json"
+hash = "946a169711e02132a95d916aa4e05566da74ff6421b0ad3000baf41f09308fe0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/knight_boots.json"
+hash = "39179ad22227bdc891bae38626413f97ce7c562aab5fd241ad19b920d51e7664"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/knight_chestplate.json"
+hash = "bcafccc041d2795e823f80e711cd6fdf9d6749f7839c418f3a260b167b90751a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/knight_leggings.json"
+hash = "9e63fbf56c6af36d69729aea60f654e300d5e355fbae92c7165a75f947057d15"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/lamellar_boots.json"
+hash = "a8cf0b7d0af690665b809ea4b6988a2c27cba3a34beec8770fc87d6da1fd4962"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/lamellar_chestplate.json"
+hash = "38c832a87a52cc30c4f179199f4d885bdada7749c4969803009ed7281192f76e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/longbow.json"
+hash = "413de284b8edcfa4f80c15e9abbde1dbc55691387f6cd0d2f526f5228d80285f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/maximilian_boots.json"
+hash = "83638199762af30f7b7f5994f209595da36b0070efd9810fc88a0b77ec2463b3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/maximilian_chestplate.json"
+hash = "a6c48d6f83f2c0044094bdae1f59b9230ac7dc589a8864f0ddc195aea4d0e7ec"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/maximilian_helmet.json"
+hash = "0510fd0fbafc285d2e885681f1a70b91fd2620822a5ca3498adca51138144f87"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/maximilian_leggings.json"
+hash = "1c32f642553848479c5a74374df7b7df07fe57259bd1d7915ad72f8f64aec18c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/messer_sword.json"
+hash = "e2ea5b5da6521a1dca68702eda5c0eb77842e41105db023284b8ff3f2ef438d8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_ahlspiess.json"
+hash = "023274635d8c6c739fc7e7defb399a4b8ebe294a4e4834aaf8aff7603d4f6634"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_bastardsword.json"
+hash = "32bec99fa284d9abf16816c8fccf4a6bbb649e1daf40632b9010b1937bf882ff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_buckler.json"
+hash = "ecb59d5373d03cf4b9b4888ed27ed8f10ee2203ba11d9ab659da4dfe4ee8d4fe"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_chainmorgenstern.json"
+hash = "56dd0295bb10665c982be71f3f143e3c6896e1eb92c2d7f9f9fc7d5332bfbddf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_chivalrylance.json"
+hash = "485d0a5e5e0128cfb458dac03e8c5d2490f4251d20b1420169a0267c90ddfa8d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_claymore.json"
+hash = "bdde86fce0b3b8242dbfdc9ed0733fe425cef5a9fc0fedc9e07b8802249b94f4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_concavehalberd.json"
+hash = "14ef59c55d4df0c67882db445dbb8122b658fde6c0579dff3a472500005c191c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_ellipticalshield.json"
+hash = "51f509ec8783096d38f43461cc4f4d24a0149c55579572d08520821f9f8ebb5e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_estoc.json"
+hash = "399e5cc6c7483920eda27e35664ac5461338c94e20664c0415ff1fe6e659fd93"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_flamebladedsword.json"
+hash = "ad0b61073f390236ff1d05d44299bdcf29632f79d8d76c60defb31734c38d956"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_guisarme.json"
+hash = "a24f63fb946b93d1435d0e3f4d15a5930037ac4c2d89bd6f1af488ca471050e2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_heatershield.json"
+hash = "0714ce090b689cf17edce334414036154ef82610684b533856e0ac3edd32a50a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_heavymace.json"
+hash = "30efeacdf326a8966f4ab3085f452d2ba171119f4ef45a09222c6a700ca82a1f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_heavywarhammer.json"
+hash = "15e6eb63dc290b2981e64f59bd856fb86d068526107db385ee7be58a92bc1e5d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_katzbalger.json"
+hash = "af7f9363f29a3ef2fcfa581e97563bbaef51d77a18b9c176220b96d354dd5fa6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_kiteshield.json"
+hash = "4c4a3c61a6a110c86a40c93d64c5221e91df43b7225f5f408c30fdc33903444d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_lochaberaxe.json"
+hash = "8aa9142b0fbbe73e471070b2fd31e275f47b94893c25780bf37d4704b18c6dc8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_lucernhammer.json"
+hash = "a056cd2b9e9309b4578e3c65b4910497e0248e8426a66693b343aebaf1714480"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_morgenstern.json"
+hash = "c3e70b3b9f19e1a8f77d249bf8547a9b5458488e54d52227848515d07c7aea19"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_pavese.json"
+hash = "cdfe8af55eb16117f086a5eed5eacb754e373648074067a0aa73ba5a2e94bd62"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_pike.json"
+hash = "38339798a4bb024c134928038ca08f8036469d3ca5d6f4247723fcad09be1690"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_ranseur.json"
+hash = "024c5096632b29237dd7ae30b4993e9ed9ac512e8e63dadc100ed4c51c0f6ecc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_rondache.json"
+hash = "8a288edcd025ef6946edbb823c417f20dcf95cf42c9398d3e9847c900f69b3b1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_roundshield.json"
+hash = "ea6c87a843be58f61c8231cdf86f32b747dc8a4288debda9103ba9dcb5df8a8d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_shortsword.json"
+hash = "48b6524e0163864d3d7de64f42ed8630b8d4599fa8d4b126b67b637776ebea31"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_stylet.json"
+hash = "f7ffd5129fbac36d12616d5cace48e11872ec0823f5703393930d140aed2d3ee"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_target.json"
+hash = "d03608e8f3a6b1ec7de183c53e5128e165b89f0e0a30aa5e35fe9100981bfbb1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_tartsche.json"
+hash = "f4a5e6e07cc47ea4b11bd336ef3d6ac0d96ed3dc6e79c1ac7011b96c2e0c1b87"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/netherite_zweihander.json"
+hash = "05620c47bb698b6629a260eff1dcf038f9f66dbb04f38bfd2758bcf32ca8494f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/noble_sword.json"
+hash = "a7b08b46b291a6aa943c6fe1c862f3d5ed59d3f6d1400d934db019cd1904c43a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/norman_helmet.json"
+hash = "3ee4ff5681d981e1fbfc29639cd80dff14f5d27a678f3a789982d05d1c805c08"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/pitchfork.json"
+hash = "030dc4ece2df119a73b778b009862f988f0162d04961ccd9d9103e33fa7bc299"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/platemail_boots.json"
+hash = "f320ff77992e2f6015af858018014b715aa0e0f2b36e683ce1e6412091086ddf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/platemail_chestplate.json"
+hash = "a19393d63a6a2bca863b03ead2284d0a7d99fa794e86f7419257b4c575f2524e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/platemail_leggings.json"
+hash = "00f8420551549aea4666e1d64f08023891a063bbae0a20ab6e0278716b16becd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedbarbute.json"
+hash = "3fcd80c353f351f5b49830a8432ec4d2438d8486542a72f3cde9503388c12ccf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedchainmail_boots.json"
+hash = "203e1046d6306b09e682e3b06036757930f929d6b5f56ea859302f602d09d072"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedchainmail_chestplate.json"
+hash = "bb2d8f49bee22690e8e764559990ebcbc7dae8f6ac8bec5dc90ea5e1aaf2c3e9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedchainmail_helmet.json"
+hash = "d67ec8334ac5994539fadd71e51d3a680c60d815ef0c99134efcddb1dbd40c44"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedchainmail_leggings.json"
+hash = "617c728104518bf2bfb73baafbbdf005030292a1bd8b8b7132bda17a44939ec8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedcrusader_boots.json"
+hash = "b6ecb3966a4d6073a6b6c096537d634b1b093de7119107ffb463701721ff692e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedcrusader_chestplate.json"
+hash = "583d54fb92a76c937a53ff91db5c9c80ec934352ef1b978ccb920bd859b649e8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedgreathelm.json"
+hash = "182bb5bd910c0fbadf7957d21d9b746ada21ee808dd238a8a25e0c7b40c23359"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedhalfarmor_chestplate.json"
+hash = "5669b95dacec7154fad5b9dfdbeadf14540377cd01521ffd682f3f9ddd9dd708"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustedkettlehat.json"
+hash = "4ca6a144bffa60417a8c01fc5015b3633acc689bb381415a9c9fb544b0058738"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/rustednorman_helmet.json"
+hash = "a65202f20303c0fae72c72dedb4ebdc34a858cf8f7150c8b56c00cabc536613c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/sallet.json"
+hash = "ffe763eddf9b3adcee2df5233510bcca0163d348df35934a4bf615ae05fc4f85"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_ahlspiess.json"
+hash = "6328566dd9fa7d3f49d4976f734e6f2ee9beb8a141a214bc58817375b96494da"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_bastardsword.json"
+hash = "dc1c39af8d375e2c67fcd40bead3b4dbb0c19322f1a219aa4d042a9e5c9c5877"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_buckler.json"
+hash = "0b2c77a0b24cc2ae21b452bc326483e691ce31f2c049182048ba88d31f18890c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_chainmorgenstern.json"
+hash = "6dba1925a3dba0ec0a47cf687c24998190da1baf2b221ecc855b111641300414"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_chivalrylance.json"
+hash = "a44a1d1e812361570f76cc8c27bb82950915a5449fef77eeb7b79613de8380f9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_claymore.json"
+hash = "dd43674d7f11519f8d7263bae560042dc3694c746d76e0f3cd210ebcbba57001"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_concavehalberd.json"
+hash = "1812bffca7f1ea83097e5da8faf2524ec43ebfb252b9dbd812d1b627b02ccff1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_ellipticalshield.json"
+hash = "30548ba959a9d275a80f76b7e9e8f91c7811278cb511c721992785f75dfc15c5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_estoc.json"
+hash = "09f01b6dee0561186672a23430c888442cbcb0dcd6638ab4b41287a2fa787d02"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_flamebladedsword.json"
+hash = "cd6d8b0b86ed70a1a23476a0048fe833c3bdb778e701c2a178453c21112246a2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_guisarme.json"
+hash = "2488a9a5279837f132b93b1dbf111c38808d64529e7712bb2d4f0066b4b2e6ab"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_heatershield.json"
+hash = "7e8e20d5b7260be0ea9941ffa062fdc1cbb68813e2309c5c7dafea9905aabbfd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_heavymace.json"
+hash = "eaeaae448dd54f38981051c6c6127f3d4b1813eebfbe9d22c272f52291e0888f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_heavywarhammer.json"
+hash = "e00e5222db02633c0cb7580220bab987064ff627693118a0546295af47ce1d35"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_katzbalger.json"
+hash = "db32337c1fb77e8660a630e900118d2d3a7d8898b79ee873eeae9e2954b0c4d8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_kiteshield.json"
+hash = "a4623232929a3b487ac7a23d0452ae1f3deaa95e6693849988a928139de25fba"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_lochaberaxe.json"
+hash = "41d352b78d9a344552ad72f40cb82fcfb6023a39321bf730f3fed58f1af78203"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_lucernhammer.json"
+hash = "07bc6b2bfcdb53bfe891567cc0962a3d1b0a85b8065b94620ada5b9ed0201569"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_morgenstern.json"
+hash = "62f87aa006c283c2b57d9787a3734ee9de44fae2558d252dc184150f38995943"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_pavese.json"
+hash = "2de1fbb6b0e9860c4ed8ae2e26a023e62155125c9f28aef78d94d1e32ed1b209"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_pike.json"
+hash = "a9a30603cb0ad84530c0825a42acd5026a77f3bd3a610a78a2d2edd27fcb957f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_ranseur.json"
+hash = "896162ad5418abc1dde5cc0baa1ef3e25566f56f34fcd17ee97381cbe846e8d0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_rondache.json"
+hash = "bb3a34cbb93a983034387bb6219b72f280f2f91217b13ed390eb852a37ad5a70"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_roundshield.json"
+hash = "1814853a3425ee229c234b365e35fcce5439e555cf5773e34e00f5490167272a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_shortsword.json"
+hash = "953cb541a3661960c3bae280973bf8d0d483bdbd3e2c0d4c5bee84cb7f569956"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_stylet.json"
+hash = "4e7c6a34f9da8d39fa1942fd838a279aaa9b69acc41872b958ac30fe67bb9388"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_target.json"
+hash = "98a3980056cd231e737b56a8ca02c0d3bd08019ab19a2968f9065d68d95e6086"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_tartsche.json"
+hash = "cc0d9232db69d89c34e83069b7cb7ababac9ac61bd81841a48313b32c8406e88"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/silver_zweihander.json"
+hash = "4f7650c8b3e5bcc26e8867d1800e3f378855ccfaadfefe9e1768eda8f1339f86"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stechhelm.json"
+hash = "058c6353710d0c3a2e7c155a2984c302c4de0dca81d3e362e1ac478c3ac53e77"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_ahlspiess.json"
+hash = "ac757eabad5b5a8f2737bc3777e55d6a4569414497eb371cb0ccce46fff729fd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_bastardsword.json"
+hash = "95fda3d0b3719ff440c1be020de3570cdbcf5020ccafae605fbfe651019d53da"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_buckler.json"
+hash = "4f5ed61ec0b655603014b999daa9b47da6438bd4b52fdebb9759aae6694afadf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_chainmorgenstern.json"
+hash = "c7d237e3fb2eaa5c2ee41b7d1f919fb6e50faab3413f7a3fcb4164ed5fef7bd9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_chivalrylance.json"
+hash = "a70788017d9a36e86640a60a9ed1b0586c38e95d1a047ceb88f59484533916b3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_claymore.json"
+hash = "2ff0a646556623d931c32f7ef4800eeaca374daaa1ce39c6d2ed5a69648bf812"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_concavehalberd.json"
+hash = "27ac5a91c181e19e37d3725b153618989274f099d08b77e8228ab140fa434223"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_ellipticalshield.json"
+hash = "fbbb79db93ca81379bfc2072da7aebd46b0995860e1004ae49615ae6670505e1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_estoc.json"
+hash = "04c81d4ffad7b23c8b22415693b60ec1b88dd6b1a8066b71a06d9c2e5c4af12e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_flamebladedsword.json"
+hash = "f6a7b71f0bbb6ec212cdf5760c97716aaada8982a5f166c6d2f005e19c4c088e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_guisarme.json"
+hash = "58de9cd3d87b77215b9ef081f6d7c2617d363a0f215a22e5c4be3362ae551726"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_heatershield.json"
+hash = "027117bc181848087277009155b0a32ae2771bb0dbee9139891d90bca310ab58"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_heavymace.json"
+hash = "365b1009faedf09e5cb77271b657357cc7af5b129e47eecdff868bd43a4d3ddd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_heavywarhammer.json"
+hash = "a99ed65811a3db4e7726c8722bc876840b3abd30b7db83737d6cd44da4e9ee15"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_katzbalger.json"
+hash = "269491f04eddec04cb049bfde5d6ceac80de748610a0952647d581fdff6c1b65"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_kiteshield.json"
+hash = "3526c316ad92c1ba0c8dbfb7c3ab1a087ac1e3ac871c5d646f8f8e0ace504c00"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_lochaberaxe.json"
+hash = "98030c39dc286f9696c2ec3cfd58b3ac022980d2f3fa6bba281949bdf57e733c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_lucernhammer.json"
+hash = "da7bd9595baa6ac8cddd6fec85933c6b172a0a422a7c6d1d7486f80eb527e167"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_morgenstern.json"
+hash = "f35cb8503c8818a464ca847e30d79a48a77346af7d5a3200997039dc1ceeae7d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_pavese.json"
+hash = "32e3903986091dbfca48d33051449b9b6c6437b4ea132be9ffd09313d69a4532"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_pike.json"
+hash = "e5b9327f93d8cd325e0bd078cc67753c8689cf2cc0f3686aafde9d29fe6bb4f4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_ranseur.json"
+hash = "352c3c4d33747857a993cf8a9ace37797b87a5ae565d9360e57599a0d3eb6c75"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_rondache.json"
+hash = "2552f911ab7c8402e653f5bdc422867cf300138ae055d0cd2dd81d12b2ba772b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_roundshield.json"
+hash = "d3733abc82b208da13407052035b3c4490558abbe258a4bd6b95d92ea6698234"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_shortsword.json"
+hash = "199bb5d60f15b30d8da48d22e01f5f2aba5fae30c383c21ffcfe4a86b2330817"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_stylet.json"
+hash = "c2151f1b14dcf2c0ddb8dd75ceeedc121de705a2f3b2fce7d67fcfc11655ee5e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_target.json"
+hash = "2e3ea099f8e2a1b0912a1b73ac7f7684ce1dfbedec6b3d987357c03de991b5f0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_tartsche.json"
+hash = "d216c56595ce0610a5dd0fe408def18e21c550a3471b4eb76425332caba1debd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/steel_zweihander.json"
+hash = "03faab1042adaffdbc6a9cfec55f0997ec12322bac8b557541d25371588744ef"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_ahlspiess.json"
+hash = "3cd3a09b1980ccbe7b286a2bf2c0498cbd645be03a0247fc5b13d4c06e0f740b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_bastardsword.json"
+hash = "5ec2df58a4e2318a65b9c6549f87f6f3d3f7bccf0f72d2ab19bcfbf0c9411fb5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_buckler.json"
+hash = "01d86b9fdfb820b30fec3de62f8a0376d6b1d8999a9ad4f69137e8c910591dff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_chainmorgenstern.json"
+hash = "850776467df314bae1f5a70bc67aa4092ac3c1121c69edd2513e2c1e509837e5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_chivalrylance.json"
+hash = "b678191ec8c881e3b2cad43d9c88230ea58e5b1beb7f8fa307c80e8aaca33073"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_claymore.json"
+hash = "59e7202b5aa0efb5f75bf9a3aa7753d3b4bf84a97023c21fc0e16755c10c8596"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_concavehalberd.json"
+hash = "e41f398d1fa79555115dca15bf93eb513010acdf79bd9cdfd4ee7806e624da89"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_ellipticalshield.json"
+hash = "54b8cda549e9d0cfc6d6d0829ba963d106fc60682c66c945a20e41628fa90ce5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_estoc.json"
+hash = "df9f3096dd4826e3a5ca09fd2a9797a20042110e957932855a351d839e9a8d30"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_flamebladedsword.json"
+hash = "e289a01461061dd0c2f150f032f2889ed668ad686ca8b0ed5a1fa57a69ea5732"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_guisarme.json"
+hash = "61e9e59e4becdefa6fdf39edd5d1478fa1449196fb21e6ad43def16a70d1954e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_heatershield.json"
+hash = "396e7c96d31bfc55d3f9fdd781aa0ef8426822010dfb864be6e1a9f4f3da36d5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_heavymace.json"
+hash = "9af04891351fbbffc71e7dd652923289e35afd21d646698ebb12dbc1d7ba9bd7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_heavywarhammer.json"
+hash = "a0a4f7d18f11fbde1672172e8dcfd26dae7ed6d4d69518eac5427536dc5fefca"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_katzbalger.json"
+hash = "ce692a535218a67062da04e12fc541d9727086bf62816a1a7cdc361def118b5e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_kiteshield.json"
+hash = "7419334d2f8fa8ad422f1ac145aabb388784a62b749ca955e8a473333122ca83"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_lochaberaxe.json"
+hash = "180491d0332a870daf35b26b5182c04515ed0ab8b719a6ca494c07a946b48092"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_lucernhammer.json"
+hash = "39d495427edce1bdef317a49b4e20f6f2d216dd6e3cb219a6bd5da9946c4b842"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_morgenstern.json"
+hash = "4d05bf56767649b9c2652578dc6a2b5f02665823d2943e7ce55e57d796bfe0d3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_pavese.json"
+hash = "d4af6913b2b309fd69e48c0be7ece37bfccb33a3a034a389736d47dc0f33d070"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_pike.json"
+hash = "c01964241bc261a036172ed5f74c66c36a7a0a3d50d6ade06c1380ef9aab5f84"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_ranseur.json"
+hash = "7cca745f5e866abc1191b95e593b683b0f7b3925a0a4f72c7ec985268efd117e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_rondache.json"
+hash = "f12a1faf48dec12fd180debe6abe9987a69e2cd963b987c4d876c6f5e6dfb3e7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_roundshield.json"
+hash = "9e2847d8d97ae44553149ac68fc33702983563dbe7cab463705141e64a4e7cd5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_shortsword.json"
+hash = "56a3c3efe43ace751a3abeae3191b75117aea25276102dbd007fc9f60104c18c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_stylet.json"
+hash = "7e30ba15c4a7b00525329d9e0bcc693f620a9454a981966680cfd2a5a7f513fc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_target.json"
+hash = "dccfa33ff36df062f3320e8f74f86c97f8928fae1bd85db6da74df6ce218a738"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_tartsche.json"
+hash = "a98acc068b9c4f1d02af26f82d3512da9cd0955974ed9450c5137b542980957c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/stone_zweihander.json"
+hash = "ad1c36912bdec1ba3080c45de02f5ae2f629848afc1a69977fc3f1be4a1490a2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_ahlspiess.json"
+hash = "9fc6013e3f125c438779992137db77a9ed097d8d3d8a2fea7141bc2a3b468e0f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_bastardsword.json"
+hash = "3d6909016ae0ce54984227f232ce6de9084c04288c40db00905dccec4174044f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_buckler.json"
+hash = "2bf5cbbeafa9e0c1288ad95729f7164372ed13c7d1a9c7d203dd841e77a8843d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_chainmorgenstern.json"
+hash = "a7712ff47bcd147e5b49b8f2c5860c541067ea7f5a4e31ba93f698b7de1a28b1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_chivalrylance.json"
+hash = "96098a0d5746d7454c83c1117cef5a2d03f87e6582b85642877e3407f1855715"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_claymore.json"
+hash = "699879abdb1cb3f575e8741f6efa10718cde972898b330b2c836655c9166c2d8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_concavehalberd.json"
+hash = "494c06362ecc1221513a129ca92e2b263afbe64cf33ba020e780f0e376ee56b6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_ellipticalshield.json"
+hash = "1a3fc90be41bfec7bd795d4110e0b2a303a8c1751f85c87fd237123629fa9c18"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_estoc.json"
+hash = "eac4f3ca7e2c64eea4a66954ad0b32396c42a0248084e1750ca8d845edbdd875"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_flamebladedsword.json"
+hash = "8d0562770454664ec70d56bf2e912f2d34bf6a56bf590f39003bd09304eb3451"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_guisarme.json"
+hash = "aee034243b164a6104754e14b29531a0726e3eed1660b2e714a54d7aebc6d7a4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_heatershield.json"
+hash = "0fd93acf417b5a3b8563068789f9153f1bf9b811cb7c21d23b8502f242aad57a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_heavymace.json"
+hash = "fcf3afcd4edfd36886f9b274e96de3847049e93fc608d7d7421f785e0e34aa69"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_heavywarhammer.json"
+hash = "e2236997735eed6c021ae02954831f5676841f97558c4e311304faf87252f28d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_katzbalger.json"
+hash = "aa179716322b4188e5a809cb32892322ac9902b439dd0b4ebd6a1bca38ebe05e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_kiteshield.json"
+hash = "9d59413d4545a239ae2b6b0334d25ccf1fd46139ec9582b00b7e60c95554b0f5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_lochaberaxe.json"
+hash = "f57dd5da8403943b0754c8b31dd14b0f69ae3257f5b6e365d562316656fa23df"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_lucernhammer.json"
+hash = "aa19e68df7811fd296a3c6d1677147294db4a6765fda68ce5e4b59fc4229f4a3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_morgenstern.json"
+hash = "1289c796cbde7c7934649a42d26ebf60b94da7248c6b5541280e86a3ce50cd1f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_pavese.json"
+hash = "2bed30907cc9eef74655b290149e052ece0c47c3f6dca5591b93a5ac364eeef2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_pike.json"
+hash = "49e03e5965a8cb53bf1a23a449d1040dfffa848538e5f06a0ca08015508abfbb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_ranseur.json"
+hash = "76436918026a0ae77d195545fe7b77f6491d4409ce6f991276e70bb3f90e4796"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_rondache.json"
+hash = "18ae0188421ce32313b4ab82182df7d34c82b099c9d30ee09e19749cda30aec5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_roundshield.json"
+hash = "3bd168db16a8551ef893cab10244d7c35fc07b1c4f0c4e13021fc4d8ba80ba13"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_shortsword.json"
+hash = "6816193873f4366d48aa285c4e63eb8da5da8e7199250cd534b0d33255c0199c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_stylet.json"
+hash = "9fe8af14fdb6e99e4f322d6f4c8ac5b3fb1057400928c8d011715adab0527197"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_target.json"
+hash = "20b9a4499c211ed9b18af516f80b3b7f1efdd7c1c8638d9be67d37b282f5edbb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_tartsche.json"
+hash = "12e3ce5afb9f1b40555e12414c80f911a0538835c13903f9d62ac6bad75669cf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/tin_zweihander.json"
+hash = "4263372a7fe631d9d53469aade556b3e48adee2c4351be8cd07adb51db7399f7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wingedhussar_chestplate.json"
+hash = "1eff15dccddd597f8323b4cb01ab383d0d78310acad8a5c061593e8ea8f7e549"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_ahlspiess.json"
+hash = "df7167a1dac793726e32eb160ec63b077e62df3d0f543b41eb26cc141b71f0f3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_bastardsword.json"
+hash = "93fbb4fbb666acff2fd53d4bf0b4eb933afea986cc7560caf214d8704fa7d97f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_buckler.json"
+hash = "34506af96c066763ba8accaa7a3c4e7a44230d6a8978cb3e7c5238042fee0434"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_chainmorgenstern.json"
+hash = "5bd6ab20f3d4a77b628253d7007a32cc58779c7041b7cd451b56198e8dd27787"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_chivalrylance.json"
+hash = "07040a64a0a529f04a23c81e5819633f4d1a144b7735a70113aa88f3e4d3c737"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_claymore.json"
+hash = "0c2fc6f3d20214fec9fd0a2075eb60597a931bf6d9affe02df6d3b188c59f346"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_concavehalberd.json"
+hash = "8545036eda41696d5649078b0babdc0d5141536ecee7e84d9af7ab8b1e7ac29c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_ellipticalshield.json"
+hash = "c245f135288f56ca68b9a4f368e85234cc325c007ff6e9655ff8c34108942980"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_estoc.json"
+hash = "190ee1c918c6d4a3865c9df52338e49bbecc2c20b2ac563d38b63f16d8db77c4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_flamebladedsword.json"
+hash = "2588e6783dc3b564dd78979a026022f315d89573f9941cb8b515f459e302dbd8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_guisarme.json"
+hash = "7cc6a09c6c658ee029257bd882d4777d2957fbf6959cf39ca359cbba5041e47b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_heatershield.json"
+hash = "dca6c7394264301c9620b187e28b776379ace7d28dcfbb84a7065f73ed75a604"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_heavymace.json"
+hash = "f484a0c8eef39a6caa61752900cf00190caad5587c832125bcb9f15c04eed8a7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_heavywarhammer.json"
+hash = "4d63007756e29ab99073b88b9445946811d3e7198da0e415a5625f3e8319f2c3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_katzbalger.json"
+hash = "b3f9c8d74bf789b0267514ff24571815c8650fb370bef84264571c6bc391e6fa"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_kiteshield.json"
+hash = "3b024b9335c121114a5154508aaf79b9381781039d2d218060a6b2ec9af2ddbc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_lochaberaxe.json"
+hash = "f477c4e46cbef041c0ef32f5c98e35b43703fe43754c9527ade39ff54911e753"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_lucernhammer.json"
+hash = "94c28cd9dac8339f0cc8d2c5effc000879f64350d2638c29d8f33f8ec38e3d8b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_morgenstern.json"
+hash = "8e88c576fd1390356b1260264decc507775f91c3665186a629681d42f16a2e87"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_pavese.json"
+hash = "d042db3c5023212d59dca8b266677810806a409f75eef6b4f33411ea4e176c16"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_pike.json"
+hash = "4c33fae111f2f0bc569564a88552b394e79684b3ec11b68350e94cb9681abfd1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_ranseur.json"
+hash = "b31f32b367aee8d99b02106f4846b8c450b3e4b030ca62cbe4372b905d7eeccd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_rondache.json"
+hash = "f847ae247b83b38198ea7788ba66ae67828dd472059dd9866f014fec89e5c7ef"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_roundshield.json"
+hash = "7236ab3d4388e6b5847728d01d1f04374be1a4ced7db2f3d8e7ece3378f5d7dd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_shortsword.json"
+hash = "e46f62b2335c20ce5ba1df1198529679e92508aef04e50c09555d4afcf84272b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_stylet.json"
+hash = "81a41483dcfb43a43991b36760b5829807ac1997a5ede288ceec799fa1f60b0d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_target.json"
+hash = "e49719fda95c59a1933a0ee44369498da460e6c80f2ddf5ed659a597b45e4840"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_tartsche.json"
+hash = "57a571d0ca546bf73268efa54d6723ee7acd0004ab8efbcaf9526ba1d2a7cd08"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/wood_zweihander.json"
+hash = "4c3af06497950908e995682d1bdfcc33372ffffd4d503a8351aad172ad411c8e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/xivcenturyknight_boots.json"
+hash = "7525d2b6ad9bb612a5a8e43ee571d9138a0a80d5bd90705f9099e0fdc54cc8a3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/xivcenturyknight_chestplate.json"
+hash = "ccf80056eb9b7cba67def7ac3c3572aad1dc0ffdfd240e988c286fff134f80ac"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/epic_knights/xivcenturyknight_leggings.json"
+hash = "15ee505a6d75ca4f7902ca7f56aa832049e93e559f4feef34f5a4a82b4df1c5c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/archevoker_boots.json"
+hash = "678781b0d5d00fe1c77047c57e0238eb4a02883dcb6b6cc21f497c69116f0038"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/archevoker_chestplate.json"
+hash = "d0cd06fa2bb204d5f5bd94caefcbf95af116edd1799c7e0bed8f8f7af412aef9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/archevoker_helmet.json"
+hash = "6f97b13f6cfec85d860200b571269b1795522e65216167d07913813836266bf7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/archevoker_leggings.json"
+hash = "46f2279d8d6fcb41706de12120c4449ffeb257273d53a9756a9a621266708ea1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cryomancer_boots.json"
+hash = "8897304890e7f1b6eaeb00686b0efa51da32d0259361048a6438454309ca56d2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cryomancer_chestplate.json"
+hash = "75ab1c5cd2a23bad5d06bbe67ab0660ae19ca07f9f0b0edaeb314aaddb776c2e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cryomancer_helmet.json"
+hash = "30a9d28383c2abb6d0c367664ef8002f0722c1cc789d847a8d4f22c9ba34d9c3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cryomancer_leggings.json"
+hash = "c7b7eb18d81f4493a140f6bb899eb35f309005952ea3d5e8ccb63fed77c23e37"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cultist_boots.json"
+hash = "3af14cba91c55255bd6be1cef0c137a9b9a1a122278842964027fa138b15feee"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cultist_chestplate.json"
+hash = "8440f46ca8c6c8b38d02f42cf189b86c0a1fb5ea603a6590be0ea4a81acb50dd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cultist_helmet.json"
+hash = "1d48afaa142f449b7f0ba6e0e34acd4f03638cee3edd58bcf384dd585d34d88a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/cultist_leggings.json"
+hash = "efa2ceb3c234f0d6560d5d749ca7088120d512e9b2f5acde02885d093305f3ac"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/electromancer_boots.json"
+hash = "898162016780a9470764e22f4404c70261abf053bf136613392de092926a96e4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/electromancer_chestplate.json"
+hash = "a172a72bb5085735720d561550efeeeebd63ffb811be5c1b0e4a0505d5b512c3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/electromancer_helmet.json"
+hash = "42707ef45b6d287e0d56b9c01d30516e519becb2c9e791dc8ac91d3cd78c8196"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/electromancer_leggings.json"
+hash = "f462ab902c4f7dff2e20651cb7ec240b3d5c504b7331932c8ec4c3bc69544e43"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/netherite_mage_boots.json"
+hash = "4122d23f16e084ef6a8bf6f6f588e1d13f7343a7f0f843ba5dc2ecb1e8321ff7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/netherite_mage_chestplate.json"
+hash = "b640f436d1f037327e266f2a89bbb505d0b9034edf4824e3cc74ae84082ce8e8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/netherite_mage_helmet.json"
+hash = "095c8841a94d2c800431ccb32dcc0ab749dff7f818872a4155872564bf4a5e46"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/netherite_mage_leggings.json"
+hash = "b4adf30b79ffb9198c2003277c8e13a09874658a501f01ceb483a431b034d010"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/plagued_boots.json"
+hash = "bc1902ecba09cf80ff10d5ab0fc77c5aca542cede95fbd8d8f63b2b2e0f0aac2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/plagued_chestplate.json"
+hash = "d063e20e11ba1f5603f85733334357249b1bb4d3d742ec97611b3356ed0aa385"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/plagued_helmet.json"
+hash = "e248b78641fc19b8aaebaa4b56caf82301803a559606fc94a379049d70889389"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/plagued_leggings.json"
+hash = "9fd7966f1e2da84a370852c08101d9f116a1c5c7cd0f5fb28f1bae6d728bbeb7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/priest_boots.json"
+hash = "a7a1d3348c98ab4250f9aabe671f411319d5f396c59489b0b37a1150febc9d8a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/priest_chestplate.json"
+hash = "ac68acd9eb108c57a07d3f51acb87c251c985a604b689891d61591443020ab8a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/priest_helmet.json"
+hash = "be86ffe083c264c71a71074c9305e7be4a16c1dd20c5d8451a71742b7e00e114"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/priest_leggings.json"
+hash = "f9bd4f92d081275c5fec785b9f0da7ccd428aaba991517499004e289b4cc5f03"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pumpkin_boots.json"
+hash = "2330bcf942e60ea489b9c0d3f8e7990969064cbe6a37933c1349edd2399c5385"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pumpkin_chestplate.json"
+hash = "d70f0672f9a99200476aadb6ce13dedf824cf66614453795f7b3187716eaea2e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pumpkin_helmet.json"
+hash = "421720e481e108e0228f043d6b2467893744b38b2f9612e80d0f68e143444566"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pumpkin_leggings.json"
+hash = "7e44e1e540c8f083b1ce68d3b9ecca2f07bba065c673410ee83fec1ac3755be8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pyromancer_boots.json"
+hash = "d1e53f1a666a386682bea58ba732acec8b40fb6f1fb326f1acbaced63d6cc876"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pyromancer_chestplate.json"
+hash = "252a1375e5b7fd2823970e24b610f99353d88dfc0e9b75162711ff536b15c09b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pyromancer_helmet.json"
+hash = "447f64730abc035ba2e0377612dcb72881a99fdbfc234ba620ec1282df68d46e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/pyromancer_leggings.json"
+hash = "6af33cda3e20f774096dd37e80b82c7ff76d86d49f453a399ac9c67489e8e548"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/shadowwalker_boots.json"
+hash = "a29307a4ca45bb4981422ceeffaa6e85bafac558ebd496a0be0700351c69e335"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/shadowwalker_chestplate.json"
+hash = "82be1aa3ac0177b2876b04b6271726e126d34ac177e77201fc6ff1c8a249b432"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/shadowwalker_helmet.json"
+hash = "9fa3760851d2ae452981313df393fa0d54dcab1f343c374d14c74c7466ac760b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/shadowwalker_leggings.json"
+hash = "2019750bbe84cbb17f1c492c3d814f5bbc571fb6709bc5f767937fc66cf625af"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wandering_magician_boots.json"
+hash = "c9dfb51fb224ebd302981c8ea0982a6829c085860468f1056c6ef6b5bdbf4514"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wandering_magician_chestplate.json"
+hash = "aaabf69ec73ee1da58502721557866116f428774b90572357825ad9ce682b35f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wandering_magician_helmet.json"
+hash = "6063c038cb57531d2b78df089f90d244eece4e089bff20aed7a1cf561d9227ed"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wandering_magician_leggings.json"
+hash = "231f574b1925516468439008431f4c46a449c3e1ae522423c9f447bc6c8f81ca"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wizard_boots.json"
+hash = "bc30c8b5fb0f8ecf15bb19be928e4aa742ab0ea60b501618c4c31e23024aff2f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wizard_chestplate.json"
+hash = "db9713d90d4edce98b9bc8c89dea6b2931afe003ed16e4d5e52f71839e2851ea"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wizard_helmet.json"
+hash = "7cbaacba2927204901eb5784ea180ecba5c66768a58ecd79d77f6aaf81383040"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entries/kindling/irons/wizard_leggings.json"
+hash = "0ac756759c26a3a55ee75c7a0c10abb49f227eb3c1a4049381743db2b4a7c104"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/affix_loot_structures.json"
+hash = "7cdba0c0cce4638e94b99ddcdf521d09fd1f4988a5aec4a8cd18af3b9213833b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/gem_loot_structures.json"
+hash = "f9404c6c6180bedda8d69c8689f0affe9425fbc98e270417f27a6b78f6b6cbc8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/barbedclub.json"
+hash = "a67210a3408d527da46fecb63326ffd701d23d25595febedbccd6ef861de5718"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/blacksmith_hammer.json"
+hash = "1812f788b6c25ee368d34ed4afcd6900ba16870d5dcfa80a42a394925255a018"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/bronze_gear.json"
+hash = "e98c301d2f0eb0dff33850732ce614454f6662e4293c3b8da9bf110cbd0aa987"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/ceremonial_armor.json"
+hash = "11cb4a8197f9223932253d02b2481c5d3e3f1975c7e0d7a53c3b124b2d8b9bed"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/chainmail.json"
+hash = "83c4056ec405564325cdcf83b4ae4c32d5a65ccffadcdb705584abc4f44604c9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/club.json"
+hash = "5f4e6a4a85e7e02cefde7d99252d1616f0fdb926fa3a4484aadbe6d36a1826fc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/copper_gear.json"
+hash = "6b3aff7ba16c89ef80e7f14bbe04117526f0a3bc413f527a0d2106233878334a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/diamond_gear.json"
+hash = "b44a56f02eac1d302f047028de6cfa3d294a9a66c43ce4fbf02652a13a52cab3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/gambeson.json"
+hash = "a90fccccb4e85c06d74f274e527d3700549a1816a7473ff9afaeb5a619c64e1e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/gold_gear.json"
+hash = "1c15bb65b943e2499f8a7235a34a6ce306956f43ccbeb3cfba9bd8e96c2598ff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/heavy_crossbow.json"
+hash = "918c0d2cc3c10ccc3c0afecb0c60d26b3e51b4643f84c29d9b71de4eb97af9e2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/iron_gear.json"
+hash = "f69cd10fb32fa2ab732df79415aef9b0ca27dc8a321b989fe645c1ce63d54898"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/longbow.json"
+hash = "b56058d45e0b1ad6ac27251126a5a0697d6c7d168e32af3a82b5f634f7547dd0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/messer_sword.json"
+hash = "37caecf520af8620a1f89b10813dc962c059dbc960012efd4885854f87e1451e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/netherite_gear.json"
+hash = "b9c9bfb1e212f3d4de3e8505eb42be813ba403754ba82c2c5ff47fe6728e15ae"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/noble_sword.json"
+hash = "64b38b84714b4419ad617ee52ef86a9058b287d834a19014a85cf84f9a5bf20a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/pitchfork.json"
+hash = "edcbea6b5adc1ba06bee81128f9e86c3ef95df1b50328129ffd8b618c497391a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/plate_armor.json"
+hash = "c8d7550bacf65d96275ca331fd8434f0885f21d636bd24143d37f813cba7b436"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/rusted_armor.json"
+hash = "34a1b18102e0b7e962d557d7d5cfb55c66d27b07924f845bcf4aa8875f505748"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/silver_gear.json"
+hash = "966016cbeb8800440a1bfc3931478db32b674c9aec3ca89e5dc4fb9fcee431dd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/steel_gear.json"
+hash = "8c9c824ca1ea2f4a8ec315e678c59a62faa4d95e56d1b006bb5f6371a00ca577"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/stone_gear.json"
+hash = "b52d4e1c8797ec2c4e0e340a89297bd4afdc9ebdeb923d0a30450a3c13effa7a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/tin_gear.json"
+hash = "f57ba3e8d7b7b3eb5d4923fda204ac912fb3b4aca33e91417ca1f9375d930afd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/wood_gear.json"
+hash = "6b2aeb163c00d2d2c918289e93c4c9a65c2683cce5baaae9eb5800457fc88ad2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/netherite_mage.json"
+hash = "123c29d7a909a3d437d6b9693f6909e646aca68174e9075c4daa64e9fd533988"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/pumpkin.json"
+hash = "8006bf114c3b260f8c03931302f1cde0dc1d4f21d5ecb96473bde1df51a8ad99"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/school_robes.json"
+hash = "90e7de738e48ac1913142143b18010bff7833a690c9552da981cdb5746162bfb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/wandering_magician.json"
+hash = "1a0bdc91b1118a4f76790eaf6f537f86d79baa0d56a53667fbd0b95f373e6ea0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/wizard_robes.json"
+hash = "a8e2b9da5690417ed8d2494cd22d1a6dcba887ad664c3e4dcaaafc7d20ce8b1d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/bow.json"
+hash = "3e610dc12c8591cd8dbef498174181926c53404401537b20d4c8198105983a3c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/crossbow.json"
+hash = "5c3ad95af004d1164af65c43d57fc320dc4e110bb4958f0b968c9d820c31f429"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/shield.json"
+hash = "7594620effc7a799515270fae1a619f52acf53f5b5ed1120ba2c27500ee03483"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/trident.json"
+hash = "b75ceca3047440b0750f647a38b3e2c17d5fd571fda0d6a48094e58c1720e350"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/turtle_helmet.json"
+hash = "2dc603ce8dc8c327cd77525e0dda3101253f636fe5b95a64e724015d73acb968"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "2d50d4bfad4a43aab6d0585ab72bf9cff6e3db1f1eda9d457f46558233e45e14"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/pack.mcmeta"
+hash = "28f4dd465a6e7500efdc8d737d8ee58ea8b83ef0c22060bc7d85e0c5965fb1ce"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-pmmo-core/data/pmmo/config/autovalues.json"
 hash = "c76be141f52bdb0afabfd8ab1046fb072407a67a27d1639913de56e5a2b8d2c3"
 
@@ -6132,11 +8075,11 @@ hash = "920e3eaf541ea7bf4c5131301f80866cdef8ec110e1207cea5a25b662784db38"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/connections.json"
-hash = "c4694c0991d48961b44e161dc7c33a084877c38fcbc71132bcaf517014349325"
+hash = "af4c19beacc1f823c277517b9b025afcd94e94846d93eed239b2046e37c9d333"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/definitions.json"
-hash = "fe9b1b18ee8640812257fdc3b890ac311aa6d13a0cc746f322947e973f3a41b6"
+hash = "d87f24d6ddce464c1f3645e3e2d21c48ebc583aad2f1066ec8097b975315940c"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/experience.json"
@@ -6144,7 +8087,27 @@ hash = "241dd526327a9e71589fee132941636c37d6be062dbcdc8b21606aed66b755a8"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/skills.json"
-hash = "3bf00fd137c451f9a3405652b3f2c700260c828c2c4600480cfe8d37cb8a4bdf"
+hash = "60320c5332c18413f6210e32ee05cffc959b12606610315cda52eb08c03ef09e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/category.json"
+hash = "88524435b99d6fc30b2e3acc9d39f80c0e4c056a0ee7b83981cfd45495bfa446"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/connections.json"
+hash = "743c4762b5aae5f95fca6a412974b44a9ecbe9a7aa5c2789ec5f6d4ed3c962d3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/definitions.json"
+hash = "b90ee845f7948ee17221d9153bc75ceb6ccf9bff34c6f602d1418acf58fefef9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/experience.json"
+hash = "2413aa8b01a945c6df18078206a19874ae14b524488e74a7ce5601b1f902874b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/skills.json"
+hash = "c511ced2c776c61aca5290d8cc64e08d5d14c07ca7f86c42923fb61a92913b6b"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/category.json"
@@ -6152,11 +8115,11 @@ hash = "e4e322edd34f99699dc7faa01fb3a8cdfc5c13a06ccd92499ee4f0e756eeba1e"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/connections.json"
-hash = "6e7ef8ac08e6297ad42e4a5c5fc8509a7f69ce7bad637a51424c900d9f5a3bdc"
+hash = "91f734d63882c01e4c99a67762ad90cf4db7ea7e220e072d30491b3606085b07"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/definitions.json"
-hash = "6e360cb624da0fac571c5e468d474caad96988bd1a222820b44077cf1d7be0fc"
+hash = "b7494d39409b3bead359303e9821e542801b408dc47b06f726396e2df774bef7"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/experience.json"
@@ -6164,7 +8127,7 @@ hash = "d185dd07f44c396feb8b91539984c92e7e7e3caf999942df2e247effc98da8a5"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/skills.json"
-hash = "1a89ee90ccafb350444634856ce32386d68e8f7c4bd8ea55c4e8cd57adefb21b"
+hash = "6be90fafefa2255064a4deed942847882d1752e235df88d33e2dda20eb3d75b8"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/category.json"
@@ -6172,11 +8135,11 @@ hash = "d9dfcfd054141cd685c84a8f877f8c2cf1f0fb0a5eba826d82319e0d1e36c391"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/connections.json"
-hash = "1212b092443545eb9b764bc4018bed3c40d3f14151eb189a561a5b8ec762bee3"
+hash = "80d93c58245976d1653694bf517550f6915b9444d1f96b8051976dae583a751d"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/definitions.json"
-hash = "851b754669eaa44999321d08672bf0bc06d0efa500c97b9d9dfbcd55ef95575a"
+hash = "d300ec5482d491bbf53cccf102001972106333272743aef45155a5c3b1e9d61c"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/experience.json"
@@ -6184,11 +8147,31 @@ hash = "1b66b17df2e2a023f4c8164cbaf90d5e18bb7f66f1dd47eefcaa6160b589b5c7"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/skills.json"
-hash = "fdfaedb60f44541cd5547d581dc72d11eb7f2046d56c029f0aaa764cbf85402d"
+hash = "a556daaf7363606b556787c3110d283c1af8846262fb0f7e0e2b8f444f75ac8d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/category.json"
+hash = "39bbd794389e9b469c4b5b4a39718f10623b6f8e7dcadd4d203ac24691559fa1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/connections.json"
+hash = "418d994b702f9bbdf3bcab8fa6bcd84f92e8c21b835465fe1221c8289c8ee421"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/definitions.json"
+hash = "459eb2c3965c6ff260d8f1ef5a9ff279309e2936d7d73720061d200e042db54b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/experience.json"
+hash = "2413aa8b01a945c6df18078206a19874ae14b524488e74a7ce5601b1f902874b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/skills.json"
+hash = "219a81144ecc051dfdbae7b01d8fe2105b16963b6b196d63fec532a848f15aec"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/config.json"
-hash = "ca353f3d1e2c5c4410ad4a2148d4142f7179a10b9e1d21c03fcb85feb1c0c095"
+hash = "4c41332fc12c63b201c7116f153268a1be2274e100d779c3783c8b17f886ebc3"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"
