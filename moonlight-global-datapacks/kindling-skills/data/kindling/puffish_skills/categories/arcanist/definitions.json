@@ -26,7 +26,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 10,
           "operation": "addition"
         }
@@ -60,7 +60,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 25,
           "operation": "addition"
         }
@@ -94,7 +94,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:mana_regen",
+          "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
           "value": 1,
           "operation": "addition"
         }
@@ -240,7 +240,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "ars_nouveau:max_mana",
+          "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 50,
           "operation": "addition"
         }
