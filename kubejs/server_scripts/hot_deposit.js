@@ -80,7 +80,8 @@ function stash(player, level, server) {
     if (stack.hasTag(NEVER_TAG) || keep.indexOf(String(stack.id)) >= 0) continue
     const cat = stack.getMaxStackSize() <= 1 ? gearCategory(stack) : null
     if (stack.getMaxStackSize() <= 1 && !cat) continue
-    for (const t of handlers) {
+    for (let hi = 0; hi < handlers.length; hi++) {
+      const t = handlers[hi]
       let holds = false
       for (let s = 0; s < t.h.getSlots() && !holds; s++) {
         const there = t.h.getStackInSlot(s)
@@ -98,7 +99,9 @@ function stash(player, level, server) {
     }
   }
   let into = 0
-  for (const t of handlers) if (t.got > 0) {
+  for (let hi = 0; hi < handlers.length; hi++) {
+    const t = handlers[hi]
+    if (t.got <= 0) continue
     into++
     server.runCommandSilent(`execute in ${String(level.dimension)} run particle minecraft:happy_villager ${t.x + 0.5} ${t.y + 1.0} ${t.z + 0.5} 0.25 0.2 0.25 0 6`)
   }
