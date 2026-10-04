@@ -4688,6 +4688,10 @@ file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
+file = "kubejs/startup_scripts/kindling_skill_xp.js"
+hash = "c815beef8e3fa9c3ae606ad443174b5e4684ee0e237b1e4cc582d8df2fa33c1d"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
@@ -8095,7 +8099,7 @@ hash = "743c4762b5aae5f95fca6a412974b44a9ecbe9a7aa5c2789ec5f6d4ed3c962d3"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/definitions.json"
-hash = "b90ee845f7948ee17221d9153bc75ceb6ccf9bff34c6f602d1418acf58fefef9"
+hash = "8e1bc804a5eaa01b6c7aa92c18f91f27007dd7bc000fd34634f0a698694b09b2"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/experience.json"
