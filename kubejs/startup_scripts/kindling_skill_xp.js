@@ -22,9 +22,9 @@ function grant(player, tree, amount) {
 // ---------- Trainer (Cobblemon events) ----------
 try {
   let KCobbleEvents = Java.loadClass('com.cobblemon.mod.common.api.events.CobblemonEvents')
-  let KCobblePriority = Java.loadClass('com.cobblemon.mod.common.api.Priority')
 
-  KCobbleEvents.POKEMON_CAPTURED.subscribe(KCobblePriority.NORMAL, e => {
+  // subscribe(Consumer) only: the (Priority, fn) form matches two Java overloads and Rhino refuses it
+  KCobbleEvents.POKEMON_CAPTURED.subscribe(e => {
     let mon = e.getPokemon()
     let xp = 10
     try { if (mon.getShiny()) xp *= 3 } catch (x) {}
@@ -32,11 +32,11 @@ try {
     grant(e.getPlayer(), 'trainer', xp)
   })
 
-  KCobbleEvents.EVOLUTION_COMPLETE.subscribe(KCobblePriority.NORMAL, e => {
+  KCobbleEvents.EVOLUTION_COMPLETE.subscribe(e => {
     try { grant(e.getPokemon().getOwnerPlayer(), 'trainer', 15) } catch (x) {}
   })
 
-  KCobbleEvents.BATTLE_VICTORY.subscribe(KCobblePriority.NORMAL, function (e) {
+  KCobbleEvents.BATTLE_VICTORY.subscribe(function (e) {
     try {
       var vsNpc = false
       var losers = e.getLosers()
