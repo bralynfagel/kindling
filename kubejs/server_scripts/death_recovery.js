@@ -19,7 +19,7 @@ const pending = {}
 // a ResourceKey ("ResourceKey[minecraft:dimension / minecraft:overworld]") or a getter.
 function dimId(v) {
   try { if (typeof v === 'function') v = v() } catch (e) {}
-  const m = String(v).match(/([a-z0-9_.-]+:[a-z0-9_.\/-]+)\]?$/)
+  let m = String(v).match(/([a-z0-9_.-]+:[a-z0-9_.\/-]+)\]?$/)
   return m ? m[1] : 'minecraft:overworld'
 }
 
@@ -27,13 +27,13 @@ function dimId(v) {
 // DamageSource.getMsgId(), but the type record and toString ("DamageSource (lava)") both carry it.
 function causeOf(source) {
   try { return String(source.type().msgId()) } catch (e) {}
-  const m = String(source).match(/\(([^)]+)\)/)
+  let m = String(source).match(/\(([^)]+)\)/)
   return m ? m[1] : ''
 }
 
 EntityEvents.death('minecraft:player', event => {
-  const player = event.entity
-  const entry = { compasses: 0, returnTo: null }
+  let player = event.entity
+  let entry = { compasses: 0, returnTo: null }
   pending[String(player.uuid)] = entry
   // Each step guarded on its own: a KubeJS naming surprise in one must not skip the others.
   try {
@@ -42,25 +42,25 @@ EntityEvents.death('minecraft:player', event => {
     }
   } catch (e) { console.error('death_recovery: respawn point: ' + e) }
   try {
-    const inv = player.inventory
+    let inv = player.inventory
     for (let i = 0; i < inv.containerSize; i++) {
-      const stack = inv.getItem(i)
+      let stack = inv.getItem(i)
       if (stack.id == COMPASS) { entry.compasses += stack.count; inv.setItem(i, Item.empty) }
     }
   } catch (e) { console.error('death_recovery: compass: ' + e) }
 })
 
 PlayerEvents.respawned(event => {
-  const player = event.player
-  const key = String(player.uuid)
-  const p = pending[key]
+  let player = event.player
+  let key = String(player.uuid)
+  let p = pending[key]
   if (!p) return // e.g. leaving the End, not a death
   delete pending[key]
-  const name = player.username
+  let name = player.username
   event.server.scheduleInTicks(2, () => {
     if (p.compasses > 0) event.server.runCommandSilent(`give ${name} ${COMPASS} ${p.compasses}`)
     if (p.returnTo) {
-      const r = p.returnTo
+      let r = p.returnTo
       event.server.runCommandSilent(`execute in ${r.dim} run tp ${name} ${r.x} ${r.y} ${r.z}`)
       event.server.runCommandSilent(`effect give ${name} minecraft:resistance 5 4 true`)
       player.tell(Text.aqua('You wake where you fell. Your things are in the grave beside you.'))
@@ -69,18 +69,18 @@ PlayerEvents.respawned(event => {
 })
 
 ItemEvents.rightClicked(COMPASS, event => {
-  const player = event.player
+  let player = event.player
   if (!player.isShiftKeyDown()) return // plain use keeps vanilla behaviour
-  const item = event.item.item
+  let item = event.item.item
   if (player.cooldowns.isOnCooldown(item)) return
-  const death = player.getLastDeathLocation()
+  let death = player.getLastDeathLocation()
   if (!death.isPresent()) {
     player.tell(Text.gray('The needle spins. You have not died yet.'))
     event.cancel()
     return
   }
-  const gp = death.get()
-  const pos = gp.pos()
+  let gp = death.get()
+  let pos = gp.pos()
   if (pos.y < -64) {
     player.tell(Text.gray('The needle points into the void. Not even the compass can follow.'))
     event.cancel()

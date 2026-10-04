@@ -28,7 +28,7 @@ const ArmorItem = C('ArmorItem'), ShieldItem = C('ShieldItem'), BowItem = C('Bow
 
 // Category for non-stackable gear, or null (never stashed).
 function gearCategory(stack) {
-  const it = stack.item
+  let it = stack.item
   if (it instanceof ArmorItem) return 'armor:' + String(it.getType().getName())
   if (it instanceof ShieldItem) return 'shield'
   if (it instanceof BowItem || it instanceof CrossbowItem) return 'ranged'
@@ -59,39 +59,39 @@ function saveKeep(server, player, list) {
 }
 
 function stash(player, level, server) {
-  const keep = keepList(server, player)
-  const px = Math.floor(player.x), py = Math.floor(player.y), pz = Math.floor(player.z)
-  const handlers = []
+  let keep = keepList(server, player)
+  let px = Math.floor(player.x), py = Math.floor(player.y), pz = Math.floor(player.z)
+  let handlers = []
   for (let x = px - STASH_H; x <= px + STASH_H; x++)
     for (let y = py - STASH_V; y <= py + STASH_V; y++)
       for (let z = pz - STASH_H; z <= pz + STASH_H; z++) {
-        const b = level.getBlock(x, y, z)
+        let b = level.getBlock(x, y, z)
         if (!isStashTarget(String(b.id))) continue
-        const h = level.getCapability(ItemCaps.BLOCK, b.pos, null)
+        let h = level.getCapability(ItemCaps.BLOCK, b.pos, null)
         if (h) handlers.push({ h: h, x: x, y: y, z: z, got: 0 })
       }
   if (handlers.length == 0) return { moved: 0, into: 0 }
 
-  const inv = player.inventory
+  let inv = player.inventory
   let moved = 0
   for (let i = 9; i < 36; i++) {           // main inventory only: 0-8 hotbar, 36-39 armor, 40 offhand
     let stack = inv.getItem(i)
     if (stack.isEmpty()) continue
     if (stack.hasTag(NEVER_TAG) || keep.indexOf(String(stack.id)) >= 0) continue
-    const cat = stack.getMaxStackSize() <= 1 ? gearCategory(stack) : null
+    let cat = stack.getMaxStackSize() <= 1 ? gearCategory(stack) : null
     if (stack.getMaxStackSize() <= 1 && !cat) continue
     for (let hi = 0; hi < handlers.length; hi++) {
-      const t = handlers[hi]
+      let t = handlers[hi]
       let holds = false
       for (let s = 0; s < t.h.getSlots() && !holds; s++) {
-        const there = t.h.getStackInSlot(s)
+        let there = t.h.getStackInSlot(s)
         if (there.isEmpty()) continue
         holds = cat ? gearCategory(there) == cat : ItemStack.isSameItemSameComponents(there, stack)
       }
       if (!holds) continue
-      const before = stack.getCount()
-      const rest = ItemHandlerHelper.insertItemStacked(t.h, stack.copy(), false)
-      const n = before - rest.getCount()
+      let before = stack.getCount()
+      let rest = ItemHandlerHelper.insertItemStacked(t.h, stack.copy(), false)
+      let n = before - rest.getCount()
       if (n > 0) { t.got += n; moved += n }
       inv.setItem(i, rest)
       stack = rest
@@ -100,7 +100,7 @@ function stash(player, level, server) {
   }
   let into = 0
   for (let hi = 0; hi < handlers.length; hi++) {
-    const t = handlers[hi]
+    let t = handlers[hi]
     if (t.got <= 0) continue
     into++
     server.runCommandSilent(`execute in ${String(level.dimension)} run particle minecraft:happy_villager ${t.x + 0.5} ${t.y + 1.0} ${t.z + 0.5} 0.25 0.2 0.25 0 6`)
@@ -109,7 +109,7 @@ function stash(player, level, server) {
 }
 
 BlockEvents.rightClicked(event => {
-  const player = event.player
+  let player = event.player
   if (!player || !player.isShiftKeyDown()) return
   if (String(event.hand) != 'MAIN_HAND' || !player.mainHandItem.isEmpty()) return
   if (!isStashTarget(String(event.block.id))) return
@@ -117,8 +117,8 @@ BlockEvents.rightClicked(event => {
   let r
   try { r = stash(player, event.level, event.server) }
   catch (e) { console.error('hot_deposit: ' + e); return }
-  const name = player.username
-  const msg = r.moved > 0
+  let name = player.username
+  let msg = r.moved > 0
     ? `Stashed ${r.moved} item${r.moved == 1 ? '' : 's'} into ${r.into} container${r.into == 1 ? '' : 's'}`
     : 'Nothing to stash: no nearby container holds what you are carrying'
   event.server.runCommandSilent(`title ${name} actionbar {"text":"${msg}","color":"${r.moved > 0 ? 'aqua' : 'gray'}"}`)
@@ -126,28 +126,28 @@ BlockEvents.rightClicked(event => {
 })
 
 ServerEvents.commandRegistry(event => {
-  const { commands: Commands } = event
-  const held = ctx => String(ctx.source.getPlayerOrException().mainHandItem.id)
+  let { commands: Commands } = event
+  let held = ctx => String(ctx.source.getPlayerOrException().mainHandItem.id)
   event.register(Commands.literal('stash')
     .then(Commands.literal('keep').executes(ctx => {
-      const p = ctx.source.getPlayerOrException(), id = held(ctx)
+      let p = ctx.source.getPlayerOrException(), id = held(ctx)
       if (id == 'minecraft:air') { p.tell(Text.gray('Hold the item you want to keep.')); return 0 }
-      const list = keepList(ctx.source.server, p)
+      let list = keepList(ctx.source.server, p)
       if (list.indexOf(id) < 0) list.push(id)
       saveKeep(ctx.source.server, p, list)
       p.tell(Text.aqua(`Hot deposit will leave ${id} with you.`)); return 1
     }))
     .then(Commands.literal('unkeep').executes(ctx => {
-      const p = ctx.source.getPlayerOrException(), id = held(ctx)
+      let p = ctx.source.getPlayerOrException(), id = held(ctx)
       saveKeep(ctx.source.server, p, keepList(ctx.source.server, p).filter(x => x != id))
       p.tell(Text.aqua(`${id} can be stashed again.`)); return 1
     }))
     .then(Commands.literal('list').executes(ctx => {
-      const p = ctx.source.getPlayerOrException(), list = keepList(ctx.source.server, p)
+      let p = ctx.source.getPlayerOrException(), list = keepList(ctx.source.server, p)
       p.tell(Text.aqua(list.length ? 'Kept: ' + list.join(', ') : 'Your keep list is empty.')); return 1
     }))
     .then(Commands.literal('clear').executes(ctx => {
-      const p = ctx.source.getPlayerOrException()
+      let p = ctx.source.getPlayerOrException()
       saveKeep(ctx.source.server, p, [])
       p.tell(Text.aqua('Keep list cleared.')); return 1
     })))
