@@ -4,7 +4,7 @@
 // radial-menu slot (which presses the control virtually) never fired it. Instead, every
 // client tick read the control itself: consumeClick() catches keyboard and radial presses,
 // the isDown edge catches anything that only holds it down. One command per press.
-let KINDLING_KEYS = { 'key.kubejs.go_back_to_last_death': 'back', 'key.kubejs.go_to_home': 'home' }
+let KINDLING_KEYS = { 'key.kubejs.go_back_to_last_death': 'back', 'key.kubejs.go_to_home': 'home', 'key.kubejs.hot_deposit': 'stash' }
 let kindlingKeyState = {}   // name -> { mapping, wasDown }
 
 ClientEvents.tick(event => {
