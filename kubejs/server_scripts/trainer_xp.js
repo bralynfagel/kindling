@@ -3,8 +3,10 @@
 //
 // Subscribed once, after the server has loaded (single-threaded). NOT in a startup script:
 // subscribing during mod construction races other mods' subscriptions and corrupts
-// Cobblemon's listener list (client crash 2026-10-04). global.* survives /reload, so the
-// guard stops a reload from subscribing twice. subscribe(Consumer) only: the
+// Cobblemon's listener list (client crash 2026-10-04). Server scripts cannot assign to
+// global, so the once-only guard is a Java map that the startup script puts in
+// global.kindlingFlags; it survives /reload and a second singleplayer world.
+// subscribe(Consumer) only: the
 // (Priority, fn) form matches two Java overloads and Rhino refuses it.
 
 function trainerXp(player, amount) {
@@ -15,7 +17,8 @@ function trainerXp(player, amount) {
 }
 
 ServerEvents.loaded(event => {
-  if (global.kindlingTrainerHooked) return
+  let flags = global.kindlingFlags
+  if (flags && flags.containsKey('trainerHooked')) return
   try {
     let CobbleEvents = Java.loadClass('com.cobblemon.mod.common.api.events.CobblemonEvents')
     let server = event.server
@@ -49,7 +52,8 @@ ServerEvents.loaded(event => {
       } catch (x) { console.warn('trainer_xp battle: ' + x) }
     })
 
-    global.kindlingTrainerHooked = true
+    if (flags) flags.put('trainerHooked', true)
+    else console.warn('trainer_xp: no global.kindlingFlags (startup script missing?); a second world load would double XP')
     console.info('trainer_xp: Cobblemon hooks registered')
   } catch (e) { console.error('trainer_xp: Cobblemon hooks failed: ' + e) }
 })
