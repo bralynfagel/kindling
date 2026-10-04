@@ -4689,11 +4689,11 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
 file = "kubejs/server_scripts/trainer_xp.js"
-hash = "08772f37fbeb9ece99ffec71bfd81a068ba9c54158be6db4f93aa64fa83b3f0f"
+hash = "587cc4a655e1195ca8a5f9b6f5cb4bf9e17510e6d597db4c5271d29f309ec58f"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
-hash = "e3fc2698123306a8f5ae1624869755737f7c0f9a2cffcf93dee1ec5e096e80ed"
+hash = "5eed34f3d86e5a46d13edcab66b5bb3e07ae87ef35c4c46a1b3d399d1e402488"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
