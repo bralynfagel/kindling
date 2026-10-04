@@ -8,7 +8,7 @@
 //   chestplates, leggings, boots, melee weapons, ranged weapons, shields, pickaxes, axes,
 //   shovels, hoes. Put one in a chest and that chest becomes the home for its kind.
 //
-// Never moved: hotbar, worn armor, offhand, Curios slots, storage items (backpacks, pouches,
+// Never moved: hotbar, worn armor, offhand, Curios slots, Recovery Compasses, storage items (backpacks, pouches,
 // shulkers, bundles) and other non-stackables outside those categories, the
 // #kindling:never_stash tag, and items on your personal keep list:
 //     /stash keep     (adds the item in your main hand)   /stash unkeep   /stash list   /stash clear
@@ -51,7 +51,7 @@ function isStashTarget(id) {
 }
 
 ServerEvents.tags('item', event => {
-  event.add(NEVER_TAG, ['#c:shulker_boxes', 'minecraft:bundle', '@sophisticatedbackpacks'])
+  event.add(NEVER_TAG, ['#c:shulker_boxes', 'minecraft:bundle', '@sophisticatedbackpacks', 'minecraft:recovery_compass'])
 })
 
 function keepList(server, player) {
