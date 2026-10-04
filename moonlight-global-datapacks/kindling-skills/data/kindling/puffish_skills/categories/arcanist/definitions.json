@@ -1,11 +1,11 @@
 {
-  "hardy": {
-    "title": "Hardy",
-    "description": "+1 heart",
+  "spark": {
+    "title": "Spark",
+    "description": "+10 max mana",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:apple"
+        "item": "minecraft:amethyst_shard"
       }
     },
     "frame": {
@@ -18,236 +18,28 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.max_health",
-          "value": 2,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "edge": {
-    "title": "Honed Edge",
-    "description": "+0.5 attack damage",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:stone_sword"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.attack_damage",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "tempo": {
-    "title": "Tempo",
-    "description": "+5% attack speed",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:feather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.attack_speed",
-          "value": 0.05,
-          "operation": "multiply_base"
-        }
-      }
-    ]
-  },
-  "reach": {
-    "title": "Long Arm",
-    "description": "+0.5 attack reach",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:stick"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "player.entity_interaction_range",
-          "value": 0.5,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "hide": {
-    "title": "Tough Hide",
-    "description": "+1 armor",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:leather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.armor",
-          "value": 1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "footing": {
-    "title": "Sure Footing",
-    "description": "+10% knockback resistance",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:iron_boots"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.knockback_resistance",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "stride": {
-    "title": "Hunter's Stride",
-    "description": "+5% movement speed",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:rabbit_foot"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.movement_speed",
-          "value": 0.05,
-          "operation": "multiply_base"
-        }
-      }
-    ]
-  },
-  "vigor": {
-    "title": "Vigor",
-    "description": "+1 heart",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:golden_apple"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 2,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "resolve": {
-    "title": "Hunter's Resolve",
-    "description": "+2 hearts and +1 attack damage. The capstone.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:diamond_sword"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "challenge"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 4,
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 10,
           "operation": "addition"
         }
       },
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.attack_damage",
-          "value": 1,
+          "attribute": "ars_nouveau:max_mana",
+          "value": 10,
           "operation": "addition"
         }
       }
     ]
   },
-  "keen": {
-    "title": "Keen Strikes",
-    "description": "+3% crit chance",
+  "pool": {
+    "title": "Deep Pool",
+    "description": "+25 max mana",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:flint"
+        "item": "minecraft:lapis_lazuli"
       }
     },
     "frame": {
@@ -260,20 +52,28 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "apothic_attributes:crit_chance",
-          "value": 0.03,
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:max_mana",
+          "value": 25,
           "operation": "addition"
         }
       }
     ]
   },
-  "brutal": {
-    "title": "Brutal",
-    "description": "+10% crit damage",
+  "flow": {
+    "title": "Flow",
+    "description": "+10% mana regen",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:bone"
+        "item": "minecraft:glow_berries"
       }
     },
     "frame": {
@@ -286,163 +86,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "apothic_attributes:crit_damage",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "sunder": {
-    "title": "Sunder",
-    "description": "+2 armor pierce",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:iron_axe"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:armor_pierce",
-          "value": 2,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "exec": {
-    "title": "Executioner",
-    "description": "+3% current-health damage",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:netherite_sword"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:current_hp_damage",
-          "value": 0.03,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "draw": {
-    "title": "Steady Draw",
-    "description": "+10% draw speed",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:bow"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:draw_speed",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "fletch": {
-    "title": "Fletcher",
-    "description": "+10% arrow damage",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:arrow"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:arrow_damage",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "swift": {
-    "title": "Swift Shafts",
-    "description": "+10% arrow velocity",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:feather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:arrow_velocity",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "deadeye": {
-    "title": "Deadeye",
-    "description": "+10% projectile damage, +5% crit chance. Ranger capstone.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:crossbow"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "challenge"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:projectile_damage",
+          "attribute": "irons_spellbooks:mana_regen",
           "value": 0.1,
           "operation": "addition"
         }
@@ -450,16 +94,94 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "apothic_attributes:crit_chance",
+          "attribute": "ars_nouveau:mana_regen",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "focus": {
+    "title": "Focus",
+    "description": "+5% spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
           "value": 0.05,
           "operation": "addition"
         }
       }
     ]
   },
-  "bulwark": {
-    "title": "Bulwark",
-    "description": "+1 armor toughness",
+  "quick": {
+    "title": "Quickening",
+    "description": "+5% cooldown reduction",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fluent": {
+    "title": "Fluent Casting",
+    "description": "+5% cast time reduction",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ward": {
+    "title": "Warding",
+    "description": "+5% spell resistance",
     "icon": {
       "type": "item",
       "data": {
@@ -476,72 +198,20 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor_toughness",
-          "value": 1,
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.05,
           "operation": "addition"
         }
       }
     ]
   },
-  "wind": {
-    "title": "Second Wind",
-    "description": "+10% healing received",
+  "archmage": {
+    "title": "Archmage",
+    "description": "+10% spell power, +50 max mana. The capstone.",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:golden_apple"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:healing_received",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "evade": {
-    "title": "Evasion",
-    "description": "+3% dodge chance",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:phantom_membrane"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:dodge_chance",
-          "value": 0.03,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "unbroken": {
-    "title": "Unbroken",
-    "description": "+2 armor, +10% knockback resistance. Guardian capstone.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:netherite_chestplate"
+        "item": "minecraft:nether_star"
       }
     },
     "frame": {
@@ -554,24 +224,162 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor",
-          "value": 2,
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
           "operation": "addition"
         }
       },
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.knockback_resistance",
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 50,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ars_nouveau:max_mana",
+          "value": 50,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_fire": {
+    "title": "Fire Affinity",
+    "description": "+10% fire spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
           "value": 0.1,
           "operation": "addition"
         }
       }
     ]
   },
-  "leech": {
-    "title": "Leech",
-    "description": "+2% life steal",
+  "school_ice": {
+    "title": "Ice Affinity",
+    "description": "+10% ice spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_lightning": {
+    "title": "Lightning Affinity",
+    "description": "+10% lightning spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_holy": {
+    "title": "Holy Affinity",
+    "description": "+10% holy spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_ender": {
+    "title": "Ender Affinity",
+    "description": "+10% ender spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_blood": {
+    "title": "Blood Affinity",
+    "description": "+10% blood spell power",
     "icon": {
       "type": "item",
       "data": {
@@ -588,8 +396,86 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "apothic_attributes:life_steal",
-          "value": 0.02,
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_evocation": {
+    "title": "Evocation Affinity",
+    "description": "+10% evocation spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_nature": {
+    "title": "Nature Affinity",
+    "description": "+10% nature spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_eldritch": {
+    "title": "Eldritch Affinity",
+    "description": "+10% eldritch spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sculk"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "value": 0.1,
           "operation": "addition"
         }
       }

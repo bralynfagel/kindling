@@ -1,0 +1,10 @@
+{
+  "level_limit": 30,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "level * 15 + 25"
+    }
+  },
+  "sources": []
+}

@@ -7,34 +7,90 @@
       ],
       [
         "haste",
+        "haste2"
+      ],
+      [
+        "haste2",
+        "pmast1"
+      ],
+      [
+        "pmast1",
+        "pmast2"
+      ],
+      [
+        "pmast2",
+        "pmast3"
+      ],
+      [
+        "pmast3",
+        "deep"
+      ],
+      [
+        "pick",
+        "vein1"
+      ],
+      [
+        "vein1",
+        "vein2"
+      ],
+      [
+        "vein2",
+        "vein3"
+      ],
+      [
+        "vein3",
+        "vein4"
+      ],
+      [
+        "vein4",
+        "deep"
+      ],
+      [
+        "pick",
         "reachb"
       ],
       [
         "reachb",
-        "haste2"
-      ],
-      [
-        "pick",
         "lungs"
       ],
       [
         "lungs",
+        "lungs2"
+      ],
+      [
+        "lungs2",
         "fall"
       ],
       [
         "fall",
+        "fall2"
+      ],
+      [
+        "fall2",
         "step"
       ],
       [
-        "haste2",
-        "luck"
+        "step",
+        "deep"
       ],
       [
-        "step",
+        "pick",
         "luck"
       ],
       [
         "luck",
+        "luck2"
+      ],
+      [
+        "luck2",
+        "lore1"
+      ],
+      [
+        "lore1",
+        "lore2"
+      ],
+      [
+        "lore2",
         "deep"
       ]
     ]

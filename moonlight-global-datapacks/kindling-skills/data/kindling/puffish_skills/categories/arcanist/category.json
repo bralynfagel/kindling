@@ -1,0 +1,13 @@
+{
+  "title": "Arcanist",
+  "description": "Spellcraft. Levels from every spell you cast with Iron's Spellbooks or Ars Nouveau; bigger spells teach more.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "background": "textures/block/amethyst_block.png",
+  "unlocked_by_default": true,
+  "starting_points": 1
+}

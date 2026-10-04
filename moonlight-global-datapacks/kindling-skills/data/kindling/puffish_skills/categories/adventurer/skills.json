@@ -5,54 +5,154 @@
     "definition": "hardy",
     "root": true
   },
-  "edge": {
-    "x": -40,
-    "y": 30,
-    "definition": "edge"
-  },
-  "tempo": {
-    "x": -80,
-    "y": 60,
-    "definition": "tempo"
-  },
-  "edge2": {
-    "x": -40,
-    "y": 90,
-    "definition": "edge"
+  "vigor": {
+    "x": -140,
+    "y": 40,
+    "definition": "vigor"
   },
   "reach": {
-    "x": -80,
-    "y": 120,
+    "x": -140,
+    "y": 80,
     "definition": "reach"
   },
-  "hide": {
-    "x": 40,
-    "y": 30,
-    "definition": "hide"
-  },
-  "footing": {
-    "x": 80,
-    "y": 60,
-    "definition": "footing"
-  },
-  "hide2": {
-    "x": 40,
-    "y": 90,
-    "definition": "hide"
-  },
   "stride": {
-    "x": 80,
+    "x": -140,
     "y": 120,
     "definition": "stride"
   },
-  "vigor": {
+  "footing": {
+    "x": -140,
+    "y": 160,
+    "definition": "footing"
+  },
+  "edge": {
+    "x": -70,
+    "y": 40,
+    "definition": "edge"
+  },
+  "tempo": {
+    "x": -70,
+    "y": 80,
+    "definition": "tempo"
+  },
+  "edge2": {
+    "x": -70,
+    "y": 120,
+    "definition": "edge"
+  },
+  "keen1": {
+    "x": -70,
+    "y": 160,
+    "definition": "keen"
+  },
+  "keen2": {
+    "x": -70,
+    "y": 200,
+    "definition": "keen"
+  },
+  "brutal1": {
+    "x": -70,
+    "y": 240,
+    "definition": "brutal"
+  },
+  "brutal2": {
+    "x": -70,
+    "y": 280,
+    "definition": "brutal"
+  },
+  "sunder1": {
+    "x": -70,
+    "y": 320,
+    "definition": "sunder"
+  },
+  "sunder2": {
+    "x": -70,
+    "y": 360,
+    "definition": "sunder"
+  },
+  "exec": {
+    "x": -70,
+    "y": 400,
+    "definition": "exec"
+  },
+  "draw1": {
     "x": 0,
-    "y": 150,
-    "definition": "vigor"
+    "y": 40,
+    "definition": "draw"
+  },
+  "draw2": {
+    "x": 0,
+    "y": 80,
+    "definition": "draw"
+  },
+  "fletch1": {
+    "x": 0,
+    "y": 120,
+    "definition": "fletch"
+  },
+  "fletch2": {
+    "x": 0,
+    "y": 160,
+    "definition": "fletch"
+  },
+  "swift": {
+    "x": 0,
+    "y": 200,
+    "definition": "swift"
+  },
+  "deadeye": {
+    "x": 0,
+    "y": 240,
+    "definition": "deadeye"
+  },
+  "hide": {
+    "x": 70,
+    "y": 40,
+    "definition": "hide"
+  },
+  "hide2": {
+    "x": 70,
+    "y": 80,
+    "definition": "hide"
+  },
+  "bulwark1": {
+    "x": 70,
+    "y": 120,
+    "definition": "bulwark"
+  },
+  "bulwark2": {
+    "x": 70,
+    "y": 160,
+    "definition": "bulwark"
+  },
+  "wind": {
+    "x": 70,
+    "y": 200,
+    "definition": "wind"
+  },
+  "evade": {
+    "x": 70,
+    "y": 240,
+    "definition": "evade"
+  },
+  "unbroken": {
+    "x": 70,
+    "y": 280,
+    "definition": "unbroken"
+  },
+  "leech1": {
+    "x": 140,
+    "y": 40,
+    "definition": "leech"
+  },
+  "leech2": {
+    "x": 140,
+    "y": 80,
+    "definition": "leech"
   },
   "resolve": {
     "x": 0,
-    "y": 190,
+    "y": 460,
     "definition": "resolve"
   }
 }

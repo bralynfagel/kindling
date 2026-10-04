@@ -6,38 +6,68 @@
     "root": true
   },
   "builder": {
-    "x": -40,
-    "y": 30,
+    "x": -70,
+    "y": 40,
+    "definition": "builder"
+  },
+  "builder2": {
+    "x": -70,
+    "y": 80,
     "definition": "builder"
   },
   "sneak": {
-    "x": -80,
-    "y": 60,
+    "x": -70,
+    "y": 120,
     "definition": "sneak"
   },
-  "hearty": {
-    "x": 40,
-    "y": 30,
-    "definition": "hearty"
-  },
   "stroll": {
-    "x": 80,
-    "y": 60,
+    "x": -70,
+    "y": 160,
     "definition": "stroll"
   },
-  "fortune": {
+  "stroll2": {
+    "x": -70,
+    "y": 200,
+    "definition": "stroll"
+  },
+  "hearty": {
     "x": 0,
-    "y": 90,
-    "definition": "fortune"
+    "y": 40,
+    "definition": "hearty"
   },
   "hearty2": {
     "x": 0,
-    "y": 120,
+    "y": 80,
     "definition": "hearty"
+  },
+  "remedy1": {
+    "x": 0,
+    "y": 120,
+    "definition": "remedy"
+  },
+  "remedy2": {
+    "x": 0,
+    "y": 160,
+    "definition": "remedy"
+  },
+  "fortune": {
+    "x": 70,
+    "y": 40,
+    "definition": "fortune"
+  },
+  "fortune2": {
+    "x": 70,
+    "y": 80,
+    "definition": "fortune"
+  },
+  "patient": {
+    "x": 70,
+    "y": 120,
+    "definition": "patient"
   },
   "hearth": {
     "x": 0,
-    "y": 160,
+    "y": 260,
     "definition": "hearth"
   }
 }

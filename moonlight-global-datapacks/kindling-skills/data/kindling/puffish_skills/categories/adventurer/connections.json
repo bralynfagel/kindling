@@ -3,6 +3,26 @@
     "bidirectional": [
       [
         "hardy",
+        "vigor"
+      ],
+      [
+        "vigor",
+        "reach"
+      ],
+      [
+        "reach",
+        "stride"
+      ],
+      [
+        "stride",
+        "footing"
+      ],
+      [
+        "footing",
+        "resolve"
+      ],
+      [
+        "hardy",
         "edge"
       ],
       [
@@ -15,7 +35,63 @@
       ],
       [
         "edge2",
-        "reach"
+        "keen1"
+      ],
+      [
+        "keen1",
+        "keen2"
+      ],
+      [
+        "keen2",
+        "brutal1"
+      ],
+      [
+        "brutal1",
+        "brutal2"
+      ],
+      [
+        "brutal2",
+        "sunder1"
+      ],
+      [
+        "sunder1",
+        "sunder2"
+      ],
+      [
+        "sunder2",
+        "exec"
+      ],
+      [
+        "exec",
+        "resolve"
+      ],
+      [
+        "hardy",
+        "draw1"
+      ],
+      [
+        "draw1",
+        "draw2"
+      ],
+      [
+        "draw2",
+        "fletch1"
+      ],
+      [
+        "fletch1",
+        "fletch2"
+      ],
+      [
+        "fletch2",
+        "swift"
+      ],
+      [
+        "swift",
+        "deadeye"
+      ],
+      [
+        "deadeye",
+        "resolve"
       ],
       [
         "hardy",
@@ -23,26 +99,42 @@
       ],
       [
         "hide",
-        "footing"
-      ],
-      [
-        "footing",
         "hide2"
       ],
       [
         "hide2",
-        "stride"
+        "bulwark1"
       ],
       [
-        "reach",
-        "vigor"
+        "bulwark1",
+        "bulwark2"
       ],
       [
-        "stride",
-        "vigor"
+        "bulwark2",
+        "wind"
       ],
       [
-        "vigor",
+        "wind",
+        "evade"
+      ],
+      [
+        "evade",
+        "unbroken"
+      ],
+      [
+        "unbroken",
+        "resolve"
+      ],
+      [
+        "hardy",
+        "leech1"
+      ],
+      [
+        "leech1",
+        "leech2"
+      ],
+      [
+        "leech2",
         "resolve"
       ]
     ]

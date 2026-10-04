@@ -1,0 +1,13 @@
+{
+  "title": "Trainer",
+  "description": "Catching, battling and raising Pokemon. Levels from captures, battle wins and evolutions.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "cobblemon:poke_ball"
+    }
+  },
+  "background": "textures/block/moss_block.png",
+  "unlocked_by_default": true,
+  "starting_points": 1
+}

@@ -1,0 +1,128 @@
+{
+  "spark": {
+    "x": 0,
+    "y": 0,
+    "definition": "spark",
+    "root": true
+  },
+  "pool1": {
+    "x": -105,
+    "y": 40,
+    "definition": "pool"
+  },
+  "pool2": {
+    "x": -105,
+    "y": 80,
+    "definition": "pool"
+  },
+  "pool3": {
+    "x": -105,
+    "y": 120,
+    "definition": "pool"
+  },
+  "flow1": {
+    "x": -105,
+    "y": 160,
+    "definition": "flow"
+  },
+  "flow2": {
+    "x": -105,
+    "y": 200,
+    "definition": "flow"
+  },
+  "flow3": {
+    "x": -105,
+    "y": 240,
+    "definition": "flow"
+  },
+  "focus1": {
+    "x": -35,
+    "y": 40,
+    "definition": "focus"
+  },
+  "focus2": {
+    "x": -35,
+    "y": 80,
+    "definition": "focus"
+  },
+  "quick1": {
+    "x": -35,
+    "y": 120,
+    "definition": "quick"
+  },
+  "quick2": {
+    "x": -35,
+    "y": 160,
+    "definition": "quick"
+  },
+  "fluent1": {
+    "x": -35,
+    "y": 200,
+    "definition": "fluent"
+  },
+  "fluent2": {
+    "x": -35,
+    "y": 240,
+    "definition": "fluent"
+  },
+  "school_fire": {
+    "x": 35,
+    "y": 40,
+    "definition": "school_fire"
+  },
+  "school_ice": {
+    "x": 35,
+    "y": 80,
+    "definition": "school_ice"
+  },
+  "school_lightning": {
+    "x": 35,
+    "y": 120,
+    "definition": "school_lightning"
+  },
+  "school_holy": {
+    "x": 35,
+    "y": 160,
+    "definition": "school_holy"
+  },
+  "school_ender": {
+    "x": 35,
+    "y": 200,
+    "definition": "school_ender"
+  },
+  "school_blood": {
+    "x": 35,
+    "y": 240,
+    "definition": "school_blood"
+  },
+  "school_evocation": {
+    "x": 35,
+    "y": 280,
+    "definition": "school_evocation"
+  },
+  "school_nature": {
+    "x": 35,
+    "y": 320,
+    "definition": "school_nature"
+  },
+  "school_eldritch": {
+    "x": 35,
+    "y": 360,
+    "definition": "school_eldritch"
+  },
+  "ward1": {
+    "x": 105,
+    "y": 40,
+    "definition": "ward"
+  },
+  "ward2": {
+    "x": 105,
+    "y": 80,
+    "definition": "ward"
+  },
+  "archmage": {
+    "x": 0,
+    "y": 420,
+    "definition": "archmage"
+  }
+}

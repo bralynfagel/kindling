@@ -1,0 +1,83 @@
+{
+  "tstride": {
+    "x": 0,
+    "y": 0,
+    "definition": "tstride",
+    "root": true
+  },
+  "trail1": {
+    "x": -70,
+    "y": 40,
+    "definition": "trail"
+  },
+  "trail2": {
+    "x": -70,
+    "y": 80,
+    "definition": "trail"
+  },
+  "path": {
+    "x": -70,
+    "y": 120,
+    "definition": "path"
+  },
+  "land1": {
+    "x": -70,
+    "y": 160,
+    "definition": "land"
+  },
+  "land2": {
+    "x": -70,
+    "y": 200,
+    "definition": "land"
+  },
+  "senses1": {
+    "x": 0,
+    "y": 40,
+    "definition": "senses"
+  },
+  "senses2": {
+    "x": 0,
+    "y": 80,
+    "definition": "senses"
+  },
+  "senses3": {
+    "x": 0,
+    "y": 120,
+    "definition": "senses"
+  },
+  "notes1": {
+    "x": 0,
+    "y": 160,
+    "definition": "notes"
+  },
+  "notes2": {
+    "x": 0,
+    "y": 200,
+    "definition": "notes"
+  },
+  "season1": {
+    "x": 70,
+    "y": 40,
+    "definition": "season"
+  },
+  "season2": {
+    "x": 70,
+    "y": 80,
+    "definition": "season"
+  },
+  "season3": {
+    "x": 70,
+    "y": 120,
+    "definition": "season"
+  },
+  "steady": {
+    "x": 70,
+    "y": 160,
+    "definition": "steady"
+  },
+  "champ": {
+    "x": 0,
+    "y": 260,
+    "definition": "champ"
+  }
+}

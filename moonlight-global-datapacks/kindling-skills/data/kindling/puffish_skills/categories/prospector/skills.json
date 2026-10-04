@@ -6,43 +6,103 @@
     "root": true
   },
   "haste": {
-    "x": -40,
-    "y": 30,
+    "x": -105,
+    "y": 40,
     "definition": "haste"
-  },
-  "reachb": {
-    "x": -80,
-    "y": 60,
-    "definition": "reachb"
   },
   "haste2": {
-    "x": -40,
-    "y": 90,
+    "x": -105,
+    "y": 80,
     "definition": "haste"
   },
+  "pmast1": {
+    "x": -105,
+    "y": 120,
+    "definition": "pmast"
+  },
+  "pmast2": {
+    "x": -105,
+    "y": 160,
+    "definition": "pmast"
+  },
+  "pmast3": {
+    "x": -105,
+    "y": 200,
+    "definition": "pmast"
+  },
+  "vein1": {
+    "x": -35,
+    "y": 40,
+    "definition": "vein"
+  },
+  "vein2": {
+    "x": -35,
+    "y": 80,
+    "definition": "vein"
+  },
+  "vein3": {
+    "x": -35,
+    "y": 120,
+    "definition": "vein"
+  },
+  "vein4": {
+    "x": -35,
+    "y": 160,
+    "definition": "vein"
+  },
+  "reachb": {
+    "x": 35,
+    "y": 40,
+    "definition": "reachb"
+  },
   "lungs": {
-    "x": 40,
-    "y": 30,
+    "x": 35,
+    "y": 80,
+    "definition": "lungs"
+  },
+  "lungs2": {
+    "x": 35,
+    "y": 120,
     "definition": "lungs"
   },
   "fall": {
-    "x": 80,
-    "y": 60,
+    "x": 35,
+    "y": 160,
+    "definition": "fall"
+  },
+  "fall2": {
+    "x": 35,
+    "y": 200,
     "definition": "fall"
   },
   "step": {
-    "x": 40,
-    "y": 90,
+    "x": 35,
+    "y": 240,
     "definition": "step"
   },
   "luck": {
-    "x": 0,
-    "y": 120,
+    "x": 105,
+    "y": 40,
     "definition": "luck"
+  },
+  "luck2": {
+    "x": 105,
+    "y": 80,
+    "definition": "luck"
+  },
+  "lore1": {
+    "x": 105,
+    "y": 120,
+    "definition": "lore"
+  },
+  "lore2": {
+    "x": 105,
+    "y": 160,
+    "definition": "lore"
   },
   "deep": {
     "x": 0,
-    "y": 160,
+    "y": 300,
     "definition": "deep"
   }
 }

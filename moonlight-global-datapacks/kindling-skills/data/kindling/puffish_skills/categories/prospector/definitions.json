@@ -214,5 +214,83 @@
         }
       }
     ]
+  },
+  "pmast": {
+    "title": "Pick Mastery",
+    "description": "+10% mining speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:mining_speed",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "vein": {
+    "title": "Vein Sense",
+    "description": "+8 blocks per Ultimine",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ftbultimine:max_blocks_modifier",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lore": {
+    "title": "Ore Lore",
+    "description": "+10% experience gained",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:experience_gained",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
   }
 }

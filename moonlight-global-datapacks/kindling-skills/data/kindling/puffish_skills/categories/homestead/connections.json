@@ -7,7 +7,23 @@
       ],
       [
         "builder",
+        "builder2"
+      ],
+      [
+        "builder2",
         "sneak"
+      ],
+      [
+        "sneak",
+        "stroll"
+      ],
+      [
+        "stroll",
+        "stroll2"
+      ],
+      [
+        "stroll2",
+        "hearth"
       ],
       [
         "hands",
@@ -15,22 +31,34 @@
       ],
       [
         "hearty",
-        "stroll"
-      ],
-      [
-        "sneak",
-        "fortune"
-      ],
-      [
-        "stroll",
-        "fortune"
-      ],
-      [
-        "fortune",
         "hearty2"
       ],
       [
         "hearty2",
+        "remedy1"
+      ],
+      [
+        "remedy1",
+        "remedy2"
+      ],
+      [
+        "remedy2",
+        "hearth"
+      ],
+      [
+        "hands",
+        "fortune"
+      ],
+      [
+        "fortune",
+        "fortune2"
+      ],
+      [
+        "fortune2",
+        "patient"
+      ],
+      [
+        "patient",
         "hearth"
       ]
     ]

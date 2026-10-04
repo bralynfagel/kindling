@@ -1,11 +1,11 @@
 {
-  "hands": {
-    "title": "Handy",
-    "description": "+1 block reach",
+  "tstride": {
+    "title": "Trainer's Stride",
+    "description": "+3% move speed",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:crafting_table"
+        "item": "cobblemon:poke_ball"
       }
     },
     "frame": {
@@ -18,94 +18,16 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "player.block_interaction_range",
-          "value": 1,
+          "attribute": "generic.movement_speed",
+          "value": 0.003,
           "operation": "addition"
         }
       }
     ]
   },
-  "hearty": {
-    "title": "Well Fed",
-    "description": "+1 heart",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:bread"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 2,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "builder": {
-    "title": "Builder's Reach",
-    "description": "+1 block reach",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:scaffolding"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "player.block_interaction_range",
-          "value": 1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "sneak": {
-    "title": "Light Step",
-    "description": "+30% sneaking speed",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:white_wool"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "player.sneaking_speed",
-          "value": 0.3,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "stroll": {
-    "title": "Market Stroll",
-    "description": "+5% movement speed",
+  "trail": {
+    "title": "Trailblazer",
+    "description": "+3% move speed",
     "icon": {
       "type": "item",
       "data": {
@@ -123,19 +45,71 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.movement_speed",
-          "value": 0.05,
-          "operation": "multiply_base"
+          "value": 0.003,
+          "operation": "addition"
         }
       }
     ]
   },
-  "fortune": {
-    "title": "Good Fortune",
-    "description": "+1 luck — better fishing and loot",
+  "path": {
+    "title": "Pathfinder",
+    "description": "Step up full blocks",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:fishing_rod"
+        "item": "minecraft:oak_stairs"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.step_height",
+          "value": 0.4,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "land": {
+    "title": "Light Landing",
+    "description": "+3 blocks safe fall",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.safe_fall_distance",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "senses": {
+    "title": "Keen Senses",
+    "description": "+1 luck",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cobblemon:great_ball"
       }
     },
     "frame": {
@@ -155,13 +129,91 @@
       }
     ]
   },
-  "hearth": {
-    "title": "Heart of the Hearth",
-    "description": "+2 hearts, +1 luck, +1 reach. The capstone.",
+  "notes": {
+    "title": "Field Notes",
+    "description": "+10% experience gained",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:campfire"
+        "item": "minecraft:writable_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:experience_gained",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "season": {
+    "title": "Seasoned",
+    "description": "+1 heart",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "steady": {
+    "title": "Steady",
+    "description": "+10% knockback resistance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "champ": {
+    "title": "Champion",
+    "description": "+2 hearts, +1 luck, +5% move speed. The capstone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cobblemon:master_ball"
       }
     },
     "frame": {
@@ -190,60 +242,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "player.block_interaction_range",
-          "value": 1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "remedy": {
-    "title": "Home Remedies",
-    "description": "+10% healing received",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:honey_bottle"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:healing_received",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "patient": {
-    "title": "Patient Hands",
-    "description": "+10% experience gained",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:fishing_rod"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:experience_gained",
-          "value": 0.1,
+          "attribute": "generic.movement_speed",
+          "value": 0.005,
           "operation": "addition"
         }
       }
