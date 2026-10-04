@@ -4653,7 +4653,7 @@ hash = "cc147739b1f4ee94faecdb2d634528e1b5dd5cf76933b690899c293e29296d7e"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "b26d88f45e7d3b86f42c5abe56d52796a45684b267e7c1081939aed6ec2b524a"
+hash = "0eaebf5cbb840200cb6da68e3231930c0266365ed8f17f996990b08e943589d7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -4665,7 +4665,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/client_scripts/kindling_keys.js"
-hash = "459c83f193e01e681af612f01126d07de5033dadc5f491bdc2a08b7600da6168"
+hash = "24f49bce3b6e0a7fd49db1eaf58034b547bf963916a2913ebe8691287bfb7017"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -4701,7 +4701,7 @@ hash = "587cc4a655e1195ca8a5f9b6f5cb4bf9e17510e6d597db4c5271d29f309ec58f"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_keys.js"
-hash = "e088c8e794aac5a94e19416a975bf8c97378d41c8e193305dcaa4f484624e403"
+hash = "ea6b085b5c0893552576a7fc55f96e01c6945d29a862e0e717f5058fe0abc3da"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
