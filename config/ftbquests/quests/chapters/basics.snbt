@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: ""
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "6B1D3A57C0E2F481"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "6B1D3A57C0E2F482"
+			rewards: [
+				{
+					count: 20
+					id: "6B1D3A57C0E2F4C2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A2"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F482"
+			]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "6B1D3A57C0E2F483"
+			rewards: [
+				{
+					count: 10
+					id: "6B1D3A57C0E2F4C3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A3"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F483"
+			]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "6B1D3A57C0E2F484"
+			rewards: [
+				{
+					count: 20
+					id: "6B1D3A57C0E2F4C4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A4"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F482"
+			]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "6B1D3A57C0E2F485"
+			rewards: [
+				{
+					count: 2
+					id: "6B1D3A57C0E2F4C5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A5"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F485"
+			]
+			icon: {
+				id: "minecraft:recovery_compass"
+			}
+			id: "6B1D3A57C0E2F486"
+			rewards: [
+				{
+					count: 10
+					id: "6B1D3A57C0E2F4C6"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A6"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F482"
+			]
+			icon: {
+				id: "apotheosis:salvaging_table"
+			}
+			id: "6B1D3A57C0E2F487"
+			rewards: [
+				{
+					count: 3
+					id: "6B1D3A57C0E2F4C7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A7"
+					item: {
+						count: 1
+						id: "apotheosis:salvaging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F487"
+			]
+			icon: {
+				id: "apotheosis:simple_reforging_table"
+			}
+			id: "6B1D3A57C0E2F488"
+			rewards: [
+				{
+					count: 5
+					id: "6B1D3A57C0E2F4C8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A8"
+					item: {
+						count: 1
+						id: "apotheosis:simple_reforging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F488"
+			]
+			icon: {
+				id: "apotheosis:gem_cutting_table"
+			}
+			id: "6B1D3A57C0E2F489"
+			rewards: [
+				{
+					count: 5
+					id: "6B1D3A57C0E2F4C9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4A9"
+					item: {
+						count: 1
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F489"
+			]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "6B1D3A57C0E2F48A"
+			rewards: [
+				{
+					count: 1
+					id: "6B1D3A57C0E2F4CA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4AA"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B1D3A57C0E2F484"
+			]
+			icon: {
+				id: "lightmanscurrency:coin_emerald"
+			}
+			id: "6B1D3A57C0E2F48B"
+			rewards: [
+				{
+					count: 30
+					id: "6B1D3A57C0E2F4CB"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1D3A57C0E2F4AB"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+}

@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market"
+	group: ""
+	icon: {
+		id: "lightmanscurrency:coin_gold"
+	}
+	id: "1038D0AD4ECE7A4D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "lightmanscurrency:coin_copper"
+			}
+			id: "7AE3CCA2F1C8F159"
+			rewards: [
+				{
+					count: 20
+					id: "05CF11A553BAF8D5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "090F67F7032332DC"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					count: 10L
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7AE3CCA2F1C8F159"
+			]
+			id: "0B80D99568FA564C"
+			rewards: [
+				{
+					count: 1
+					id: "289DB756E628F671"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "655380B5DCE129BF"
+					item: {
+						count: 1
+						id: "lightmanscurrency:wallet_copper"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7AE3CCA2F1C8F159"
+			]
+			id: "6914F3F618BD7F46"
+			rewards: [
+				{
+					count: 3
+					id: "54840DE2DB119EA0"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0FA3D62E407B51B9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:display_case"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6914F3F618BD7F46"
+			]
+			id: "290AB97E63BB1C6B"
+			rewards: [
+				{
+					count: 3
+					id: "64A230550D88A225"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "27DF905BE1B769B5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:vending_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"290AB97E63BB1C6B"
+			]
+			id: "1079ADC681653FB9"
+			rewards: [
+				{
+					count: 1
+					id: "6585161B0AE9236E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "081443B2E56F1CBA"
+					item: {
+						count: 1
+						id: "lightmanscurrency:terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7AE3CCA2F1C8F159"
+			]
+			id: "5DE52B536C535972"
+			rewards: [
+				{
+					count: 2
+					id: "081D6452ACF492B4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "4C039805B543A85A"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5DE52B536C535972"
+			]
+			id: "29C0B076B00CE8E2"
+			rewards: [
+				{
+					count: 1
+					id: "07D5A7EC0400843A"
+					item: {
+						count: 1
+						id: "farmersdelight:flint_knife"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "00592CD6AEC18A6A"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7AE3CCA2F1C8F159"
+			]
+			id: "4F039727611BC086"
+			rewards: [
+				{
+					count: 2
+					id: "0DF9C7417600D5EB"
+					item: {
+						count: 1
+						id: "handcrafted:oak_chair"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "2820F479551FBA30"
+					item: {
+						count: 1
+						id: "handcrafted:oak_table"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"29C0B076B00CE8E2"
+			]
+			id: "6B128737481D1ED8"
+			rewards: [
+				{
+					count: 2
+					id: "32650CBF8695113B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "711D89676525F5ED"
+					item: {
+						count: 1
+						id: "sereneseasons:calendar"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.5d
+		}
+	]
+}

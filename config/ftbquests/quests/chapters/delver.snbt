@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "delver"
+	group: ""
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "1767CDB682DE69F4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "09E515574A3889F3"
+			rewards: [
+				{
+					count: 2
+					id: "11C5447FBF5D9BEC"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E808A80E438654E"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "1888F2B4F8E551E3"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09E515574A3889F3"
+			]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "5129BE1A08DF5129"
+			rewards: [
+				{
+					count: 2
+					id: "660AA4B8BC456358"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "minecraft:story/obtain_armor"
+					criterion: ""
+					id: "4D158A5216E93B43"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"09E515574A3889F3"
+			]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "30784F035FC8A107"
+			rewards: [
+				{
+					count: 32
+					id: "05C088E8F970F8E3"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					id: "0A468EB4D1E76D78"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5129BE1A08DF5129"
+			]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "19662AD01F85C93D"
+			rewards: [
+				{
+					count: 2
+					id: "6660C2ACDC7048E5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "minecraft:story/mine_diamond"
+					criterion: ""
+					id: "38CAC285DAAAC5FB"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"19662AD01F85C93D"
+			]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "7BA050781C5D41CC"
+			rewards: [
+				{
+					count: 2
+					id: "2464B8B10C6BF499"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "7BFF0E254BBA886F"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"30784F035FC8A107"
+			]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "0A08820A358F5567"
+			rewards: [
+				{
+					count: 3
+					id: "4ADE7E30AEB9E523"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "190EFA295046E261"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7BA050781C5D41CC"
+			]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "1C1EBD5257E80C06"
+			rewards: [
+				{
+					count: 5
+					id: "47B3D539A389AB3E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "2AE0268983A31C9B"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

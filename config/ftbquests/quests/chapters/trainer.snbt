@@ -1,0 +1,348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trainer"
+	group: ""
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "75ACCB0A36475529"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "1DCAB48505E13AC8"
+			rewards: [
+				{
+					count: 8
+					id: "0065BB5C8E2B8D61"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4204129FB1B6CC7B"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/first_catch"
+					criterion: ""
+					id: "5E7101568AA6395C"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DCAB48505E13AC8"
+			]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "3B9C741C90878B7F"
+			rewards: [
+				{
+					count: 5
+					id: "652FDEC1D3D66D7A"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/craft_basic_balls"
+					criterion: ""
+					id: "18DC21DCB4BA2380"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1DCAB48505E13AC8"
+			]
+			icon: {
+				id: "cobblemon:healing_machine"
+			}
+			id: "0D04CA52FC085979"
+			rewards: [
+				{
+					count: 2
+					id: "0F4C18D1132D2516"
+					item: {
+						count: 1
+						id: "cobblemon:super_potion"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:agriculture/use_healing_machine"
+					criterion: ""
+					id: "5D0E4BEEDF74B631"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1DCAB48505E13AC8"
+			]
+			icon: {
+				id: "cobblemon:oran_berry"
+			}
+			id: "423CB41EC9CAB8A4"
+			rewards: [
+				{
+					count: 4
+					id: "40FD96ACC307CF23"
+					item: {
+						count: 1
+						id: "cobblemon:oran_berry"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:agriculture/obtain_berry"
+					criterion: ""
+					id: "768AD53CA4680B46"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B9C741C90878B7F"
+			]
+			icon: {
+				id: "cobblemon:pokedex_red"
+			}
+			id: "034D54C70B738E5A"
+			rewards: [
+				{
+					count: 2
+					id: "720A67CD1534D3AE"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/craft_pokedex"
+					criterion: ""
+					id: "7F097184302ED3B3"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0D04CA52FC085979"
+			]
+			icon: {
+				id: "cobblemon:exp_candy_m"
+			}
+			id: "50B94D7784F72104"
+			rewards: [
+				{
+					count: 2
+					id: "36B32DFA174D5845"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/first_evolution"
+					criterion: ""
+					id: "2DEE188ADAC95110"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"423CB41EC9CAB8A4"
+			]
+			icon: {
+				id: "cobblemon:pasture"
+			}
+			id: "079D2C3E820FE51F"
+			rewards: [
+				{
+					count: 2
+					id: "06C0683E2B533E60"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/use_pasture"
+					criterion: ""
+					id: "5B8CAAE8C2424ED0"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"50B94D7784F72104"
+			]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "0A3310679678A43B"
+			rewards: [
+				{
+					count: 5
+					id: "54EBF7D1F9F245F0"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "1DF46535BA8EDF0B"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/full_party"
+					criterion: ""
+					id: "0B1283321D362FB0"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0A3310679678A43B"
+			]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "14864107CB2F68A4"
+			rewards: [
+				{
+					count: 1
+					id: "62FB7F5CB113FEA2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/ride_pokemon"
+					criterion: ""
+					id: "5DF9A8A961F23909"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0A3310679678A43B"
+			]
+			icon: {
+				id: "cobblemon:rare_candy"
+			}
+			id: "2C88373B0554F325"
+			rewards: [
+				{
+					count: 3
+					id: "5FAAE76F3EA734B2"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C042C52A16C8FC2"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					advancement: "cobblemon:catching/first_shiny_catch"
+					criterion: ""
+					id: "5D27285429705680"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+}
