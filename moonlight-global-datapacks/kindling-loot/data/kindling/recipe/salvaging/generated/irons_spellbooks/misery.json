@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "irons_spellbooks:misery"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 2,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "apotheosis:gem_dust"
+      }
+    }
+  ]
+}

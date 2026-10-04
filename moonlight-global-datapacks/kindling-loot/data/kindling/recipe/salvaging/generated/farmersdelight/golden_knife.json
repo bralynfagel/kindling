@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "apotheosis:salvaging",
+  "input": [
+    {
+      "item": "farmersdelight:golden_knife"
+    }
+  ],
+  "outputs": [
+    {
+      "max_count": 1,
+      "min_count": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:gold_ingot"
+      }
+    }
+  ]
+}
