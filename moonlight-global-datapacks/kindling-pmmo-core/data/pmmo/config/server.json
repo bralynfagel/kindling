@@ -78,7 +78,7 @@
   },
   "general": {
     "creative_reach": 50.0,
-    "salvage_block": "minecraft:smithing_table",
+    "salvage_block": "minecraft:barrier",
     "treasure_enabled": true,
     "brewing_tracked": true
   },
