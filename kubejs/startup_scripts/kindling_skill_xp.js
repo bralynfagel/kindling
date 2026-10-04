@@ -7,8 +7,7 @@
 // Pokemon or spells). Startup script so each hook is registered exactly once (a server-script
 // /reload would subscribe the Cobblemon handlers again and double the XP).
 //
-// Trainer:  capture +10 (shiny x3, legendary x5) | battle won vs wild +5, vs NPC trainer +20
-//           | evolution +15
+// Trainer XP: see server_scripts/trainer_xp.js
 // Arcanist: every Iron's Spellbooks or Ars Nouveau cast, mana cost / 5 (minimum 1)
 
 function grant(player, tree, amount) {
@@ -19,45 +18,10 @@ function grant(player, tree, amount) {
   } catch (e) { console.warn(`kindling_skill_xp ${tree}: ${e}`) }
 }
 
-// ---------- Trainer (Cobblemon events) ----------
-try {
-  let KCobbleEvents = Java.loadClass('com.cobblemon.mod.common.api.events.CobblemonEvents')
-
-  // subscribe(Consumer) only: the (Priority, fn) form matches two Java overloads and Rhino refuses it
-  KCobbleEvents.POKEMON_CAPTURED.subscribe(e => {
-    let mon = e.getPokemon()
-    let xp = 10
-    try { if (mon.getShiny()) xp *= 3 } catch (x) {}
-    try { if (mon.isLegendary()) xp *= 5 } catch (x) {}
-    grant(e.getPlayer(), 'trainer', xp)
-  })
-
-  KCobbleEvents.EVOLUTION_COMPLETE.subscribe(e => {
-    try { grant(e.getPokemon().getOwnerPlayer(), 'trainer', 15) } catch (x) {}
-  })
-
-  KCobbleEvents.BATTLE_VICTORY.subscribe(function (e) {
-    try {
-      var vsNpc = false
-      var losers = e.getLosers()
-      for (var i = 0; i < losers.size(); i++) {
-        if (String(losers.get(i).getType()) == 'NPC') vsNpc = true
-      }
-      var server = Java.loadClass('net.neoforged.neoforge.server.ServerLifecycleHooks').getCurrentServer()
-      var winners = e.getWinners()
-      for (var w = 0; w < winners.size(); w++) {
-        var winner = winners.get(w)
-        if (String(winner.getType()) != 'PLAYER') continue
-        var it = winner.getPlayerUUIDs().iterator()
-        while (it.hasNext()) {
-          var p = server ? server.getPlayerList().getPlayer(it.next()) : null
-          grant(p, 'trainer', vsNpc ? 20 : 5)
-        }
-      }
-    } catch (x) { console.warn('kindling_skill_xp battle: ' + x) }
-  })
-  console.info('kindling_skill_xp: Cobblemon hooks registered')
-} catch (e) { console.warn('kindling_skill_xp: Cobblemon hooks failed: ' + e) }
+// ---------- Trainer ----------
+// Cobblemon hooks live in server_scripts/trainer_xp.js. Subscribing here raced other mods
+// subscribing during parallel mod construction and corrupted Cobblemon's listener list
+// (client crash 2026-10-04: ArrayIndexOutOfBounds in PrioritizedList.add via capture_xp).
 
 // ---------- Arcanist (spell cast events) ----------
 try {
