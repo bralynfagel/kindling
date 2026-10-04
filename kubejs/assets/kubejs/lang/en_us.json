@@ -1,4 +1,5 @@
 {
   "key.categories.kindling": "Kindling",
-  "key.kubejs.kindling_back": "Back (/back)"
+  "key.kubejs.go_back_to_last_death": "Go back to last death",
+  "key.kubejs.go_to_home": "Go to home"
 }
