@@ -48,6 +48,11 @@ EntityEvents.death('minecraft:player', event => {
       if (stack.id == COMPASS) { entry.compasses += stack.count; inv.setItem(i, Item.empty) }
     }
   } catch (e) { console.error('death_recovery: compass: ' + e) }
+  // One line per player death, so "it didn't work" can be checked against the server log.
+  try {
+    console.info(`death_recovery: ${player.username} died (${causeOf(event.source)}), tagged=${player.tags.contains(RESPAWN_TAG)}, ` +
+      `compasses kept=${entry.compasses}, return=${entry.returnTo ? Math.floor(entry.returnTo.x) + ' ' + Math.floor(entry.returnTo.y) + ' ' + Math.floor(entry.returnTo.z) : 'no'}`)
+  } catch (e) {}
 })
 
 PlayerEvents.respawned(event => {
@@ -57,6 +62,7 @@ PlayerEvents.respawned(event => {
   if (!p) return // e.g. leaving the End, not a death
   delete pending[key]
   let name = player.username
+  console.info(`death_recovery: ${name} respawned; giving ${p.compasses} compass(es), ${p.returnTo ? 'returning to death spot' : 'normal respawn'}`)
   event.server.scheduleInTicks(2, () => {
     if (p.compasses > 0) event.server.runCommandSilent(`give ${name} ${COMPASS} ${p.compasses}`)
     if (p.returnTo) {
