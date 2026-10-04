@@ -4652,12 +4652,20 @@ file = "kubejs/assets/controlify/controllers/default_config/default.json"
 hash = "cc147739b1f4ee94faecdb2d634528e1b5dd5cf76933b690899c293e29296d7e"
 
 [[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "b26d88f45e7d3b86f42c5abe56d52796a45684b267e7c1081939aed6ec2b524a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/kindling_keys.js"
+hash = "459c83f193e01e681af612f01126d07de5033dadc5f491bdc2a08b7600da6168"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -4677,11 +4685,11 @@ hash = "101a17f4d9fc916d049921db13a8e36a630dcace66b9d1319e53ae3c1fa7073b"
 
 [[files]]
 file = "kubejs/server_scripts/death_recovery.js"
-hash = "47ab07c4c5da9eb89ef43744c05d11bac0f86ff03ea9ff5a4d5afedc194a93fd"
+hash = "33f199b7f061fa2b9c45366dab134e8a85e1ede475db1af176211b65c2af46dd"
 
 [[files]]
 file = "kubejs/server_scripts/hot_deposit.js"
-hash = "580986e76e793d9e23cc7c3c5d199b8fc3396313af174599ba2ff610b5391c83"
+hash = "7d9edf81c4f0f6c877675a1e0dad9d8bb5c46e9c0c5656d885eba61b4a97002c"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -4690,6 +4698,10 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 [[files]]
 file = "kubejs/server_scripts/trainer_xp.js"
 hash = "587cc4a655e1195ca8a5f9b6f5cb4bf9e17510e6d597db4c5271d29f309ec58f"
+
+[[files]]
+file = "kubejs/startup_scripts/kindling_keys.js"
+hash = "e088c8e794aac5a94e19416a975bf8c97378d41c8e193305dcaa4f484624e403"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
@@ -7696,6 +7708,486 @@ file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/
 hash = "6b2aeb163c00d2d2c918289e93c4c9a65c2683cce5baaae9eb5800457fc88ad2"
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/arcanist_boots.json"
+hash = "f5e54f1d5f1892d20bf703a3952ff0170ae14951366ad0a864959e58a93532b2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/arcanist_hood.json"
+hash = "33a3b505b17c28b8b09293be3e646e5b6f99eafb61999c1db4f9fa3ff19e4445"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/arcanist_leggings.json"
+hash = "5a6b728cd6708f8aaca82eff754488466125d9c18e3827c09ca8fe194a7380e1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/arcanist_robes.json"
+hash = "e49ed783a5db9d33fe119165c2868d615ad03696c5270938f11fee47a3d56978"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/battlemage_boots.json"
+hash = "89fbcd47e0acbca6d7074f4dae7f40922a91cca1be0e11ac91173bb87974d070"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/battlemage_hood.json"
+hash = "59f653e995769d7a6123242f01c08ccb0ce951a8a9e6eb65edb7360b4557d79d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/battlemage_leggings.json"
+hash = "788da574874673b55c0590f04d7240ef079b2d305b7850373ab608d36c0889ff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/battlemage_robes.json"
+hash = "55000120c2e7e9c5e3efbeb516fbfe25016862b4f0053143508b17f0a2313d67"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/enchanters_gauntlet.json"
+hash = "1356a0b609d22d78beb7804cbc80f57e88433742fdc9968b19df14098f1d6c4c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/enchanters_shield.json"
+hash = "16ce503e7bd639ded3301f07a1ed730e4e0788234499d7b79efcac40e6e45129"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/enchanters_sword.json"
+hash = "cdf1f61cc61e4313af9fd3742c13e45ca65f4eda0893f4042d69b21d2ede3ace"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/sorcerer_boots.json"
+hash = "a54905d2312987e98c2a9f1b97c6fdcb973c6b66749a3d43f092017b40eb7c24"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/sorcerer_hood.json"
+hash = "80c1d5e38824c9083d6f8b72065c55c70f0ea103cd56190c12889e042d94c011"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/sorcerer_leggings.json"
+hash = "b527259433fb5271799bf89af51d33d3c7f6cad6c665011e10a782e895ff4f72"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/sorcerer_robes.json"
+hash = "0e079f9a80e5e76bf3e8a58bb5877952835680217073bff42abc57e67f26c1ec"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/spell_bow.json"
+hash = "97e1ecb670127a6e69e9ddb7d0e8e1ee7fb43ddf844f04fdec4a283c97c7ce15"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/spell_crossbow.json"
+hash = "a30d94926395f89d3be4c9150022bb989e204cebf3f1b230d1b70fd47fde793b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ancient_spear.json"
+hash = "748decfae3dcd4392321b38aea20f4bc9a6cabde9c61b63fc01686c9ef55f5d9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/astrape.json"
+hash = "0090ccb9657db33eb755d4b7834dfdd9328dfbac959e57600687e4023c996380"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/athame.json"
+hash = "794b95d80137eea7949d7b3df4edf1e69a572bddad83fe13e3be93a041219b95"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/azure_sea_shield.json"
+hash = "68fad75d2274132bd28215f4fa66931ef42a7f9441daf90bcf3e3e8d6edba2d2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/black_steel_axe.json"
+hash = "a447bc7ccf59e5185f7ba35e64f86e51d6c095c10da0e094ca370cdef0dde379"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/black_steel_hoe.json"
+hash = "484eb2b6006c604b2915629183730bbb7198557aead1a53a6b4d2010ffdc11ff"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/black_steel_pickaxe.json"
+hash = "4ed5aa6c7e9f7225613d7aa492325927c1b9fb78dc92fa5d4695967c89fd897a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/black_steel_shovel.json"
+hash = "57a64290c35ac4a19b491c7fdf629fd84ebe5b3c0d729bf19a95c1866d1dd35c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/black_steel_sword.json"
+hash = "be5b6006a469cec6ac90cf9c669f2cb58631c0fa87c0467d89bb2dba56068687"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/black_steel_targe.json"
+hash = "cb89fe8d8b999254b17fbd830ae192b27cbef6ad26fa813863682870b0ece83f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/bloom_stone_pauldrons.json"
+hash = "7cb6e54ce7dd8a31eb9bc86576f6e4141f6e84abf6dbb0deaeb5599a3da63a6e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/bone_reptile_chestplate.json"
+hash = "70c253ca092f7238a4c327d9fc7b3907315f7dc5bb7b25a8078fdf9f84a7e89c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/bone_reptile_helmet.json"
+hash = "25a9ad23057e97c76fea66aced572b50beb34ce00fc0ea4ae81ca825c4c24197"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/brontes.json"
+hash = "1495c227f60ce35f80bee88355eb74cac6cdbb1d4cff3857586acb9f9fdbd054"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ceraunus.json"
+hash = "518b0fcb668defcde649c3b4cd96ebf9fb812b4e4cea3f3cf473850f8c641a61"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/coral_bardiche.json"
+hash = "bc4dc1d71a3ec6bf95bed05f3756a601dc5b1d2c7d0a2a34bedd86a7f9bbfdcb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/coral_spear.json"
+hash = "0f0e03257476770708c46707f23f590a9f9dd74583b41699e3fddd580a52cf83"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/cursed_bow.json"
+hash = "000fe95750e877b846f5d3c46079c487b3a2a70450486ff7247a2f71cc179791"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/cursium_boots.json"
+hash = "c062bbb206708415b1947ea8ab59ef6e9a81835f1c15c81d63646639c5cb28ae"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/cursium_chestplate.json"
+hash = "d143e294b382f0e160c74614dba2784b3a629049ff5180340c6fa7eab6d51ee2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/cursium_helmet.json"
+hash = "dd243fa38e45ee23a5f347fd0340c42a8940dce1da48cb146e072568acc0fe2c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/cursium_leggings.json"
+hash = "e3ba93bd40422edb5aa9ea85fd340593ce75e7fc267d8b9bc7b29ca4d8152b16"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/gauntlet_of_bulwark.json"
+hash = "1eaf6476185dd72e893f582b6fa9285099c101173ccf3cc5e2d8c2f910fb1d91"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/gauntlet_of_guard.json"
+hash = "fcc22d97083a38cd63fa1eb8a94dffa172f705a0b1e4bb29a6994f4daaa2b9d8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/gauntlet_of_maelstrom.json"
+hash = "384e8aac62ed24c69592637031785ae71d4dfbf7caf00f16770fd93eebaa8920"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ignitium_boots.json"
+hash = "5c50fbcd0d4d259346350fec2e5fdabcafdd16fb5f57b992b02955eb1935bdbf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ignitium_chestplate.json"
+hash = "4af0824f740d67062dc7ba3ad161d318a9e409cdd034936cafb8df476e2edbaa"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ignitium_elytra_chestplate.json"
+hash = "179865d5bb6bcdaff40da31fb6873111b1aa25820829ed916386a06f38cd1c92"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ignitium_helmet.json"
+hash = "7a12a330669df307596d00b6d6221790d8e2e0bfc2dfde75d5d6cd02e4575400"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/ignitium_leggings.json"
+hash = "d717a904210fdb85f38ce196f918d63969ef0a1432220372e7bfd87aa09e0282"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/infernal_forge.json"
+hash = "d0cce07cf840953ac4a5358aee9ee62b117f022758c4e722828b9ac947841784"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/meat_shredder.json"
+hash = "9e22f28df678ca205739ab4fdb080d5fd756752041fefdc1a0224b6e1f0231ef"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/monstrous_helm.json"
+hash = "ca2bd0f19285f25b795851228781d0734396c7af73911b08d153094df2d0a7fc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/soul_render.json"
+hash = "3cde18b6c09789280810160d2ecda260055fd60048fe4121249c4e2ac09823bf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/the_annihilator.json"
+hash = "bc09e56cdbea73bcc4aa308e2d9e63478df493fd6f323a1fb228a35b490a30bf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/the_immolator.json"
+hash = "e65ea0a7112e2afede9484ae696c7cfefb62c642e3b5baf869e4ea30582d059d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/the_incinerator.json"
+hash = "55b34341c8d1ac120644c1f62fe638ec9a9b35275977b9dae12a3e23bf4e7a4d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/tidal_claws.json"
+hash = "08ceec18291201277fda31333ba3b9796d5532ea6cfa8af595a3e7c3bd050220"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/cataclysm/void_forge.json"
+hash = "e10d27ce28d0d1eccff788351774588c37ca0e3feaea2a91205bdea9572682fb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/cardboard_boots.json"
+hash = "ccbe472aaf742c3d8f2161bf53cb994aaa516ff55c98b5828a7ce3a17af2e8cf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/cardboard_chestplate.json"
+hash = "04d4f1954ab57ef0b3d071c58b6933f91aad8581a85c4b2ecd56a5cdd81277ce"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/cardboard_helmet.json"
+hash = "86ad1118dfd74cd1353ee591b916d1af45664fa6852a1867c76a40b5362bd74e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/cardboard_leggings.json"
+hash = "be2255e93b9f39b21330abc4c1925808ea0c6369510c11f2110fbd93accea614"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/copper_backtank.json"
+hash = "9e48c9da1d6b2513c1cbe204594ee1f3ac560e8ec6a232f79daf5211a79df3af"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/copper_diving_boots.json"
+hash = "8c22a811be8919380bf3bef180582f10c62ba3c22993f16e0370861410adcb82"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/copper_diving_helmet.json"
+hash = "23d59510eb32e86005b14546302fb5bc7514a6f2ccd005cd8158e2f71b4e722d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/netherite_backtank.json"
+hash = "b22b1e30b0265172e6d9198e0b9d37ba7cc2d18917f403c7028313934f4d5e5c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/netherite_diving_boots.json"
+hash = "e97a786870d98961e992e4c6684ae2e4a0a5397f2f62e26cf59dba88b8f1f919"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/netherite_diving_helmet.json"
+hash = "513985561ceb7c0652ba940c55f8a30829397789af89692d68a6d3207282b2cf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/croptopia/knife.json"
+hash = "0d1c4637f693092636679c08675f60212224be95709e24cd72759f61efe66e26"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/diamond_knife.json"
+hash = "06db8b952c9aa9a6096b75d752c12ecbea908d65fdf2780d0e75782179328a1a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/flint_knife.json"
+hash = "2c64f39124e9588e7533e206d0d93e48673e0eaeb8d8a3efb546ac4f4b899e6b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/golden_knife.json"
+hash = "848a342bfed28449f651c14568dc7a6b8df528020bff892670e8e7af53d93fd6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/iron_knife.json"
+hash = "74da621f0429cb63470e124fcab973904960d02d4cafd042dc64262f69e2a66c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/netherite_knife.json"
+hash = "c0cafa7051fa023a662b3e874bfdd7ebf62a08f006a74ddc7fcd1157fc9fa69a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/skillet.json"
+hash = "c8727a9a68c63ca6ef8e37280bcb290086b2394574d2363659461040642df6d3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/amethyst_rapier.json"
+hash = "b4447ae4c8381430f2ff2390af210abbca53ec5afbee7d96c8d7b48f5ad0ab76"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/artificer_cane.json"
+hash = "c6b2067ef259dfa3825e894c03b2c81c8761f227db1d35d59b18736c83562e17"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/autoloader_crossbow.json"
+hash = "e8aeeeaa5eb69d8f9a9978f6a8695d88cc100c9d8cbb08714d063a81eb617a6a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/blood_staff.json"
+hash = "5b607f5a29b3bc41b6fc94e00260b96b24c9610f904451702baa50002d339498"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/boreal_blade.json"
+hash = "01f8af6d897c22808b0d1e682528df5244dc247a85ebf9d7695a0a3f74c4a0e7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/claymore.json"
+hash = "83aadd41308fe7c897f9b1c7578d411a3728fdc088998f0808df9413d3cd8fcd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/decrepit_scythe.json"
+hash = "cb83542481ed32279fc202480e54facf9de5a37f8164528dfd0122d546b699f7"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/graybeard_staff.json"
+hash = "ba60d440c6384500e2bebf648ef4d59c56e66580ea4418d438fac6e710035f44"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/hellrazor.json"
+hash = "c6aa851ac69a1623bbd1fbae1069efea8fe1f53aff5d3cb0290e8cad2d69703e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/ice_staff.json"
+hash = "115deff9bf7878773c23bbb10584aa4ddcc0739887d92a7e0f56badfeb4d103b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/infernal_sorcerer_chestplate.json"
+hash = "d1774b42796ba88be6dcb56a49c664d8dec908aec4a60889cda8f851f3337dcd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/keeper_flamberge.json"
+hash = "18c95003e1a73fd9f10e3457e9eabc8d89de6c4b271af1de4f7b8f810469a554"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/legionnaire_flamberge.json"
+hash = "56800bed990c59550dfc6a0d61ff5fcc746126610d6ccb0cb8099772b80c3dce"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/lightning_rod.json"
+hash = "333ad74e71a2eccf3f9809760be422e254ac54910bd54604965f94b7baea2d91"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/magehunter.json"
+hash = "dd4268168f1a8327fd86a8b4dc71cb2df6696d47833fedc92ac82e5ee9751e72"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/misery.json"
+hash = "6bf718e81079df66a20af20ae773e789ae82e44109d0d9d8fe453813e014847d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/paladin_chestplate.json"
+hash = "b72af5c8c2037a026133daa6599571cdf817ab67802dda607bc18f905f0e39fa"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/pyrium_staff.json"
+hash = "0aaca8d0ecd0e1987b7f8ea3b9f246ec4e55ed007d281362df3c503d45d60b8b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/speed_boots.json"
+hash = "70f4e5b6f6c908bc4672c01a664208a12aa7fc75a311674d016aaff40e73865e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/spellbreaker.json"
+hash = "d63ff2b58669a6dfcadc11ef73f9dfdd75cb1270324b913fc09136a6786128de"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/tarnished_helmet.json"
+hash = "e3d1627c45778978d5b97151da0c42e8156dd3dceba7631d93001f6139b1bd13"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/twilight_gale.json"
+hash = "fd834c17dfca527ef958f4dd4eaee9fbce8fc38ff175e8b72c8f115f89983a9c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/wizard_hat.json"
+hash = "3ba367b4bbcc93a1437c44a8247891872aa85339deb18c9cc2eb15b739349466"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/magistuarmory/coif.json"
+hash = "539f86f13658600960fdf9630df6c787af8f5c324103e21fe897313dd41cd96e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/magistuarmory/rusted_bastardsword.json"
+hash = "3f32eb28fbf0cc9eb81f5ef12c52e51162ffc27c6392d4f0f10e2e9587f18afd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/magistuarmory/rusted_heavymace.json"
+hash = "84b5cde479a84615d184daf6c34eaea2711f30a9324f62d2205c3d4fb1d34635"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/magistuarmory/shishak.json"
+hash = "3dd01bb69aebe4433ec5a0b591d302c01057d568552c99608648d6a5ad92fdf6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/blowgun.json"
+hash = "a4bd39d566cc452096ffbca994e8adae7f312205267d0f4e97ca14b471e065f3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/geomancer_beads.json"
+hash = "7fbbb7ce0fece3e2156a8b47a8e6a079a6bda60bd702ccffd016634c73909c54"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/geomancer_belt.json"
+hash = "b62031c8cc473898e6edbb2bde19910e8d696f34ff9d1d68e7ce9dc79c08502d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/geomancer_robe.json"
+hash = "3665bd2f6f6bded460fd3fdfc79ced5441fbb845715438b81d37a444272f77cc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/geomancer_sandals.json"
+hash = "27fbdc1ed3f318a8b7d3bf98da65245e9e708f50c5f83f6cf7cab760398c4998"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/naga_fang_dagger.json"
+hash = "69379a5f73d4b592072b4623f1fdddc67f0ca0cdb38cd39caf206958cd20a8e0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/sol_visage.json"
+hash = "f089eb985770d08701e5f9deb55981456f47b72933dc6e5105fd2fa19d9da3a0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/spear.json"
+hash = "970a5f7becae33b48e214430cd03904f2be4dc5afa220f8675f092ba51b7b538"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/umvuthana_mask_bliss.json"
+hash = "4a9152e95fd273a609c1a8f0edc3a3577e6103e58ed955a7782d90321dc239a2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/umvuthana_mask_faith.json"
+hash = "cc1ad8a5fd3137639cd803aed90cf6840cbed1252e83c4334b2aed19ae635c7b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/umvuthana_mask_fear.json"
+hash = "4cb51f1ca99075de86754ff710082fae622c4c1268f98f33db7e890d64914f22"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/umvuthana_mask_fury.json"
+hash = "1f79b4335784ce3e3980038de6bdf7eb5be2d619e274f3936498662c945713aa"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/umvuthana_mask_misery.json"
+hash = "a463f7ce8bec9c23f28b7a51fee9ea614f4d6e9bb346e379d4ba31ee78c04d4d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/umvuthana_mask_rage.json"
+hash = "3a30e804ad576f9ba036853ef12b6d8387516262e7094c9c12ceaa17c1cf7568"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/wrought_axe.json"
+hash = "16116aaa35403f48c38221fa325e652263ad5640eda29b63445431e4542e105a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/wrought_helmet.json"
+hash = "15d614d4aff1f5ef4ddafb4ec166ae9ac17a8090860f3f566d86e98de6bd6b71"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/quark/flamerang.json"
+hash = "53592cd758999cbe7fe02d7b49f052121fa176e5e748935dadf6216e59aa2c9f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/quark/forgotten_hat.json"
+hash = "462f17064a9a13acee88911c12f00e13ab43549f996970252101f14592692155"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/quark/pickarang.json"
+hash = "f3134239bf45da97d3fac2a5da4d3ee5ca3c556fc1722bc6fbe18df653c8bba0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/supplementaries/slingshot.json"
+hash = "3e4f6df55e62360f9b793d5ad8d0e031784058d603de1364b62eb770e8dbab63"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/netherite_mage.json"
 hash = "123c29d7a909a3d437d6b9693f6909e646aca68174e9075c4daa64e9fd533988"
 
@@ -7722,6 +8214,10 @@ hash = "3e610dc12c8591cd8dbef498174181926c53404401537b20d4c8198105983a3c"
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/crossbow.json"
 hash = "5c3ad95af004d1164af65c43d57fc320dc4e110bb4958f0b968c9d820c31f429"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/mace.json"
+hash = "6575cd550c208ad05123e7ba121e66d8bd2a00a2505f64e7ed8af61a3fbb8607"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/shield.json"
