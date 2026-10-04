@@ -4681,7 +4681,7 @@ hash = "47ab07c4c5da9eb89ef43744c05d11bac0f86ff03ea9ff5a4d5afedc194a93fd"
 
 [[files]]
 file = "kubejs/server_scripts/hot_deposit.js"
-hash = "01de07a7dcb8952a0576279b690f6787af1ccd90e6d407cf93530524685bf0ce"
+hash = "d6b3e124cc9009e131fba16c44747bc3e5a4993954042c43ed0aeb39a7d5f440"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -4787,6 +4787,11 @@ metafile = true
 [[files]]
 file = "mods/auroras.pw.toml"
 hash = "1ff66d0e80f7b10263163f1d09151b5e24b165a2e5359b59a57b2e3f3617c2f4"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "1e9410438ea8e1e29e00833c0cd316a71337ae0cf44a5441e4ec242caf7a0d74"
 metafile = true
 
 [[files]]
@@ -5207,6 +5212,11 @@ metafile = true
 [[files]]
 file = "mods/idas.pw.toml"
 hash = "8c888bdb32998b0e00075106b4f36907edb63328dac17fb99c754e9651826eac"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "8d613c99fcc53f777a37b6187aec10dd41b4946ea6316b191c8412f16c926ddb"
 metafile = true
 
 [[files]]
