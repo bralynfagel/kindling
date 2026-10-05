@@ -1210,7 +1210,7 @@ preserve = true
 
 [[files]]
 file = "config/gravestone-server.toml"
-hash = "d6bee13ae45904562fc651630ce48fa4e70cd3853fe2f488403c9b67d0c74c2a"
+hash = "427bdf6725b448f596e78da5108e5ae06777e4b7a24732f2e1b63621d62b1322"
 
 [[files]]
 file = "config/gravestonecurioscompat-common.toml"
@@ -4652,8 +4652,16 @@ file = "kubejs/assets/controlify/controllers/default_config/default.json"
 hash = "cc147739b1f4ee94faecdb2d634528e1b5dd5cf76933b690899c293e29296d7e"
 
 [[files]]
+file = "kubejs/assets/kindling/lang/en_us.json"
+hash = "aa4f29fe8703668c0452c9a114f6ef3bbfb2a9f21523c7dc70f80c14843c7421"
+
+[[files]]
+file = "kubejs/assets/kindling/textures/item/bronze_ingot.png"
+hash = "d1de436a2542b5a7d3d3e8efa99648219bb0b5428b1f6bc65f7adfcf5ebbaaa3"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "0eaebf5cbb840200cb6da68e3231930c0266365ed8f17f996990b08e943589d7"
+hash = "9a736a065e1c52517b777797befa6e80939084870817d1a31c82a2a331406661"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -4665,7 +4673,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/client_scripts/kindling_keys.js"
-hash = "24f49bce3b6e0a7fd49db1eaf58034b547bf963916a2913ebe8691287bfb7017"
+hash = "a9ae60e4daac038e42cab6b73868ac72acd78795199e1807f15792862c726d0c"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -4689,7 +4697,7 @@ hash = "33f199b7f061fa2b9c45366dab134e8a85e1ede475db1af176211b65c2af46dd"
 
 [[files]]
 file = "kubejs/server_scripts/hot_deposit.js"
-hash = "7d9edf81c4f0f6c877675a1e0dad9d8bb5c46e9c0c5656d885eba61b4a97002c"
+hash = "718f190e23949f61284ceadb58433c88eaf9a27f79f64029833520315450cb04"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -4700,8 +4708,12 @@ file = "kubejs/server_scripts/trainer_xp.js"
 hash = "587cc4a655e1195ca8a5f9b6f5cb4bf9e17510e6d597db4c5271d29f309ec58f"
 
 [[files]]
+file = "kubejs/startup_scripts/kindling_items.js"
+hash = "ccba4db7932106ef2a7ddf3fc9a8e82c2c0a381c72e58c201aced42b7f44c66a"
+
+[[files]]
 file = "kubejs/startup_scripts/kindling_keys.js"
-hash = "ea6b085b5c0893552576a7fc55f96e01c6945d29a862e0e717f5058fe0abc3da"
+hash = "5282ed5e6b23eeddeb90c865c9d745a223ce12b44a9cb216c91b3a13d11364e1"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
@@ -7604,12 +7616,20 @@ file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entr
 hash = "0ac756759c26a3a55ee75c7a0c10abb49f227eb3c1a4049381743db2b4a7c104"
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/c/tags/item/ingots/bronze.json"
+hash = "c003482fc74b17e07753d9a1c7642d63e1820bec1f613b897c97e4a427d549fe"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/affix_loot_structures.json"
 hash = "7cdba0c0cce4638e94b99ddcdf521d09fd1f4988a5aec4a8cd18af3b9213833b"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/gem_loot_structures.json"
 hash = "f9404c6c6180bedda8d69c8689f0affe9425fbc98e270417f27a6b78f6b6cbc8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/bronze_ingot.json"
+hash = "50b111fe57c6d4bd214629b8b3b3d1131232724aaffc14fe352d373b5160c3fa"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/barbedclub.json"
@@ -7621,7 +7641,7 @@ hash = "1812f788b6c25ee368d34ed4afcd6900ba16870d5dcfa80a42a394925255a018"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/bronze_gear.json"
-hash = "e98c301d2f0eb0dff33850732ce614454f6662e4293c3b8da9bf110cbd0aa987"
+hash = "967094661e79333ea505bd985ab1c7a5894de9f9bbb1461b10d99c6cffa5e3a7"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/ceremonial_armor.json"
@@ -7689,7 +7709,7 @@ hash = "34a1b18102e0b7e962d557d7d5cfb55c66d27b07924f845bcf4aa8875f505748"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/silver_gear.json"
-hash = "966016cbeb8800440a1bfc3931478db32b674c9aec3ca89e5dc4fb9fcee431dd"
+hash = "face14a4dc2a7a73d024623f8a71df2350e8b1984cc57c33206c422b410f22f7"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/steel_gear.json"
@@ -7701,7 +7721,7 @@ hash = "b52d4e1c8797ec2c4e0e340a89297bd4afdc9ebdeb923d0a30450a3c13effa7a"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/tin_gear.json"
-hash = "f57ba3e8d7b7b3eb5d4923fda204ac912fb3b4aca33e91417ca1f9375d930afd"
+hash = "32bed3ecdae8d0fcc268b8dd2a7d0c01daef650378ee552e44edf509d42e4733"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/epic_knights/wood_gear.json"
@@ -8245,7 +8265,7 @@ hash = "c76be141f52bdb0afabfd8ab1046fb072407a67a27d1639913de56e5a2b8d2c3"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-pmmo-core/data/pmmo/config/server.json"
-hash = "39ab6d9cfae9cb231717803ada5ccde19ed6ecb31d8f47414638011efb53efc5"
+hash = "bc338f6a3ac8eeafda6a3ef6e534d8eb7159ead82af23b40fab0d0082848c746"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-pmmo-core/pack.mcmeta"

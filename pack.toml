@@ -1,12 +1,12 @@
 name = "Kindling"
 author = "Bralyn"
-version = "0.6.15"
+version = "0.6.16"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1269008611317ca37f323a3f5993032eaedaf166e2a46347f320c82f5bc9e2be"
+hash = "a950cfbfd70bb1598367438dc828c335a869db65a7377b548f6d8c8819946801"
 
 [versions]
 minecraft = "1.21.1"
