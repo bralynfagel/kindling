@@ -33,11 +33,13 @@ const ArmorItem = C('ArmorItem'), ShieldItem = C('ShieldItem'), BowItem = C('Bow
   ShovelItem = C('ShovelItem'), HoeItem = C('HoeItem')
 
 // Sophisticated Backpacks hooks; if the mod or these classes are missing, backpacks are skipped.
-let SBProvider = null, SBResolver = null, SBInteraction = null
+// (Upgrades are identified with instanceof: KubeJS forbids reflection such as getClass().)
+let SBProvider = null, SBResolver = null, SBInteraction = null, SBDeposit = null
 try {
   SBProvider = Java.loadClass('net.p3pp3rf1y.sophisticatedbackpacks.util.PlayerInventoryProvider')
   SBResolver = Java.loadClass('net.p3pp3rf1y.sophisticatedbackpacks.backpack.wrapper.BackpackLinkedStorageResolver')
   SBInteraction = Java.loadClass('net.p3pp3rf1y.sophisticatedbackpacks.api.IItemHandlerInteractionUpgrade')
+  SBDeposit = Java.loadClass('net.p3pp3rf1y.sophisticatedbackpacks.upgrades.deposit.DepositUpgradeWrapper')
 } catch (e) { console.warn('hot_deposit: backpack support off: ' + e) }
 
 // Category for non-stackable gear, or null (never stashed).
@@ -103,7 +105,7 @@ function depositBackpacks(player, level) {
         let w = SBResolver.resolveForGlobalUpgradeProcessing(level, stack)
         let ups = w.getUpgradeHandler().getWrappersThatImplement(SBInteraction)
         for (let i = 0; i < ups.size(); i++) {
-          if (String(ups.get(i).getClass().getSimpleName()) == 'DepositUpgradeWrapper') { out.push(w.getInventoryForUpgradeProcessing()); break }
+          if (ups.get(i) instanceof SBDeposit) { out.push(w.getInventoryForUpgradeProcessing()); break }
         }
       } catch (e) { console.warn('hot_deposit backpack: ' + e) }
       return false   // keep looking at the rest
@@ -144,7 +146,7 @@ function stash(player, level, server) {
         let h = level.getCapability(ItemCaps.BLOCK, b.pos, null)
         if (h) targets.push({ h: h, x: x, y: y, z: z, got: 0 })
       }
-  if (targets.length == 0) return { moved: 0, into: 0, containers: 0 }
+  if (targets.length == 0) return { moved: 0, into: 0, containers: 0, packs: 0 }
 
   let moved = 0
   // 1. Main inventory: 0-8 hotbar, 36-39 armor and 40 offhand are never touched.
@@ -190,7 +192,7 @@ function stash(player, level, server) {
     into++
     server.runCommandSilent(`execute in ${String(level.dimension)} run particle minecraft:happy_villager ${t.x + 0.5} ${t.y + 1.0} ${t.z + 0.5} 0.25 0.2 0.25 0 6`)
   }
-  return { moved: moved, into: into, containers: targets.length }
+  return { moved: moved, into: into, containers: targets.length, packs: packs.length }
 }
 
 // Run a stash for this player and tell them how it went.
@@ -204,6 +206,7 @@ function stashAndReport(player, server, level) {
     : r.containers == 0
       ? `No chests or barrels within ${STASH_H} blocks`
       : 'Nothing to stash: no nearby container holds what you are carrying'
+  if (r.packs > 0) msg += ` (incl. ${r.packs} backpack${r.packs == 1 ? '' : 's'})`
   server.runCommandSilent(`title ${name} actionbar {"text":"${msg}","color":"${r.moved > 0 ? 'aqua' : 'gray'}"}`)
   if (r.moved > 0) server.runCommandSilent(`execute at ${name} run playsound minecraft:block.barrel.close player ${name} ~ ~ ~ 0.6 1.3`)
   return r.moved
