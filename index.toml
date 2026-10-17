@@ -691,7 +691,7 @@ hash = "53a0e119f787d75d376ce65b6856c53113e70889b33e3567fbe002246812dbf1"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "8e988022a6485ce7bb3fcfa09539b1c294bdd1996d648ce7abec0ced38f94c3a"
+hash = "59e1af6ba6f49604b82af0dffdbc6202ec42f86097ddc29fa7871e991f5226de"
 
 [[files]]
 file = "config/cobblemonextrastructures-common.toml"
@@ -1470,7 +1470,7 @@ preserve = true
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "ea4af60e1918793b814129c36e40261f8d3c20a9ed1a143b3d1f2f3161e7fec7"
+hash = "7942666bd0057c68ff33f0383c1ad17c876d8a6b0c024f3f605bed232a049dcd"
 
 [[files]]
 file = "config/refurbished_furniture.client.toml"
@@ -1774,7 +1774,7 @@ hash = "f16ef7b9d5573b538d11e27bc440abcdbccc0ba5248f916b78aef1a6c65ab0cd"
 
 [[files]]
 file = "config/structureessentials.json"
-hash = "a990aaed7e7eea9a4023220ca4557a738b5bc3a3245d64457d017b99ba3db2fa"
+hash = "34fa711c1b255415273a10113443dd8a4b23fb8f7ca12ee55d68819b2ee71b21"
 
 [[files]]
 file = "config/structures_tweaker/README.txt"
@@ -5444,6 +5444,11 @@ hash = "7297023a46b0abaf2420b2976d64bc3b3e4b1d39e6769691306411f7c4783108"
 metafile = true
 
 [[files]]
+file = "mods/modern-companions.pw.toml"
+hash = "f4a620b2c7ddf37f38490d47478a73e98719c9a4c4ac6f293774823a93e62635"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "100eb24d0aaa5bd7b4ad4a3c6d459e206ef8fc5299056912d36b8e043a823342"
 metafile = true
@@ -8706,6 +8711,14 @@ hash = "4c41332fc12c63b201c7116f153268a1be2274e100d779c3783c8b17f886ebc3"
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"
 hash = "b7852357c515151213169e7129c049981307f9a5a344055a213206638349c5a2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-worldgen/data/rgs/tags/worldgen/biome/cerulean_gym.json"
+hash = "9bef87aa7260d84bc4e50c69f376989c991e5e1b5f949f4a79d2b89a1c55d579"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-worldgen/pack.mcmeta"
+hash = "f217ce54594289d293d0aaae48dd02dcc87f944f56aaa0ce3eac736d166f36ae"
 
 [[files]]
 file = "options.txt"

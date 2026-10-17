@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Kindling worldgen fixes: Cerulean Gym only on beaches (it projects to the water surface, so ocean/swamp biomes left it floating or flooded)"
+  }
+}

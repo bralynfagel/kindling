@@ -3,7 +3,7 @@
 	#A global factor that determines if a spawn attempt for a trainer is made.
 	# Default: 0.85
 	# Range: 0.0 ~ 1.0
-	globalSpawnChance = 0.85
+	globalSpawnChance = 0.4
 	#━━━━━━━━━━
 	#The chance for a trainer to spawn will shrink towards this value based of how many
 	#trainers are already spawned in for a player. For example if a player has 0 trainers
@@ -18,7 +18,7 @@
 	#The interval in ticks at which a spawn attempt is made per player.
 	# Default: 180
 	# Range: 1 ~ 2147483646
-	spawnIntervalTicks = 180
+	spawnIntervalTicks = 1200
 	#━━━━━━━━━━
 	#The spawn interval ticks will grow towards this value based of how many trainers are already
 	#spawned in for a player. For example if a player has 0 trainers spawned for them the spawn
@@ -28,7 +28,7 @@
 	#spawnIntervalTicks to disable (e.g. 0).
 	# Default: 2400
 	# Range: 0 ~ 2147483646
-	spawnIntervalTicksMaximum = 2400
+	spawnIntervalTicksMaximum = 6000
 	#━━━━━━━━━━
 	#(Non persistent) trainers will despawn if they have no line of sight to any player for the configured amount of ticks.
 	#Set to a negative value to disable this feature (trainers may only despawn if they chunk becomes unloaded in that case).
@@ -57,13 +57,13 @@
 	#Spawn cap of trainers per player.
 	# Default: 12
 	# Range: 0 ~ 2147483646
-	maxTrainersPerPlayer = 12
+	maxTrainersPerPlayer = 3
 	#━━━━━━━━━━
 	#Total trainer spawn cap. This value may be increased for servers with higher expected
 	#player numbers (> 4), for example (|players| + 1)*maxTrainersPerPlayer.
 	# Default: 60
 	# Range: 0 ~ 2147483646
-	maxTrainersTotal = 60
+	maxTrainersTotal = 15
 	#━━━━━━━━━━
 	#The maximum level difference between the strongest pokemon in the team of a
 	#player (at or below that players level cap) and the strongest pokemon in the

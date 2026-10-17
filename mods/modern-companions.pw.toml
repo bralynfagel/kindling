@@ -1,0 +1,13 @@
+filename = 'ModernCompanions-4.45.jar'
+name = 'Modern Companions'
+side = 'both'
+
+[download]
+hash = '50a47f404ac2d5a04c9ad7f22960f500b105b3fe4a7764536dcd58daca78d4d5c0d340ad3fa38cae62e9cc982a2231d73c8f43e6cd8bb5d9a2ae1066caa8cf16'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/428soLwa/versions/Tm7MSuJT/ModernCompanions-4.45.jar'
+
+[update.modrinth]
+mod-id = '428soLwa'
+version = 'Tm7MSuJT'

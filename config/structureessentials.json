@@ -40,7 +40,7 @@
     // Adjusts the structure spacing (average spawn distance) and separation (minimum spawn distance).
     // Increasing the value makes structures spawn farther apart, while decreasing it makes them spawn closer together. Vanilla 
     // Default: 1.0
-    "spacingSeparationModifier": 1.5
+    "spacingSeparationModifier": 2.0
   },
 
   "logDuplicatedSalt": {
@@ -55,7 +55,7 @@
     // Not recommended to use higher values, as that may strain the worldgen due to repeated structure retries and can prevent surfaces structures when there is some in a cave below.
     // If you want structures more spaced out than this use the spacing/seperation modifier. 
     // Default: 32 blocks, range 16-512
-    "minimumStructureDistance": 32,
+    "minimumStructureDistance": 48,
     "enabled": true,
     "logOverlaps": false
   },
