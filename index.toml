@@ -1375,6 +1375,10 @@ file = "config/mezz_config/client/default/settings.ini"
 hash = "1febf6ff1d35f4ffe34d6e5444e3c9496155a6abf3f49eb4ef5650d102645249"
 
 [[files]]
+file = "config/modern_companions-common.toml"
+hash = "7f2a7555765ade30643446ff3879bf11a86a1e824350425bfc5a98886f39ea1c"
+
+[[files]]
 file = "config/modernfix-common.toml"
 hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
