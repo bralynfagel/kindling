@@ -885,22 +885,6 @@ file = "config/cristellib/extradelight/structure_toggle_config.json5"
 hash = "5598c510a3ad33b728b69ab158c32e30bf2e8ed3daa57f834bab72b9701f7ed4"
 
 [[files]]
-file = "config/cristellib/idas/structure_placement_config.json5"
-hash = "956b78cd4554c9d71745a4b67281e6bd1f402f14deffe7ed7f9d3b455b2410ec"
-
-[[files]]
-file = "config/cristellib/idas/structure_toggle_config.json5"
-hash = "8121bc178bab6ef501849f7c628c4cba28553335ade5943735268a5987138609"
-
-[[files]]
-file = "config/cristellib/integrated_seven_seas/structure_placement_config.json5"
-hash = "12aceb2ee397e5bbf195832f30a58e42864cbaccc01bfd4f6dc9252c63bbc980"
-
-[[files]]
-file = "config/cristellib/integrated_seven_seas/structure_toggle_config.json5"
-hash = "e51b42c73fb924a507d7d1abfe1bade8c9d85f4fb5ecc4e80044125b5a8512d1"
-
-[[files]]
 file = "config/cristellib/irons_spellbooks/structure_placement_config.json5"
 hash = "604e3cdba3aeb339f502dfbd678d465757cc1b7872a81c336b09dcd2ef5f2ed0"
 
@@ -947,14 +931,6 @@ hash = "2f51f789d696e96af6fbaf368bfe2e64e406c616ceda253ec4e4798ab85aa648"
 [[files]]
 file = "config/cristellib/structory_towers/structure_toggle_config.json5"
 hash = "3c622e85c983d8a073d0b30977d8331f997c988693c14dcaa5ffc6f6f2a7ff80"
-
-[[files]]
-file = "config/cristellib/supplementaries/structure_placement_config.json5"
-hash = "5bf7dd3121a172ab0209680d384a08008d5a2469f59e40178c8db110c5ce52f0"
-
-[[files]]
-file = "config/cristellib/supplementaries/structure_toggle_config.json5"
-hash = "1715fab1db080ca0bd264dce0cb2f8de8218d6e2989d085b0a3cb72b0f8c6225"
 
 [[files]]
 file = "config/cristellib/terralith/structure_placement_config.json5"
@@ -1139,10 +1115,6 @@ hash = "427bdf6725b448f596e78da5108e5ae06777e4b7a24732f2e1b63621d62b1322"
 [[files]]
 file = "config/gravestonecurioscompat-common.toml"
 hash = "72600f265ecb14fb987c16ed99e91504a29250d9d30a273ca6e16edda6da7d6c"
-
-[[files]]
-file = "config/idas-neoforge-1_21.toml"
-hash = "d17cd4af4a3ad34d26f95d77414c40e7bfed0414d17565bf5441789e1abe6aad"
 
 [[files]]
 file = "config/invtweaks-client.toml"
@@ -1386,10 +1358,6 @@ preserve = true
 [[files]]
 file = "config/puffish_skills/config.json"
 hash = "548156b84adda7e833d8f8d0cc5dd82dff1ba23a93011c4770ad548f1b9c82b0"
-
-[[files]]
-file = "config/quark-common.toml"
-hash = "33677cb85fb7d3f6a1ca00b031a576ab69b7c55488bc7c5705ba8816b1407617"
 
 [[files]]
 file = "config/refurbished_furniture.client.toml"
@@ -2628,342 +2596,6 @@ file = "config/structures_tweaker/global.json"
 hash = "7c0b416863e0cd5bb63478ff34c1daafdc78a86b34c98edb2809141445aa1325"
 
 [[files]]
-file = "config/structures_tweaker/idas/abandoned_lighthouse.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/abandoned_vineyard.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/abandonedhouse.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ancient_mines.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ancient_portal/ancient_portal.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ancient_portal/nether_ancient_portal.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ancient_statue/ancient_statue_desert.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ancient_statue/ancient_statue_jungle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ancient_statue/ancient_statue_plains.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/animal_den/forest_den.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/animal_den/foxhound_den.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/animal_den/polar_bear_den.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/apothecary_abode.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ars_nouveau/archmages_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/bazaar.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/bearclaw_inn.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/beekeepers_house.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/botanist.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/brickhouse.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/castle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/collectors_museum.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/cottage.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_camp/desert_camp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_camp/desert_camp_bygwindswept.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_camp/desert_camp_orange.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_camp/desert_camp_red.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_market/desert_market.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_market/desert_market_orange.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_market/desert_market_red.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_pyramid.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/desert_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/dig_site/dig_site.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/dig_site/dig_site_desert.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/enchantingtower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/farmhouse.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/fishermans_lodge.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/frozen_crypt.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/haunted_manor.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/hermits_hollow.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/hunters_cabin.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/iceandfire/dread_citadel.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/iceandfire/sirens_cove.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/labyrinth.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_acacia.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_birch.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_bopmahogany.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_bopredwood.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_bygmahogany.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_bygredwood.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_dark_oak.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_jungle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_oak.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/lumber_camp/lumber_camp_spruce.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/mason_house.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/necromancers_spire.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/nether_pump_camp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/nexus.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/pillager_camp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/pillager_fortress.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/pumpkin_cafe.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/redhorn_guild.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ruined_church.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ruined_fort.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ruined_well.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/ruins_of_the_deep.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/snifferhenge.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/sunken_ship/sunken_ship.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/sunken_ship/sunken_ship_coral.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/sunken_ship/sunken_ship_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/the_log.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/tinkers_citadel.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/tinkers_workshop.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/train_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/tree_of_wisdom.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/treetop_tavern.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/tudor_pub.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/underground_camp/underground_camp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/underground_camp/underground_camp_deep.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/wacky_wares.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/washing_camp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/windswept_shrine.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/winter_wagon.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/witches_treestump.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/idas/wizard_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
 file = "config/structures_tweaker/irons_spellbooks/ancient_battleground.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
@@ -3436,14 +3068,6 @@ file = "config/structures_tweaker/structory_towers/wizard_tower.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
 [[files]]
-file = "config/structures_tweaker/supplementaries/galleon.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/supplementaries/road_sign.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
 file = "config/structures_tweaker/terralith/desert_outpost.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
@@ -3556,15 +3180,6 @@ file = "config/structures_tweaker/terralith/witch_hut.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
 [[files]]
-file = "config/supplementaries-client.toml"
-hash = "05e5e95a563d78317ca78b55038a308db39f1148bf41de2cb3e1c79664ee8492"
-preserve = true
-
-[[files]]
-file = "config/supplementaries-common.toml"
-hash = "cc279b845779b3f32b00dd615da48fb114f92ab14f2f79dcbe636a215a5ad754"
-
-[[files]]
 file = "config/tectonic.json"
 hash = "f8159cd49fec4f6faefa98cff420db36861d71bba7aaa0a55c898b860da75f09"
 
@@ -3661,10 +3276,6 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "config/yacl.json5"
 hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
-
-[[files]]
-file = "config/zeta-common.toml"
-hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
 
 [[files]]
 file = "defaultconfigs/biolith/general.json"
@@ -3901,6 +3512,11 @@ metafile = true
 [[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "cdfa1b43710ffdc779a00287ea1544be4f38ab15cd4542bf9b17bee8d2e4e1da"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "f82dcab5621e178428706b3631fdf413c61c83f4041f8307b11d14bff7199f7b"
 metafile = true
 
 [[files]]
@@ -4219,23 +3835,8 @@ hash = "2cb3dbf43d544f1e1ba242916be15eecf64c38685b92d50b4c0d9914aa22cc6a"
 metafile = true
 
 [[files]]
-file = "mods/idas.pw.toml"
-hash = "8c888bdb32998b0e00075106b4f36907edb63328dac17fb99c754e9651826eac"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "8d613c99fcc53f777a37b6187aec10dd41b4946ea6316b191c8412f16c926ddb"
-metafile = true
-
-[[files]]
-file = "mods/integrated-api.pw.toml"
-hash = "331c88e5b62e0c84a5d836c98fa4af06398bb48e8d6bb3efe1170322393394b2"
-metafile = true
-
-[[files]]
-file = "mods/integrated-seven-seas.pw.toml"
-hash = "3d2cbeb1a09e3ba7533313fc3d79a53c8a6b167cd74dc230a92056a0ee3e4045"
 metafile = true
 
 [[files]]
@@ -4529,11 +4130,6 @@ hash = "bfd1bb9ece4f1202305d55d327de5dc416849c455a46cb747d77ffe9ff6d7b07"
 metafile = true
 
 [[files]]
-file = "mods/quark.pw.toml"
-hash = "9be8816d8f06b7f56ffa1213ca7d6617f3cc8f921356c871c71ca60eb6d1b867"
-metafile = true
-
-[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "febca9f03fba8698a7a365ae3b3bfe4189627f0b969657cc772ffb8a6c5d8ab5"
 metafile = true
@@ -4666,11 +4262,6 @@ metafile = true
 [[files]]
 file = "mods/structures-tweaker.pw.toml"
 hash = "702941b719b550dc99688142cf86c08dd95474ea28c2db66bae6e2ea634559be"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "44154e20731ce6d95a76f41c54b899f119bd36976a41a5a49a4bf1ff05029c51"
 metafile = true
 
 [[files]]
@@ -4816,11 +4407,6 @@ metafile = true
 [[files]]
 file = "mods/yuushya-townscape.pw.toml"
 hash = "4f4e6bc5f97f998a04760d1d973bcba829bf94a0aba5a297a2d3c9c48af9365c"
-metafile = true
-
-[[files]]
-file = "mods/zeta.pw.toml"
-hash = "14213b0633f6fb5e79c1a6940605bf3728b009d320164e30db7fac379179b752"
 metafile = true
 
 [[files]]
@@ -7150,22 +6736,6 @@ hash = "16116aaa35403f48c38221fa325e652263ad5640eda29b63445431e4542e105a"
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/mowziesmobs/wrought_helmet.json"
 hash = "15d614d4aff1f5ef4ddafb4ec166ae9ac17a8090860f3f566d86e98de6bd6b71"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/quark/flamerang.json"
-hash = "53592cd758999cbe7fe02d7b49f052121fa176e5e748935dadf6216e59aa2c9f"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/quark/forgotten_hat.json"
-hash = "462f17064a9a13acee88911c12f00e13ab43549f996970252101f14592692155"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/quark/pickarang.json"
-hash = "f3134239bf45da97d3fac2a5da4d3ee5ca3c556fc1722bc6fbe18df653c8bba0"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/supplementaries/slingshot.json"
-hash = "3e4f6df55e62360f9b793d5ad8d0e031784058d603de1364b62eb770e8dbab63"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/irons/netherite_mage.json"
