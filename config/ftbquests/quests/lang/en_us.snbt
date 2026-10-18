@@ -35,11 +35,11 @@
 	quest.30784F035FC8A107.quest_subtitle: "Defeat 10 skeletons"
 	quest.30784F035FC8A107.title: "Bone Collector"
 	quest.33E4C838918981E7.quest_desc: [
-		"A family server. Build, catch, trade, explore — at your own pace."
+		"A family server. Build, fight, trade, explore — at your own pace."
 		""
 		"&eQuests&r (this book) guide you. Tick this one to claim a starter kit."
 		"&eSkill trees&r: press &lK&r. Three trees level from what you already do."
-		"&eYour map&r: &lM&r is your Pokémon party; the minimap is top-left."
+		"&eYour map&r: &lM&r opens the world map; the minimap is top-left."
 		""
 		"Stuck, lost, or something broke? Say so in chat. Nothing here is permanent."
 	]
@@ -48,7 +48,7 @@
 	quest.3F761C90B071539B.quest_desc: [
 		"Three trees, each levelled by doing its thing:"
 		""
-		"&cAdventurer&r — defeating monsters and wild Pokémon"
+		"&cAdventurer&r — defeating monsters"
 		"&7Prospector&r — mining ore and chopping logs"
 		"&aHomestead&r — crafting, cooking, eating, fishing"
 		""
@@ -106,7 +106,7 @@
 	quest.6B1D3A57C0E2F483.title: "Sort It Out"
 	quest.6B1D3A57C0E2F483.quest_subtitle: "Middle-click in any inventory to sort it"
 	quest.6B1D3A57C0E2F483.quest_desc: [
-		"Middle-click sorts the inventory under your cursor: weapons, tools, armor, Poke Balls, coins, gems, food, metals..."
+		"Middle-click sorts the inventory under your cursor: weapons, tools, armor, coins, gems, food, metals..."
 		"The order lives in config/invtweaks-client.toml and is yours to change."
 	]
 	quest.6B1D3A57C0E2F484.title: "Stash It"

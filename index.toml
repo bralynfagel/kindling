@@ -1025,7 +1025,7 @@ hash = "064aa649a7a15f9f4c21b96400cee0da8e3d8f00e13c306f398b3f54a39fba55"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "c7ea46d04056f8ad48d62f329d101305f0b81fd40be830adc5e8715fdf611dd1"
+hash = "46c4e36610f9fde17e928e5fdff5b80997a2976f68b22ac4fd9dead4f8e5cefb"
 preserve = true
 
 [[files]]
@@ -1060,11 +1060,11 @@ hash = "a2d90c109cb293ccad3c1e97ac8c3f2f0eb337993403f8263bca5c5fb1d17542"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/delver.snbt"
-hash = "5db5ff5b20eee5ca177968ca630d564d580e7ce598e4a23081e58d00fc0f8654"
+hash = "5214958aa5eb4815f299a0f93820a684de8898d673227611ffddf563b4918bfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/market.snbt"
-hash = "c35c70e7b9eec7ea644e1bbe89302282a311ce14291180dff7e543533e37c9ab"
+hash = "bf615a3ee3ce3194058e031e8834fb33f985b040b6f0d0b71a3989713577a95b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -1076,7 +1076,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "60a92b1119b67227e0e62b05f9ffb6c1173f467318e1945ea3505bd2ea07f01e"
+hash = "90ca15289045398cc0583b4096a613433c5ffe93a6a9afb2203a257bcd0e827d"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1118,7 +1118,7 @@ hash = "72600f265ecb14fb987c16ed99e91504a29250d9d30a273ca6e16edda6da7d6c"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "3a3d06b389c56c4dc7e6372ed9a8533f557ada1433d38c60659f731894903ad1"
+hash = "39f659be55c0db6bcb1d2bc9b50e3e880cd8234f2b730c448c82743f71eb8585"
 preserve = true
 
 [[files]]
@@ -3363,7 +3363,7 @@ hash = "5282ed5e6b23eeddeb90c865c9d745a223ce12b44a9cb216c91b3a13d11364e1"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
-hash = "66fc1066c1cea36c2eb754a5edc1839a185c1e8500ffdfd5db06c22c093f55e4"
+hash = "8af857965e55708eb68dbca72ed01450946949b71cf7114963d1ae056d98337f"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -7131,7 +7131,7 @@ hash = "0a2469c878c09d0ee89f14ed77fa1f3944948f1d032b85967a1d60844ecc841b"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/category.json"
-hash = "920e3eaf541ea7bf4c5131301f80866cdef8ec110e1207cea5a25b662784db38"
+hash = "e9d3e76f6c8afa30f0afe536534e5b2946683bf3114e8e97d96111747fcd0fc0"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/connections.json"
@@ -7216,10 +7216,6 @@ hash = "93d62114a48218b8641e96ea015674abd7d7c4917d69fb8fa198e2821d8a2ce3"
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"
 hash = "b7852357c515151213169e7129c049981307f9a5a344055a213206638349c5a2"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-worldgen/pack.mcmeta"
-hash = "f217ce54594289d293d0aaae48dd02dcc87f944f56aaa0ce3eac736d166f36ae"
 
 [[files]]
 file = "options.txt"

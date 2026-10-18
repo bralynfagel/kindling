@@ -16,6 +16,10 @@ function grant(player, tree, amount) {
   } catch (e) { console.warn(`kindling_skill_xp ${tree}: ${e}`) }
 }
 
+// Shared flags for server scripts. Only startup scripts may assign to global; server scripts
+// can still call methods on this Java map, e.g. as a once-only guard (see docs/landmines.md).
+try { global.kindlingFlags = new (Java.loadClass('java.util.HashMap'))() } catch (e) { console.warn('kindling flags: ' + e) }
+
 // ---------- Arcanist (spell cast events) ----------
 try {
   NativeEvents.onEvent('io.redspace.ironsspellbooks.api.events.SpellOnCastEvent', e => {

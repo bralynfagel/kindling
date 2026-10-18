@@ -140,7 +140,6 @@
 		entity_icon: {
 			"mowziesmobs:ferrous_wroughtnaut": true
 			"minecraft:skeleton": true
-			"cobblemon:pokemon": true
 			"minecraft:glow_squid": true
 			"minecraft:armadillo": true
 			"minecraft:cod": false

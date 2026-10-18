@@ -294,7 +294,7 @@
 		containerClass = "aztech.modern_industrialization.*.gui.*Screen.java"
 		sortRange = ""
 
-	#Categor(y/ies) for sorting, in order. Kindling order: weapons and tools, armor, Poke Balls,
+	#Categor(y/ies) for sorting, in order. Kindling order: weapons and tools, armor,
 	#currency, gems, food, metals, ores, potions, farming, torches, cheap blocks, blocks, then
 	#everything else. This file is yours: edit or reorder categories freely (packwiz keeps your copy).
 	#
