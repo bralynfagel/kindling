@@ -2,27 +2,18 @@
 	chapter.1038D0AD4ECE7A4D.title: "Hearth & Market"
 	chapter.1767CDB682DE69F4.title: "Delver"
 	chapter.4446AEB1B7E99123.title: "Welcome to Kindling"
-	chapter.75ACCB0A36475529.title: "Trainer's Road"
 	file.0000000000000001.title: "Kindling"
 	quest.001176AFB1F5BD50.quest_subtitle: "Make a stone pickaxe"
 	quest.001176AFB1F5BD50.title: "Stone Age"
-	quest.034D54C70B738E5A.quest_subtitle: "Craft a Pokédex"
-	quest.034D54C70B738E5A.title: "Know Your Pokémon"
-	quest.079D2C3E820FE51F.quest_subtitle: "Use a pasture"
-	quest.079D2C3E820FE51F.title: "A Place to Roam"
 	quest.09E515574A3889F3.quest_subtitle: "Defeat 10 zombies"
 	quest.09E515574A3889F3.title: "First Blood"
 	quest.0A08820A358F5567.quest_subtitle: "Defeat 10 creepers"
 	quest.0A08820A358F5567.title: "Pest Control"
-	quest.0A3310679678A43B.quest_subtitle: "Fill all six party slots"
-	quest.0A3310679678A43B.title: "Full Team"
 	quest.0B80D99568FA564C.quest_desc: [
 		"Wallets hold coins without eating inventory space, and exchange up automatically."
 	]
 	quest.0B80D99568FA564C.quest_subtitle: "Craft a copper wallet"
 	quest.0B80D99568FA564C.title: "A Wallet"
-	quest.0D04CA52FC085979.quest_subtitle: "Use a healing machine"
-	quest.0D04CA52FC085979.title: "Patch Them Up"
 	quest.1079ADC681653FB9.quest_desc: [
 		"A terminal lets you browse every shop on the server from one place."
 	]
@@ -30,8 +21,6 @@
 	quest.1079ADC681653FB9.title: "The Whole Market"
 	quest.11E7D03192D12993.quest_subtitle: "Sleep in a bed"
 	quest.11E7D03192D12993.title: "A Place to Sleep"
-	quest.14864107CB2F68A4.quest_subtitle: "Ride a Pokémon"
-	quest.14864107CB2F68A4.title: "Saddle Up"
 	quest.19662AD01F85C93D.quest_desc: [
 		"Diamond ore needs &bMining 16&r to break. Every rung below it is reachable from coal, copper and iron."
 	]
@@ -39,21 +28,10 @@
 	quest.19662AD01F85C93D.title: "&bDiamonds"
 	quest.1C1EBD5257E80C06.quest_subtitle: "Throw an eye of ender"
 	quest.1C1EBD5257E80C06.title: "Follow the Eye"
-	quest.1DCAB48505E13AC8.quest_desc: [
-		"Weaken a wild Pokémon, then throw a ball."
-		"Your party is on &lM&r; send out your lead with &lR&r."
-	]
-	quest.1DCAB48505E13AC8.quest_subtitle: "Catch a Pokémon"
-	quest.1DCAB48505E13AC8.title: "First Catch"
 	quest.290AB97E63BB1C6B.quest_subtitle: "Craft a vending machine"
 	quest.290AB97E63BB1C6B.title: "Vending"
 	quest.29C0B076B00CE8E2.quest_subtitle: "Craft a cutting board"
 	quest.29C0B076B00CE8E2.title: "Chop Chop"
-	quest.2C88373B0554F325.quest_desc: [
-		"Rare. Don't grind for it — it'll happen."
-	]
-	quest.2C88373B0554F325.quest_subtitle: "Catch a shiny"
-	quest.2C88373B0554F325.title: "&dSomething Sparkles"
 	quest.30784F035FC8A107.quest_subtitle: "Defeat 10 skeletons"
 	quest.30784F035FC8A107.title: "Bone Collector"
 	quest.33E4C838918981E7.quest_desc: [
@@ -67,11 +45,6 @@
 	]
 	quest.33E4C838918981E7.quest_subtitle: "Read me first"
 	quest.33E4C838918981E7.title: "&6Welcome to Kindling"
-	quest.3B9C741C90878B7F.quest_desc: [
-		"Apricorns grow on trees in the wild. Pick them, cook them, craft balls."
-	]
-	quest.3B9C741C90878B7F.quest_subtitle: "Craft Poké Balls"
-	quest.3B9C741C90878B7F.title: "Ball Crafter"
 	quest.3F761C90B071539B.quest_desc: [
 		"Three trees, each levelled by doing its thing:"
 		""
@@ -83,8 +56,6 @@
 	]
 	quest.3F761C90B071539B.quest_subtitle: "Press K and spend a point"
 	quest.3F761C90B071539B.title: "Your Skill Trees"
-	quest.423CB41EC9CAB8A4.quest_subtitle: "Pick a berry"
-	quest.423CB41EC9CAB8A4.title: "Berry Picking"
 	quest.433DE22EADA63DF0.quest_subtitle: "Smelt iron"
 	quest.433DE22EADA63DF0.title: "Iron Age"
 	quest.44C75AA2C097C55B.quest_desc: [
@@ -94,8 +65,6 @@
 	quest.44C75AA2C097C55B.title: "Carry More"
 	quest.4F039727611BC086.quest_subtitle: "Craft an oak table"
 	quest.4F039727611BC086.title: "Make It Home"
-	quest.50B94D7784F72104.quest_subtitle: "Evolve a Pokémon"
-	quest.50B94D7784F72104.title: "Growing Up"
 	quest.5129BE1A08DF5129.quest_subtitle: "Wear some armor"
 	quest.5129BE1A08DF5129.title: "Suit Up"
 	quest.5B455646159A9A64.quest_desc: [
@@ -127,11 +96,11 @@
 	quest.7BA050781C5D41CC.quest_subtitle: "Enter the Nether"
 	quest.7BA050781C5D41CC.title: "Into the Fire"
 	chapter.6B1D3A57C0E2F481.title: "Kindling Basics"
-	quest.6B1D3A57C0E2F482.title: "Five Paths"
+	quest.6B1D3A57C0E2F482.title: "Four Paths"
 	quest.6B1D3A57C0E2F482.quest_subtitle: "Open your skill trees with K"
 	quest.6B1D3A57C0E2F482.quest_desc: [
-		"Everything you do earns experience in one of five trees: Adventurer (fighting), Prospector (mining),"
-		"Homestead (crafting, cooking, fishing), Trainer (Pokemon) and Arcanist (spells)."
+		"Everything you do earns experience in one of four trees: Adventurer (fighting), Prospector (mining),"
+		"Homestead (crafting, cooking, fishing) and Arcanist (spells)."
 		"Each level gives a point to spend in that tree. One player can finish every tree."
 	]
 	quest.6B1D3A57C0E2F483.title: "Sort It Out"

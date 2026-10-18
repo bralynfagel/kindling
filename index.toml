@@ -665,10 +665,6 @@ file = "config/buildinggadgets2-common.toml"
 hash = "596a9276f68bd49ad010420cbcad2c84d093553478fd1f91c3d66579f2416776"
 
 [[files]]
-file = "config/capture_xp.json"
-hash = "e366ad9e6bec059e8fa8a6f2b2fa6b42fc1c82ac2199abc44b4313e5aedeb81b"
-
-[[files]]
 file = "config/cataclysm-client.toml"
 hash = "a83db10f4450e21761559465b75388c115d3f0d899b368e1124f380d49b737a8"
 preserve = true
@@ -688,22 +684,6 @@ hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 [[files]]
 file = "config/cluttered-common.toml"
 hash = "53a0e119f787d75d376ce65b6856c53113e70889b33e3567fbe002246812dbf1"
-
-[[files]]
-file = "config/cobblemon/main.json"
-hash = "59e1af6ba6f49604b82af0dffdbc6202ec42f86097ddc29fa7871e991f5226de"
-
-[[files]]
-file = "config/cobblemonextrastructures-common.toml"
-hash = "61a6b4f7ee1f42abd86eaf277f10497a93010cc2326b3cf93a967c91133df9de"
-
-[[files]]
-file = "config/cobblenav/client-config.json"
-hash = "4640a6bc027d3e9c1275a7e07af656784d38d4d3664bb185f2d34acb7b4094d5"
-
-[[files]]
-file = "config/cobblenav/server-config.json"
-hash = "d9cdbe4c56f4f2099ba600319c833fe8b20d4eb52e060e5b4978bc2e6bf801f4"
 
 [[files]]
 file = "config/collective.json5"
@@ -873,22 +853,6 @@ file = "config/cristellib/cataclysm/structure_toggle_config.json5"
 hash = "44b14269e2f7628382cf11744ebd736a124c9c04d51df208aa1c16490e674e91"
 
 [[files]]
-file = "config/cristellib/cobblemon/structure_placement_config.json5"
-hash = "a6bb1452cd38a18f3e23ba9d083700f209103a4c220231df09025429d8092b1e"
-
-[[files]]
-file = "config/cristellib/cobblemon/structure_toggle_config.json5"
-hash = "c9692e189abe2e8744a6f46a9851f6d1c3bda26421edecd794a687d3ad59d3d5"
-
-[[files]]
-file = "config/cristellib/cobblemonextrastructures/structure_placement_config.json5"
-hash = "fe9230fcd151b30fb3d93e2ff8bf66f048b9b71209ced9fb88b6867e463160c8"
-
-[[files]]
-file = "config/cristellib/cobblemonextrastructures/structure_toggle_config.json5"
-hash = "46dd51376f317067e5d6800d37af49683bc4299c1e562b0f82bcb8c62dfdf2ca"
-
-[[files]]
 file = "config/cristellib/dungeons_arise/structure_placement_config.json5"
 hash = "4b3e54811d5e41677688e9f829bb203ed345d98dfacb6e100ed1a06ef9bbd27b"
 
@@ -910,7 +874,7 @@ hash = "a246410de17822748dbb20b11773c9fab60484bdc5fb924c0785a39c486f2a92"
 
 [[files]]
 file = "config/cristellib/explorify/structure_toggle_config.json5"
-hash = "91937c0505d28dd9d9d41f11c8b0df04c8b106fac3746d72087a959f81a18e1e"
+hash = "c9b3843c51ecfb421cbf2cf0d4e7bdb73e2e942ad549fd60963bb5e3f0573d00"
 
 [[files]]
 file = "config/cristellib/extradelight/structure_placement_config.json5"
@@ -969,36 +933,12 @@ file = "config/cristellib/mss/structure_toggle_config.json5"
 hash = "23aabfb0e2f7b26cf6a262865c96231b746a11a0ed8b78c29023e38b54145255"
 
 [[files]]
-file = "config/cristellib/philipsruins/structure_placement_config.json5"
-hash = "7c2ba6ec503a6faddfc04e59283a669f8d9427cfb6679f6cc1da18bdeac15e6d"
-
-[[files]]
-file = "config/cristellib/philipsruins/structure_toggle_config.json5"
-hash = "935e82bb8db578a7d7a8400b8e9df7fbfbe34d48c0bc8d2f1a0c338803fa9324"
-
-[[files]]
-file = "config/cristellib/rgs/structure_placement_config.json5"
-hash = "53e361c7e6f3534013b3f6e521ec698547a3bab12c1688c22ffeb53a77c3735b"
-
-[[files]]
-file = "config/cristellib/rgs/structure_toggle_config.json5"
-hash = "1b904d5005ae1ec9f5df277b7cf3e83c25d0ac2221a75ac06d2fe331a3441907"
-
-[[files]]
-file = "config/cristellib/skyvillages/structure_placement_config.json5"
-hash = "507eb34e8ae0caef735c14baaebbc3a56bdb669c4151abcdd809c9cf8b056f6d"
-
-[[files]]
-file = "config/cristellib/skyvillages/structure_toggle_config.json5"
-hash = "d333520c5937f577ed2b7e788a51cfe8543fc391b8a074baaa0563aad646c649"
-
-[[files]]
 file = "config/cristellib/structory/structure_placement_config.json5"
 hash = "0eab3d6c98dd4eedbe4dce5a4fc4596d1d060876bc20bbe60e069ab5ae61df0c"
 
 [[files]]
 file = "config/cristellib/structory/structure_toggle_config.json5"
-hash = "a33903592feb8a1e1fd0a4fe0adf4ef72efbb4832330c9500db0fb2910abd287"
+hash = "00e86d85390e3bf978c4dbcd39ec58c136be8f317251b42ff3ed2c31291ac127"
 
 [[files]]
 file = "config/cristellib/structory_towers/structure_placement_config.json5"
@@ -1095,18 +1035,6 @@ file = "config/ferritecore-mixin.toml"
 hash = "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78"
 
 [[files]]
-file = "config/fightorflight.json5"
-hash = "6bae8a83cc6034e43c062a3a39f6f6869135a03f4ebc1b950655925a831101e7"
-
-[[files]]
-file = "config/fightorflight_moves.json5"
-hash = "cd4a03661dae612081d71cd9a5d847d66ceab5c3a6275bb286ab6a8bff6f1d97"
-
-[[files]]
-file = "config/fightorflight_visual_effect.json5"
-hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
-
-[[files]]
 file = "config/flywheel-client.toml"
 hash = "9b9525f6baadc8312819ae21ad8688b20fb887e0e2bec4bceece4cbb296196b8"
 preserve = true
@@ -1163,10 +1091,6 @@ file = "config/ftbquests/quests/chapters/market.snbt"
 hash = "c35c70e7b9eec7ea644e1bbe89302282a311ce14291180dff7e543533e37c9ab"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/trainer.snbt"
-hash = "7ef304b105c572c9d0b99d867eafee444862f5e2c693da42c41b13cea8a314f7"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
 hash = "e0b3cbfd5e25da45fdd62f7b54fce1022e18dea94f2b648d14337332801cf10b"
 
@@ -1176,7 +1100,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e1c26f14e079b32556e3515fd1377a65eecfde120a9bbb3e9b34f4f64e70b652"
+hash = "60a92b1119b67227e0e62b05f9ffb6c1173f467318e1945ea3505bd2ea07f01e"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1222,7 +1146,7 @@ hash = "d17cd4af4a3ad34d26f95d77414c40e7bfed0414d17565bf5441789e1abe6aad"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "5952d813cde549057d43a7a5cc3b7618db3776430981119393687aff7359bc62"
+hash = "3a3d06b389c56c4dc7e6372ed9a8533f557ada1433d38c60659f731894903ad1"
 preserve = true
 
 [[files]]
@@ -1468,15 +1392,6 @@ file = "config/quark-common.toml"
 hash = "33677cb85fb7d3f6a1ca00b031a576ab69b7c55488bc7c5705ba8816b1407617"
 
 [[files]]
-file = "config/rctmod-client.toml"
-hash = "fea22def4a675a7bda428aeced4e5724aa4080fec6b01f2432afa4d18fbb13a2"
-preserve = true
-
-[[files]]
-file = "config/rctmod-server.toml"
-hash = "7942666bd0057c68ff33f0383c1ad17c876d8a6b0c024f3f605bed232a049dcd"
-
-[[files]]
 file = "config/refurbished_furniture.client.toml"
 hash = "531d089119a8002ff2fc3e4ff2dca867744227c2b8d5444be733d676e7af72e8"
 preserve = true
@@ -1496,182 +1411,6 @@ hash = "6eee1f247b7e13d4584e3c3230c7943fb0c52a6dc8192d1bb850417e42c06635"
 [[files]]
 file = "config/rightclickharvest.json5"
 hash = "6eb5169563472ae96184c94e9f42ff7d76fdba403ed3190ffb308e817ea0a21e"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/cave.json"
-hash = "934b35eed3f7d07a7bbf6e01bd3085bd459e0d559ad138ebe6e92652c1ba12dd"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/flying.json"
-hash = "bfd3e2cf45692429346134591afcd8832f45a9cda70b930864523dbb517e585f"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/grass.json"
-hash = "8cbff12acd749c8132109151d6a23c4a717fa599c3b36e2c0f570cfd3dca057d"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/leaves.json"
-hash = "0e83620295d8d1847a051dc8866f1d938d681823ebee3b1f3cbca7e616a103e5"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/netherflamme.json"
-hash = "bbfd30def3131802750e2aee1686dc47b676d454b1b94a8396c500bfe0615fbe"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/sand.json"
-hash = "b4b03846a6bcc60053d5224311288d14ce20966cc4fa18f5a4f491b5e54b69a4"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/snow.json"
-hash = "2caa34ef457db22bba38b553b7a67ad85c71185399d4a2c5e48ef963c0e3400b"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/soulflame.json"
-hash = "19f182884b4c66b1eb083b9f28d70c4c7521fe860352b66901bac8c2f7ec0f6f"
-
-[[files]]
-file = "config/rustlingspots/biome_tags/water.json"
-hash = "b2641b81bfc3acfd0c2266d071360661bca5b2d81ce2e7db4027eadd58abe8c7"
-
-[[files]]
-file = "config/rustlingspots/families/cave.json"
-hash = "5b4b0fcfcdd1b2015350e7cededabe436afb9dc4fa020436d76ece1f5cd24cd7"
-
-[[files]]
-file = "config/rustlingspots/families/flying.json"
-hash = "ebdd818fe4af494ec6fa72950023eba1c31c2372a4b9ae7cc04b4690357f0741"
-
-[[files]]
-file = "config/rustlingspots/families/grass.json"
-hash = "bde090cfb1bd0dddc421d9a6e2cacde58c4650ac7c1edf530323acad65bb66e5"
-
-[[files]]
-file = "config/rustlingspots/families/leaves.json"
-hash = "84a81a00708ae8ce76024e41be5cbfb04a9eaa75e290d5011894826f0e68d8b6"
-
-[[files]]
-file = "config/rustlingspots/families/netherflamme.json"
-hash = "f9da82928427b708d02358c1439d5e822ce3437d9853bb9d0aa9bbf24acf4a82"
-
-[[files]]
-file = "config/rustlingspots/families/sand.json"
-hash = "ad891a0c76683537e56700293f55f64d1b2722344b6dd9489fd1ea5824bb0db9"
-
-[[files]]
-file = "config/rustlingspots/families/snow.json"
-hash = "1e1e937a3f0d355d84273f9d7e08c9192a96c38cf065811828de390cbcec346a"
-
-[[files]]
-file = "config/rustlingspots/families/soulflame.json"
-hash = "1c134312b456dd53fe257b3fd77662571421f69ba336e461cf339864f610b3e4"
-
-[[files]]
-file = "config/rustlingspots/families/water.json"
-hash = "3cf2d42d4342c7d418a74e4eea8e810079679a838e891e440d7118ab5cc9b37e"
-
-[[files]]
-file = "config/rustlingspots/loot/families/cave.json"
-hash = "18732c4fb2fc26835adeb8bb40376698f65e2c497534a42444d69e068f2548e8"
-
-[[files]]
-file = "config/rustlingspots/loot/families/flying.json"
-hash = "df2a6223e73793c153caed922daa8b88a563a46e6f41ef05f01b9cefcfd0e7ba"
-
-[[files]]
-file = "config/rustlingspots/loot/families/grass.json"
-hash = "40272448fd8fb8da124ff349f75690b789098e3b21d172753aa8742cbf054250"
-
-[[files]]
-file = "config/rustlingspots/loot/families/leaves.json"
-hash = "da392c9743f3e5f9a714bfaaf85a5efa92b2acfeffa3ab8447cd30c2acff3e4d"
-
-[[files]]
-file = "config/rustlingspots/loot/families/netherflamme.json"
-hash = "973c313fbf03ba48e2fac9129b74a83a3327ff8ad85b18ba2a6ce02d1c8d7a75"
-
-[[files]]
-file = "config/rustlingspots/loot/families/sand.json"
-hash = "e6e47c3b5e69aa42352a65e71974a2d027896eac2c3bf88264f076f22418639b"
-
-[[files]]
-file = "config/rustlingspots/loot/families/snow.json"
-hash = "1836413e163b9eb12f41936efb69fc35d55106c398528cb64cea5101854a299e"
-
-[[files]]
-file = "config/rustlingspots/loot/families/soulflame.json"
-hash = "8fba133525adcce3926ca914d8192d333be9120ad3c8ada76bb1f6b6e3637c7b"
-
-[[files]]
-file = "config/rustlingspots/loot/families/water.json"
-hash = "0aec96c1f5394e3cb08bedeee7fd7ba9729b089fa6986ddf76066811ff185023"
-
-[[files]]
-file = "config/rustlingspots/loot/global_loot.json"
-hash = "c062b105099b7279275e107778498f39e40581a597fbcccc5b2227e25b15a444"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/cave.json"
-hash = "5e29d02e948c1ed48ac7c447c7f82091447171e4e117908e2a526693ab31754d"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/flying.json"
-hash = "cb84f295db4c4dda1790e412ac56155c3823df080f1d0aca1f30b19848c03774"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/grass.json"
-hash = "efbfe4924813ae2fcc5a31de972611e914599f91d98380179cbe52c15c1f3527"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/leaves.json"
-hash = "1700c420dd8ed46daaa092502aa40fad7c4e9a9426a3efc4aa888fd5cff1a3f0"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/netherflamme.json"
-hash = "f586c09ac921743afb1c198d1fcf2c201170b508ca420d30776627d3cc52407b"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/netherflamme_lava.json"
-hash = "05ff60ec42096c611e77a46f01e1e9a4d471b37dd7cb7c2f1e08e9a9a2804dbd"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/sand.json"
-hash = "411e076fcce71efef2b2a3428893ad53865c6a1dc4da0d37c9486f15750c9505"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/snow.json"
-hash = "f9535db84c28ab93d15b2600632d686e76fc7742201fea808c06b6bf0ce90e05"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/soulflame.json"
-hash = "3f6ee586241ff433198785e103542249547b860cdf972e1daa685ad3b9e58ad8"
-
-[[files]]
-file = "config/rustlingspots/pokemon/families/water.json"
-hash = "09cc79c896486ddcea8702cfe6f5550ddaaa3875024f415c0f956f87237dde41"
-
-[[files]]
-file = "config/rustlingspots/rustlingspots-client.json"
-hash = "a6f144e2faa530038ee546fbd4275cff2bc642093c5868cf7c689bf5fa842c2f"
-
-[[files]]
-file = "config/rustlingspots/rustlingspots-families.json"
-hash = "1a49b21537f23a3d7862e2818a3d9845cbc03514f9b7bd75f7db58e30933230d"
-
-[[files]]
-file = "config/rustlingspots/rustlingspots-pokemon.json"
-hash = "8ff108f50ccc317bdc61a5678e66fc6570824130955884db0043a5e41e54999c"
-
-[[files]]
-file = "config/rustlingspots/rustlingspots-server.json"
-hash = "53f4827263819bd8df634ab503ccc9a321e1b114093145c7ae1664a67f337c00"
-
-[[files]]
-file = "config/rustlingspots/rustlingspots-sound.json"
-hash = "03f92fdbaff176e7945ca95fe1268d4d02c3c5bd1b28dfbfc5abf75e8e4d663d"
-
-[[files]]
-file = "config/safepastures/safepastures.json"
-hash = "890acaacbc2840100287e599437e6ca9f85520253e8452d17b838236d40b7bb5"
 
 [[files]]
 file = "config/seasonhud-client.toml"
@@ -1731,10 +1470,6 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
 hash = "f1782c9607509e3afccec9bb773acff652859b573bec169d5a7ff544a2a8595f"
-
-[[files]]
-file = "config/spawn_notification.json"
-hash = "3b1f1bfb388cc5985b90a3aa432e9a4ebf2f15c23a2f2358bdce2c4a2d1f9f98"
 
 [[files]]
 file = "config/starterkit.json5"
@@ -2210,346 +1945,6 @@ hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
 [[files]]
 file = "config/structures_tweaker/cataclysm/sunken_city.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/fishing_boat/beach.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/fishing_boat/deep_ocean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/fishing_boat/warm_ocean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/badlands_shaded_rock.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/berry_patch.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/birch_wildfire_scar.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/bug_mound.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/carved_ice_spikes.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/deep_sea_spire.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/desert_oasis.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/desert_shaded_rock.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/drifting_icebergs.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/fae_mounds.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/flowerbed_clearing.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/freshwater_pond.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/fungal_dwelling.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/lush_canopy.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/lush_cenote.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/lush_peat_bog.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/meteorite_impact.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/natural_lightningrod.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/oak_wildfire_scar.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/parched_peat_bog.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/pinkflowerbed_clearing.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/reclaimed_deserted_monument.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/reclaimed_lush_monument.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/sandpit_clearing.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/snowy_burrow.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/snowy_grotto.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/snowy_thermal_vents.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/spruce_wildfire_scar.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/sunflowerbed_clearing.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/sunscorched_clearing.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/thermal_crevices.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/habitats/zen_garden.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/ancient_dais_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/crumbling_arch_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/decaying_crypt_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/deserted_gimmi_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/deserted_house_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/deserted_monument_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/deserted_tower_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/deserted_town_center_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/fallen_statue_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/frozen_altar_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/frozen_gimmi_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/hidden_bunker_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/luna_henge_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/lush_gimmi_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/lush_monument_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/meteor_battleground_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/mossy_oubliette_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/old_garden_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/overgrown_trial_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/rooted_arch_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/rooted_gimmi_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/sol_henge_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/stonjourner_henge_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/submerged_forge_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/sunscorched_gimmi_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/sunscorched_shaded_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/temperate_gimmi_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/toppled_pillars_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/ruins/unstable_cave_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/shipwreck_coves/lush_shipwreck_cove.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/shipwreck_coves/magma_shipwreck_cove.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemon/shipwreck_coves/submerged_shipwreck_cove.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/ancient_tomb.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/bell_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/berry_house.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/burned_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/desert_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/dragons_den.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/fishing_hut.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/island_cave.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/kurt_house.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/origin_cave.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/origin_tomb.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/outskirt_stand.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/pharmacy.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/sea_mauville.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/sky_pillar.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/snowpoint_temple.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/sprout_tower.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/cobblemonextrastructures/suerebe.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
 [[files]]
@@ -3897,114 +3292,6 @@ file = "config/structures_tweaker/mss/white_house.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
 [[files]]
-file = "config/structures_tweaker/philipsruins/ancient_crypt.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/ancient_dungeon.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/ancient_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/ancient_towers.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/field_stone_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/field_stone_ruins_rocks.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/level_one_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/level_three_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/level_two_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/level_two_ruins_pool.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/lost_soul_city.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/lost_soul_dungeon.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/ocean_fortress.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/ocean_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/pumpkin_ruins.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/rare_ruin.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/philipsruins/underground_structures.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/blackthorn_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/celadon_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/cerulean_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/cinnabar_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/fuchsia_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/kanto_league.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/pewter_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/saffron_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/rgs/vermilion_gym.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/skyvillages/skyvillage.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
 file = "config/structures_tweaker/structory/abandoned_camp.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
@@ -4269,253 +3556,13 @@ file = "config/structures_tweaker/terralith/witch_hut.json"
 hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
 
 [[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_classic.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_iberian.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_mediterranean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_nilotic.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_oriental.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_rustic.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_swedish.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/pillager_outpost_tudor.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_classic.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_iberian.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_mediterranean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_nilotic.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_piglin.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_rustic.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_swedish.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_tudor.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/exclusives/village_wandering_trader_camp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/mimic_desert.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_badlands.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_beach.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_birch_forest.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_desert.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_flower_forest.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_forest.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_grove.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_jungle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_meadow.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_mushroom_fields.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_ocean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_old_growth_taiga.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_savanna.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_savanna_plateau.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_snowy_beach.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_snowy_plains.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_snowy_slopes.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_snowy_taiga.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_sparse_jungle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_sunflower_plains.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_swamp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_taiga.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/pillager_outpost_wooded_badlands.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_badlands.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_beach.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_birch_forest.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_flower_forest.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_forest.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_grove.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_jungle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_meadow.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_mushroom_fields.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_ocean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_old_growth_taiga.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_savanna_plateau.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_snowy_slopes.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_snowy_taiga.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_sparse_jungle.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_sunflower_plains.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_swamp.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/village_wooded_badlands.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
-file = "config/structures_tweaker/towns_and_towers/wreckage_ocean.json"
-hash = "9512ba6896f1f0bbb6efe8a0556864961a82c4809cade2aea28b360688806dc8"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 hash = "05e5e95a563d78317ca78b55038a308db39f1148bf41de2cb3e1c79664ee8492"
 preserve = true
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "dc75738e460902b58979678e29eccaee081eab6ce9663c197dd6d67eddc07d9d"
+hash = "cc279b845779b3f32b00dd615da48fb114f92ab14f2f79dcbe636a215a5ad754"
 
 [[files]]
 file = "config/tectonic.json"
@@ -4527,19 +3574,7 @@ hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
 file = "config/terralith.json"
-hash = "eadc7fad5ce55fbcec25df521820d36c222d5b12f17006ed9fea34ebeb6fd01d"
-
-[[files]]
-file = "config/tim_core.json"
-hash = "dcdb96def518bc9e4971c086e9b572e27fa4e72b2fda8b61ed6847fbded70e90"
-
-[[files]]
-file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
-hash = "7c70e7df82d014a87dcb2defcf45d9654a22362283c7efe1f81f3b3c04290709"
-
-[[files]]
-file = "config/towns_and_towers/structure_rarity_new.json5"
-hash = "fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313"
+hash = "1e851f2a9b6e37e80afa038efbfcc849224842a751c7963a41237b366cb8a6a0"
 
 [[files]]
 file = "config/trades/lightmanscurrency/custom_banker_trades.json"
@@ -4649,11 +3684,11 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/controlify/controllers/default_bind/default.json"
-hash = "43e7fc9420ea20b7c252a3b2319c1226d4b51c3c86d78047c1c53c271d9a318d"
+hash = "02103abc6da6495e830f8ccb0dd1433e47de4ba4141a2f11468cf70f2f10430f"
 
 [[files]]
 file = "kubejs/assets/controlify/controllers/default_config/default.json"
-hash = "cc147739b1f4ee94faecdb2d634528e1b5dd5cf76933b690899c293e29296d7e"
+hash = "a52d1e2cb129fa5f1957494ee83bc25b05ce32f968439ba47c3014dff5a3ba01"
 
 [[files]]
 file = "kubejs/assets/kindling/lang/en_us.json"
@@ -4708,10 +3743,6 @@ file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
 [[files]]
-file = "kubejs/server_scripts/trainer_xp.js"
-hash = "587cc4a655e1195ca8a5f9b6f5cb4bf9e17510e6d597db4c5271d29f309ec58f"
-
-[[files]]
 file = "kubejs/startup_scripts/kindling_items.js"
 hash = "ccba4db7932106ef2a7ddf3fc9a8e82c2c0a381c72e58c201aced42b7f44c66a"
 
@@ -4721,7 +3752,7 @@ hash = "5282ed5e6b23eeddeb90c865c9d745a223ce12b44a9cb216c91b3a13d11364e1"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
-hash = "5eed34f3d86e5a46d13edcab66b5bb3e07ae87ef35c4c46a1b3d399d1e402488"
+hash = "66fc1066c1cea36c2eb754a5edc1839a185c1e8500ffdfd5db06c22c093f55e4"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -4900,56 +3931,6 @@ metafile = true
 [[files]]
 file = "mods/cluttered.pw.toml"
 hash = "a47c62ad57e6eab2ad8ee781a9f7b48ac2f7ad2d2cfbaf8ea8612eafe7f74c70"
-metafile = true
-
-[[files]]
-file = "mods/cobblefurnies.pw.toml"
-hash = "4df5e5d3a3188d0d30343d342b8a97a02e443e7eab037e46cb300d765f018c9f"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "24104497b6c309edc20af388124916d8815a5ccfb6a0af1699e26d0508915172"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "6cdc1b3942d60522688e67bf086c80e612d98f34b1bb09c7a13aa77a7ba17008"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-rustling-spots.pw.toml"
-hash = "d47a5564b57df100d1db9963eb0d30228c4e3f6aa48db1128ec16bdf6a1f168e"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-safepastures.pw.toml"
-hash = "1219eea772f975b1d828be094b2e7077cdfb623e08e9b9f6ca9983d9aa38a6c0"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-spawn-notification.pw.toml"
-hash = "31e1b15e27d0c5c950ac0ae3450e68a2594392a27f485407be1ca9b913964223"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-tim-core.pw.toml"
-hash = "27c6f40a8ed2a4779441dcf65fee8e747872665e1bb765f572fdeef3b742ed50"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon.pw.toml"
-hash = "3421c795c9a4904b8e50c29775a10fe6a9c80f8ea865472943a1258f8fdc62f2"
-metafile = true
-
-[[files]]
-file = "mods/cobblemonextrastructures.pw.toml"
-hash = "b1456320bfb4cb55197983c3ba6d4c0f93792b9b756ce16a4e52cd5bfca259e6"
-metafile = true
-
-[[files]]
-file = "mods/cobblenav.pw.toml"
-hash = "3ba0d9f254d87d4f82b7aab9940d2dc23087f7b3c19b75241de3d9386dd09b3e"
 metafile = true
 
 [[files]]
@@ -5378,18 +4359,8 @@ hash = "68dc42585e850cf78bd8ad67cf546e2488efcaa9e2b5eb4b6743695f6e119f17"
 metafile = true
 
 [[files]]
-file = "mods/loot-integrations-philips-ruins.pw.toml"
-hash = "e093e0596061c8028b9d7760487a5f52226dd403fe467d64456764d905088be9"
-metafile = true
-
-[[files]]
 file = "mods/loot-integrations-structory-towers.pw.toml"
 hash = "60e93271ef1e43ff71d3aeb718e100b9c07c080d83ee64787371738d1d8347fd"
-metafile = true
-
-[[files]]
-file = "mods/loot-integrations-towns-and-towers.pw.toml"
-hash = "2fdb3bc8506cec0de122f79281d41191525fa08929f0a636a9165e011f2cde4e"
 metafile = true
 
 [[files]]
@@ -5405,11 +4376,6 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "1846d700dd97c292b5944f3e1d62e746cd809df0513734b490cc5cf490445055"
-metafile = true
-
-[[files]]
-file = "mods/lootrmon.pw.toml"
-hash = "80a5efe06fe5e4c6a9009f04cb880a03fb19f3472b10bd14c1193c275cf8fe84"
 metafile = true
 
 [[files]]
@@ -5498,13 +4464,13 @@ hash = "f3c9208dbbbbfc986fb22acb58b74a7046e66b5a355ca0bf90fe202fe6e2891e"
 metafile = true
 
 [[files]]
-file = "mods/patchouli.pw.toml"
-hash = "65f5cc8e1b3aa6cf18a97a53374c7d31c9786b10655d7212bd84fa68992a5db9"
+file = "mods/noisiumed.pw.toml"
+hash = "9031c5feb620eca794f0c724014b96abb6d3aebd6d816e20ca4f0c996f5d6300"
 metafile = true
 
 [[files]]
-file = "mods/philips-ruins.pw.toml"
-hash = "502d1da57f61b24f6235558428935c0faa99d9485f6dc13c22cab8c226237020"
+file = "mods/patchouli.pw.toml"
+hash = "65f5cc8e1b3aa6cf18a97a53374c7d31c9786b10655d7212bd84fa68992a5db9"
 metafile = true
 
 [[files]]
@@ -5568,21 +4534,6 @@ hash = "9be8816d8f06b7f56ffa1213ca7d6617f3cc8f921356c871c71ca60eb6d1b867"
 metafile = true
 
 [[files]]
-file = "mods/radical-gyms-cobblemon.pw.toml"
-hash = "47806e3f23c315b7d4a0d1f481c867c639cb84f1d4dbba331463876adbceaa35"
-metafile = true
-
-[[files]]
-file = "mods/rctapi.pw.toml"
-hash = "55595094ae76441ffd430c6e115dfee8bf744fb3feda18258ca3c44cc6480844"
-metafile = true
-
-[[files]]
-file = "mods/rctmod.pw.toml"
-hash = "a42193fd1225c45913d71cf18422530ad16fac848df838392de7696a6e5b0134"
-metafile = true
-
-[[files]]
 file = "mods/refurbished-furniture.pw.toml"
 hash = "febca9f03fba8698a7a365ae3b3bfe4189627f0b969657cc772ffb8a6c5d8ab5"
 metafile = true
@@ -5595,6 +4546,11 @@ metafile = true
 [[files]]
 file = "mods/reliquified-artifacts.pw.toml"
 hash = "dfe2c891658dbf7d2028ab6f029813b1eaec637688eafbe6bee75d06f4f7bbf3"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "2fbb78df55bcca0f090b620bc91673863f0cc3c48c57fa045e94544d9e64fe16"
 metafile = true
 
 [[files]]
@@ -5640,11 +4596,6 @@ metafile = true
 [[files]]
 file = "mods/shoppers-(lightmans-currency-addon).pw.toml"
 hash = "a3971aba90800fffccf852c12c12849773f841fa499371c3408498200883f947"
-metafile = true
-
-[[files]]
-file = "mods/sky-villages.pw.toml"
-hash = "0dd8eb671096c309ae89beb86ba3493a55046726633432d8aa29471bfe0b387c"
 metafile = true
 
 [[files]]
@@ -5708,6 +4659,11 @@ hash = "4f7db8b0b7c7d579b9aadc62124b5145c1fabcf780b5cf80f8d638e47751da46"
 metafile = true
 
 [[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "b75708b13172f202e51f501cf2cbea1f8a4585a2f4d35a1570acfb7c8451d51e"
+metafile = true
+
+[[files]]
 file = "mods/structures-tweaker.pw.toml"
 hash = "702941b719b550dc99688142cf86c08dd95474ea28c2db66bae6e2ea634559be"
 metafile = true
@@ -5730,11 +4686,6 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "3c1ec11e6b429212c4f2eef7dac480cf566f0dfdaa8bab4dffc34c15a640ba17"
-metafile = true
-
-[[files]]
-file = "mods/towns-and-towers.pw.toml"
-hash = "f8dee9b5fb218464778716734bd5d571f1877990f7a2bed0724bd8cbc0a31f6b"
 metafile = true
 
 [[files]]
@@ -8622,7 +7573,7 @@ hash = "d87f24d6ddce464c1f3645e3e2d21c48ebc583aad2f1066ec8097b975315940c"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/experience.json"
-hash = "241dd526327a9e71589fee132941636c37d6be062dbcdc8b21606aed66b755a8"
+hash = "13257f066ea0786b68d6e84ebc3c04feca061e480159ded03c065269ae39428c"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/skills.json"
@@ -8689,36 +7640,12 @@ file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/
 hash = "a556daaf7363606b556787c3110d283c1af8846262fb0f7e0e2b8f444f75ac8d"
 
 [[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/category.json"
-hash = "39bbd794389e9b469c4b5b4a39718f10623b6f8e7dcadd4d203ac24691559fa1"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/connections.json"
-hash = "418d994b702f9bbdf3bcab8fa6bcd84f92e8c21b835465fe1221c8289c8ee421"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/definitions.json"
-hash = "459eb2c3965c6ff260d8f1ef5a9ff279309e2936d7d73720061d200e042db54b"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/experience.json"
-hash = "2413aa8b01a945c6df18078206a19874ae14b524488e74a7ce5601b1f902874b"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/trainer/skills.json"
-hash = "219a81144ecc051dfdbae7b01d8fe2105b16963b6b196d63fec532a848f15aec"
-
-[[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/config.json"
-hash = "4c41332fc12c63b201c7116f153268a1be2274e100d779c3783c8b17f886ebc3"
+hash = "93d62114a48218b8641e96ea015674abd7d7c4917d69fb8fa198e2821d8a2ce3"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"
 hash = "b7852357c515151213169e7129c049981307f9a5a344055a213206638349c5a2"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-worldgen/data/rgs/tags/worldgen/biome/cerulean_gym.json"
-hash = "9bef87aa7260d84bc4e50c69f376989c991e5e1b5f949f4a79d2b89a1c55d579"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-worldgen/pack.mcmeta"

@@ -27,29 +27,9 @@
                 "type": "get_max_health"
               }
             ]
-          },
-          "is_pokemon": {
-            "operations": [
-              {
-                "type": "get_killed_living_entity"
-              },
-              {
-                "type": "get_type"
-              },
-              {
-                "type": "puffish_skills:test",
-                "data": {
-                  "entity_type": "cobblemon:pokemon"
-                }
-              }
-            ]
           }
         },
         "experience": [
-          {
-            "condition": "is_pokemon",
-            "expression": "dropped_xp + max_health / 8 + 4"
-          },
           {
             "expression": "dropped_xp + max_health / 10"
           }

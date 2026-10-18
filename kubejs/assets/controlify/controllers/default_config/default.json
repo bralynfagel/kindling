@@ -2,7 +2,7 @@
   "input": {
     "radial_menu": {
       "actions": [
-        "fabric-key-binding-api-v1:key.cobblemon.summary",
+        "fabric-key-binding-api-v1:key.ftbchunks.claim_manager",
         "fabric-key-binding-api-v1:key.ftbquests.quests",
         "fabric-key-binding-api-v1:gui.xaero_open_map",
         "fabric-key-binding-api-v1:key.sophisticatedbackpacks.open_backpack",

@@ -1,7 +1,7 @@
 {
   "config_version": 1,
   "modules": {
-    "custom_structures": true,
+    "custom_structures": false,
     "intro_message": true,
     "recipe_changes": false,
     "skylands": true,

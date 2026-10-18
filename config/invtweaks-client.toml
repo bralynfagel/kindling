@@ -328,9 +328,6 @@
 		name = "armor"
 		spec = ["/instanceof:net.minecraft.world.item.ArmorItem", "/instanceof:net.minecraft.world.item.ShieldItem"]
 
-	[[sorting.category]]
-		name = "pokeballs"
-		spec = ["/tag:cobblemon:poke_balls"]
 
 	[[sorting.category]]
 		name = "currency"
@@ -338,7 +335,7 @@
 
 	[[sorting.category]]
 		name = "gems"
-		spec = ["/tag:c:gems", "apotheosis:gem", "apotheosis:gem_dust", "/tag:cobblemon:type_gems"]
+		spec = ["/tag:c:gems", "apotheosis:gem", "apotheosis:gem_dust"]
 
 	[[sorting.category]]
 		name = "acceptableFood"
