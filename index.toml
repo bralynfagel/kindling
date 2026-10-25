@@ -703,7 +703,7 @@ hash = "cc0fd7f0a6ba482ad46a0078ce3f01984d9e187ca78499e4381112d31bea5271"
 
 [[files]]
 file = "config/combat_roll/server.json5"
-hash = "6c3ec2b2926b78c73dddf0cfedaf483efb7c3fe8a093f557e560ab280a0683f4"
+hash = "14dc5d1ae3c50ce67cbe52811ab3e3f621ab5e9251e6a7d49f71942c48456f1e"
 
 [[files]]
 file = "config/comforts-common.toml"
