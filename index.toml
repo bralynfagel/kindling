@@ -999,10 +999,6 @@ hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
 preserve = true
 
 [[files]]
-file = "config/farmersdelight-common.toml"
-hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
-
-[[files]]
 file = "config/fastbench.cfg"
 hash = "090d721856903b3325c8e3a572c09ad66987039efd9221d4c6c8d2f19c8f200e"
 
@@ -3682,11 +3678,6 @@ metafile = true
 [[files]]
 file = "mods/explorify.pw.toml"
 hash = "1c1f88964fe54d38347f2866e0602f288f89b85d81074dd978b0177c2cd2ed5a"
-metafile = true
-
-[[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "c6d7eebdf3974d228f04fa5790e7fc40466d7b1fe309c142e9347f706c316816"
 metafile = true
 
 [[files]]
