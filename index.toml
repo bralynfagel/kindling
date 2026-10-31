@@ -4105,11 +4105,6 @@ hash = "d0d5a1450bafd9f514926312f6582300822ad1f2daa4d943ffcfdd9b044560df"
 metafile = true
 
 [[files]]
-file = "mods/project-mmo-farmers-delight.pw.toml"
-hash = "f60aa62a5a0cd841d0a21d84e5e0b9547563d2dc6a9c8e36434d16d2b15f00d9"
-metafile = true
-
-[[files]]
 file = "mods/project-mmo-irons-spells-spellbooks-compat.pw.toml"
 hash = "87cf21a55f81c0e0a9460ee67a71b315f21770dde6e31b58c6af1b9b7a0f7206"
 metafile = true
