@@ -30,8 +30,8 @@
 	quest.1C1EBD5257E80C06.title: "Follow the Eye"
 	quest.290AB97E63BB1C6B.quest_subtitle: "Craft a vending machine"
 	quest.290AB97E63BB1C6B.title: "Vending"
-	quest.29C0B076B00CE8E2.quest_subtitle: "Craft a cutting board"
-	quest.29C0B076B00CE8E2.title: "Chop Chop"
+	quest.29C0B076B00CE8E2.quest_subtitle: "Craft a kitchen range"
+	quest.29C0B076B00CE8E2.title: "Fire It Up"
 	quest.30784F035FC8A107.quest_subtitle: "Defeat 10 skeletons"
 	quest.30784F035FC8A107.title: "Bone Collector"
 	quest.33E4C838918981E7.quest_desc: [
@@ -72,7 +72,7 @@
 	]
 	quest.5B455646159A9A64.quest_subtitle: "Spot a waystone — villages usually have one"
 	quest.5B455646159A9A64.title: "Find a Waystone"
-	quest.5DE52B536C535972.quest_subtitle: "Craft a cooking pot"
+	quest.5DE52B536C535972.quest_subtitle: "Craft a pot"
 	quest.5DE52B536C535972.title: "Proper Kitchen"
 	quest.6914F3F618BD7F46.quest_desc: [
 		"Place it, stock it, set a price. Other players buy while you're away."

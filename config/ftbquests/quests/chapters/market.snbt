@@ -183,7 +183,7 @@
 					id: "4C039805B543A85A"
 					item: {
 						count: 1
-						id: "farmersdelight:cooking_pot"
+						id: "kindling:cooking_pot"
 					}
 					type: "item"
 				}
@@ -202,7 +202,7 @@
 					id: "07D5A7EC0400843A"
 					item: {
 						count: 1
-						id: "farmersdelight:flint_knife"
+						id: "kindling:oak_assembly_plate"
 					}
 					type: "item"
 				}
@@ -213,7 +213,7 @@
 					id: "00592CD6AEC18A6A"
 					item: {
 						count: 1
-						id: "farmersdelight:cutting_board"
+						id: "kindling:kitchen_range"
 					}
 					type: "item"
 				}

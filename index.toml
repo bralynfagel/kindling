@@ -999,10 +999,6 @@ hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
 preserve = true
 
 [[files]]
-file = "config/farmersdelight-common.toml"
-hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
-
-[[files]]
 file = "config/fastbench.cfg"
 hash = "090d721856903b3325c8e3a572c09ad66987039efd9221d4c6c8d2f19c8f200e"
 
@@ -1064,7 +1060,7 @@ hash = "5214958aa5eb4815f299a0f93820a684de8898d673227611ffddf563b4918bfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/market.snbt"
-hash = "bf615a3ee3ce3194058e031e8834fb33f985b040b6f0d0b71a3989713577a95b"
+hash = "3ca2cb5a5dc9fbc9d34bf2c0374a86a812c56f939483b5954e073f0aec8b222b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -1076,7 +1072,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "90ca15289045398cc0583b4096a613433c5ffe93a6a9afb2203a257bcd0e827d"
+hash = "e92867f0752a303bb47c424ac97acc2e5c1fcc14c147e6c9e79c89ca86ca1ebb"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -3615,16 +3611,6 @@ hash = "fa17db967c33c68ee3e2edf28d0071953756e624bdbbdff47cbebdeb89497aec"
 metafile = true
 
 [[files]]
-file = "mods/croptopia-delight.pw.toml"
-hash = "31d40a6e90dd7c24c37760ce34a17594091aaff2d21b9f0fbc14e021fa1792d9"
-metafile = true
-
-[[files]]
-file = "mods/croptopia.pw.toml"
-hash = "7b86d4670d0096e66642a3e86f4ff679e5c0738df2f59a03154f6469edfca179"
-metafile = true
-
-[[files]]
 file = "mods/ct-overhaul-village.pw.toml"
 hash = "e88e9636e277c8203766b0243c80b5495f25a899abc30e2ba29e57cdaf7282bb"
 metafile = true
@@ -3692,21 +3678,6 @@ metafile = true
 [[files]]
 file = "mods/explorify.pw.toml"
 hash = "1c1f88964fe54d38347f2866e0602f288f89b85d81074dd978b0177c2cd2ed5a"
-metafile = true
-
-[[files]]
-file = "mods/extradelight.pw.toml"
-hash = "30a7aac0bc335efbfe311006084f98e3f79ccfb88e4984e27bebe0d73cf4305d"
-metafile = true
-
-[[files]]
-file = "mods/farmers-croptopia.pw.toml"
-hash = "d27225c64586a883bb3de169d8d503e0a17f1c7984efa97fe306530bbe9b016b"
-metafile = true
-
-[[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "c6d7eebdf3974d228f04fa5790e7fc40466d7b1fe309c142e9347f706c316816"
 metafile = true
 
 [[files]]
@@ -4102,11 +4073,6 @@ metafile = true
 [[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "d0d5a1450bafd9f514926312f6582300822ad1f2daa4d943ffcfdd9b044560df"
-metafile = true
-
-[[files]]
-file = "mods/project-mmo-farmers-delight.pw.toml"
-hash = "f60aa62a5a0cd841d0a21d84e5e0b9547563d2dc6a9c8e36434d16d2b15f00d9"
 metafile = true
 
 [[files]]
