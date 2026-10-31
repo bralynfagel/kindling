@@ -3685,11 +3685,6 @@ hash = "1c1f88964fe54d38347f2866e0602f288f89b85d81074dd978b0177c2cd2ed5a"
 metafile = true
 
 [[files]]
-file = "mods/extradelight.pw.toml"
-hash = "30a7aac0bc335efbfe311006084f98e3f79ccfb88e4984e27bebe0d73cf4305d"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "c6d7eebdf3974d228f04fa5790e7fc40466d7b1fe309c142e9347f706c316816"
 metafile = true
