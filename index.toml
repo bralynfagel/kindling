@@ -3615,11 +3615,6 @@ hash = "fa17db967c33c68ee3e2edf28d0071953756e624bdbbdff47cbebdeb89497aec"
 metafile = true
 
 [[files]]
-file = "mods/croptopia-delight.pw.toml"
-hash = "31d40a6e90dd7c24c37760ce34a17594091aaff2d21b9f0fbc14e021fa1792d9"
-metafile = true
-
-[[files]]
 file = "mods/croptopia.pw.toml"
 hash = "7b86d4670d0096e66642a3e86f4ff679e5c0738df2f59a03154f6469edfca179"
 metafile = true
