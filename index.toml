@@ -1060,7 +1060,7 @@ hash = "5214958aa5eb4815f299a0f93820a684de8898d673227611ffddf563b4918bfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/market.snbt"
-hash = "bf615a3ee3ce3194058e031e8834fb33f985b040b6f0d0b71a3989713577a95b"
+hash = "3ca2cb5a5dc9fbc9d34bf2c0374a86a812c56f939483b5954e073f0aec8b222b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -1072,7 +1072,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "90ca15289045398cc0583b4096a613433c5ffe93a6a9afb2203a257bcd0e827d"
+hash = "e92867f0752a303bb47c424ac97acc2e5c1fcc14c147e6c9e79c89ca86ca1ebb"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
