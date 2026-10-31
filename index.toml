@@ -3615,11 +3615,6 @@ hash = "fa17db967c33c68ee3e2edf28d0071953756e624bdbbdff47cbebdeb89497aec"
 metafile = true
 
 [[files]]
-file = "mods/croptopia.pw.toml"
-hash = "7b86d4670d0096e66642a3e86f4ff679e5c0738df2f59a03154f6469edfca179"
-metafile = true
-
-[[files]]
 file = "mods/ct-overhaul-village.pw.toml"
 hash = "e88e9636e277c8203766b0243c80b5495f25a899abc30e2ba29e57cdaf7282bb"
 metafile = true
