@@ -4,7 +4,7 @@ The Config for Cristel Lib's automated structure config generation.
 */
 {
 	// Mods where automatic structure config generation is disabled.
-	"blacklistedMods": [],
+	"blacklistedMods": ["kindling"],  // Kindling villages: spacing lives in village_jigsaw.py, never a frozen copy here
 	// Mods where automatic screen generation for structure configs is disabled.
 	"clientExcludedMods": [],
 	/* This list lets you override the default settings provided by mod authors.

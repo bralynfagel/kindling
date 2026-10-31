@@ -766,7 +766,7 @@ hash = "34894d2167232fe987c9baa4dc86aa6521d7f5966de8b89c47b6f7c339c4469e"
 
 [[files]]
 file = "config/cristellib/auto_config_settings.json5"
-hash = "799173b66094a241753f41af672ddf22921ca206cb88f1966d31960c89c3f99a"
+hash = "79399a5d3936dbfef12241dbee83a5ebb0307c6042efb21e404511dd6b26734c"
 
 [[files]]
 file = "config/cristellib/betterdeserttemples/structure_placement_config.json5"
