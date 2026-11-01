@@ -861,14 +861,6 @@ file = "config/cristellib/dungeons_arise_seven_seas/structure_toggle_config.json
 hash = "bff8fcfe7cb4d87e0c7f05b3da5bcecab4b5eeca2414b742166585cda6166bf8"
 
 [[files]]
-file = "config/cristellib/explorify/structure_placement_config.json5"
-hash = "a246410de17822748dbb20b11773c9fab60484bdc5fb924c0785a39c486f2a92"
-
-[[files]]
-file = "config/cristellib/explorify/structure_toggle_config.json5"
-hash = "c9b3843c51ecfb421cbf2cf0d4e7bdb73e2e942ad549fd60963bb5e3f0573d00"
-
-[[files]]
 file = "config/cristellib/irons_spellbooks/structure_placement_config.json5"
 hash = "604e3cdba3aeb339f502dfbd678d465757cc1b7872a81c336b09dcd2ef5f2ed0"
 
@@ -3563,11 +3555,6 @@ metafile = true
 [[files]]
 file = "mods/epherolib.pw.toml"
 hash = "a3f71daa0b7643267cdf9fdf47b2b76fdb00edccb23b8560e521677f871b08ca"
-metafile = true
-
-[[files]]
-file = "mods/explorify.pw.toml"
-hash = "1c1f88964fe54d38347f2866e0602f288f89b85d81074dd978b0177c2cd2ed5a"
 metafile = true
 
 [[files]]
