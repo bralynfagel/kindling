@@ -682,10 +682,6 @@ file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
-file = "config/cluttered-common.toml"
-hash = "53a0e119f787d75d376ce65b6856c53113e70889b33e3567fbe002246812dbf1"
-
-[[files]]
 file = "config/collective.json5"
 hash = "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f"
 
@@ -3501,11 +3497,6 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "52e084debd6392a8e3fd75845f1819a22b71e9d6ecae38e630e0794999055f19"
-metafile = true
-
-[[files]]
-file = "mods/cluttered.pw.toml"
-hash = "a47c62ad57e6eab2ad8ee781a9f7b48ac2f7ad2d2cfbaf8ea8612eafe7f74c70"
 metafile = true
 
 [[files]]
