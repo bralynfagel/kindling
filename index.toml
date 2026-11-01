@@ -746,7 +746,7 @@ hash = "a305799ec680f9069271afc9c2e2f1a07438cea08aa24b7de9a6422ffba3d81b"
 
 [[files]]
 file = "config/cristellib/apotheosis/structure_toggle_config.json5"
-hash = "7c8d65af01dd02b77cecb45c3d712b43c7f89fc180296b1cc2d789e25cf3b120"
+hash = "32ae5a6b187cc6fc805e5078bcc65e9428e4858305b709472caceb9d4051b62c"
 
 [[files]]
 file = "config/cristellib/ars_nouveau/structure_placement_config.json5"
