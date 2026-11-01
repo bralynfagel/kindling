@@ -990,15 +990,6 @@ file = "config/epicknights/weapons.json5"
 hash = "134eca5eafff0ffe0d52cf8774dd02fb247a6e2f6ca617f0acac396c9565ebd6"
 
 [[files]]
-file = "config/extradelight-common.toml"
-hash = "3898ab965692ff4699f110c9d27212ce14c09102bb0988486f189ee692a7c125"
-
-[[files]]
-file = "config/farmersdelight-client.toml"
-hash = "a8cdc0376674d522d92d977cac5800d00c6f70ea62ea83dea59595fb232b8e3e"
-preserve = true
-
-[[files]]
 file = "config/fastbench.cfg"
 hash = "090d721856903b3325c8e3a572c09ad66987039efd9221d4c6c8d2f19c8f200e"
 
@@ -1060,7 +1051,7 @@ hash = "5214958aa5eb4815f299a0f93820a684de8898d673227611ffddf563b4918bfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/market.snbt"
-hash = "3ca2cb5a5dc9fbc9d34bf2c0374a86a812c56f939483b5954e073f0aec8b222b"
+hash = "2cee70b2fbddddfff9c97409e9c854ca5b51d1a3bfd4ab3d39109a91c2acae30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -1072,7 +1063,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e92867f0752a303bb47c424ac97acc2e5c1fcc14c147e6c9e79c89ca86ca1ebb"
+hash = "c09f050e116e9ad236abd4629181f2a1e390aa5722b903c0ec13b1d15b4a0690"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1333,10 +1324,6 @@ hash = "ce05e4ed85fe5c06af1fb324ba00f3cd447f0700bd4886150435f3c9b789b45e"
 [[files]]
 file = "config/pmmo-common.toml"
 hash = "d5c0a98ffd676a40411d41a4a716c360327ef710f9dab6969bb8c60519b28c67"
-
-[[files]]
-file = "config/pmmo_farmers_compat-server.toml"
-hash = "d27731e06bf6e6bdc15d2afd7b69f90e4b189ba76967312e01d830efe1088ee9"
 
 [[files]]
 file = "config/pmmo_spellbooks_compat-server.toml"
@@ -6502,34 +6489,6 @@ hash = "e97a786870d98961e992e4c6684ae2e4a0a5397f2f62e26cf59dba88b8f1f919"
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/create/netherite_diving_helmet.json"
 hash = "513985561ceb7c0652ba940c55f8a30829397789af89692d68a6d3207282b2cf"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/croptopia/knife.json"
-hash = "0d1c4637f693092636679c08675f60212224be95709e24cd72759f61efe66e26"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/diamond_knife.json"
-hash = "06db8b952c9aa9a6096b75d752c12ecbea908d65fdf2780d0e75782179328a1a"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/flint_knife.json"
-hash = "2c64f39124e9588e7533e206d0d93e48673e0eaeb8d8a3efb546ac4f4b899e6b"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/golden_knife.json"
-hash = "848a342bfed28449f651c14568dc7a6b8df528020bff892670e8e7af53d93fd6"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/iron_knife.json"
-hash = "74da621f0429cb63470e124fcab973904960d02d4cafd042dc64262f69e2a66c"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/netherite_knife.json"
-hash = "c0cafa7051fa023a662b3e874bfdd7ebf62a08f006a74ddc7fcd1157fc9fa69a"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/farmersdelight/skillet.json"
-hash = "c8727a9a68c63ca6ef8e37280bcb290086b2394574d2363659461040642df6d3"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/irons_spellbooks/amethyst_rapier.json"

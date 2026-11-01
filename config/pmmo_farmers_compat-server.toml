@@ -1,5 +1,0 @@
-#Which PMMO EventType to emit when a Farmer's Delight block finishes cooking.
-#SMELT awards XP based on the input ingredient.
-#SMELTED awards XP based on the cooked result. (default)
-#Allowed Values: SMELT, SMELTED
-xp_event_type = "SMELTED"
