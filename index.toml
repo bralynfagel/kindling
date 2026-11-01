@@ -1418,10 +1418,6 @@ file = "config/starterkit/kits/inactive/Witch.txt"
 hash = "acf56d3d8e4737cf8fc0be14eab977a9eb266a57e004ed2e67c7882a249a62bb"
 
 [[files]]
-file = "config/starterstructure.json5"
-hash = "f16ef7b9d5573b538d11e27bc440abcdbccc0ba5248f916b78aef1a6c65ab0cd"
-
-[[files]]
 file = "config/structureessentials.json"
 hash = "34fa711c1b255415273a10113443dd8a4b23fb8f7ca12ee55d68819b2ee71b21"
 
@@ -4084,11 +4080,6 @@ metafile = true
 [[files]]
 file = "mods/starter-kit.pw.toml"
 hash = "0f1db700c93b1119e4d44e3c99cf2056a06acdd0c0356a3479c08c869e212ba9"
-metafile = true
-
-[[files]]
-file = "mods/starter-structure.pw.toml"
-hash = "cb6081fbfff54f2fa1cfb771e73f993a14cba17e87598f74d3762ca863956fc0"
 metafile = true
 
 [[files]]
