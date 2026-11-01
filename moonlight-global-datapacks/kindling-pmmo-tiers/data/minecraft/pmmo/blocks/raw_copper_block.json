@@ -1,9 +1,0 @@
-{
-    "override": true,
-    "requirements": {
-        "BREAK": {},
-        "PLACE": {},
-        "USE": {},
-        "INTERACT": {}
-    }
-}
