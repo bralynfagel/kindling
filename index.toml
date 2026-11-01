@@ -869,14 +869,6 @@ file = "config/cristellib/explorify/structure_toggle_config.json5"
 hash = "c9b3843c51ecfb421cbf2cf0d4e7bdb73e2e942ad549fd60963bb5e3f0573d00"
 
 [[files]]
-file = "config/cristellib/extradelight/structure_placement_config.json5"
-hash = "cad4f78f263936c65284fbacc501bc7f97f25cdde350cb105b7585250b0ef2ff"
-
-[[files]]
-file = "config/cristellib/extradelight/structure_toggle_config.json5"
-hash = "5598c510a3ad33b728b69ab158c32e30bf2e8ed3daa57f834bab72b9701f7ed4"
-
-[[files]]
 file = "config/cristellib/irons_spellbooks/structure_placement_config.json5"
 hash = "604e3cdba3aeb339f502dfbd678d465757cc1b7872a81c336b09dcd2ef5f2ed0"
 
