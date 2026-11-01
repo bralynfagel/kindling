@@ -885,14 +885,6 @@ file = "config/cristellib/mowziesmobs/structure_toggle_config.json5"
 hash = "ed19259693f2a542b7732909fde8be6a820b5ba0148a20012d7e3ce3e9adb21b"
 
 [[files]]
-file = "config/cristellib/mr_ati_structuresfabricforge/structure_placement_config.json5"
-hash = "c57bb7c55c168d0d37478a62ddb0c17f771ec4ced22ff101bdddd514a7ff34bc"
-
-[[files]]
-file = "config/cristellib/mr_ati_structuresfabricforge/structure_toggle_config.json5"
-hash = "7593169260ee6de10e66b2fa02db25919b7e95aad9beaa559f54c0cf11f36f1d"
-
-[[files]]
 file = "config/cristellib/mss/structure_placement_config.json5"
 hash = "3d971991f76873acdc62323a9637f0468270f8022f330ae2a90a80a8cc6d9adc"
 
@@ -3371,11 +3363,6 @@ hash = "3a9c309de66d4196f51d2af30def0103bcbd0e0bbafc221cbd6b1b63ed7199d0"
 metafile = true
 
 [[files]]
-file = "mods/ati-structures-fabricforge.pw.toml"
-hash = "30b806eef57efd464974ba30b10f669d8e01804118cf4c169bbe1a0307eb0187"
-metafile = true
-
-[[files]]
 file = "mods/atlas-api.pw.toml"
 hash = "dbff9b9b1564e2a72d6bafebddb321bba858143b5c954cef3ec13176c39f770a"
 metafile = true
@@ -3818,11 +3805,6 @@ metafile = true
 [[files]]
 file = "mods/loot-beams-refork.pw.toml"
 hash = "6eabacead6b5e2b856b01804a8df447d3f0bf12a8a9bd863980ded2c9a7e2d8e"
-metafile = true
-
-[[files]]
-file = "mods/loot-integrations-ati-structures-epic-structures.pw.toml"
-hash = "5cd83a6043a0c3e2ddcd4e2458a3756c13a33b976828ea287db738e9b492b0be"
 metafile = true
 
 [[files]]
