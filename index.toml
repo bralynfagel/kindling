@@ -877,22 +877,6 @@ file = "config/cristellib/mowziesmobs/structure_toggle_config.json5"
 hash = "ed19259693f2a542b7732909fde8be6a820b5ba0148a20012d7e3ce3e9adb21b"
 
 [[files]]
-file = "config/cristellib/structory/structure_placement_config.json5"
-hash = "0eab3d6c98dd4eedbe4dce5a4fc4596d1d060876bc20bbe60e069ab5ae61df0c"
-
-[[files]]
-file = "config/cristellib/structory/structure_toggle_config.json5"
-hash = "00e86d85390e3bf978c4dbcd39ec58c136be8f317251b42ff3ed2c31291ac127"
-
-[[files]]
-file = "config/cristellib/structory_towers/structure_placement_config.json5"
-hash = "2f51f789d696e96af6fbaf368bfe2e64e406c616ceda253ec4e4798ab85aa648"
-
-[[files]]
-file = "config/cristellib/structory_towers/structure_toggle_config.json5"
-hash = "3c622e85c983d8a073d0b30977d8331f997c988693c14dcaa5ffc6f6f2a7ff80"
-
-[[files]]
 file = "config/cristellib/terralith/structure_placement_config.json5"
 hash = "777e236cc299321f8e51f96238bd01be855699cf72aa7520b30d32ad8edb7367"
 
@@ -3788,11 +3772,6 @@ hash = "68dc42585e850cf78bd8ad67cf546e2488efcaa9e2b5eb4b6743695f6e119f17"
 metafile = true
 
 [[files]]
-file = "mods/loot-integrations-structory-towers.pw.toml"
-hash = "60e93271ef1e43ff71d3aeb718e100b9c07c080d83ee64787371738d1d8347fd"
-metafile = true
-
-[[files]]
 file = "mods/loot-integrations-when-dungeons-arise.pw.toml"
 hash = "18c81621294375b9cb2e64865c3140c483cb55c0153b4b2f6aa116bc47f6d9dc"
 metafile = true
@@ -4010,16 +3989,6 @@ metafile = true
 [[files]]
 file = "mods/stony-cliffs-are-cool.pw.toml"
 hash = "b7fe4fab041ecf5ec3d120fbfe2178109d768538238779be5d1bf0233df7f4b2"
-metafile = true
-
-[[files]]
-file = "mods/structory-towers.pw.toml"
-hash = "dfdf5c7f9bc666b9389b42d6a1b02843f0c936174cdf6c39470b04dfaca7824d"
-metafile = true
-
-[[files]]
-file = "mods/structory.pw.toml"
-hash = "8f8f1227ff256567c4840e5f20bdee958e490d9596ec6c378640261c57a81c07"
 metafile = true
 
 [[files]]
