@@ -925,10 +925,6 @@ file = "config/cristellib/terralith/structure_toggle_config.json5"
 hash = "b2b1510673394f1558f80f11c479a7619414a91691139a5cc43d5e3b3d233da1"
 
 [[files]]
-file = "config/ctov-common.toml"
-hash = "83e175ed1b88c7cd35d0892e4fcef07efc99105c0c512cb7bdce7154e9f73d78"
-
-[[files]]
 file = "config/cupboard.json"
 hash = "aa0b18642df9fb56c45e03c948b614f158b792c15b85cf0094af1dcca516ec3a"
 
@@ -3540,11 +3536,6 @@ hash = "fa17db967c33c68ee3e2edf28d0071953756e624bdbbdff47cbebdeb89497aec"
 metafile = true
 
 [[files]]
-file = "mods/ct-overhaul-village.pw.toml"
-hash = "e88e9636e277c8203766b0243c80b5495f25a899abc30e2ba29e57cdaf7282bb"
-metafile = true
-
-[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "f090348847180e211d7f5d6d9e0104e2563ba8d52de9114beb7f68700a40f324"
 metafile = true
@@ -3832,11 +3823,6 @@ metafile = true
 [[files]]
 file = "mods/loot-integrations-ati-structures-epic-structures.pw.toml"
 hash = "5cd83a6043a0c3e2ddcd4e2458a3756c13a33b976828ea287db738e9b492b0be"
-metafile = true
-
-[[files]]
-file = "mods/loot-integrations-choicetheorems-overhauled.pw.toml"
-hash = "5523323f9a08211fe0134b8d47043d88b43e84f439318c30f49dd8490b38875f"
 metafile = true
 
 [[files]]
