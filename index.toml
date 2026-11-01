@@ -885,14 +885,6 @@ file = "config/cristellib/mowziesmobs/structure_toggle_config.json5"
 hash = "ed19259693f2a542b7732909fde8be6a820b5ba0148a20012d7e3ce3e9adb21b"
 
 [[files]]
-file = "config/cristellib/mss/structure_placement_config.json5"
-hash = "3d971991f76873acdc62323a9637f0468270f8022f330ae2a90a80a8cc6d9adc"
-
-[[files]]
-file = "config/cristellib/mss/structure_toggle_config.json5"
-hash = "23aabfb0e2f7b26cf6a262865c96231b746a11a0ed8b78c29023e38b54145255"
-
-[[files]]
 file = "config/cristellib/structory/structure_placement_config.json5"
 hash = "0eab3d6c98dd4eedbe4dce5a4fc4596d1d060876bc20bbe60e069ab5ae61df0c"
 
@@ -1216,10 +1208,6 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "2410c01db9b5e01d6d7077f4e980a785f85a1dc03575434a84a2b26762416ee4"
-
-[[files]]
-file = "config/moogs_structures.json"
-hash = "dd18dcdbb4de97ab8f04e8058037ef31f69fd59b007f97d66dfb4cbb2fffb02c"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -3848,11 +3836,6 @@ hash = "100eb24d0aaa5bd7b4ad4a3c6d459e206ef8fc5299056912d36b8e043a823342"
 metafile = true
 
 [[files]]
-file = "mods/moogs-structure-lib.pw.toml"
-hash = "f9180a1a4d4d08259ce08dbf120947dae4eea0818dc1b16fd85f0634951f5d39"
-metafile = true
-
-[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "f545cad9bbab92c9c41301dfc7b2c002aa32059a6ec3257d44c805355b57a7ea"
 metafile = true
@@ -3865,11 +3848,6 @@ metafile = true
 [[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "52d84cde8eb25a2899e9ff97baaae311bc2a06f59b56b1b756fcae59b39bf53b"
-metafile = true
-
-[[files]]
-file = "mods/mss-moogs-soaring-structures.pw.toml"
-hash = "0fc9e3474ea4a9c4d16c2e697056ab82c32df2ee8acebca7d11882d5e846d859"
 metafile = true
 
 [[files]]
