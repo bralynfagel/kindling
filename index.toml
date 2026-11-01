@@ -686,10 +686,6 @@ file = "config/collective.json5"
 hash = "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f"
 
 [[files]]
-file = "config/com.yuushya/client_config.json"
-hash = "a5068b44183cf05a773c6119c13cd8bda95d05ef566f83eaab508f4fe156ec65"
-
-[[files]]
 file = "config/combat_roll/client.json5"
 hash = "e9714f119c3862a898e53eab1a4ba6220a2194a5bdf0aea86623042d6cbf57e3"
 
@@ -4258,16 +4254,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "b34c1a1aa1fd97cb2d94eb50368942f7a1bf934ba8e26364619e17690dac4f5f"
-metafile = true
-
-[[files]]
-file = "mods/yuushya-modelling.pw.toml"
-hash = "1d5da0dd60a47033ea299112b1427db79144b77ccf0e0fbebaa65776a9e2ed3c"
-metafile = true
-
-[[files]]
-file = "mods/yuushya-townscape.pw.toml"
-hash = "4f4e6bc5f97f998a04760d1d973bcba829bf94a0aba5a297a2d3c9c48af9365c"
 metafile = true
 
 [[files]]
