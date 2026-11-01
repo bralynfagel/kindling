@@ -232,7 +232,7 @@
 					id: "0DF9C7417600D5EB"
 					item: {
 						count: 1
-						id: "handcrafted:oak_chair"
+						id: "kindling:metro_oak_dining_chair"
 					}
 					type: "item"
 				}
@@ -243,7 +243,7 @@
 					id: "2820F479551FBA30"
 					item: {
 						count: 1
-						id: "handcrafted:oak_table"
+						id: "kindling:metro_oak_dining_table"
 					}
 					type: "item"
 				}
