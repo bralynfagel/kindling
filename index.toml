@@ -3900,11 +3900,6 @@ hash = "1846d700dd97c292b5944f3e1d62e746cd809df0513734b490cc5cf490445055"
 metafile = true
 
 [[files]]
-file = "mods/macaws-roofs.pw.toml"
-hash = "34e62bc4623bb9cd1f67c27897595e39f1a944c00de6408f84b251288ee36667"
-metafile = true
-
-[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "822a5e2b2dc24721e289a8bc8f2c6251ab8032740d425fa640aebca719387918"
 metafile = true
