@@ -1,7 +1,7 @@
 {
   "hands": {
     "title": "Handy",
-    "description": "+1 block reach",
+    "description": "+0.5 block reach",
     "icon": {
       "type": "item",
       "data": {
@@ -19,33 +19,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "player.block_interaction_range",
-          "value": 1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "hearty": {
-    "title": "Well Fed",
-    "description": "+1 heart",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:bread"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 2,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -53,7 +27,7 @@
   },
   "builder": {
     "title": "Builder's Reach",
-    "description": "+1 block reach",
+    "description": "+0.25 block reach",
     "icon": {
       "type": "item",
       "data": {
@@ -71,7 +45,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "player.block_interaction_range",
-          "value": 1,
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -79,7 +53,7 @@
   },
   "sneak": {
     "title": "Light Step",
-    "description": "+30% sneaking speed",
+    "description": "+10% sneaking speed",
     "icon": {
       "type": "item",
       "data": {
@@ -97,7 +71,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "player.sneaking_speed",
-          "value": 0.3,
+          "value": 0.1,
           "operation": "addition"
         }
       }
@@ -105,7 +79,7 @@
   },
   "stroll": {
     "title": "Market Stroll",
-    "description": "+5% movement speed",
+    "description": "+1% movement speed",
     "icon": {
       "type": "item",
       "data": {
@@ -123,15 +97,93 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.movement_speed",
-          "value": 0.05,
+          "value": 0.01,
           "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "hearty": {
+    "title": "Well Fed",
+    "description": "+½ heart",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "remedy": {
+    "title": "Home Remedies",
+    "description": "+4% healing received",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:honey_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:healing_received",
+          "value": 0.04,
+          "operation": "addition"
         }
       }
     ]
   },
   "fortune": {
     "title": "Good Fortune",
-    "description": "+1 luck — better fishing and loot",
+    "description": "+0.5 luck: better fishing and loot",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "patient": {
+    "title": "Patient Hands",
+    "description": "+3% experience gained",
     "icon": {
       "type": "item",
       "data": {
@@ -148,8 +200,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.luck",
-          "value": 1,
+          "attribute": "apothic_attributes:experience_gained",
+          "value": 0.03,
           "operation": "addition"
         }
       }
@@ -192,58 +244,6 @@
         "data": {
           "attribute": "player.block_interaction_range",
           "value": 1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "remedy": {
-    "title": "Home Remedies",
-    "description": "+10% healing received",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:honey_bottle"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:healing_received",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "patient": {
-    "title": "Patient Hands",
-    "description": "+10% experience gained",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:fishing_rod"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:experience_gained",
-          "value": 0.1,
           "operation": "addition"
         }
       }

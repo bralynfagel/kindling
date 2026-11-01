@@ -3,138 +3,410 @@
     "bidirectional": [
       [
         "hardy",
-        "vigor"
+        "core_1"
       ],
       [
-        "vigor",
-        "reach"
+        "core_1",
+        "core_2"
       ],
       [
-        "reach",
-        "stride"
+        "core_2",
+        "core_3"
       ],
       [
-        "stride",
-        "footing"
+        "core_3",
+        "core_4"
       ],
       [
-        "footing",
+        "core_4",
+        "core_5"
+      ],
+      [
+        "core_5",
+        "core_6"
+      ],
+      [
+        "core_6",
+        "core_7"
+      ],
+      [
+        "core_7",
+        "core_8"
+      ],
+      [
+        "core_8",
+        "core_9"
+      ],
+      [
+        "core_9",
+        "core_10"
+      ],
+      [
+        "core_10",
+        "core_11"
+      ],
+      [
+        "core_11",
+        "core_12"
+      ],
+      [
+        "core_12",
+        "core_13"
+      ],
+      [
+        "core_13",
+        "core_14"
+      ],
+      [
+        "core_14",
+        "core_15"
+      ],
+      [
+        "core_15",
+        "core_16"
+      ],
+      [
+        "core_16",
+        "core_17"
+      ],
+      [
+        "core_17",
+        "core_18"
+      ],
+      [
+        "core_18",
         "resolve"
       ],
       [
         "hardy",
-        "edge"
+        "warrior_1"
       ],
       [
-        "edge",
-        "tempo"
+        "warrior_1",
+        "warrior_2"
       ],
       [
-        "tempo",
-        "edge2"
+        "warrior_2",
+        "warrior_3"
       ],
       [
-        "edge2",
-        "keen1"
+        "warrior_3",
+        "warrior_4"
       ],
       [
-        "keen1",
-        "keen2"
+        "warrior_4",
+        "warrior_5"
       ],
       [
-        "keen2",
-        "brutal1"
+        "warrior_5",
+        "warrior_6"
       ],
       [
-        "brutal1",
-        "brutal2"
+        "warrior_6",
+        "warrior_7"
       ],
       [
-        "brutal2",
-        "sunder1"
+        "warrior_7",
+        "warrior_8"
       ],
       [
-        "sunder1",
-        "sunder2"
+        "warrior_8",
+        "warrior_9"
       ],
       [
-        "sunder2",
-        "exec"
+        "warrior_9",
+        "warrior_10"
       ],
       [
-        "exec",
+        "warrior_10",
+        "warrior_11"
+      ],
+      [
+        "warrior_11",
+        "warrior_12"
+      ],
+      [
+        "warrior_12",
+        "warrior_13"
+      ],
+      [
+        "warrior_13",
+        "warrior_14"
+      ],
+      [
+        "warrior_14",
+        "warrior_15"
+      ],
+      [
+        "warrior_15",
+        "warrior_16"
+      ],
+      [
+        "warrior_16",
+        "warrior_17"
+      ],
+      [
+        "warrior_17",
+        "warrior_18"
+      ],
+      [
+        "warrior_18",
+        "warrior_19"
+      ],
+      [
+        "warrior_19",
+        "warrior_20"
+      ],
+      [
+        "warrior_20",
+        "warrior_21"
+      ],
+      [
+        "warrior_21",
+        "warrior_22"
+      ],
+      [
+        "warrior_22",
+        "warrior_23"
+      ],
+      [
+        "warrior_23",
+        "warrior_24"
+      ],
+      [
+        "warrior_24",
+        "warrior_25"
+      ],
+      [
+        "warrior_25",
+        "warrior_26"
+      ],
+      [
+        "warrior_26",
+        "warrior_27"
+      ],
+      [
+        "warrior_27",
+        "warrior_28"
+      ],
+      [
+        "warrior_28",
+        "warrior_29"
+      ],
+      [
+        "warrior_29",
         "resolve"
       ],
       [
         "hardy",
-        "draw1"
+        "ranger_1"
       ],
       [
-        "draw1",
-        "draw2"
+        "ranger_1",
+        "ranger_2"
       ],
       [
-        "draw2",
-        "fletch1"
+        "ranger_2",
+        "ranger_3"
       ],
       [
-        "fletch1",
-        "fletch2"
+        "ranger_3",
+        "ranger_4"
       ],
       [
-        "fletch2",
-        "swift"
+        "ranger_4",
+        "ranger_5"
       ],
       [
-        "swift",
-        "deadeye"
+        "ranger_5",
+        "ranger_6"
       ],
       [
-        "deadeye",
+        "ranger_6",
+        "ranger_7"
+      ],
+      [
+        "ranger_7",
+        "ranger_8"
+      ],
+      [
+        "ranger_8",
+        "ranger_9"
+      ],
+      [
+        "ranger_9",
+        "ranger_10"
+      ],
+      [
+        "ranger_10",
+        "ranger_11"
+      ],
+      [
+        "ranger_11",
+        "ranger_12"
+      ],
+      [
+        "ranger_12",
+        "ranger_13"
+      ],
+      [
+        "ranger_13",
+        "ranger_14"
+      ],
+      [
+        "ranger_14",
+        "ranger_15"
+      ],
+      [
+        "ranger_15",
+        "ranger_16"
+      ],
+      [
+        "ranger_16",
+        "ranger_17"
+      ],
+      [
+        "ranger_17",
+        "ranger_18"
+      ],
+      [
+        "ranger_18",
+        "ranger_19"
+      ],
+      [
+        "ranger_19",
+        "ranger_20"
+      ],
+      [
+        "ranger_20",
+        "ranger_21"
+      ],
+      [
+        "ranger_21",
         "resolve"
       ],
       [
         "hardy",
-        "hide"
+        "guardian_1"
       ],
       [
-        "hide",
-        "hide2"
+        "guardian_1",
+        "guardian_2"
       ],
       [
-        "hide2",
-        "bulwark1"
+        "guardian_2",
+        "guardian_3"
       ],
       [
-        "bulwark1",
-        "bulwark2"
+        "guardian_3",
+        "guardian_4"
       ],
       [
-        "bulwark2",
-        "wind"
+        "guardian_4",
+        "guardian_5"
       ],
       [
-        "wind",
-        "evade"
+        "guardian_5",
+        "guardian_6"
       ],
       [
-        "evade",
-        "unbroken"
+        "guardian_6",
+        "guardian_7"
       ],
       [
-        "unbroken",
+        "guardian_7",
+        "guardian_8"
+      ],
+      [
+        "guardian_8",
+        "guardian_9"
+      ],
+      [
+        "guardian_9",
+        "guardian_10"
+      ],
+      [
+        "guardian_10",
+        "guardian_11"
+      ],
+      [
+        "guardian_11",
+        "guardian_12"
+      ],
+      [
+        "guardian_12",
+        "guardian_13"
+      ],
+      [
+        "guardian_13",
+        "guardian_14"
+      ],
+      [
+        "guardian_14",
+        "guardian_15"
+      ],
+      [
+        "guardian_15",
+        "guardian_16"
+      ],
+      [
+        "guardian_16",
+        "guardian_17"
+      ],
+      [
+        "guardian_17",
         "resolve"
       ],
       [
         "hardy",
-        "leech1"
+        "survivor_1"
       ],
       [
-        "leech1",
-        "leech2"
+        "survivor_1",
+        "survivor_2"
       ],
       [
-        "leech2",
+        "survivor_2",
+        "survivor_3"
+      ],
+      [
+        "survivor_3",
+        "survivor_4"
+      ],
+      [
+        "survivor_4",
+        "survivor_5"
+      ],
+      [
+        "survivor_5",
+        "survivor_6"
+      ],
+      [
+        "survivor_6",
+        "survivor_7"
+      ],
+      [
+        "survivor_7",
+        "survivor_8"
+      ],
+      [
+        "survivor_8",
+        "survivor_9"
+      ],
+      [
+        "survivor_9",
+        "survivor_10"
+      ],
+      [
+        "survivor_10",
+        "survivor_11"
+      ],
+      [
+        "survivor_11",
+        "survivor_12"
+      ],
+      [
+        "survivor_12",
         "resolve"
       ]
     ]

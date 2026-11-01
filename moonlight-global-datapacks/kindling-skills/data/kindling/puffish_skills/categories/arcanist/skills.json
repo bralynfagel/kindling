@@ -5,124 +5,399 @@
     "definition": "spark",
     "root": true
   },
-  "pool1": {
-    "x": -105,
+  "mana_1": {
+    "x": -385,
     "y": 40,
     "definition": "pool"
   },
-  "pool2": {
-    "x": -105,
+  "mana_2": {
+    "x": -385,
     "y": 80,
-    "definition": "pool"
+    "definition": "flow"
   },
-  "pool3": {
-    "x": -105,
+  "mana_3": {
+    "x": -385,
     "y": 120,
     "definition": "pool"
   },
-  "flow1": {
-    "x": -105,
+  "mana_4": {
+    "x": -385,
     "y": 160,
     "definition": "flow"
   },
-  "flow2": {
-    "x": -105,
+  "mana_5": {
+    "x": -385,
     "y": 200,
-    "definition": "flow"
+    "definition": "pool"
   },
-  "flow3": {
-    "x": -105,
+  "mana_6": {
+    "x": -385,
     "y": 240,
     "definition": "flow"
   },
-  "focus1": {
-    "x": -35,
+  "mana_7": {
+    "x": -385,
+    "y": 280,
+    "definition": "pool"
+  },
+  "mana_8": {
+    "x": -385,
+    "y": 320,
+    "definition": "flow"
+  },
+  "mana_9": {
+    "x": -385,
+    "y": 360,
+    "definition": "pool"
+  },
+  "mana_10": {
+    "x": -385,
+    "y": 400,
+    "definition": "flow"
+  },
+  "mana_11": {
+    "x": -385,
+    "y": 440,
+    "definition": "pool"
+  },
+  "mana_12": {
+    "x": -385,
+    "y": 480,
+    "definition": "flow"
+  },
+  "mana_13": {
+    "x": -385,
+    "y": 520,
+    "definition": "pool"
+  },
+  "mana_14": {
+    "x": -385,
+    "y": 560,
+    "definition": "flow"
+  },
+  "mana_15": {
+    "x": -385,
+    "y": 600,
+    "definition": "pool"
+  },
+  "mana_16": {
+    "x": -385,
+    "y": 640,
+    "definition": "flow"
+  },
+  "power_1": {
+    "x": -315,
     "y": 40,
     "definition": "focus"
   },
-  "focus2": {
-    "x": -35,
+  "power_2": {
+    "x": -315,
     "y": 80,
-    "definition": "focus"
+    "definition": "quick"
   },
-  "quick1": {
-    "x": -35,
+  "power_3": {
+    "x": -315,
     "y": 120,
-    "definition": "quick"
-  },
-  "quick2": {
-    "x": -35,
-    "y": 160,
-    "definition": "quick"
-  },
-  "fluent1": {
-    "x": -35,
-    "y": 200,
     "definition": "fluent"
   },
-  "fluent2": {
-    "x": -35,
+  "power_4": {
+    "x": -315,
+    "y": 160,
+    "definition": "focus"
+  },
+  "power_5": {
+    "x": -315,
+    "y": 200,
+    "definition": "quick"
+  },
+  "power_6": {
+    "x": -315,
     "y": 240,
     "definition": "fluent"
   },
-  "school_fire": {
-    "x": 35,
+  "power_7": {
+    "x": -315,
+    "y": 280,
+    "definition": "focus"
+  },
+  "power_8": {
+    "x": -315,
+    "y": 320,
+    "definition": "quick"
+  },
+  "power_9": {
+    "x": -315,
+    "y": 360,
+    "definition": "fluent"
+  },
+  "power_10": {
+    "x": -315,
+    "y": 400,
+    "definition": "focus"
+  },
+  "power_11": {
+    "x": -315,
+    "y": 440,
+    "definition": "quick"
+  },
+  "power_12": {
+    "x": -315,
+    "y": 480,
+    "definition": "fluent"
+  },
+  "power_13": {
+    "x": -315,
+    "y": 520,
+    "definition": "focus"
+  },
+  "power_14": {
+    "x": -315,
+    "y": 560,
+    "definition": "quick"
+  },
+  "power_15": {
+    "x": -315,
+    "y": 600,
+    "definition": "fluent"
+  },
+  "power_16": {
+    "x": -315,
+    "y": 640,
+    "definition": "focus"
+  },
+  "power_17": {
+    "x": -315,
+    "y": 680,
+    "definition": "quick"
+  },
+  "power_18": {
+    "x": -315,
+    "y": 720,
+    "definition": "fluent"
+  },
+  "power_19": {
+    "x": -315,
+    "y": 760,
+    "definition": "focus"
+  },
+  "power_20": {
+    "x": -315,
+    "y": 800,
+    "definition": "focus"
+  },
+  "fire_1": {
+    "x": -245,
     "y": 40,
     "definition": "school_fire"
   },
-  "school_ice": {
-    "x": 35,
+  "fire_2": {
+    "x": -245,
+    "y": 80,
+    "definition": "school_fire"
+  },
+  "fire_3": {
+    "x": -245,
+    "y": 120,
+    "definition": "school_fire"
+  },
+  "fire_4": {
+    "x": -245,
+    "y": 160,
+    "definition": "school_fire"
+  },
+  "ice_1": {
+    "x": -175,
+    "y": 40,
+    "definition": "school_ice"
+  },
+  "ice_2": {
+    "x": -175,
     "y": 80,
     "definition": "school_ice"
   },
-  "school_lightning": {
-    "x": 35,
+  "ice_3": {
+    "x": -175,
+    "y": 120,
+    "definition": "school_ice"
+  },
+  "ice_4": {
+    "x": -175,
+    "y": 160,
+    "definition": "school_ice"
+  },
+  "lightning_1": {
+    "x": -105,
+    "y": 40,
+    "definition": "school_lightning"
+  },
+  "lightning_2": {
+    "x": -105,
+    "y": 80,
+    "definition": "school_lightning"
+  },
+  "lightning_3": {
+    "x": -105,
     "y": 120,
     "definition": "school_lightning"
   },
-  "school_holy": {
-    "x": 35,
+  "lightning_4": {
+    "x": -105,
+    "y": 160,
+    "definition": "school_lightning"
+  },
+  "holy_1": {
+    "x": -35,
+    "y": 40,
+    "definition": "school_holy"
+  },
+  "holy_2": {
+    "x": -35,
+    "y": 80,
+    "definition": "school_holy"
+  },
+  "holy_3": {
+    "x": -35,
+    "y": 120,
+    "definition": "school_holy"
+  },
+  "holy_4": {
+    "x": -35,
     "y": 160,
     "definition": "school_holy"
   },
-  "school_ender": {
+  "ender_1": {
     "x": 35,
-    "y": 200,
+    "y": 40,
     "definition": "school_ender"
   },
-  "school_blood": {
+  "ender_2": {
     "x": 35,
-    "y": 240,
+    "y": 80,
+    "definition": "school_ender"
+  },
+  "ender_3": {
+    "x": 35,
+    "y": 120,
+    "definition": "school_ender"
+  },
+  "ender_4": {
+    "x": 35,
+    "y": 160,
+    "definition": "school_ender"
+  },
+  "blood_1": {
+    "x": 105,
+    "y": 40,
     "definition": "school_blood"
   },
-  "school_evocation": {
-    "x": 35,
-    "y": 280,
+  "blood_2": {
+    "x": 105,
+    "y": 80,
+    "definition": "school_blood"
+  },
+  "blood_3": {
+    "x": 105,
+    "y": 120,
+    "definition": "school_blood"
+  },
+  "blood_4": {
+    "x": 105,
+    "y": 160,
+    "definition": "school_blood"
+  },
+  "evocation_1": {
+    "x": 175,
+    "y": 40,
     "definition": "school_evocation"
   },
-  "school_nature": {
-    "x": 35,
-    "y": 320,
+  "evocation_2": {
+    "x": 175,
+    "y": 80,
+    "definition": "school_evocation"
+  },
+  "evocation_3": {
+    "x": 175,
+    "y": 120,
+    "definition": "school_evocation"
+  },
+  "evocation_4": {
+    "x": 175,
+    "y": 160,
+    "definition": "school_evocation"
+  },
+  "nature_1": {
+    "x": 245,
+    "y": 40,
     "definition": "school_nature"
   },
-  "school_eldritch": {
-    "x": 35,
-    "y": 360,
+  "nature_2": {
+    "x": 245,
+    "y": 80,
+    "definition": "school_nature"
+  },
+  "nature_3": {
+    "x": 245,
+    "y": 120,
+    "definition": "school_nature"
+  },
+  "nature_4": {
+    "x": 245,
+    "y": 160,
+    "definition": "school_nature"
+  },
+  "eldritch_1": {
+    "x": 315,
+    "y": 40,
     "definition": "school_eldritch"
   },
-  "ward1": {
-    "x": 105,
+  "eldritch_2": {
+    "x": 315,
+    "y": 80,
+    "definition": "school_eldritch"
+  },
+  "eldritch_3": {
+    "x": 315,
+    "y": 120,
+    "definition": "school_eldritch"
+  },
+  "eldritch_4": {
+    "x": 315,
+    "y": 160,
+    "definition": "school_eldritch"
+  },
+  "ward_1": {
+    "x": 385,
     "y": 40,
     "definition": "ward"
   },
-  "ward2": {
-    "x": 105,
+  "ward_2": {
+    "x": 385,
     "y": 80,
+    "definition": "ward"
+  },
+  "ward_3": {
+    "x": 385,
+    "y": 120,
+    "definition": "ward"
+  },
+  "ward_4": {
+    "x": 385,
+    "y": 160,
+    "definition": "ward"
+  },
+  "ward_5": {
+    "x": 385,
+    "y": 200,
+    "definition": "ward"
+  },
+  "ward_6": {
+    "x": 385,
+    "y": 240,
     "definition": "ward"
   },
   "archmage": {
     "x": 0,
-    "y": 420,
+    "y": 860,
     "definition": "archmage"
   }
 }

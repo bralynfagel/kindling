@@ -3,62 +3,214 @@
     "bidirectional": [
       [
         "hands",
-        "builder"
+        "builder_1"
       ],
       [
-        "builder",
-        "builder2"
+        "builder_1",
+        "builder_2"
       ],
       [
-        "builder2",
-        "sneak"
+        "builder_2",
+        "builder_3"
       ],
       [
-        "sneak",
-        "stroll"
+        "builder_3",
+        "builder_4"
       ],
       [
-        "stroll",
-        "stroll2"
+        "builder_4",
+        "builder_5"
       ],
       [
-        "stroll2",
+        "builder_5",
+        "builder_6"
+      ],
+      [
+        "builder_6",
+        "builder_7"
+      ],
+      [
+        "builder_7",
+        "builder_8"
+      ],
+      [
+        "builder_8",
+        "builder_9"
+      ],
+      [
+        "builder_9",
+        "builder_10"
+      ],
+      [
+        "builder_10",
+        "builder_11"
+      ],
+      [
+        "builder_11",
+        "builder_12"
+      ],
+      [
+        "builder_12",
+        "builder_13"
+      ],
+      [
+        "builder_13",
+        "builder_14"
+      ],
+      [
+        "builder_14",
+        "builder_15"
+      ],
+      [
+        "builder_15",
+        "builder_16"
+      ],
+      [
+        "builder_16",
+        "builder_17"
+      ],
+      [
+        "builder_17",
+        "builder_18"
+      ],
+      [
+        "builder_18",
+        "builder_19"
+      ],
+      [
+        "builder_19",
+        "builder_20"
+      ],
+      [
+        "builder_20",
+        "builder_21"
+      ],
+      [
+        "builder_21",
+        "builder_22"
+      ],
+      [
+        "builder_22",
         "hearth"
       ],
       [
         "hands",
-        "hearty"
+        "hearthkeeper_1"
       ],
       [
-        "hearty",
-        "hearty2"
+        "hearthkeeper_1",
+        "hearthkeeper_2"
       ],
       [
-        "hearty2",
-        "remedy1"
+        "hearthkeeper_2",
+        "hearthkeeper_3"
       ],
       [
-        "remedy1",
-        "remedy2"
+        "hearthkeeper_3",
+        "hearthkeeper_4"
       ],
       [
-        "remedy2",
+        "hearthkeeper_4",
+        "hearthkeeper_5"
+      ],
+      [
+        "hearthkeeper_5",
+        "hearthkeeper_6"
+      ],
+      [
+        "hearthkeeper_6",
+        "hearthkeeper_7"
+      ],
+      [
+        "hearthkeeper_7",
+        "hearthkeeper_8"
+      ],
+      [
+        "hearthkeeper_8",
+        "hearthkeeper_9"
+      ],
+      [
+        "hearthkeeper_9",
+        "hearthkeeper_10"
+      ],
+      [
+        "hearthkeeper_10",
+        "hearthkeeper_11"
+      ],
+      [
+        "hearthkeeper_11",
+        "hearthkeeper_12"
+      ],
+      [
+        "hearthkeeper_12",
         "hearth"
       ],
       [
         "hands",
-        "fortune"
+        "angler_1"
       ],
       [
-        "fortune",
-        "fortune2"
+        "angler_1",
+        "angler_2"
       ],
       [
-        "fortune2",
-        "patient"
+        "angler_2",
+        "angler_3"
       ],
       [
-        "patient",
+        "angler_3",
+        "angler_4"
+      ],
+      [
+        "angler_4",
+        "angler_5"
+      ],
+      [
+        "angler_5",
+        "angler_6"
+      ],
+      [
+        "angler_6",
+        "angler_7"
+      ],
+      [
+        "angler_7",
+        "angler_8"
+      ],
+      [
+        "angler_8",
+        "angler_9"
+      ],
+      [
+        "angler_9",
+        "angler_10"
+      ],
+      [
+        "angler_10",
+        "angler_11"
+      ],
+      [
+        "angler_11",
+        "angler_12"
+      ],
+      [
+        "angler_12",
+        "angler_13"
+      ],
+      [
+        "angler_13",
+        "angler_14"
+      ],
+      [
+        "angler_14",
+        "angler_15"
+      ],
+      [
+        "angler_15",
+        "angler_16"
+      ],
+      [
+        "angler_16",
         "hearth"
       ]
     ]

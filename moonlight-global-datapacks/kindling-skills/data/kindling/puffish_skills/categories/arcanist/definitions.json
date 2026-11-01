@@ -35,7 +35,7 @@
   },
   "pool": {
     "title": "Deep Pool",
-    "description": "+25 max mana",
+    "description": "+10 max mana",
     "icon": {
       "type": "item",
       "data": {
@@ -53,7 +53,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:max_mana",
-          "value": 25,
+          "value": 10,
           "operation": "addition"
         }
       },
@@ -61,7 +61,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
-          "value": 25,
+          "value": 10,
           "operation": "addition"
         }
       }
@@ -69,7 +69,7 @@
   },
   "flow": {
     "title": "Flow",
-    "description": "+10% mana regen",
+    "description": "+4% mana regen",
     "icon": {
       "type": "item",
       "data": {
@@ -87,7 +87,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:mana_regen",
-          "value": 0.1,
+          "value": 0.04,
           "operation": "addition"
         }
       },
@@ -95,7 +95,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "ars_nouveau:ars_nouveau.perk.mana_regen",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -103,7 +103,7 @@
   },
   "focus": {
     "title": "Focus",
-    "description": "+5% spell power",
+    "description": "+2% spell power",
     "icon": {
       "type": "item",
       "data": {
@@ -121,7 +121,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.02,
           "operation": "addition"
         }
       }
@@ -129,7 +129,7 @@
   },
   "quick": {
     "title": "Quickening",
-    "description": "+5% cooldown reduction",
+    "description": "+2% cooldown reduction",
     "icon": {
       "type": "item",
       "data": {
@@ -147,7 +147,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:cooldown_reduction",
-          "value": 0.05,
+          "value": 0.02,
           "operation": "addition"
         }
       }
@@ -155,7 +155,7 @@
   },
   "fluent": {
     "title": "Fluent Casting",
-    "description": "+5% cast time reduction",
+    "description": "+2% cast time reduction",
     "icon": {
       "type": "item",
       "data": {
@@ -173,7 +173,241 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:cast_time_reduction",
-          "value": 0.05,
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_fire": {
+    "title": "Fire Affinity",
+    "description": "+3% fire spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_ice": {
+    "title": "Ice Affinity",
+    "description": "+3% ice spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:snowball"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_lightning": {
+    "title": "Lightning Affinity",
+    "description": "+3% lightning spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_holy": {
+    "title": "Holy Affinity",
+    "description": "+3% holy spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_ender": {
+    "title": "Ender Affinity",
+    "description": "+3% ender spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_blood": {
+    "title": "Blood Affinity",
+    "description": "+3% blood spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_evocation": {
+    "title": "Evocation Affinity",
+    "description": "+3% evocation spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_nature": {
+    "title": "Nature Affinity",
+    "description": "+3% nature spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "school_eldritch": {
+    "title": "Eldritch Affinity",
+    "description": "+3% eldritch spell power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sculk"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "value": 0.03,
           "operation": "addition"
         }
       }
@@ -181,7 +415,7 @@
   },
   "ward": {
     "title": "Warding",
-    "description": "+5% spell resistance",
+    "description": "+2% spell resistance",
     "icon": {
       "type": "item",
       "data": {
@@ -199,7 +433,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_resist",
-          "value": 0.05,
+          "value": 0.02,
           "operation": "addition"
         }
       }
@@ -242,240 +476,6 @@
         "data": {
           "attribute": "ars_nouveau:ars_nouveau.perk.max_mana",
           "value": 50,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_fire": {
-    "title": "Fire Affinity",
-    "description": "+10% fire spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:blaze_powder"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:fire_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_ice": {
-    "title": "Ice Affinity",
-    "description": "+10% ice spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:snowball"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:ice_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_lightning": {
-    "title": "Lightning Affinity",
-    "description": "+10% lightning spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:lightning_rod"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:lightning_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_holy": {
-    "title": "Holy Affinity",
-    "description": "+10% holy spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:golden_carrot"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:holy_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_ender": {
-    "title": "Ender Affinity",
-    "description": "+10% ender spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:ender_pearl"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:ender_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_blood": {
-    "title": "Blood Affinity",
-    "description": "+10% blood spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:redstone"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:blood_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_evocation": {
-    "title": "Evocation Affinity",
-    "description": "+10% evocation spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:totem_of_undying"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:evocation_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_nature": {
-    "title": "Nature Affinity",
-    "description": "+10% nature spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:oak_sapling"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:nature_spell_power",
-          "value": 0.1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "school_eldritch": {
-    "title": "Eldritch Affinity",
-    "description": "+10% eldritch spell power",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:sculk"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "irons_spellbooks:eldritch_spell_power",
-          "value": 0.1,
           "operation": "addition"
         }
       }

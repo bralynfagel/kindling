@@ -5,154 +5,494 @@
     "definition": "hardy",
     "root": true
   },
-  "vigor": {
+  "core_1": {
     "x": -140,
     "y": 40,
     "definition": "vigor"
   },
-  "reach": {
+  "core_2": {
     "x": -140,
     "y": 80,
     "definition": "reach"
   },
-  "stride": {
+  "core_3": {
     "x": -140,
     "y": 120,
     "definition": "stride"
   },
-  "footing": {
+  "core_4": {
     "x": -140,
     "y": 160,
     "definition": "footing"
   },
-  "edge": {
+  "core_5": {
+    "x": -140,
+    "y": 200,
+    "definition": "vigor"
+  },
+  "core_6": {
+    "x": -140,
+    "y": 240,
+    "definition": "reach"
+  },
+  "core_7": {
+    "x": -140,
+    "y": 280,
+    "definition": "stride"
+  },
+  "core_8": {
+    "x": -140,
+    "y": 320,
+    "definition": "footing"
+  },
+  "core_9": {
+    "x": -140,
+    "y": 360,
+    "definition": "vigor"
+  },
+  "core_10": {
+    "x": -140,
+    "y": 400,
+    "definition": "reach"
+  },
+  "core_11": {
+    "x": -140,
+    "y": 440,
+    "definition": "stride"
+  },
+  "core_12": {
+    "x": -140,
+    "y": 480,
+    "definition": "footing"
+  },
+  "core_13": {
+    "x": -140,
+    "y": 520,
+    "definition": "vigor"
+  },
+  "core_14": {
+    "x": -140,
+    "y": 560,
+    "definition": "reach"
+  },
+  "core_15": {
+    "x": -140,
+    "y": 600,
+    "definition": "stride"
+  },
+  "core_16": {
+    "x": -140,
+    "y": 640,
+    "definition": "footing"
+  },
+  "core_17": {
+    "x": -140,
+    "y": 680,
+    "definition": "reach"
+  },
+  "core_18": {
+    "x": -140,
+    "y": 720,
+    "definition": "stride"
+  },
+  "warrior_1": {
     "x": -70,
     "y": 40,
     "definition": "edge"
   },
-  "tempo": {
+  "warrior_2": {
     "x": -70,
     "y": 80,
     "definition": "tempo"
   },
-  "edge2": {
+  "warrior_3": {
     "x": -70,
     "y": 120,
-    "definition": "edge"
+    "definition": "keen"
   },
-  "keen1": {
+  "warrior_4": {
     "x": -70,
     "y": 160,
-    "definition": "keen"
+    "definition": "brutal"
   },
-  "keen2": {
+  "warrior_5": {
     "x": -70,
     "y": 200,
-    "definition": "keen"
+    "definition": "sunder"
   },
-  "brutal1": {
+  "warrior_6": {
     "x": -70,
     "y": 240,
-    "definition": "brutal"
-  },
-  "brutal2": {
-    "x": -70,
-    "y": 280,
-    "definition": "brutal"
-  },
-  "sunder1": {
-    "x": -70,
-    "y": 320,
-    "definition": "sunder"
-  },
-  "sunder2": {
-    "x": -70,
-    "y": 360,
-    "definition": "sunder"
-  },
-  "exec": {
-    "x": -70,
-    "y": 400,
     "definition": "exec"
   },
-  "draw1": {
+  "warrior_7": {
+    "x": -70,
+    "y": 280,
+    "definition": "edge"
+  },
+  "warrior_8": {
+    "x": -70,
+    "y": 320,
+    "definition": "tempo"
+  },
+  "warrior_9": {
+    "x": -70,
+    "y": 360,
+    "definition": "keen"
+  },
+  "warrior_10": {
+    "x": -70,
+    "y": 400,
+    "definition": "brutal"
+  },
+  "warrior_11": {
+    "x": -70,
+    "y": 440,
+    "definition": "sunder"
+  },
+  "warrior_12": {
+    "x": -70,
+    "y": 480,
+    "definition": "exec"
+  },
+  "warrior_13": {
+    "x": -70,
+    "y": 520,
+    "definition": "edge"
+  },
+  "warrior_14": {
+    "x": -70,
+    "y": 560,
+    "definition": "tempo"
+  },
+  "warrior_15": {
+    "x": -70,
+    "y": 600,
+    "definition": "keen"
+  },
+  "warrior_16": {
+    "x": -70,
+    "y": 640,
+    "definition": "brutal"
+  },
+  "warrior_17": {
+    "x": -70,
+    "y": 680,
+    "definition": "sunder"
+  },
+  "warrior_18": {
+    "x": -70,
+    "y": 720,
+    "definition": "exec"
+  },
+  "warrior_19": {
+    "x": -70,
+    "y": 760,
+    "definition": "edge"
+  },
+  "warrior_20": {
+    "x": -70,
+    "y": 800,
+    "definition": "tempo"
+  },
+  "warrior_21": {
+    "x": -70,
+    "y": 840,
+    "definition": "keen"
+  },
+  "warrior_22": {
+    "x": -70,
+    "y": 880,
+    "definition": "brutal"
+  },
+  "warrior_23": {
+    "x": -70,
+    "y": 920,
+    "definition": "edge"
+  },
+  "warrior_24": {
+    "x": -70,
+    "y": 960,
+    "definition": "tempo"
+  },
+  "warrior_25": {
+    "x": -70,
+    "y": 1000,
+    "definition": "keen"
+  },
+  "warrior_26": {
+    "x": -70,
+    "y": 1040,
+    "definition": "brutal"
+  },
+  "warrior_27": {
+    "x": -70,
+    "y": 1080,
+    "definition": "edge"
+  },
+  "warrior_28": {
+    "x": -70,
+    "y": 1120,
+    "definition": "keen"
+  },
+  "warrior_29": {
+    "x": -70,
+    "y": 1160,
+    "definition": "warlord"
+  },
+  "ranger_1": {
     "x": 0,
     "y": 40,
     "definition": "draw"
   },
-  "draw2": {
+  "ranger_2": {
     "x": 0,
     "y": 80,
-    "definition": "draw"
+    "definition": "fletch"
   },
-  "fletch1": {
+  "ranger_3": {
     "x": 0,
     "y": 120,
-    "definition": "fletch"
-  },
-  "fletch2": {
-    "x": 0,
-    "y": 160,
-    "definition": "fletch"
-  },
-  "swift": {
-    "x": 0,
-    "y": 200,
     "definition": "swift"
   },
-  "deadeye": {
+  "ranger_4": {
+    "x": 0,
+    "y": 160,
+    "definition": "aim"
+  },
+  "ranger_5": {
+    "x": 0,
+    "y": 200,
+    "definition": "draw"
+  },
+  "ranger_6": {
     "x": 0,
     "y": 240,
+    "definition": "fletch"
+  },
+  "ranger_7": {
+    "x": 0,
+    "y": 280,
+    "definition": "swift"
+  },
+  "ranger_8": {
+    "x": 0,
+    "y": 320,
+    "definition": "aim"
+  },
+  "ranger_9": {
+    "x": 0,
+    "y": 360,
+    "definition": "draw"
+  },
+  "ranger_10": {
+    "x": 0,
+    "y": 400,
+    "definition": "fletch"
+  },
+  "ranger_11": {
+    "x": 0,
+    "y": 440,
+    "definition": "swift"
+  },
+  "ranger_12": {
+    "x": 0,
+    "y": 480,
+    "definition": "aim"
+  },
+  "ranger_13": {
+    "x": 0,
+    "y": 520,
+    "definition": "draw"
+  },
+  "ranger_14": {
+    "x": 0,
+    "y": 560,
+    "definition": "fletch"
+  },
+  "ranger_15": {
+    "x": 0,
+    "y": 600,
+    "definition": "swift"
+  },
+  "ranger_16": {
+    "x": 0,
+    "y": 640,
+    "definition": "aim"
+  },
+  "ranger_17": {
+    "x": 0,
+    "y": 680,
+    "definition": "draw"
+  },
+  "ranger_18": {
+    "x": 0,
+    "y": 720,
+    "definition": "fletch"
+  },
+  "ranger_19": {
+    "x": 0,
+    "y": 760,
+    "definition": "aim"
+  },
+  "ranger_20": {
+    "x": 0,
+    "y": 800,
+    "definition": "fletch"
+  },
+  "ranger_21": {
+    "x": 0,
+    "y": 840,
     "definition": "deadeye"
   },
-  "hide": {
+  "guardian_1": {
     "x": 70,
     "y": 40,
     "definition": "hide"
   },
-  "hide2": {
+  "guardian_2": {
     "x": 70,
     "y": 80,
-    "definition": "hide"
+    "definition": "bulwark"
   },
-  "bulwark1": {
+  "guardian_3": {
     "x": 70,
     "y": 120,
-    "definition": "bulwark"
+    "definition": "evade"
   },
-  "bulwark2": {
+  "guardian_4": {
     "x": 70,
     "y": 160,
-    "definition": "bulwark"
+    "definition": "hide"
   },
-  "wind": {
+  "guardian_5": {
     "x": 70,
     "y": 200,
-    "definition": "wind"
+    "definition": "bulwark"
   },
-  "evade": {
+  "guardian_6": {
     "x": 70,
     "y": 240,
     "definition": "evade"
   },
-  "unbroken": {
+  "guardian_7": {
     "x": 70,
     "y": 280,
+    "definition": "hide"
+  },
+  "guardian_8": {
+    "x": 70,
+    "y": 320,
+    "definition": "bulwark"
+  },
+  "guardian_9": {
+    "x": 70,
+    "y": 360,
+    "definition": "evade"
+  },
+  "guardian_10": {
+    "x": 70,
+    "y": 400,
+    "definition": "hide"
+  },
+  "guardian_11": {
+    "x": 70,
+    "y": 440,
+    "definition": "bulwark"
+  },
+  "guardian_12": {
+    "x": 70,
+    "y": 480,
+    "definition": "evade"
+  },
+  "guardian_13": {
+    "x": 70,
+    "y": 520,
+    "definition": "hide"
+  },
+  "guardian_14": {
+    "x": 70,
+    "y": 560,
+    "definition": "bulwark"
+  },
+  "guardian_15": {
+    "x": 70,
+    "y": 600,
+    "definition": "evade"
+  },
+  "guardian_16": {
+    "x": 70,
+    "y": 640,
+    "definition": "hide"
+  },
+  "guardian_17": {
+    "x": 70,
+    "y": 680,
     "definition": "unbroken"
   },
-  "leech1": {
+  "survivor_1": {
     "x": 140,
     "y": 40,
     "definition": "leech"
   },
-  "leech2": {
+  "survivor_2": {
     "x": 140,
     "y": 80,
+    "definition": "wind"
+  },
+  "survivor_3": {
+    "x": 140,
+    "y": 120,
     "definition": "leech"
+  },
+  "survivor_4": {
+    "x": 140,
+    "y": 160,
+    "definition": "wind"
+  },
+  "survivor_5": {
+    "x": 140,
+    "y": 200,
+    "definition": "leech"
+  },
+  "survivor_6": {
+    "x": 140,
+    "y": 240,
+    "definition": "wind"
+  },
+  "survivor_7": {
+    "x": 140,
+    "y": 280,
+    "definition": "leech"
+  },
+  "survivor_8": {
+    "x": 140,
+    "y": 320,
+    "definition": "wind"
+  },
+  "survivor_9": {
+    "x": 140,
+    "y": 360,
+    "definition": "leech"
+  },
+  "survivor_10": {
+    "x": 140,
+    "y": 400,
+    "definition": "wind"
+  },
+  "survivor_11": {
+    "x": 140,
+    "y": 440,
+    "definition": "leech"
+  },
+  "survivor_12": {
+    "x": 140,
+    "y": 480,
+    "definition": "undying"
   },
   "resolve": {
     "x": 0,
-    "y": 460,
+    "y": 1220,
     "definition": "resolve"
   }
 }

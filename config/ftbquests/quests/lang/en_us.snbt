@@ -38,7 +38,7 @@
 		"A family server. Build, fight, trade, explore — at your own pace."
 		""
 		"&eQuests&r (this book) guide you. Tick this one for a few supplies to begin."
-		"&eSkill trees&r: press &lK&r. Three trees level from what you already do."
+		"&eSkill trees&r: press &lK&r. Four trees level from what you already do."
 		"&eYour map&r: &lM&r opens the world map; the minimap is top-left."
 		""
 		"Stuck, lost, or something broke? Say so in chat. Nothing here is permanent."
@@ -46,11 +46,12 @@
 	quest.33E4C838918981E7.quest_subtitle: "Read me first"
 	quest.33E4C838918981E7.title: "&6Welcome to Kindling"
 	quest.3F761C90B071539B.quest_desc: [
-		"Three trees, each levelled by doing its thing:"
+		"Four trees, each levelled by doing its thing, 100 levels deep:"
 		""
 		"&cAdventurer&r — defeating monsters"
-		"&7Prospector&r — mining ore and chopping logs"
+		"&7Prospector&r — mining ore and chopping logs; its Vein Sense grows your Ultimine (it starts at 1 block)"
 		"&aHomestead&r — crafting, cooking, eating, fishing"
+		"&dArcanist&r — casting spells"
 		""
 		"You start with one point in each. Tick this when you've spent one."
 	]

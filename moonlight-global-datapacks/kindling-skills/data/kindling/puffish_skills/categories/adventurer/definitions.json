@@ -25,13 +25,13 @@
       }
     ]
   },
-  "edge": {
-    "title": "Honed Edge",
-    "description": "+0.5 attack damage",
+  "vigor": {
+    "title": "Vigor",
+    "description": "+½ heart",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:stone_sword"
+        "item": "minecraft:glistering_melon_slice"
       }
     },
     "frame": {
@@ -44,42 +44,16 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.attack_damage",
-          "value": 0.5,
+          "attribute": "generic.max_health",
+          "value": 1,
           "operation": "addition"
-        }
-      }
-    ]
-  },
-  "tempo": {
-    "title": "Tempo",
-    "description": "+5% attack speed",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:feather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.attack_speed",
-          "value": 0.05,
-          "operation": "multiply_base"
         }
       }
     ]
   },
   "reach": {
     "title": "Long Arm",
-    "description": "+0.5 attack reach",
+    "description": "+0.1 attack reach",
     "icon": {
       "type": "item",
       "data": {
@@ -97,19 +71,19 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "player.entity_interaction_range",
-          "value": 0.5,
+          "value": 0.1,
           "operation": "addition"
         }
       }
     ]
   },
-  "hide": {
-    "title": "Tough Hide",
-    "description": "+1 armor",
+  "stride": {
+    "title": "Hunter's Stride",
+    "description": "+1% movement speed",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:leather_boots"
       }
     },
     "frame": {
@@ -122,16 +96,16 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "generic.armor",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
   },
   "footing": {
     "title": "Sure Footing",
-    "description": "+10% knockback resistance",
+    "description": "+3% knockback resistance",
     "icon": {
       "type": "item",
       "data": {
@@ -149,19 +123,19 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.knockback_resistance",
-          "value": 0.1,
+          "value": 0.03,
           "operation": "addition"
         }
       }
     ]
   },
-  "stride": {
-    "title": "Hunter's Stride",
-    "description": "+5% movement speed",
+  "edge": {
+    "title": "Honed Edge",
+    "description": "+0.25 attack damage",
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:iron_sword"
       }
     },
     "frame": {
@@ -171,79 +145,45 @@
       }
     },
     "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.movement_speed",
-          "value": 0.05,
-          "operation": "multiply_base"
-        }
-      }
-    ]
-  },
-  "vigor": {
-    "title": "Vigor",
-    "description": "+1 heart",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:golden_apple"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 2,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "resolve": {
-    "title": "Hunter's Resolve",
-    "description": "+2 hearts and +1 attack damage. The capstone.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:diamond_sword"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "challenge"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "generic.max_health",
-          "value": 4,
-          "operation": "addition"
-        }
-      },
       {
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.attack_damage",
-          "value": 1,
+          "value": 0.25,
           "operation": "addition"
+        }
+      }
+    ]
+  },
+  "tempo": {
+    "title": "Tempo",
+    "description": "+2% attack speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
         }
       }
     ]
   },
   "keen": {
     "title": "Keen Strikes",
-    "description": "+3% crit chance",
+    "description": "+1.5% crit chance",
     "icon": {
       "type": "item",
       "data": {
@@ -261,7 +201,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:crit_chance",
-          "value": 0.03,
+          "value": 0.015,
           "operation": "addition"
         }
       }
@@ -269,7 +209,7 @@
   },
   "brutal": {
     "title": "Brutal",
-    "description": "+10% crit damage",
+    "description": "+4% crit damage",
     "icon": {
       "type": "item",
       "data": {
@@ -287,7 +227,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:crit_damage",
-          "value": 0.1,
+          "value": 0.04,
           "operation": "addition"
         }
       }
@@ -295,7 +235,7 @@
   },
   "sunder": {
     "title": "Sunder",
-    "description": "+2 armor pierce",
+    "description": "+1 armor pierce",
     "icon": {
       "type": "item",
       "data": {
@@ -313,7 +253,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:armor_pierce",
-          "value": 2,
+          "value": 1,
           "operation": "addition"
         }
       }
@@ -321,7 +261,7 @@
   },
   "exec": {
     "title": "Executioner",
-    "description": "+3% current-health damage",
+    "description": "+1% current-health damage",
     "icon": {
       "type": "item",
       "data": {
@@ -339,6 +279,40 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:current_hp_damage",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "warlord": {
+    "title": "Warlord",
+    "description": "+1 attack damage, +3% crit chance. Warrior capstone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:crit_chance",
           "value": 0.03,
           "operation": "addition"
         }
@@ -347,7 +321,7 @@
   },
   "draw": {
     "title": "Steady Draw",
-    "description": "+10% draw speed",
+    "description": "+4% draw speed",
     "icon": {
       "type": "item",
       "data": {
@@ -365,7 +339,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:draw_speed",
-          "value": 0.1,
+          "value": 0.04,
           "operation": "addition"
         }
       }
@@ -373,7 +347,7 @@
   },
   "fletch": {
     "title": "Fletcher",
-    "description": "+10% arrow damage",
+    "description": "+4% arrow damage",
     "icon": {
       "type": "item",
       "data": {
@@ -391,7 +365,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:arrow_damage",
-          "value": 0.1,
+          "value": 0.04,
           "operation": "addition"
         }
       }
@@ -399,7 +373,7 @@
   },
   "swift": {
     "title": "Swift Shafts",
-    "description": "+10% arrow velocity",
+    "description": "+5% arrow velocity",
     "icon": {
       "type": "item",
       "data": {
@@ -417,7 +391,33 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:arrow_velocity",
-          "value": 0.1,
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "aim": {
+    "title": "Marksman",
+    "description": "+3% projectile damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:projectile_damage",
+          "value": 0.03,
           "operation": "addition"
         }
       }
@@ -457,9 +457,35 @@
       }
     ]
   },
+  "hide": {
+    "title": "Tough Hide",
+    "description": "+0.5 armor",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "bulwark": {
     "title": "Bulwark",
-    "description": "+1 armor toughness",
+    "description": "+0.5 armor toughness",
     "icon": {
       "type": "item",
       "data": {
@@ -477,33 +503,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.armor_toughness",
-          "value": 1,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
-  "wind": {
-    "title": "Second Wind",
-    "description": "+10% healing received",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:golden_apple"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "apothic_attributes:healing_received",
-          "value": 0.1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -511,7 +511,7 @@
   },
   "evade": {
     "title": "Evasion",
-    "description": "+3% dodge chance",
+    "description": "+1% dodge chance",
     "icon": {
       "type": "item",
       "data": {
@@ -529,7 +529,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:dodge_chance",
-          "value": 0.03,
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -571,7 +571,7 @@
   },
   "leech": {
     "title": "Leech",
-    "description": "+2% life steal",
+    "description": "+1% life steal",
     "icon": {
       "type": "item",
       "data": {
@@ -589,7 +589,101 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "apothic_attributes:life_steal",
-          "value": 0.02,
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "wind": {
+    "title": "Second Wind",
+    "description": "+4% healing received",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:healing_received",
+          "value": 0.04,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "undying": {
+    "title": "Undying",
+    "description": "+3% life steal, +10% healing received. Survivor capstone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:life_steal",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "apothic_attributes:healing_received",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "resolve": {
+    "title": "Hunter's Resolve",
+    "description": "+2 hearts, +1 attack damage. The capstone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_damage",
+          "value": 1,
           "operation": "addition"
         }
       }
