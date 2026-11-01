@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "name": "ferrous_wroughtnaut_helmet",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "mowziesmobs:wrought_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ferrous_wroughtnaut_axe",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "mowziesmobs:wrought_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

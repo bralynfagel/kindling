@@ -4280,6 +4280,38 @@ file = "moonlight-global-datapacks/kindling-loot/data/c/tags/item/ingots/bronze.
 hash = "c003482fc74b17e07753d9a1c7642d63e1820bec1f613b897c97e4a427d549fe"
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/chests/abandoned.json"
+hash = "0c692f1e04b57714627a4ed5b31521f2d47c4929737cc006a9d5e410a350c61f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/chests/abandoned_treasure.json"
+hash = "5ed29a6a8853fcace2df92ddd575e7df97f49c0d8a7c1858e0a29d36abd141ed"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/chests/frosted_prison_treasure.json"
+hash = "7ffb07fd3842d14111e050e030f927458df2d01226e841a6defba247a2c6f29b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/entities/deepling_priest.json"
+hash = "2055469227530cb3971b484d15361f602df64352588b50a5406028e78a35cd75"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/entities/deepling_warlock.json"
+hash = "dc644ef3c7d1824ab288d6e868aec65f2006357db22e567036e7498889cd237e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/entities/ender_guardian.json"
+hash = "779e8c19af62abc5d805bf093db0a507196fc215a51acf80d378481ded39a5ca"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/entities/netherite_monstrosity.json"
+hash = "24976a4d0448d401d36347c94666a0f77f0de8bd6d8944f5fb46f5efa5f9ec2e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/entities/the_leviathan.json"
+hash = "962fe8569ff0b85ac4ef2064ec1bb7d4e8a6eeac7721e23cf613c739356ea141"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/affix_loot_structures.json"
 hash = "7cdba0c0cce4638e94b99ddcdf521d09fd1f4988a5aec4a8cd18af3b9213833b"
 
@@ -4754,6 +4786,50 @@ hash = "b75ceca3047440b0750f647a38b3e2c17d5fd571fda0d6a48094e58c1720e350"
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/vanilla/turtle_helmet.json"
 hash = "2dc603ce8dc8c327cd77525e0dda3101253f636fe5b95a64e724015d73acb968"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/chests/monastery_chest.json"
+hash = "63f31e29f2dd2b05cecf07e5afdbdee198171000558e854065a6a41e19bd6eab"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/chests/umvuthana_grove_chest.json"
+hash = "440f8dc53ff5682ba50a9bfb9c9dd9e60ee2720c3c03fed2927eafdab33ec1c5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/ferrous_wroughtnaut.json"
+hash = "cb70eecb1e90f273953433b5fd5432b57e39cea88429dbe39db93c9898f13e05"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/sculptor.json"
+hash = "00972ceda75d2a931c1471aedde7207f5c911549da21b967c64268c8ff24168b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthana_bliss.json"
+hash = "21aeb776a21a6b577b95b6a29cf6fb5a60b795e14aa84dda988826fcf63917f0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthana_faith.json"
+hash = "c63f0b3b847b10b43d0a29229433d970812f2cb5e60cbcd2cc8e83c22d4d35bd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthana_fear.json"
+hash = "e42fcd196a409fc2d2c4c59f17cfb4f0a2f17d726415cc3b715c6d2077ef80d0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthana_fury.json"
+hash = "2c51feb5021c60f4d822b923b63e415620b8b5b8ff44b438ec459162852b83fa"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthana_misery.json"
+hash = "ec35f353fd4e8a556a5429c345f0f1a3fcae654e63e7c6701acc742b1eee570f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthana_rage.json"
+hash = "a6ffae6aaab27340deebe150a34a195a1ad1c304319b0771b5ed6530ad922da9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/entities/umvuthi.json"
+hash = "678e82f2e74d0c47b7540d3d008dcdda08ad59c12a548cf2dc1e7367c62695ed"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/neoforge/loot_modifiers/global_loot_modifiers.json"

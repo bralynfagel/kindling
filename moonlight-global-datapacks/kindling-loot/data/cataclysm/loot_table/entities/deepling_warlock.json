@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "deepling_warlock",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:athame",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:uncommon",
+                "apotheosis:rare"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

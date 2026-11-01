@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "name": "sculptor",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "mowziesmobs:sculptor_staff",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mowziesmobs:geomancer_beads",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mowziesmobs:geomancer_robe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mowziesmobs:geomancer_belt",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mowziesmobs:geomancer_sandals",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "apotheosis:reforge_item",
+              "rarities": [
+                "apotheosis:rare",
+                "apotheosis:epic"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
