@@ -1315,15 +1315,6 @@ file = "config/puffish_skills/config.json"
 hash = "548156b84adda7e833d8f8d0cc5dd82dff1ba23a93011c4770ad548f1b9c82b0"
 
 [[files]]
-file = "config/refurbished_furniture.client.toml"
-hash = "531d089119a8002ff2fc3e4ff2dca867744227c2b8d5444be733d676e7af72e8"
-preserve = true
-
-[[files]]
-file = "config/refurbished_furniture.server.toml"
-hash = "82a6d7d2d42b403824473c66fe9c9cd8caec328f27ffed77f4c8c9d43c5f2af9"
-
-[[files]]
 file = "config/relics.yaml"
 hash = "3a06e656323ddfd8221469c3aebf0849e65638aa886d71ceb4cbf9e023b9787d"
 
@@ -3645,11 +3636,6 @@ hash = "10e337705f0a14505879759cd70bb2d57abcaba05b546002c06bc3ddaa3cffcc"
 metafile = true
 
 [[files]]
-file = "mods/framework.pw.toml"
-hash = "8cd29ff61cae0a1ef51c6c531dc10e3be59c2635de0ed2b9ff80c224e119abc1"
-metafile = true
-
-[[files]]
 file = "mods/ftb-backups-2.pw.toml"
 hash = "fcf672488628d484febcaf23cfba3237ec8d49b7c918a85ec88c29723411e08c"
 metafile = true
@@ -4007,11 +3993,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "bfd1bb9ece4f1202305d55d327de5dc416849c455a46cb747d77ffe9ff6d7b07"
-metafile = true
-
-[[files]]
-file = "mods/refurbished-furniture.pw.toml"
-hash = "febca9f03fba8698a7a365ae3b3bfe4189627f0b969657cc772ffb8a6c5d8ab5"
 metafile = true
 
 [[files]]
