@@ -3745,11 +3745,6 @@ hash = "23d051d565a52a57cdf04089cc28089b5ca77952994046838ab555e6f2849e41"
 metafile = true
 
 [[files]]
-file = "mods/handcrafted.pw.toml"
-hash = "849aa3a191aa9247016d7db50cb3eb133b384c5941416f0851c587d64cd6cecf"
-metafile = true
-
-[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "2cb3dbf43d544f1e1ba242916be15eecf64c38685b92d50b4c0d9914aa22cc6a"
 metafile = true
