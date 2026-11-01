@@ -3664,6 +3664,11 @@ hash = "9a4368677d7285737eea00683de87aeb4e4e530fd3699f27e0b119c6b952c0e8"
 metafile = true
 
 [[files]]
+file = "mods/kindling.pw.toml"
+hash = "795c587fe02ecbaf0a4de29cc7e9e363c16281747aaab2591a9bd8959a801aa6"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "c5dd41545d09d8d52b5bf5d39eae9ab6b199efb923ffdd1425c587da0d6272cd"
 metafile = true
