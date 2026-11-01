@@ -671,7 +671,7 @@ preserve = true
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "61926b9ce81d6d44ac25e367b67e5642235fa026e6dddd6be54e0c2965570cc7"
+hash = "761152585624ffb530d406acb0d45851bd7202016c7a0c16ae0fe1d72259c552"
 
 [[files]]
 file = "config/charginggadgets-server.toml"
@@ -4845,6 +4845,22 @@ hash = "8badfd10f0e15b7606a611b081308b48a3da6556babfe1dbc347feae0e3637c0"
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"
 hash = "b7852357c515151213169e7129c049981307f9a5a344055a213206638349c5a2"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-spawns/data/irons_spellbooks/neoforge/biome_modifier/necromancer_spawns.json"
+hash = "393a82aef67902ec7697af566d714f13b1a788c84873b86f2deb6e8e4604becf"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-spawns/data/kindling/neoforge/biome_modifier/draugr_night.json"
+hash = "a32bb9b6502fcbc1665b172ec8f24482055b166cf2f45f0016ee63ab02b2fdb1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-spawns/data/kindling/neoforge/biome_modifier/draugr_snowy.json"
+hash = "3e8ad84b481598b91712bf8c238b282e52ca95594830164349dbf363e3db0feb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-spawns/pack.mcmeta"
+hash = "ba74219cd8dda09cfa8cabdb56b0f51d8e72ff4aba1c40fed4c917d8396d6876"
 
 [[files]]
 file = "options.txt"

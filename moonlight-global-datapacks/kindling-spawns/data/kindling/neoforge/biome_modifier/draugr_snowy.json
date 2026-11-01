@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_snowy",
+  "spawners": [
+    {"type": "cataclysm:draugr", "weight": 60, "minCount": 2, "maxCount": 4},
+    {"type": "cataclysm:elite_draugr", "weight": 5, "minCount": 1, "maxCount": 1}
+  ]
+}

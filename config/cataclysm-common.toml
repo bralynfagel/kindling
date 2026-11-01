@@ -1184,7 +1184,7 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 30
 	# Range: > 0
-	deepling_spawn_rolls = 30
+	deepling_spawn_rolls = 8
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
@@ -1200,7 +1200,7 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 30
 	# Range: > 0
-	deepling_angler_spawn_rolls = 30
+	deepling_angler_spawn_rolls = 8
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
@@ -1236,7 +1236,7 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 15
 	# Range: 0 ~ 1000
-	koboleton_spawn_weight = 15
+	koboleton_spawn_weight = 50
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 1
 	# Range: > 0
