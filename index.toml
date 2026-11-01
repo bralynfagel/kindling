@@ -3900,11 +3900,6 @@ hash = "1846d700dd97c292b5944f3e1d62e746cd809df0513734b490cc5cf490445055"
 metafile = true
 
 [[files]]
-file = "mods/macaws-doors.pw.toml"
-hash = "b1ff891cea4975140a7b55614bb77a0613c1cf058aa0df25143e1ac55c16e516"
-metafile = true
-
-[[files]]
 file = "mods/macaws-furniture.pw.toml"
 hash = "2aaeb0741aceedf5e053f7a775ee6b2d49e0ef95b27fec5bb0b2efbcdb47dc78"
 metafile = true
