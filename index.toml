@@ -164,7 +164,7 @@ preserve = true
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
-hash = "027bdab2329e2e71cc2546871f3eca724cd97a0667a623c9de7fc7c4e9dfd9b4"
+hash = "b1a7e267eac38e5dab7a225798f854333eb45a405e1caee6e895af1cc51b006f"
 
 [[files]]
 file = "config/ars_nouveau-server.toml"
@@ -983,7 +983,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c09f050e116e9ad236abd4629181f2a1e390aa5722b903c0ec13b1d15b4a0690"
+hash = "db25bdc241469bc05010df94490a7f8e2b48a2c8748b8b699311def49e8e710f"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1324,42 +1324,6 @@ hash = "0c721ecf8a9a6fba8402b7ce73bf8580acdd078e9ac9c3b37c42245ca6d8c4b0"
 [[files]]
 file = "config/sophisticatedstorage-server.toml"
 hash = "f1782c9607509e3afccec9bb773acff652859b573bec169d5a7ff544a2a8595f"
-
-[[files]]
-file = "config/starterkit.json5"
-hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
-
-[[files]]
-file = "config/starterkit/descriptions/Archer.txt"
-hash = "2ea003ce1408175d33f2bf55cb2de60b7aca7d652b922a84ec52d7d77eb99b64"
-
-[[files]]
-file = "config/starterkit/descriptions/Default.txt"
-hash = "19df01c903be0cc0216fbca05181ff06c2aff09f2ef213e78ea93f82d2cb1324"
-
-[[files]]
-file = "config/starterkit/descriptions/Lumberjack.txt"
-hash = "5091e1a2d5a2927fe1d8f6a6a233ace60f2407be05384f3140b839e9ad3a041a"
-
-[[files]]
-file = "config/starterkit/descriptions/Witch.txt"
-hash = "290f6b832794b6876aba9da963b585ba4e99e5e6a972aebb52810e9a256e2f65"
-
-[[files]]
-file = "config/starterkit/kits/Default.txt"
-hash = "4554f1366724aa5b7cbdf54f949664178c221685e2600e1646fef0341d520b7a"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Archer.txt"
-hash = "da428925f985e0dd610de8cd21e8ff5c433b3c08e8fa02cad65353fc2de9fb77"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Lumberjack.txt"
-hash = "e9ed3b597e1cff6e3f01f1a6ef16bc35181c7e1a4c6556b8399b5ea41d0d278f"
-
-[[files]]
-file = "config/starterkit/kits/inactive/Witch.txt"
-hash = "acf56d3d8e4737cf8fc0be14eab977a9eb266a57e004ed2e67c7882a249a62bb"
 
 [[files]]
 file = "config/structureessentials.json"
@@ -3979,11 +3943,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "7c3cac4665cbca33c39135b7ba13d724fe4bb64360e7067ecb60244e620deab9"
-metafile = true
-
-[[files]]
-file = "mods/starter-kit.pw.toml"
-hash = "0f1db700c93b1119e4d44e3c99cf2056a06acdd0c0356a3479c08c869e212ba9"
 metafile = true
 
 [[files]]
