@@ -3344,11 +3344,6 @@ hash = "cdfa1b43710ffdc779a00287ea1544be4f38ab15cd4542bf9b17bee8d2e4e1da"
 metafile = true
 
 [[files]]
-file = "mods/c2me-neoforge.pw.toml"
-hash = "f82dcab5621e178428706b3631fdf413c61c83f4041f8307b11d14bff7199f7b"
-metafile = true
-
-[[files]]
 file = "mods/cerbons-api.pw.toml"
 hash = "0842fbc32ad2a93ddabb0aef20b53c5b7abcc075fb047b0a7a698c589edbbfb0"
 metafile = true
@@ -4276,6 +4271,366 @@ file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affix_loot_entr
 hash = "0ac756759c26a3a55ee75c7a0c10abb49f227eb3c1a4049381743db2b4a7c104"
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/adamantine.json"
+hash = "0edce8626cf9948121d52ab1b7fb3e5376b893989907558d9af61b9aba1d6807"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/aquatic.json"
+hash = "ab2c3f9b5337378c5743068abca21d2b5968d527e741990a59c1785d8e138ee3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/blessed.json"
+hash = "c60c9ad373ae15cf1d50c0b48e0196f0b4b7453514937195605e70960195abc1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/elastic.json"
+hash = "7c46f858e1f058d3b034618798ad7b19881854bf222c1f1210b92b292edd8348"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/fireproof.json"
+hash = "b7a0ccb9dafc8d7770b3c902f1bf1f5af2e56798ab8f38db3c495643e77f6813"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/fortunate.json"
+hash = "97827b0e6c9d122f75562d653265fd3f861089a8ca17a9490c6975bdb9980766"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/gravitational.json"
+hash = "d60c9ee8c70a792262dcb32b06c5efd266d9127532a47bb4122328ca6adb0965"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/ironforged.json"
+hash = "b3208eed1b5276737176a7a4f6741b33d77597433c9d1dc95101b19517d2626f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/oxygenated.json"
+hash = "c6547a39d546b128a2a799fac44d66f9e40026222a04f7edd7bc149f9650104a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/spiritual.json"
+hash = "30ac2547e9d094076bd8f7b5de4a6eafacdf08156b3bcc28c57121abf6c69abb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/stalwart.json"
+hash = "609b230ef8c85db6467d099341145ec387c03d7ff99eed9a15c7b054fb9aea13"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/steel_touched.json"
+hash = "9af42d3c558a34dda27302b40bf549fab05113ad404d5f12b826b0af5cd27a5d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/timekeeping.json"
+hash = "e92fd776b8bedcbfa439dfc367b63550e4218052896ea80367571f411d6e4409"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/unbound.json"
+hash = "2c594282aa175921785cc3f7dd53357e55ba388c2010ec92a1ec86f056af7c28"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/windswept.json"
+hash = "be07b0369af76c29cc5ebb1b5beda14b9c70c921757a66c215ea6a8058e238dc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/attribute/winged.json"
+hash = "7366f4021590b49d96772f414bd464cbb916a188537012a4eaa2d2cc97b70127"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/dmg_reduction/blast_forged.json"
+hash = "af4507c05921f36a95e396dede347c5893f9b72d757556ac3a07899cbb110539"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/dmg_reduction/blockading.json"
+hash = "bca6c584311db7216aacd0adb74db8dafef8b2b3f3b7753291e933951c0bd972"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/dmg_reduction/deflective.json"
+hash = "066396c3e3cf6d2e321bb1093c55b3f378d811313321d7d07e0cf8386efc4c13"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/dmg_reduction/feathery.json"
+hash = "6587de07e9f8496045971976951d64c632c45abee832fbeedc1da5500997c56a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/dmg_reduction/grounded.json"
+hash = "70b457243e9c14d78e24ccecfe2e5b9ec82d77fce2076f95a105eb16512e915e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/dmg_reduction/runed.json"
+hash = "1324d40a7b32d21020d9f09921808bb5cc073dcadaa0cba7afc1628bb4a21be0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/mob_effect/blinding.json"
+hash = "dfa719407e449328b1d63660396b811cca7afd9aaf11c88e6114e95bf710c84c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/mob_effect/bolstering.json"
+hash = "02aaa75051b29ca09e18472b1fb348bb79e496086251aadb3291bd0cdb35c5bb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/mob_effect/bursting.json"
+hash = "074376bab806233bba3dc31e95cb6c03b9b1c6e96672a82b2a24cb41d460a07b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/mob_effect/nimble.json"
+hash = "91d11d8ab22d9b3495d39dc98631a05fefbc350f121b2a98f91c6a4bca738e13"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/armor/mob_effect/revitalizing.json"
+hash = "0b26e2657c5494f38451d10263317de354ba0475d7609ff6a7c37ede2033a9fe"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/ability/enlightened.json"
+hash = "325b305fd51abd7d696aded200e7d3917ddd94baf660847324fba5ac79d38602"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/ability/supermassive.json"
+hash = "043a29a6810bf5f6bac5da968bc7fa0ce5516646ceae1226fd7ef665b9bf77b6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/attribute/destructive.json"
+hash = "941f7ebd527b4f7ec808163701d24fc1fb03062a729798cb18c85140b75acc9d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/attribute/experienced.json"
+hash = "8c62de45341a723603e1c74b90830e75c90675a5d9f939857e089e571c01c41b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/attribute/lengthy.json"
+hash = "595e32ffb487d21edb36a7655d07c4022ead62290a6ebad95fb71455185b4d75"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/attribute/submerged.json"
+hash = "82f4a21fd8893d7b27e092a5116d28c31aacb62756849b591d9e3d800fde2cf8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/effect/omnetic.json"
+hash = "bae233be7f56de47303a8875c72ad0b8ed0a35ab523fd1d1a598ee9ad3e89a4c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/effect/radial.json"
+hash = "20846c2b7b7c6a8a875d072f18206098edf69d82d19db6646aa9d522ac073b27"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/enchantment/prosperous.json"
+hash = "b2ac9118007b6d7cfd08b8ea4b1ae13dfef4b1c2441f8865abfa1eff4ef198c6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/mob_effect/spelunkers.json"
+hash = "d8b9acd7f42ee537ae94952c621118ca52d53fe353761734f7f37885262e0a33"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/breaker/mob_effect/swift.json"
+hash = "101138feccee7dfa670e2b9381b638aa0e32a6bdf07e3fa6d5ed2afe9d7ec100"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/generic/attribute/lucky.json"
+hash = "c4b77be991108e2004208dd4d9978124f9394b0866bbe6189f76123597243ac1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/generic/telepathic.json"
+hash = "b1db316f9d9c2cf0db4ed4517f1231e1171cae674a179bc7c85e9c17d37d48f4"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/berserking.json"
+hash = "f64bb960d5d9433e85de75f9380fcd211ef8ca9e89c817815475804f4dca3773"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/forceful.json"
+hash = "f20406abb23c11f3f0c778e454f7461fe3f5cbaabbf0369ea8f31f3d9bc0f3b6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/giant_slaying.json"
+hash = "6f8764b807f68571b13af9236f1fcd9d9068b240b9ee0ed803b523d43eacef16"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/glacial.json"
+hash = "124e762de83e83e9e3a69835d49cd3770f0d60685e1e00b9896eeda0562b3b8f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/graceful.json"
+hash = "225239650d96daad05ce9a4d239035c7b6120c303a2543cc1453c28e053e868a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/infernal.json"
+hash = "ea95dd5753d98c09b87fff58a657eb81e7e97693bf45cab8809132f1ac1654be"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/intricate.json"
+hash = "409aa81dd9e6312c7c4ff21133ad89468d4514f9735b7cd1f985084440e1d69e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/lacerating.json"
+hash = "58d68b3fef90d5824d9b05315dedf71c07a82ed0f67f411f8f179f794c03d1e8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/lengthy.json"
+hash = "745f2178dcb732a6c82522e7478b0b36efff313de1cc83eefe79718d19f8796d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/murderous.json"
+hash = "bc83f696705f8eb80948787c875543274407a044c3dd710fd737d93639346a9d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/piercing.json"
+hash = "31450b4b163bdd618e60ce65e5ca38061b6462698f217db77643dbc4962a20eb"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/vampiric.json"
+hash = "b107c983e464446437d07629225c37fdfaf791f5a6670bc6352df199037cca7a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/attribute/violent.json"
+hash = "f2d6ffaaedba3e8262b39f542647e81fb341253b27e26e21a723a69c66ae7ae1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/cleaving.json"
+hash = "cd6131aada5c7e99c0fe8f41d41515266c35892dbf8f058a3e51271e1affc8cd"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/executing.json"
+hash = "c0d82b76eec7e87524098af6ab97ebeba97272b6aaf2a4d44701f67eba235456"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/festive.json"
+hash = "a4c80c3d0a169a03097ace2eac04cc29f003b0e1ac4b3549b36316d38d94b0a8"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/mob_effect/bloodletting.json"
+hash = "997c1b0629c7996f7e131534ffea5875040c04ef478f353c900178313bde5cd6"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/mob_effect/caustic.json"
+hash = "ab58910bc8da1e5662eb594dfa6c4629f1acb53c89fab4b2503570016f235091"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/mob_effect/elusive.json"
+hash = "4fde7cf62f087edc14f8ecc1b70ced886b0d463162860451d55203209902f0a0"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/mob_effect/omniscient.json"
+hash = "149c66c5616499642cd051ba347bf0cf13c790e48487c172c3a6dd6dcd385638"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/mob_effect/sophisticated.json"
+hash = "a5b3ee76454812c11815f2345f8c06ad98e7f453fd925cc389778d068eff5626"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/mob_effect/weakening.json"
+hash = "118cd9346d9844fff32c29c607ee49062ab897c63203fe86414cbf6bc50b492b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/melee/thunderstruck.json"
+hash = "80ba7782f843e343a768e9b4a076a2701f2ac3c4ff5733a0d2eeabb89fc1e00f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/attribute/agile.json"
+hash = "d2d97e8c869292f6a688406e89ef8a6ca49ddcfe196432af5f93708852b9980f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/attribute/elven.json"
+hash = "dbabded9b3e7718c1a183069acfd088e5369a2fc7610abd8b614243f129a2f16"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/attribute/streamlined.json"
+hash = "49966e7b1d101af9fa94d9a7c1c348b7901dae296901950198f8648acb7e92f9"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/attribute/windswept.json"
+hash = "1a3f5a87eef6270c9714410891356208e8a4bbe1bf6adeda4f2e891968e7063a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/enchantment/prosperous.json"
+hash = "972f20d2a8d7c560689dc4e86333b53292973f9a8a0bd2f0846f0993ee3c6751"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/magical.json"
+hash = "ac116b9a457e5fae39e86abba69675a3f1755fc76fbe75c387a0531e1652adec"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/acidic.json"
+hash = "af1b183ddbe92fd056968287c8be6c6ade4539b8784a9b8eb3000ea2797be25e"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/blighted.json"
+hash = "038d83b51ef36ee8be33b820d74a4d8e06039b587b100366cf8b9f9486813a8b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/deathbound.json"
+hash = "ed13c8ec85a90af8613115934d8b1a73acb5e4d11ad69088f525774ee24cecfc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/ensnaring.json"
+hash = "1eb8c70ee7edb38e76f6a6f6de64c6ada132b7572cc5cb85ba2aba26c2a2b9e3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/fleeting.json"
+hash = "2d606243a69c606cb0f6ac04f4add7e08333a5314f9b6610e6dc1c156d1b7f7b"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/grievous.json"
+hash = "5be76075c295cf2d65946d6516ddcc5a2ce0f891566a381dec1ee15959b8cc02"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/ivy_laced.json"
+hash = "cb710a4d829a7ae4325d0f307b819a10acdd85215b732408f136701e8590d793"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/mob_effect/shulkers.json"
+hash = "5b45536fd705a8aac5aad2ce55f7b60ff4edde3d4f727e7af7992cd081a9bc81"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/ranged/spectral.json"
+hash = "947e588d2252e7eda4d4a7e92c73b351387b630dbf8f14cfa53e9067507a59bc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/attribute/ironforged.json"
+hash = "379b828500627efcf5f46e5bdf1d1ace92a99faf33d6dd90b2aec228091d42ee"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/attribute/stalwart.json"
+hash = "057b1c68b935f8d255dc8d2aeff1748b63af97fe00a6d373acf9bebb073bf9db"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/attribute/steel_touched.json"
+hash = "747eb54e3b1321719462519bfb391bc9e544c02545a375905d2ffe5c4d5006e5"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/catalyzing.json"
+hash = "0c8bc6c5f52d706cc05e8d83fae9e089d615ec1ea0821808aa87e51fec89a7dc"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/mob_effect/devilish.json"
+hash = "feda59cfd5a49b234671dbd3e171151ce9f7760ecff28e3afe4c6da891605a17"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/mob_effect/galvanizing.json"
+hash = "6050d8db6f39bf5642007a95a31671be4be55059e46e49e71330ece4ee1c6942"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/mob_effect/reinforcing.json"
+hash = "783283b09f199710386b3f6bafb7d48ec6f7546897c2586db98aea6fe6b3af19"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/mob_effect/venomous.json"
+hash = "479dd88b5f77ce4d6efaa477b9d0d6255619be15c5ac6cf5b1ff21b0fbc787f1"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/mob_effect/withering.json"
+hash = "848bf364c9875771dfcad0aab7ae552f2ab81d794fa795e4d5ffa6f354004b2f"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/psychic.json"
+hash = "ba3b087f1cef0d70f2e32838c81fda11ecbfd03d6e5ad10ef98d4de41ee2fa2d"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/shield/retreating.json"
+hash = "c59dc8bab097557afa675d34ad2eb539058b7e614c43a98b272a8e81b9af6242"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/apotheosis/affixes/weapon/attribute/shredding.json"
+hash = "719383d90b9776d42f5330e27348493919cd0d8171eb297c1aabaedfa623a206"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/c/tags/item/ingots/bronze.json"
 hash = "c003482fc74b17e07753d9a1c7642d63e1820bec1f613b897c97e4a427d549fe"
 
@@ -4320,8 +4675,16 @@ file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/ge
 hash = "f9404c6c6180bedda8d69c8689f0affe9425fbc98e270417f27a6b78f6b6cbc8"
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/rarities/divine.json"
+hash = "e38ddacd48b474cc15af009302139483b8c25a590ec7476250660dc6dee2e882"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/bronze_ingot.json"
 hash = "50b111fe57c6d4bd214629b8b3b3d1131232724aaffc14fe352d373b5160c3fa"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/affix_item/divine.json"
+hash = "2fb903fa9fc65fa9e48f4aecf1cd68d569731cfe8809e186d05605e4c38bcada"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/generated/ars_nouveau/arcanist_boots.json"
