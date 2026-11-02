@@ -3,6 +3,6 @@ filename = "kindling-0.1.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/bralynfagel/kindling/releases/download/mod-0.7.1/kindling-0.1.0.jar"
+url = "https://github.com/bralynfagel/kindling/releases/download/mod-0.7.2/kindling-0.1.0.jar"
 hash-format = "sha256"
-hash = "fc7ca7048db2ff2c6b78d671e43aa88db44dc36e8e6c9b274d73e3dcb653618a"
+hash = "9f9a89b47547ce66d1594b621cd4308433cb77922e1514d8948eddd0a2415a15"
