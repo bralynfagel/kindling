@@ -3665,7 +3665,7 @@ metafile = true
 
 [[files]]
 file = "mods/kindling.pw.toml"
-hash = "b705fff804750ca5bd97e38ec243066fd3a0611fd52907bcc51f4d937ca76a72"
+hash = "f9bb94b77d400b2913649e1ad20cfff02ac4a6be3a1f6570372bd576c736cd2d"
 metafile = true
 
 [[files]]
