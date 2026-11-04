@@ -3344,6 +3344,11 @@ hash = "cdfa1b43710ffdc779a00287ea1544be4f38ab15cd4542bf9b17bee8d2e4e1da"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "f82dcab5621e178428706b3631fdf413c61c83f4041f8307b11d14bff7199f7b"
+metafile = true
+
+[[files]]
 file = "mods/cerbons-api.pw.toml"
 hash = "0842fbc32ad2a93ddabb0aef20b53c5b7abcc075fb047b0a7a698c589edbbfb0"
 metafile = true
