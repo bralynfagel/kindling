@@ -51,7 +51,7 @@
 
   "blacklistedStructures": {
     // List of blacklisted structures(or tags of structures), those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by ,
-    "blacklistedStructures": []
+    "blacklistedStructures": ["#kindling:village", "#minecraft:village"]
   },
 
   "whitelist": {

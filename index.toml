@@ -1248,7 +1248,7 @@ hash = "3a06e656323ddfd8221469c3aebf0849e65638aa886d71ceb4cbf9e023b9787d"
 
 [[files]]
 file = "config/respawningstructures.json"
-hash = "6eee1f247b7e13d4584e3c3230c7943fb0c52a6dc8192d1bb850417e42c06635"
+hash = "f416665c317a5c13a9f300c3314e2968f4b8ac585c592866a0c0f069c043ebce"
 
 [[files]]
 file = "config/rightclickharvest.json5"
@@ -4670,6 +4670,22 @@ hash = "24976a4d0448d401d36347c94666a0f77f0de8bd6d8944f5fb46f5efa5f9ec2e"
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/cataclysm/loot_table/entities/the_leviathan.json"
 hash = "962fe8569ff0b85ac4ef2064ec1bb7d4e8a6eeac7721e23cf613c739356ea141"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/irons_spellbooks/loot_table/chests/citadel/rampart_chest.json"
+hash = "58419df0119bdac21d8cc0fe400948946d3d2306d751639e2ef119edfe526be3"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/irons_spellbooks/loot_table/chests/trial_chambers/additional_ominous_vault_loot.json"
+hash = "95933376ae47a0d6b861b6086b38a02ef08c0e6595000c0cfd7ff5d1897c6553"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/irons_spellbooks/loot_table/entities/dead_king.json"
+hash = "1cf38ddf2d265beb2913ae64b69d9ed454dcf5489f8eae85eb595dbe019d4f2a"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/irons_spellbooks/loot_table/entities/fire_boss.json"
+hash = "baef25a66649730420a6c3d87b2c46f635619f7e36210835d8ade18ee3a48fde"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/kindling/loot_modifiers/affix_loot_structures.json"
