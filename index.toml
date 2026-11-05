@@ -126,7 +126,7 @@ hash = "f4b84cff3079706b15460b8acd1324f61804361b13ec796d9d98686c31798ca4"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
-hash = "0d567c27b10feb3945d329fc6ff0bf4f3eaeace7456aa814b7912063b2281e42"
+hash = "3360b2af03ff4e7b8fe75e0ecf6f266934dbd5ee7da334013b672b37c47176c0"
 
 [[files]]
 file = "config/apotheosis/apothic_attributes.cfg"
