@@ -3459,6 +3459,11 @@ hash = "9dee0c9276bc2cb5f930568c5b42d1c6c31faa4bda9bd4ee860dd265eb307b2a"
 metafile = true
 
 [[files]]
+file = "mods/diorama-map.pw.toml"
+hash = "c1eca83725c31baba8e8b275b4c5a00254a86997f58c298ddc91c9223c4961f4"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "6ecdaedab54eaece12ce6b237ee8ab0f27b0016e500cb910300615f6a1f8b483"
 metafile = true

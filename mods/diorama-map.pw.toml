@@ -1,0 +1,18 @@
+filename = 'diorama-0.7.0+neoforge-1.21.1.jar'
+name = 'Diorama'
+side = 'client'
+
+[download]
+hash = 'e19c3f4a97eb5ed1941beeabb500fa8fda2d5602ede6ff6d6d5c77bb670b4ae686fc4d4b574434f638bdab8007b75531c87e2e07789fb003e75813c925e9a772'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kwpTgbCk/versions/1FG2KJOU/diorama-0.7.0%2Bneoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'kwpTgbCk'
+version = '1FG2KJOU'
+
+[option]
+optional = true
+default = false
+description = "Diorama: a 3D isometric minimap and world map (trial, 2026-11-07). Try it instead of Xaero's: turn Xaero's Minimap and World Map off in the same instance."
