@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "path"
+	group: ""
+	icon: {
+		id: "kindling:portal_keystone_ignitium"
+	}
+	id: "EED72C93D696AF4A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "kindling:portal_keystone_copper"
+			}
+			id: "2380FFD3F4AA2DEC"
+			rewards: [
+				{
+					count: 5
+					id: "45ACAD06DB123A61"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/copper_1"
+					criterion: ""
+					id: "8A4A5A578496B91C"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2380FFD3F4AA2DEC"
+			]
+			icon: {
+				id: "kindling:portal_keystone_copper"
+			}
+			id: "0D0A7F6E7AE82ECD"
+			rewards: [
+				{
+					count: 5
+					id: "DC7B5247E1BD15D9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/copper_2"
+					criterion: ""
+					id: "8C26E59CD94BD41B"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D0A7F6E7AE82ECD"
+			]
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+			}
+			id: "6040C40F366E6CF8"
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "kindling:gate/copper"
+					criterion: ""
+					id: "C795DF8ECA0CEA0C"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6040C40F366E6CF8"
+			]
+			icon: {
+				id: "kindling:portal_keystone_iron"
+			}
+			id: "23097B588F5B8E28"
+			rewards: [
+				{
+					count: 2
+					id: "C0EB93BF8E50F2C1"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/iron_1"
+					criterion: ""
+					id: "30C8768D1EB50E31"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"23097B588F5B8E28"
+			]
+			icon: {
+				id: "kindling:portal_keystone_iron"
+			}
+			id: "425D28C42D2E867C"
+			rewards: [
+				{
+					count: 2
+					id: "ECF3DD688E4DC7B3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/iron_2"
+					criterion: ""
+					id: "7110040617AB86D9"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"425D28C42D2E867C"
+			]
+			icon: {
+				id: "kindling:portal_keystone_iron"
+			}
+			id: "E6F89E30A8498032"
+			rewards: [
+				{
+					count: 2
+					id: "B3D259505A2E6434"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/iron_3"
+					criterion: ""
+					id: "02D4D8630390788E"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"E6F89E30A8498032"
+			]
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "53CEB93F6BA1C311"
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "kindling:gate/iron"
+					criterion: ""
+					id: "A365109C91EAF188"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"53CEB93F6BA1C311"
+			]
+			icon: {
+				id: "kindling:portal_keystone_gold"
+			}
+			id: "8DE008D2AEEF004A"
+			rewards: [
+				{
+					count: 5
+					id: "7E6499A869331906"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/gold_1"
+					criterion: ""
+					id: "91F7F65C886AC6B3"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"8DE008D2AEEF004A"
+			]
+			icon: {
+				id: "kindling:portal_keystone_gold"
+			}
+			id: "DC4BD91FF54DADDA"
+			rewards: [
+				{
+					count: 5
+					id: "82A5FB2A1DF7A166"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/gold_2"
+					criterion: ""
+					id: "D8465C0D7C42757B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"DC4BD91FF54DADDA"
+			]
+			icon: {
+				id: "kindling:portal_keystone_gold"
+			}
+			id: "CA1EED1774E01523"
+			rewards: [
+				{
+					count: 5
+					id: "98E06CEB9F6F2BF3"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/gold_3"
+					criterion: ""
+					id: "A888C211948744B6"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"CA1EED1774E01523"
+			]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "F707F0AE122E44AA"
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "kindling:gate/gold"
+					criterion: ""
+					id: "9715F4C697CB9C72"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"F707F0AE122E44AA"
+			]
+			icon: {
+				id: "kindling:portal_keystone_diamond"
+			}
+			id: "8FBC22E468C07A4C"
+			rewards: [
+				{
+					count: 1
+					id: "104BD4326058FD14"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/diamond_1"
+					criterion: ""
+					id: "5F1CC4908B0AD84C"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"8FBC22E468C07A4C"
+			]
+			icon: {
+				id: "kindling:portal_keystone_diamond"
+			}
+			id: "4F70D4F8EC17EED5"
+			rewards: [
+				{
+					count: 1
+					id: "54E20CFA5EE26896"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/diamond_2"
+					criterion: ""
+					id: "F181B3D2D6AF2629"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4F70D4F8EC17EED5"
+			]
+			icon: {
+				id: "kindling:portal_keystone_diamond"
+			}
+			id: "8A100843D74627F1"
+			rewards: [
+				{
+					count: 1
+					id: "AF6F0DF5BCF0EF20"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/diamond_3"
+					criterion: ""
+					id: "055EC430081D5B24"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"8A100843D74627F1"
+			]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "FB26DEF758EA8B9A"
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "kindling:gate/diamond"
+					criterion: ""
+					id: "C8852B882D6AF935"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"FB26DEF758EA8B9A"
+			]
+			icon: {
+				id: "kindling:portal_keystone_netherite"
+			}
+			id: "FD297A9DF61C0E41"
+			rewards: [
+				{
+					count: 3
+					id: "87CF6132F5AB0F6D"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/netherite_1"
+					criterion: ""
+					id: "B7AB7AA56CA1EB65"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"FD297A9DF61C0E41"
+			]
+			icon: {
+				id: "kindling:portal_keystone_netherite"
+			}
+			id: "4CCC3A0DAA71A5A1"
+			rewards: [
+				{
+					count: 3
+					id: "0DB75135F683FC51"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/netherite_2"
+					criterion: ""
+					id: "0A9B2EB58227733B"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4CCC3A0DAA71A5A1"
+			]
+			icon: {
+				id: "kindling:portal_keystone_netherite"
+			}
+			id: "910D4BA70CAFBC16"
+			rewards: [
+				{
+					count: 3
+					id: "E7C32E5277F3E3D7"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "kindling:rank/netherite_3"
+					criterion: ""
+					id: "091B2CCC427EE8F1"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"910D4BA70CAFBC16"
+			]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "928B1F1F9FD4C3D4"
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "kindling:gate/netherite"
+					criterion: ""
+					id: "0B2C9F2EDA1B6F86"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"928B1F1F9FD4C3D4"
+			]
+			icon: {
+				id: "kindling:portal_keystone_ignitium"
+			}
+			id: "68138FEF8B9E7ED1"
+			rewards: [
+				{
+					count: 1
+					id: "9E141721747E4B14"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "kindling:rank/ignitium"
+					criterion: ""
+					id: "B714889B0BD99786"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 10.0d
+		}
+	]
+}

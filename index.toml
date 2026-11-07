@@ -963,15 +963,19 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
-hash = "a2d90c109cb293ccad3c1e97ac8c3f2f0eb337993403f8263bca5c5fb1d17542"
+hash = "beb65d81bc6af9c754534ed848ad8af455e5ceabf47180952b93610c977e92a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/delver.snbt"
-hash = "5214958aa5eb4815f299a0f93820a684de8898d673227611ffddf563b4918bfc"
+hash = "5db5ff5b20eee5ca177968ca630d564d580e7ce598e4a23081e58d00fc0f8654"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/market.snbt"
-hash = "2cee70b2fbddddfff9c97409e9c854ca5b51d1a3bfd4ab3d39109a91c2acae30"
+hash = "bdc933c74b89da248e253f10866c697919406434708f1dbb9900be372d609051"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/path.snbt"
+hash = "52a9d00e39e514f25b342f323634685bd709c053ce14c1b81abbf07be26096e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -983,7 +987,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e64c51f4ef959b59a4f23115ab0212f316b8b9c9dea93e45da3e5143a5069cc0"
+hash = "18a19fa1453189b4ead7213350d33dc27e312183af77ed301d71b3894bb6e521"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
