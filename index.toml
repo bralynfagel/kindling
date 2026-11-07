@@ -975,7 +975,7 @@ hash = "bdc933c74b89da248e253f10866c697919406434708f1dbb9900be372d609051"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/path.snbt"
-hash = "52a9d00e39e514f25b342f323634685bd709c053ce14c1b81abbf07be26096e0"
+hash = "ff0a6395d75151a9b7155ac86da313ddd2e2884141e4d292fd6fdd7c37c7c95c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -987,7 +987,7 @@ hash = "da666dc5db2933f1462490c31c9d122a6f5fb6e64438292bf785a3011d271f34"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "18a19fa1453189b4ead7213350d33dc27e312183af77ed301d71b3894bb6e521"
+hash = "d13ead81e18110e5c28a9368b77aec9ae5de7c4994afed595575e70dc63aff24"
 
 [[files]]
 file = "config/ftbteams-server.snbt"

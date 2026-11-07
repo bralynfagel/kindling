@@ -6,7 +6,7 @@
 	icon: {
 		id: "kindling:portal_keystone_ignitium"
 	}
-	id: "EED72C93D696AF4A"
+	id: "6ED72C93D696AF4A"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -31,7 +31,7 @@
 				{
 					advancement: "kindling:rank/copper_1"
 					criterion: ""
-					id: "8A4A5A578496B91C"
+					id: "0A4A5A578496B91C"
 					type: "advancement"
 				}
 			]
@@ -49,7 +49,7 @@
 			rewards: [
 				{
 					count: 5
-					id: "DC7B5247E1BD15D9"
+					id: "5C7B5247E1BD15D9"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_iron"
@@ -62,7 +62,7 @@
 				{
 					advancement: "kindling:rank/copper_2"
 					criterion: ""
-					id: "8C26E59CD94BD41B"
+					id: "0C26E59CD94BD41B"
 					type: "advancement"
 				}
 			]
@@ -82,7 +82,7 @@
 				{
 					advancement: "kindling:gate/copper"
 					criterion: ""
-					id: "C795DF8ECA0CEA0C"
+					id: "4795DF8ECA0CEA0C"
 					type: "advancement"
 				}
 			]
@@ -100,7 +100,7 @@
 			rewards: [
 				{
 					count: 2
-					id: "C0EB93BF8E50F2C1"
+					id: "40EB93BF8E50F2C1"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_gold"
@@ -131,7 +131,7 @@
 			rewards: [
 				{
 					count: 2
-					id: "ECF3DD688E4DC7B3"
+					id: "6CF3DD688E4DC7B3"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_gold"
@@ -158,11 +158,11 @@
 			icon: {
 				id: "kindling:portal_keystone_iron"
 			}
-			id: "E6F89E30A8498032"
+			id: "66F89E30A8498032"
 			rewards: [
 				{
 					count: 2
-					id: "B3D259505A2E6434"
+					id: "33D259505A2E6434"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_gold"
@@ -184,7 +184,7 @@
 		}
 		{
 			dependencies: [
-				"E6F89E30A8498032"
+				"66F89E30A8498032"
 			]
 			icon: {
 				id: "minecraft:zombie_head"
@@ -195,7 +195,7 @@
 				{
 					advancement: "kindling:gate/iron"
 					criterion: ""
-					id: "A365109C91EAF188"
+					id: "2365109C91EAF188"
 					type: "advancement"
 				}
 			]
@@ -209,7 +209,7 @@
 			icon: {
 				id: "kindling:portal_keystone_gold"
 			}
-			id: "8DE008D2AEEF004A"
+			id: "0DE008D2AEEF004A"
 			rewards: [
 				{
 					count: 5
@@ -226,7 +226,7 @@
 				{
 					advancement: "kindling:rank/gold_1"
 					criterion: ""
-					id: "91F7F65C886AC6B3"
+					id: "11F7F65C886AC6B3"
 					type: "advancement"
 				}
 			]
@@ -235,16 +235,16 @@
 		}
 		{
 			dependencies: [
-				"8DE008D2AEEF004A"
+				"0DE008D2AEEF004A"
 			]
 			icon: {
 				id: "kindling:portal_keystone_gold"
 			}
-			id: "DC4BD91FF54DADDA"
+			id: "5C4BD91FF54DADDA"
 			rewards: [
 				{
 					count: 5
-					id: "82A5FB2A1DF7A166"
+					id: "02A5FB2A1DF7A166"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_gold"
@@ -257,7 +257,7 @@
 				{
 					advancement: "kindling:rank/gold_2"
 					criterion: ""
-					id: "D8465C0D7C42757B"
+					id: "58465C0D7C42757B"
 					type: "advancement"
 				}
 			]
@@ -266,16 +266,16 @@
 		}
 		{
 			dependencies: [
-				"DC4BD91FF54DADDA"
+				"5C4BD91FF54DADDA"
 			]
 			icon: {
 				id: "kindling:portal_keystone_gold"
 			}
-			id: "CA1EED1774E01523"
+			id: "4A1EED1774E01523"
 			rewards: [
 				{
 					count: 5
-					id: "98E06CEB9F6F2BF3"
+					id: "18E06CEB9F6F2BF3"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_gold"
@@ -288,7 +288,7 @@
 				{
 					advancement: "kindling:rank/gold_3"
 					criterion: ""
-					id: "A888C211948744B6"
+					id: "2888C211948744B6"
 					type: "advancement"
 				}
 			]
@@ -297,18 +297,18 @@
 		}
 		{
 			dependencies: [
-				"CA1EED1774E01523"
+				"4A1EED1774E01523"
 			]
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
 			}
-			id: "F707F0AE122E44AA"
+			id: "7707F0AE122E44AA"
 			shape: "gear"
 			tasks: [
 				{
 					advancement: "kindling:gate/gold"
 					criterion: ""
-					id: "9715F4C697CB9C72"
+					id: "1715F4C697CB9C72"
 					type: "advancement"
 				}
 			]
@@ -317,12 +317,12 @@
 		}
 		{
 			dependencies: [
-				"F707F0AE122E44AA"
+				"7707F0AE122E44AA"
 			]
 			icon: {
 				id: "kindling:portal_keystone_diamond"
 			}
-			id: "8FBC22E468C07A4C"
+			id: "0FBC22E468C07A4C"
 			rewards: [
 				{
 					count: 1
@@ -348,7 +348,7 @@
 		}
 		{
 			dependencies: [
-				"8FBC22E468C07A4C"
+				"0FBC22E468C07A4C"
 			]
 			icon: {
 				id: "kindling:portal_keystone_diamond"
@@ -370,7 +370,7 @@
 				{
 					advancement: "kindling:rank/diamond_2"
 					criterion: ""
-					id: "F181B3D2D6AF2629"
+					id: "7181B3D2D6AF2629"
 					type: "advancement"
 				}
 			]
@@ -384,11 +384,11 @@
 			icon: {
 				id: "kindling:portal_keystone_diamond"
 			}
-			id: "8A100843D74627F1"
+			id: "0A100843D74627F1"
 			rewards: [
 				{
 					count: 1
-					id: "AF6F0DF5BCF0EF20"
+					id: "2F6F0DF5BCF0EF20"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_emerald"
@@ -410,18 +410,18 @@
 		}
 		{
 			dependencies: [
-				"8A100843D74627F1"
+				"0A100843D74627F1"
 			]
 			icon: {
 				id: "minecraft:dragon_head"
 			}
-			id: "FB26DEF758EA8B9A"
+			id: "7B26DEF758EA8B9A"
 			shape: "gear"
 			tasks: [
 				{
 					advancement: "kindling:gate/diamond"
 					criterion: ""
-					id: "C8852B882D6AF935"
+					id: "48852B882D6AF935"
 					type: "advancement"
 				}
 			]
@@ -430,16 +430,16 @@
 		}
 		{
 			dependencies: [
-				"FB26DEF758EA8B9A"
+				"7B26DEF758EA8B9A"
 			]
 			icon: {
 				id: "kindling:portal_keystone_netherite"
 			}
-			id: "FD297A9DF61C0E41"
+			id: "7D297A9DF61C0E41"
 			rewards: [
 				{
 					count: 3
-					id: "87CF6132F5AB0F6D"
+					id: "07CF6132F5AB0F6D"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_emerald"
@@ -452,7 +452,7 @@
 				{
 					advancement: "kindling:rank/netherite_1"
 					criterion: ""
-					id: "B7AB7AA56CA1EB65"
+					id: "37AB7AA56CA1EB65"
 					type: "advancement"
 				}
 			]
@@ -461,7 +461,7 @@
 		}
 		{
 			dependencies: [
-				"FD297A9DF61C0E41"
+				"7D297A9DF61C0E41"
 			]
 			icon: {
 				id: "kindling:portal_keystone_netherite"
@@ -497,11 +497,11 @@
 			icon: {
 				id: "kindling:portal_keystone_netherite"
 			}
-			id: "910D4BA70CAFBC16"
+			id: "110D4BA70CAFBC16"
 			rewards: [
 				{
 					count: 3
-					id: "E7C32E5277F3E3D7"
+					id: "67C32E5277F3E3D7"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_emerald"
@@ -523,12 +523,12 @@
 		}
 		{
 			dependencies: [
-				"910D4BA70CAFBC16"
+				"110D4BA70CAFBC16"
 			]
 			icon: {
 				id: "minecraft:netherite_sword"
 			}
-			id: "928B1F1F9FD4C3D4"
+			id: "128B1F1F9FD4C3D4"
 			shape: "gear"
 			tasks: [
 				{
@@ -543,7 +543,7 @@
 		}
 		{
 			dependencies: [
-				"928B1F1F9FD4C3D4"
+				"128B1F1F9FD4C3D4"
 			]
 			icon: {
 				id: "kindling:portal_keystone_ignitium"
@@ -552,7 +552,7 @@
 			rewards: [
 				{
 					count: 1
-					id: "9E141721747E4B14"
+					id: "1E141721747E4B14"
 					item: {
 						count: 1
 						id: "lightmanscurrency:coin_diamond"
@@ -566,7 +566,7 @@
 				{
 					advancement: "kindling:rank/ignitium"
 					criterion: ""
-					id: "B714889B0BD99786"
+					id: "3714889B0BD99786"
 					type: "advancement"
 				}
 			]

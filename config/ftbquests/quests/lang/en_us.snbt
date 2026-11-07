@@ -1,5 +1,5 @@
 {
-	chapter.1038D0AD4ECE7A4D.title: "Hearth & Market"
+	chapter.1038D0AD4ECE7A4D.title: "Hearth \\& Market"
 	chapter.1767CDB682DE69F4.title: "Delver"
 	chapter.4446AEB1B7E99123.title: "Welcome to Kindling"
 	file.0000000000000001.title: "Kindling"
@@ -22,9 +22,9 @@
 	quest.11E7D03192D12993.quest_subtitle: "Sleep in a bed"
 	quest.11E7D03192D12993.title: "A Place to Sleep"
 	quest.19662AD01F85C93D.quest_desc: [
-		"Diamond ore needs &bMining 16&r to break. Every rung below it is reachable from coal, copper and iron."
+		"Diamonds lie deep: dig down to the deepslate and look near lava. Any iron pickaxe breaks the ore."
 	]
-	quest.19662AD01F85C93D.quest_subtitle: "Mine a diamond (needs Mining 16)"
+	quest.19662AD01F85C93D.quest_subtitle: "Mine a diamond"
 	quest.19662AD01F85C93D.title: "&bDiamonds"
 	quest.1C1EBD5257E80C06.quest_subtitle: "Throw an eye of ender"
 	quest.1C1EBD5257E80C06.title: "Follow the Eye"
@@ -157,10 +157,10 @@
 	quest.6B1D3A57C0E2F48B.quest_subtitle: "Coins are the only money"
 	quest.6B1D3A57C0E2F48B.quest_desc: [
 		"Villagers and wandering traders pay and charge in Lightman's coins, not emeralds."
-		"Coins also buy from player shops; see the Hearth & Market chapter."
+		"Coins also buy from player shops; see the Hearth \\& Market chapter."
 	]
-	chapter.EED72C93D696AF4A.title: "&6Path to Ignitium"
-	chapter.EED72C93D696AF4A.chapter_subtitle: ["Your rank, step by step, to the top of the ladder"]
+	chapter.6ED72C93D696AF4A.title: "&6Path to Ignitium"
+	chapter.6ED72C93D696AF4A.chapter_subtitle: ["Your rank, step by step, to the top of the ladder"]
 	quest.2380FFD3F4AA2DEC.title: "&6Copper I"
 	quest.2380FFD3F4AA2DEC.quest_subtitle: "Reach Copper I"
 	quest.2380FFD3F4AA2DEC.quest_desc: [
@@ -197,9 +197,9 @@
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.E6F89E30A8498032.title: "&fIron III"
-	quest.E6F89E30A8498032.quest_subtitle: "Reach Iron III"
-	quest.E6F89E30A8498032.quest_desc: [
+	quest.66F89E30A8498032.title: "&fIron III"
+	quest.66F89E30A8498032.quest_subtitle: "Reach Iron III"
+	quest.66F89E30A8498032.quest_desc: [
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
@@ -209,35 +209,35 @@
 		"The way from Iron to Gold. Your rank tokens wait here until it's done."
 		"Type /rank to see your tokens and gates."
 	]
-	quest.8DE008D2AEEF004A.title: "&eGold I"
-	quest.8DE008D2AEEF004A.quest_subtitle: "Reach Gold I"
-	quest.8DE008D2AEEF004A.quest_desc: [
+	quest.0DE008D2AEEF004A.title: "&eGold I"
+	quest.0DE008D2AEEF004A.quest_subtitle: "Reach Gold I"
+	quest.0DE008D2AEEF004A.quest_desc: [
 		"Gold plays at the &eAscent&r world tier: tougher mobs, better loot."
 		""
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.DC4BD91FF54DADDA.title: "&eGold II"
-	quest.DC4BD91FF54DADDA.quest_subtitle: "Reach Gold II"
-	quest.DC4BD91FF54DADDA.quest_desc: [
+	quest.5C4BD91FF54DADDA.title: "&eGold II"
+	quest.5C4BD91FF54DADDA.quest_subtitle: "Reach Gold II"
+	quest.5C4BD91FF54DADDA.quest_desc: [
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.CA1EED1774E01523.title: "&eGold III"
-	quest.CA1EED1774E01523.quest_subtitle: "Reach Gold III"
-	quest.CA1EED1774E01523.quest_desc: [
+	quest.4A1EED1774E01523.title: "&eGold III"
+	quest.4A1EED1774E01523.quest_subtitle: "Reach Gold III"
+	quest.4A1EED1774E01523.quest_desc: [
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.F707F0AE122E44AA.title: "&eGold Gate"
-	quest.F707F0AE122E44AA.quest_subtitle: "Defeat the Wither"
-	quest.F707F0AE122E44AA.quest_desc: [
+	quest.7707F0AE122E44AA.title: "&eGold Gate"
+	quest.7707F0AE122E44AA.quest_subtitle: "Defeat the Wither"
+	quest.7707F0AE122E44AA.quest_desc: [
 		"The way from Gold to Diamond. Your rank tokens wait here until it's done."
 		"Type /rank to see your tokens and gates."
 	]
-	quest.8FBC22E468C07A4C.title: "&bDiamond I"
-	quest.8FBC22E468C07A4C.quest_subtitle: "Reach Diamond I"
-	quest.8FBC22E468C07A4C.quest_desc: [
+	quest.0FBC22E468C07A4C.title: "&bDiamond I"
+	quest.0FBC22E468C07A4C.quest_subtitle: "Reach Diamond I"
+	quest.0FBC22E468C07A4C.quest_desc: [
 		"Diamond plays at the &eSummit&r world tier: tougher mobs, better loot."
 		""
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
@@ -249,21 +249,21 @@
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.8A100843D74627F1.title: "&bDiamond III"
-	quest.8A100843D74627F1.quest_subtitle: "Reach Diamond III"
-	quest.8A100843D74627F1.quest_desc: [
+	quest.0A100843D74627F1.title: "&bDiamond III"
+	quest.0A100843D74627F1.quest_subtitle: "Reach Diamond III"
+	quest.0A100843D74627F1.quest_desc: [
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.FB26DEF758EA8B9A.title: "&bDiamond Gate"
-	quest.FB26DEF758EA8B9A.quest_subtitle: "Defeat the Ender Dragon"
-	quest.FB26DEF758EA8B9A.quest_desc: [
+	quest.7B26DEF758EA8B9A.title: "&bDiamond Gate"
+	quest.7B26DEF758EA8B9A.quest_subtitle: "Defeat the Ender Dragon"
+	quest.7B26DEF758EA8B9A.quest_desc: [
 		"The way from Diamond to Netherite. Your rank tokens wait here until it's done."
 		"Type /rank to see your tokens and gates."
 	]
-	quest.FD297A9DF61C0E41.title: "&5Netherite I"
-	quest.FD297A9DF61C0E41.quest_subtitle: "Reach Netherite I"
-	quest.FD297A9DF61C0E41.quest_desc: [
+	quest.7D297A9DF61C0E41.title: "&5Netherite I"
+	quest.7D297A9DF61C0E41.quest_subtitle: "Reach Netherite I"
+	quest.7D297A9DF61C0E41.quest_desc: [
 		"Netherite plays at the &ePinnacle&r world tier: tougher mobs, better loot."
 		""
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
@@ -275,15 +275,15 @@
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.910D4BA70CAFBC16.title: "&5Netherite III"
-	quest.910D4BA70CAFBC16.quest_subtitle: "Reach Netherite III"
-	quest.910D4BA70CAFBC16.quest_desc: [
+	quest.110D4BA70CAFBC16.title: "&5Netherite III"
+	quest.110D4BA70CAFBC16.quest_subtitle: "Reach Netherite III"
+	quest.110D4BA70CAFBC16.quest_desc: [
 		"Earn 3 rank tokens: clear dungeons at your rank or one above."
 		"Every dungeon gate and rift shows its rank by colour."
 	]
-	quest.928B1F1F9FD4C3D4.title: "&5Netherite Gate"
-	quest.928B1F1F9FD4C3D4.quest_subtitle: "Clear a Netherite III dungeon"
-	quest.928B1F1F9FD4C3D4.quest_desc: [
+	quest.128B1F1F9FD4C3D4.title: "&5Netherite Gate"
+	quest.128B1F1F9FD4C3D4.quest_subtitle: "Clear a Netherite III dungeon"
+	quest.128B1F1F9FD4C3D4.quest_desc: [
 		"The way from Netherite to Ignitium. Your rank tokens wait here until it's done."
 		"Type /rank to see your tokens and gates."
 	]
