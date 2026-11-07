@@ -10,3 +10,8 @@ mode = 'metadata:curseforge'
 [update.curseforge]
 file-id = 8103626
 project-id = 1357724
+
+[option]
+optional = true
+default = true
+description = "FTB Chunks claims on Xaero's maps. Needs Xaero's: untick it with them."

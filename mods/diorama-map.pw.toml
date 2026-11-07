@@ -15,4 +15,4 @@ version = '1FG2KJOU'
 [option]
 optional = true
 default = false
-description = "Diorama: a 3D isometric minimap and world map (trial, 2026-11-07). Try it instead of Xaero's: turn Xaero's Minimap and World Map off in the same instance."
+description = "Diorama: a 3D isometric minimap and world map, instead of Xaero's. Tick this and untick the five Xaero entries; M then opens Diorama's map."

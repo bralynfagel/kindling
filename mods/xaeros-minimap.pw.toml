@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/1bokaNcj/versions/Q1tuMQBB/xaerominimap-neo
 [update.modrinth]
 mod-id = '1bokaNcj'
 version = 'Q1tuMQBB'
+
+[option]
+optional = true
+default = true
+description = "Xaero's Minimap (the default map). To use Diorama instead, untick all five Xaero entries and tick Diorama."

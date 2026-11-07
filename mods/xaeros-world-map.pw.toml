@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/NcUtCpym/versions/9Ckiihkz/xaeroworldmap-ne
 [update.modrinth]
 mod-id = 'NcUtCpym'
 version = '9Ckiihkz'
+
+[option]
+optional = true
+default = true
+description = "Xaero's World Map (the default; M opens it). Untick with the other Xaero entries to use Diorama."

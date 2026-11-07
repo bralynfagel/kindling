@@ -11,3 +11,8 @@ url = 'https://cdn.modrinth.com/data/7mLhyqIY/versions/k8wIAiWT/xaeros_waystones
 [update.modrinth]
 mod-id = '7mLhyqIY'
 version = 'k8wIAiWT'
+
+[option]
+optional = true
+default = true
+description = "Waystones on Xaero's maps. Needs Xaero's: untick it with them."

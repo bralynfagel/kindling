@@ -15,4 +15,4 @@ version = 'mgDpAA4x'
 [option]
 optional = true
 default = true
-description = 'Xaero Train Map: shows Create trains on the world map.'
+description = "Xaero Train Map: shows Create trains on Xaero's World Map. Needs Xaero's: untick it with them."

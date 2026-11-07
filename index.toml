@@ -3464,7 +3464,7 @@ metafile = true
 
 [[files]]
 file = "mods/diorama-map.pw.toml"
-hash = "c1eca83725c31baba8e8b275b4c5a00254a86997f58c298ddc91c9223c4961f4"
+hash = "2af5946bae6e23551fa43c646b984fb1825a6e0f782de7a68aad9ff47c813eb9"
 metafile = true
 
 [[files]]
@@ -3564,7 +3564,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftbxaerocompat.pw.toml"
-hash = "71f3d7ff5d03befc5536ba2e47c241aff729bc53ed289aac32a904c647994f22"
+hash = "3e401ef4789506550c82ac1b947fdaed544b28a03154dd0be743213e009daa46"
 metafile = true
 
 [[files]]
@@ -4004,22 +4004,22 @@ metafile = true
 
 [[files]]
 file = "mods/xaero-train-map.pw.toml"
-hash = "793f26d40ea39d3bf4091e04200047a9fea7766ff4145bb7e757d8e26398a6ff"
+hash = "af8b4fb662bc3ff9b7bb1ab3acfe28afb00b9765c231b29d8e27a5646ac22f7a"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
-hash = "020c946358121241e7ee2424bf6f0a83d3579d22aba617a77a2e4c616c665ef3"
+hash = "84d171d42c01f8d0b92759f1b02fcac1955e72f3b14db075a81ea99f751c164c"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "7f7cf13f116f425e92fa6821d4792889d425f780ea33fa250c7c95f1677cf5f3"
+hash = "3d237d8149454e0def0b84bdc5e8aa329d2ce745d929e8fc7217587326d01cc6"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "6264d6b25ec1c43c137e5acf3d9dde08f895d6bfc31f8cd6466602d83377533d"
+hash = "8322b2edf16207ba09aa193f5578a4856751d73d969a730568b7ec061430676a"
 metafile = true
 
 [[files]]
