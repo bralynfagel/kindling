@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://github.com/bralynfagel/kindling/releases/download/mod-0.7.6/kindling-0.1.0.jar"
 hash-format = "sha256"
-hash = "75a8b81c8f580904cd6c9dbd52d6bb7ba9f79f17b3544c7b22e4c7df24e2299d"
+hash = "5bdce16074ef9ebe63c5c599fb93ab9d533db27e9dcfffdd4fca0c5f766e5880"
