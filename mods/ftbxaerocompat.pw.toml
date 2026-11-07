@@ -1,6 +1,6 @@
 filename = 'ftbxaerocompat-neoforge-1.1.4.jar'
 name = "FTB Chunks x Xaero's Compat"
-side = 'both'
+side = 'client'
 
 [download]
 hash = '6923ae95bdde32d8b504364ea125969cc7d6cb2e'
