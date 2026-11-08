@@ -5236,7 +5236,7 @@ hash = "8b29d4f5066c3b05eb12b97080473af47747ee2ba774bde31a0aaedd7e8397dd"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/connections.json"
-hash = "ef7248eee84191b0dbd183328aba30ad5566127daffeda67112392502a64bd95"
+hash = "ed1560b70ed3b99c70a1a5a30e16fe0af95bf0bdbcc5834596ed92f99ac44b05"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/definitions.json"
@@ -5256,7 +5256,7 @@ hash = "88524435b99d6fc30b2e3acc9d39f80c0e4c056a0ee7b83981cfd45495bfa446"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/connections.json"
-hash = "f8bda6d08f98a758d7572607a69da5aa58144097a584667b863e860512a67c30"
+hash = "7ee1ee333a7ea98dbf777b64c4d16d706c516ef3c87358f572bc49e9725f62ef"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/definitions.json"
@@ -5276,7 +5276,7 @@ hash = "554e75fd40cd5ff6b96ab39e656944781380450ab910afb6c95a48a654ab8ec1"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/connections.json"
-hash = "df444b09d1c8e10169698e634883affd3a849d4113815b8411561dffe548707d"
+hash = "16cac9968e3167ce14a67ac8aa3d2a059a37d3e032cf7b4fbe971930c1611b32"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/definitions.json"
@@ -5296,7 +5296,7 @@ hash = "023abf4a6bb7d917c1d59d1147cd885820259d366848f9c404c267e9554b771b"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/connections.json"
-hash = "32929f6106cee91f0cfcb364ed2ff7f073792320c7619df0d0d39d883c6a85af"
+hash = "cc597e173176c13bd8f5a31eea1f1349046c54df8bf477df05c9f0fc8f96bc74"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/definitions.json"

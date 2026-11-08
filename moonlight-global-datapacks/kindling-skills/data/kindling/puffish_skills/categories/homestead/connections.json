@@ -1,6 +1,6 @@
 {
   "normal": {
-    "bidirectional": [
+    "unidirectional": [
       [
         "hands",
         "builder_1"

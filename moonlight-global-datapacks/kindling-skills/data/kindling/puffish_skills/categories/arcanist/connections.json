@@ -1,6 +1,6 @@
 {
   "normal": {
-    "bidirectional": [
+    "unidirectional": [
       [
         "spark",
         "mana_1"

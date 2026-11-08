@@ -1,6 +1,6 @@
 {
   "normal": {
-    "bidirectional": [
+    "unidirectional": [
       [
         "grip",
         "miner_1"

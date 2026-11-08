@@ -1,6 +1,6 @@
 {
   "normal": {
-    "bidirectional": [
+    "unidirectional": [
       [
         "hardy",
         "core_1"
