@@ -1,0 +1,13 @@
+{
+  "title": "Skills",
+  "description": "One tree for everything. Buy skill points with experience levels (the button at the top), then spend them anywhere a path reaches.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "background": "textures/block/deepslate_tiles.png",
+  "unlocked_by_default": true,
+  "starting_points": 1
+}

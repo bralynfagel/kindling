@@ -3197,7 +3197,7 @@ hash = "5282ed5e6b23eeddeb90c865c9d745a223ce12b44a9cb216c91b3a13d11364e1"
 
 [[files]]
 file = "kubejs/startup_scripts/kindling_skill_xp.js"
-hash = "8af857965e55708eb68dbca72ed01450946949b71cf7114963d1ae056d98337f"
+hash = "bb79644f82d89be7578fde797c269bba5d7f63a3a86ef7292e0c13c8df9a2866"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -5231,88 +5231,28 @@ file = "moonlight-global-datapacks/kindling-loot/pack.mcmeta"
 hash = "28f4dd465a6e7500efdc8d737d8ee58ea8b83ef0c22060bc7d85e0c5965fb1ce"
 
 [[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/category.json"
-hash = "8b29d4f5066c3b05eb12b97080473af47747ee2ba774bde31a0aaedd7e8397dd"
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/skills/category.json"
+hash = "fc3c26d525fd26b114177478f36b82e32679f5e70cba043659ba4a93aa088644"
 
 [[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/connections.json"
-hash = "ed1560b70ed3b99c70a1a5a30e16fe0af95bf0bdbcc5834596ed92f99ac44b05"
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/skills/connections.json"
+hash = "623bfc8f6ebb87ca864f0e4f651f341ccf2328aa8423636bddaad88887154e52"
 
 [[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/definitions.json"
-hash = "7b63dc1ef42d5183813d9ffadb4dabeca82ab672b858439c34f1a527d2b296d6"
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/skills/definitions.json"
+hash = "3fc5a9c17678f3afbdb2a7d66875149ff20e899f9b10c7230aae7f555718df99"
 
 [[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/experience.json"
-hash = "3131fa72070a0db5e072ada6fad2e80b3ce3e6080466dc26f0ad7f93b8cc318b"
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/skills/exchange.json"
+hash = "5298e1d90652fbc7c34cf8813c35aeb195291a16f0e1a2e894ad05f06e00c4a4"
 
 [[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/adventurer/skills.json"
-hash = "8ab4e5a98538015612969564d18deb1aee21ec869b6c134b9305ec7a4954eb81"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/category.json"
-hash = "88524435b99d6fc30b2e3acc9d39f80c0e4c056a0ee7b83981cfd45495bfa446"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/connections.json"
-hash = "7ee1ee333a7ea98dbf777b64c4d16d706c516ef3c87358f572bc49e9725f62ef"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/definitions.json"
-hash = "a2c5fb14be2fa193850e4c5d69da45257b0c34914e054ba93817a235d2434260"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/experience.json"
-hash = "388be3e99b37a16334c4ed57208dd4cebabea220fd30fd637536263798dd80fc"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/arcanist/skills.json"
-hash = "8c9109f5016be6c527c86d35f68514a7ce150ff338a4108321a2a48eb2740c8c"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/category.json"
-hash = "554e75fd40cd5ff6b96ab39e656944781380450ab910afb6c95a48a654ab8ec1"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/connections.json"
-hash = "16cac9968e3167ce14a67ac8aa3d2a059a37d3e032cf7b4fbe971930c1611b32"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/definitions.json"
-hash = "bba2a3b86e83b3d120beeb10fbeeb76d0c0ec8931f59c0b47a65e57f16b3c61a"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/experience.json"
-hash = "d5a9fa5d804868db9aa4990c6ef3bb38b65de66b42f8ae4cf8fdb44d6b3c7f23"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/homestead/skills.json"
-hash = "92a9fec64e90994ac16228f2df666558b9fc377e4a6aee7c39abf826ca890388"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/category.json"
-hash = "023abf4a6bb7d917c1d59d1147cd885820259d366848f9c404c267e9554b771b"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/connections.json"
-hash = "cc597e173176c13bd8f5a31eea1f1349046c54df8bf477df05c9f0fc8f96bc74"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/definitions.json"
-hash = "206e71e5f692077d5a90cbd52e9ff99d876279359a4549eb0a90458d92f881a8"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/experience.json"
-hash = "12c22d5d82972f3a8070608e9e285162c087c903d8c916b8c6f00aa6535bd309"
-
-[[files]]
-file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/prospector/skills.json"
-hash = "48a31825abe4b58d7959bee76a8bc739ba53077b8ce9644cfcd387c708cc0741"
+file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/categories/skills/skills.json"
+hash = "0ca3192bc48b6483c1d7dbdbdf6a2d7328a58d372d0be94ed7e6b14da8464672"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/data/kindling/puffish_skills/config.json"
-hash = "8badfd10f0e15b7606a611b081308b48a3da6556babfe1dbc347feae0e3637c0"
+hash = "4d1eeacbadc5bf45f94192054db750d99294ce4008ff9b25f5ab1e7a30c44fe0"
 
 [[files]]
 file = "moonlight-global-datapacks/kindling-skills/pack.mcmeta"

@@ -1,0 +1,1518 @@
+{
+  "kindled": {
+    "x": 0,
+    "y": 0,
+    "definition": "kindled",
+    "root": true
+  },
+  "adventurer_head": {
+    "x": 0,
+    "y": -80,
+    "definition": "hardy"
+  },
+  "adventurer_ranger_1": {
+    "x": -92,
+    "y": -118,
+    "definition": "draw"
+  },
+  "adventurer_ranger_2": {
+    "x": -123,
+    "y": -158,
+    "definition": "fletch"
+  },
+  "adventurer_ranger_3": {
+    "x": -154,
+    "y": -198,
+    "definition": "swift"
+  },
+  "adventurer_ranger_4": {
+    "x": -185,
+    "y": -237,
+    "definition": "aim"
+  },
+  "adventurer_ranger_5": {
+    "x": -216,
+    "y": -277,
+    "definition": "draw"
+  },
+  "adventurer_ranger_6": {
+    "x": -247,
+    "y": -317,
+    "definition": "fletch"
+  },
+  "adventurer_ranger_7": {
+    "x": -279,
+    "y": -356,
+    "definition": "swift"
+  },
+  "adventurer_ranger_8": {
+    "x": -310,
+    "y": -396,
+    "definition": "aim"
+  },
+  "adventurer_ranger_9": {
+    "x": -341,
+    "y": -436,
+    "definition": "draw"
+  },
+  "adventurer_ranger_10": {
+    "x": -372,
+    "y": -476,
+    "definition": "fletch"
+  },
+  "adventurer_ranger_11": {
+    "x": -403,
+    "y": -515,
+    "definition": "swift"
+  },
+  "adventurer_ranger_12": {
+    "x": -434,
+    "y": -555,
+    "definition": "aim"
+  },
+  "adventurer_ranger_13": {
+    "x": -465,
+    "y": -595,
+    "definition": "draw"
+  },
+  "adventurer_ranger_14": {
+    "x": -496,
+    "y": -635,
+    "definition": "fletch"
+  },
+  "adventurer_ranger_15": {
+    "x": -527,
+    "y": -674,
+    "definition": "swift"
+  },
+  "adventurer_ranger_16": {
+    "x": -558,
+    "y": -714,
+    "definition": "aim"
+  },
+  "adventurer_ranger_17": {
+    "x": -589,
+    "y": -754,
+    "definition": "draw"
+  },
+  "adventurer_ranger_18": {
+    "x": -620,
+    "y": -793,
+    "definition": "fletch"
+  },
+  "adventurer_ranger_19": {
+    "x": -651,
+    "y": -833,
+    "definition": "aim"
+  },
+  "adventurer_ranger_20": {
+    "x": -682,
+    "y": -873,
+    "definition": "fletch"
+  },
+  "adventurer_ranger_21": {
+    "x": -713,
+    "y": -913,
+    "definition": "deadeye"
+  },
+  "adventurer_warrior_1": {
+    "x": -49,
+    "y": -142,
+    "definition": "edge"
+  },
+  "adventurer_warrior_2": {
+    "x": -61,
+    "y": -176,
+    "definition": "tempo"
+  },
+  "adventurer_warrior_3": {
+    "x": -72,
+    "y": -210,
+    "definition": "keen"
+  },
+  "adventurer_warrior_4": {
+    "x": -84,
+    "y": -244,
+    "definition": "brutal"
+  },
+  "adventurer_warrior_5": {
+    "x": -96,
+    "y": -278,
+    "definition": "sunder"
+  },
+  "adventurer_warrior_6": {
+    "x": -107,
+    "y": -312,
+    "definition": "exec"
+  },
+  "adventurer_warrior_7": {
+    "x": -119,
+    "y": -346,
+    "definition": "edge"
+  },
+  "adventurer_warrior_8": {
+    "x": -131,
+    "y": -380,
+    "definition": "tempo"
+  },
+  "adventurer_warrior_9": {
+    "x": -143,
+    "y": -414,
+    "definition": "keen"
+  },
+  "adventurer_warrior_10": {
+    "x": -154,
+    "y": -448,
+    "definition": "brutal"
+  },
+  "adventurer_warrior_11": {
+    "x": -166,
+    "y": -482,
+    "definition": "sunder"
+  },
+  "adventurer_warrior_12": {
+    "x": -178,
+    "y": -516,
+    "definition": "exec"
+  },
+  "adventurer_warrior_13": {
+    "x": -189,
+    "y": -550,
+    "definition": "edge"
+  },
+  "adventurer_warrior_14": {
+    "x": -201,
+    "y": -584,
+    "definition": "tempo"
+  },
+  "adventurer_warrior_15": {
+    "x": -213,
+    "y": -618,
+    "definition": "keen"
+  },
+  "adventurer_warrior_16": {
+    "x": -225,
+    "y": -652,
+    "definition": "brutal"
+  },
+  "adventurer_warrior_17": {
+    "x": -236,
+    "y": -686,
+    "definition": "sunder"
+  },
+  "adventurer_warrior_18": {
+    "x": -248,
+    "y": -720,
+    "definition": "exec"
+  },
+  "adventurer_warrior_19": {
+    "x": -260,
+    "y": -755,
+    "definition": "edge"
+  },
+  "adventurer_warrior_20": {
+    "x": -272,
+    "y": -789,
+    "definition": "tempo"
+  },
+  "adventurer_warrior_21": {
+    "x": -283,
+    "y": -823,
+    "definition": "keen"
+  },
+  "adventurer_warrior_22": {
+    "x": -295,
+    "y": -857,
+    "definition": "brutal"
+  },
+  "adventurer_warrior_23": {
+    "x": -307,
+    "y": -891,
+    "definition": "edge"
+  },
+  "adventurer_warrior_24": {
+    "x": -318,
+    "y": -925,
+    "definition": "tempo"
+  },
+  "adventurer_warrior_25": {
+    "x": -330,
+    "y": -959,
+    "definition": "keen"
+  },
+  "adventurer_warrior_26": {
+    "x": -342,
+    "y": -993,
+    "definition": "brutal"
+  },
+  "adventurer_warrior_27": {
+    "x": -354,
+    "y": -1027,
+    "definition": "edge"
+  },
+  "adventurer_warrior_28": {
+    "x": -365,
+    "y": -1061,
+    "definition": "keen"
+  },
+  "adventurer_warrior_29": {
+    "x": -377,
+    "y": -1095,
+    "definition": "warlord"
+  },
+  "adventurer_core_1": {
+    "x": 0,
+    "y": -150,
+    "definition": "vigor"
+  },
+  "adventurer_core_2": {
+    "x": 0,
+    "y": -209,
+    "definition": "reach"
+  },
+  "adventurer_core_3": {
+    "x": 0,
+    "y": -269,
+    "definition": "stride"
+  },
+  "adventurer_core_4": {
+    "x": 0,
+    "y": -328,
+    "definition": "footing"
+  },
+  "adventurer_core_5": {
+    "x": 0,
+    "y": -387,
+    "definition": "vigor"
+  },
+  "adventurer_core_6": {
+    "x": 0,
+    "y": -446,
+    "definition": "reach"
+  },
+  "adventurer_core_7": {
+    "x": 0,
+    "y": -506,
+    "definition": "stride"
+  },
+  "adventurer_core_8": {
+    "x": 0,
+    "y": -565,
+    "definition": "footing"
+  },
+  "adventurer_core_9": {
+    "x": 0,
+    "y": -624,
+    "definition": "vigor"
+  },
+  "adventurer_core_10": {
+    "x": 0,
+    "y": -684,
+    "definition": "reach"
+  },
+  "adventurer_core_11": {
+    "x": 0,
+    "y": -743,
+    "definition": "stride"
+  },
+  "adventurer_core_12": {
+    "x": 0,
+    "y": -802,
+    "definition": "footing"
+  },
+  "adventurer_core_13": {
+    "x": 0,
+    "y": -862,
+    "definition": "vigor"
+  },
+  "adventurer_core_14": {
+    "x": 0,
+    "y": -921,
+    "definition": "reach"
+  },
+  "adventurer_core_15": {
+    "x": 0,
+    "y": -980,
+    "definition": "stride"
+  },
+  "adventurer_core_16": {
+    "x": 0,
+    "y": -1039,
+    "definition": "footing"
+  },
+  "adventurer_core_17": {
+    "x": 0,
+    "y": -1099,
+    "definition": "reach"
+  },
+  "adventurer_core_18": {
+    "x": 0,
+    "y": -1158,
+    "definition": "stride"
+  },
+  "adventurer_guardian_1": {
+    "x": 49,
+    "y": -142,
+    "definition": "hide"
+  },
+  "adventurer_guardian_2": {
+    "x": 69,
+    "y": -201,
+    "definition": "bulwark"
+  },
+  "adventurer_guardian_3": {
+    "x": 90,
+    "y": -261,
+    "definition": "evade"
+  },
+  "adventurer_guardian_4": {
+    "x": 110,
+    "y": -321,
+    "definition": "hide"
+  },
+  "adventurer_guardian_5": {
+    "x": 131,
+    "y": -380,
+    "definition": "bulwark"
+  },
+  "adventurer_guardian_6": {
+    "x": 151,
+    "y": -440,
+    "definition": "evade"
+  },
+  "adventurer_guardian_7": {
+    "x": 172,
+    "y": -499,
+    "definition": "hide"
+  },
+  "adventurer_guardian_8": {
+    "x": 192,
+    "y": -559,
+    "definition": "bulwark"
+  },
+  "adventurer_guardian_9": {
+    "x": 213,
+    "y": -618,
+    "definition": "evade"
+  },
+  "adventurer_guardian_10": {
+    "x": 233,
+    "y": -678,
+    "definition": "hide"
+  },
+  "adventurer_guardian_11": {
+    "x": 254,
+    "y": -738,
+    "definition": "bulwark"
+  },
+  "adventurer_guardian_12": {
+    "x": 274,
+    "y": -797,
+    "definition": "evade"
+  },
+  "adventurer_guardian_13": {
+    "x": 295,
+    "y": -857,
+    "definition": "hide"
+  },
+  "adventurer_guardian_14": {
+    "x": 315,
+    "y": -916,
+    "definition": "bulwark"
+  },
+  "adventurer_guardian_15": {
+    "x": 336,
+    "y": -976,
+    "definition": "evade"
+  },
+  "adventurer_guardian_16": {
+    "x": 356,
+    "y": -1035,
+    "definition": "hide"
+  },
+  "adventurer_guardian_17": {
+    "x": 377,
+    "y": -1095,
+    "definition": "unbroken"
+  },
+  "adventurer_survivor_1": {
+    "x": 92,
+    "y": -118,
+    "definition": "leech"
+  },
+  "adventurer_survivor_2": {
+    "x": 149,
+    "y": -190,
+    "definition": "wind"
+  },
+  "adventurer_survivor_3": {
+    "x": 205,
+    "y": -263,
+    "definition": "leech"
+  },
+  "adventurer_survivor_4": {
+    "x": 262,
+    "y": -335,
+    "definition": "wind"
+  },
+  "adventurer_survivor_5": {
+    "x": 318,
+    "y": -407,
+    "definition": "leech"
+  },
+  "adventurer_survivor_6": {
+    "x": 374,
+    "y": -479,
+    "definition": "wind"
+  },
+  "adventurer_survivor_7": {
+    "x": 431,
+    "y": -551,
+    "definition": "leech"
+  },
+  "adventurer_survivor_8": {
+    "x": 487,
+    "y": -624,
+    "definition": "wind"
+  },
+  "adventurer_survivor_9": {
+    "x": 544,
+    "y": -696,
+    "definition": "leech"
+  },
+  "adventurer_survivor_10": {
+    "x": 600,
+    "y": -768,
+    "definition": "wind"
+  },
+  "adventurer_survivor_11": {
+    "x": 657,
+    "y": -840,
+    "definition": "leech"
+  },
+  "adventurer_survivor_12": {
+    "x": 713,
+    "y": -913,
+    "definition": "undying"
+  },
+  "adventurer_capstone": {
+    "x": 0,
+    "y": -1218,
+    "definition": "resolve"
+  },
+  "arcanist_head": {
+    "x": 80,
+    "y": 0,
+    "definition": "spark"
+  },
+  "arcanist_mana_1": {
+    "x": 118,
+    "y": -92,
+    "definition": "pool"
+  },
+  "arcanist_mana_2": {
+    "x": 154,
+    "y": -120,
+    "definition": "flow"
+  },
+  "arcanist_mana_3": {
+    "x": 190,
+    "y": -148,
+    "definition": "pool"
+  },
+  "arcanist_mana_4": {
+    "x": 226,
+    "y": -177,
+    "definition": "flow"
+  },
+  "arcanist_mana_5": {
+    "x": 262,
+    "y": -205,
+    "definition": "pool"
+  },
+  "arcanist_mana_6": {
+    "x": 298,
+    "y": -233,
+    "definition": "flow"
+  },
+  "arcanist_mana_7": {
+    "x": 334,
+    "y": -261,
+    "definition": "pool"
+  },
+  "arcanist_mana_8": {
+    "x": 370,
+    "y": -289,
+    "definition": "flow"
+  },
+  "arcanist_mana_9": {
+    "x": 406,
+    "y": -317,
+    "definition": "pool"
+  },
+  "arcanist_mana_10": {
+    "x": 442,
+    "y": -345,
+    "definition": "flow"
+  },
+  "arcanist_mana_11": {
+    "x": 478,
+    "y": -373,
+    "definition": "pool"
+  },
+  "arcanist_mana_12": {
+    "x": 513,
+    "y": -401,
+    "definition": "flow"
+  },
+  "arcanist_mana_13": {
+    "x": 549,
+    "y": -429,
+    "definition": "pool"
+  },
+  "arcanist_mana_14": {
+    "x": 585,
+    "y": -457,
+    "definition": "flow"
+  },
+  "arcanist_mana_15": {
+    "x": 621,
+    "y": -485,
+    "definition": "pool"
+  },
+  "arcanist_mana_16": {
+    "x": 657,
+    "y": -513,
+    "definition": "flow"
+  },
+  "arcanist_storm_1": {
+    "x": 138,
+    "y": -58,
+    "definition": "school_fire"
+  },
+  "arcanist_storm_2": {
+    "x": 196,
+    "y": -82,
+    "definition": "school_ice"
+  },
+  "arcanist_storm_3": {
+    "x": 253,
+    "y": -106,
+    "definition": "school_lightning"
+  },
+  "arcanist_storm_4": {
+    "x": 310,
+    "y": -130,
+    "definition": "school_fire"
+  },
+  "arcanist_storm_5": {
+    "x": 368,
+    "y": -155,
+    "definition": "school_ice"
+  },
+  "arcanist_storm_6": {
+    "x": 425,
+    "y": -179,
+    "definition": "school_lightning"
+  },
+  "arcanist_storm_7": {
+    "x": 482,
+    "y": -203,
+    "definition": "school_fire"
+  },
+  "arcanist_storm_8": {
+    "x": 540,
+    "y": -227,
+    "definition": "school_ice"
+  },
+  "arcanist_storm_9": {
+    "x": 597,
+    "y": -251,
+    "definition": "school_lightning"
+  },
+  "arcanist_storm_10": {
+    "x": 654,
+    "y": -275,
+    "definition": "school_fire"
+  },
+  "arcanist_storm_11": {
+    "x": 712,
+    "y": -299,
+    "definition": "school_ice"
+  },
+  "arcanist_storm_12": {
+    "x": 769,
+    "y": -323,
+    "definition": "school_lightning"
+  },
+  "arcanist_power_1": {
+    "x": 149,
+    "y": -20,
+    "definition": "focus"
+  },
+  "arcanist_power_2": {
+    "x": 184,
+    "y": -25,
+    "definition": "quick"
+  },
+  "arcanist_power_3": {
+    "x": 220,
+    "y": -29,
+    "definition": "fluent"
+  },
+  "arcanist_power_4": {
+    "x": 256,
+    "y": -34,
+    "definition": "focus"
+  },
+  "arcanist_power_5": {
+    "x": 291,
+    "y": -39,
+    "definition": "quick"
+  },
+  "arcanist_power_6": {
+    "x": 327,
+    "y": -44,
+    "definition": "fluent"
+  },
+  "arcanist_power_7": {
+    "x": 363,
+    "y": -48,
+    "definition": "focus"
+  },
+  "arcanist_power_8": {
+    "x": 398,
+    "y": -53,
+    "definition": "quick"
+  },
+  "arcanist_power_9": {
+    "x": 434,
+    "y": -58,
+    "definition": "fluent"
+  },
+  "arcanist_power_10": {
+    "x": 470,
+    "y": -63,
+    "definition": "focus"
+  },
+  "arcanist_power_11": {
+    "x": 506,
+    "y": -67,
+    "definition": "quick"
+  },
+  "arcanist_power_12": {
+    "x": 541,
+    "y": -72,
+    "definition": "fluent"
+  },
+  "arcanist_power_13": {
+    "x": 577,
+    "y": -77,
+    "definition": "focus"
+  },
+  "arcanist_power_14": {
+    "x": 613,
+    "y": -82,
+    "definition": "quick"
+  },
+  "arcanist_power_15": {
+    "x": 648,
+    "y": -86,
+    "definition": "fluent"
+  },
+  "arcanist_power_16": {
+    "x": 684,
+    "y": -91,
+    "definition": "focus"
+  },
+  "arcanist_power_17": {
+    "x": 720,
+    "y": -96,
+    "definition": "quick"
+  },
+  "arcanist_power_18": {
+    "x": 755,
+    "y": -101,
+    "definition": "fluent"
+  },
+  "arcanist_power_19": {
+    "x": 791,
+    "y": -106,
+    "definition": "focus"
+  },
+  "arcanist_power_20": {
+    "x": 827,
+    "y": -110,
+    "definition": "focus"
+  },
+  "arcanist_spirit_1": {
+    "x": 149,
+    "y": 20,
+    "definition": "school_holy"
+  },
+  "arcanist_spirit_2": {
+    "x": 210,
+    "y": 28,
+    "definition": "school_ender"
+  },
+  "arcanist_spirit_3": {
+    "x": 272,
+    "y": 36,
+    "definition": "school_blood"
+  },
+  "arcanist_spirit_4": {
+    "x": 334,
+    "y": 45,
+    "definition": "school_holy"
+  },
+  "arcanist_spirit_5": {
+    "x": 395,
+    "y": 53,
+    "definition": "school_ender"
+  },
+  "arcanist_spirit_6": {
+    "x": 457,
+    "y": 61,
+    "definition": "school_blood"
+  },
+  "arcanist_spirit_7": {
+    "x": 518,
+    "y": 69,
+    "definition": "school_holy"
+  },
+  "arcanist_spirit_8": {
+    "x": 580,
+    "y": 77,
+    "definition": "school_ender"
+  },
+  "arcanist_spirit_9": {
+    "x": 642,
+    "y": 86,
+    "definition": "school_blood"
+  },
+  "arcanist_spirit_10": {
+    "x": 703,
+    "y": 94,
+    "definition": "school_holy"
+  },
+  "arcanist_spirit_11": {
+    "x": 765,
+    "y": 102,
+    "definition": "school_ender"
+  },
+  "arcanist_spirit_12": {
+    "x": 827,
+    "y": 110,
+    "definition": "school_blood"
+  },
+  "arcanist_wild_1": {
+    "x": 138,
+    "y": 58,
+    "definition": "school_evocation"
+  },
+  "arcanist_wild_2": {
+    "x": 196,
+    "y": 82,
+    "definition": "school_nature"
+  },
+  "arcanist_wild_3": {
+    "x": 253,
+    "y": 106,
+    "definition": "school_eldritch"
+  },
+  "arcanist_wild_4": {
+    "x": 310,
+    "y": 130,
+    "definition": "school_evocation"
+  },
+  "arcanist_wild_5": {
+    "x": 368,
+    "y": 155,
+    "definition": "school_nature"
+  },
+  "arcanist_wild_6": {
+    "x": 425,
+    "y": 179,
+    "definition": "school_eldritch"
+  },
+  "arcanist_wild_7": {
+    "x": 482,
+    "y": 203,
+    "definition": "school_evocation"
+  },
+  "arcanist_wild_8": {
+    "x": 540,
+    "y": 227,
+    "definition": "school_nature"
+  },
+  "arcanist_wild_9": {
+    "x": 597,
+    "y": 251,
+    "definition": "school_eldritch"
+  },
+  "arcanist_wild_10": {
+    "x": 654,
+    "y": 275,
+    "definition": "school_evocation"
+  },
+  "arcanist_wild_11": {
+    "x": 712,
+    "y": 299,
+    "definition": "school_nature"
+  },
+  "arcanist_wild_12": {
+    "x": 769,
+    "y": 323,
+    "definition": "school_eldritch"
+  },
+  "arcanist_ward_1": {
+    "x": 118,
+    "y": 92,
+    "definition": "ward"
+  },
+  "arcanist_ward_2": {
+    "x": 226,
+    "y": 177,
+    "definition": "ward"
+  },
+  "arcanist_ward_3": {
+    "x": 334,
+    "y": 261,
+    "definition": "ward"
+  },
+  "arcanist_ward_4": {
+    "x": 442,
+    "y": 345,
+    "definition": "ward"
+  },
+  "arcanist_ward_5": {
+    "x": 549,
+    "y": 429,
+    "definition": "ward"
+  },
+  "arcanist_ward_6": {
+    "x": 657,
+    "y": 513,
+    "definition": "ward"
+  },
+  "arcanist_capstone": {
+    "x": 894,
+    "y": 0,
+    "definition": "archmage"
+  },
+  "prospector_head": {
+    "x": 0,
+    "y": 80,
+    "definition": "grip"
+  },
+  "prospector_fortune_1": {
+    "x": 92,
+    "y": 118,
+    "definition": "luck"
+  },
+  "prospector_fortune_2": {
+    "x": 143,
+    "y": 183,
+    "definition": "lore"
+  },
+  "prospector_fortune_3": {
+    "x": 194,
+    "y": 249,
+    "definition": "luck"
+  },
+  "prospector_fortune_4": {
+    "x": 245,
+    "y": 314,
+    "definition": "lore"
+  },
+  "prospector_fortune_5": {
+    "x": 296,
+    "y": 379,
+    "definition": "luck"
+  },
+  "prospector_fortune_6": {
+    "x": 347,
+    "y": 444,
+    "definition": "lore"
+  },
+  "prospector_fortune_7": {
+    "x": 398,
+    "y": 510,
+    "definition": "luck"
+  },
+  "prospector_fortune_8": {
+    "x": 449,
+    "y": 575,
+    "definition": "lore"
+  },
+  "prospector_fortune_9": {
+    "x": 500,
+    "y": 640,
+    "definition": "luck"
+  },
+  "prospector_fortune_10": {
+    "x": 551,
+    "y": 705,
+    "definition": "lore"
+  },
+  "prospector_fortune_11": {
+    "x": 602,
+    "y": 771,
+    "definition": "luck"
+  },
+  "prospector_miner_1": {
+    "x": 33,
+    "y": 146,
+    "definition": "haste"
+  },
+  "prospector_miner_2": {
+    "x": 43,
+    "y": 191,
+    "definition": "pmast"
+  },
+  "prospector_miner_3": {
+    "x": 53,
+    "y": 236,
+    "definition": "grip"
+  },
+  "prospector_miner_4": {
+    "x": 63,
+    "y": 281,
+    "definition": "haste"
+  },
+  "prospector_miner_5": {
+    "x": 73,
+    "y": 326,
+    "definition": "pmast"
+  },
+  "prospector_miner_6": {
+    "x": 83,
+    "y": 371,
+    "definition": "grip"
+  },
+  "prospector_miner_7": {
+    "x": 93,
+    "y": 416,
+    "definition": "haste"
+  },
+  "prospector_miner_8": {
+    "x": 103,
+    "y": 461,
+    "definition": "pmast"
+  },
+  "prospector_miner_9": {
+    "x": 114,
+    "y": 505,
+    "definition": "grip"
+  },
+  "prospector_miner_10": {
+    "x": 124,
+    "y": 550,
+    "definition": "haste"
+  },
+  "prospector_miner_11": {
+    "x": 134,
+    "y": 595,
+    "definition": "pmast"
+  },
+  "prospector_miner_12": {
+    "x": 144,
+    "y": 640,
+    "definition": "grip"
+  },
+  "prospector_miner_13": {
+    "x": 154,
+    "y": 685,
+    "definition": "haste"
+  },
+  "prospector_miner_14": {
+    "x": 164,
+    "y": 730,
+    "definition": "pmast"
+  },
+  "prospector_miner_15": {
+    "x": 174,
+    "y": 775,
+    "definition": "haste"
+  },
+  "prospector_miner_16": {
+    "x": 184,
+    "y": 820,
+    "definition": "pmast"
+  },
+  "prospector_miner_17": {
+    "x": 194,
+    "y": 864,
+    "definition": "haste"
+  },
+  "prospector_miner_18": {
+    "x": 204,
+    "y": 909,
+    "definition": "pmast"
+  },
+  "prospector_miner_19": {
+    "x": 214,
+    "y": 954,
+    "definition": "stonebreaker"
+  },
+  "prospector_vein_1": {
+    "x": -33,
+    "y": 146,
+    "definition": "vein"
+  },
+  "prospector_vein_2": {
+    "x": -41,
+    "y": 181,
+    "definition": "vein"
+  },
+  "prospector_vein_3": {
+    "x": -49,
+    "y": 217,
+    "definition": "vein"
+  },
+  "prospector_vein_4": {
+    "x": -57,
+    "y": 252,
+    "definition": "vein"
+  },
+  "prospector_vein_5": {
+    "x": -64,
+    "y": 287,
+    "definition": "vein"
+  },
+  "prospector_vein_6": {
+    "x": -72,
+    "y": 322,
+    "definition": "vein"
+  },
+  "prospector_vein_7": {
+    "x": -80,
+    "y": 357,
+    "definition": "vein"
+  },
+  "prospector_vein_8": {
+    "x": -88,
+    "y": 392,
+    "definition": "vein"
+  },
+  "prospector_vein_9": {
+    "x": -96,
+    "y": 427,
+    "definition": "vein"
+  },
+  "prospector_vein_10": {
+    "x": -104,
+    "y": 462,
+    "definition": "vein"
+  },
+  "prospector_vein_11": {
+    "x": -112,
+    "y": 498,
+    "definition": "vein"
+  },
+  "prospector_vein_12": {
+    "x": -120,
+    "y": 533,
+    "definition": "vein"
+  },
+  "prospector_vein_13": {
+    "x": -128,
+    "y": 568,
+    "definition": "vein"
+  },
+  "prospector_vein_14": {
+    "x": -136,
+    "y": 603,
+    "definition": "vein"
+  },
+  "prospector_vein_15": {
+    "x": -143,
+    "y": 638,
+    "definition": "vein"
+  },
+  "prospector_vein_16": {
+    "x": -151,
+    "y": 673,
+    "definition": "vein"
+  },
+  "prospector_vein_17": {
+    "x": -159,
+    "y": 708,
+    "definition": "vein"
+  },
+  "prospector_vein_18": {
+    "x": -167,
+    "y": 743,
+    "definition": "vein"
+  },
+  "prospector_vein_19": {
+    "x": -175,
+    "y": 779,
+    "definition": "vein"
+  },
+  "prospector_vein_20": {
+    "x": -183,
+    "y": 814,
+    "definition": "vein"
+  },
+  "prospector_vein_21": {
+    "x": -191,
+    "y": 849,
+    "definition": "vein"
+  },
+  "prospector_vein_22": {
+    "x": -199,
+    "y": 884,
+    "definition": "vein"
+  },
+  "prospector_vein_23": {
+    "x": -207,
+    "y": 919,
+    "definition": "vein"
+  },
+  "prospector_vein_24": {
+    "x": -214,
+    "y": 954,
+    "definition": "vein"
+  },
+  "prospector_delver_1": {
+    "x": -92,
+    "y": 118,
+    "definition": "reachb"
+  },
+  "prospector_delver_2": {
+    "x": -129,
+    "y": 165,
+    "definition": "lungs"
+  },
+  "prospector_delver_3": {
+    "x": -165,
+    "y": 211,
+    "definition": "fall"
+  },
+  "prospector_delver_4": {
+    "x": -202,
+    "y": 258,
+    "definition": "step"
+  },
+  "prospector_delver_5": {
+    "x": -238,
+    "y": 305,
+    "definition": "reachb"
+  },
+  "prospector_delver_6": {
+    "x": -274,
+    "y": 351,
+    "definition": "lungs"
+  },
+  "prospector_delver_7": {
+    "x": -311,
+    "y": 398,
+    "definition": "fall"
+  },
+  "prospector_delver_8": {
+    "x": -347,
+    "y": 444,
+    "definition": "reachb"
+  },
+  "prospector_delver_9": {
+    "x": -384,
+    "y": 491,
+    "definition": "lungs"
+  },
+  "prospector_delver_10": {
+    "x": -420,
+    "y": 538,
+    "definition": "fall"
+  },
+  "prospector_delver_11": {
+    "x": -456,
+    "y": 584,
+    "definition": "reachb"
+  },
+  "prospector_delver_12": {
+    "x": -493,
+    "y": 631,
+    "definition": "lungs"
+  },
+  "prospector_delver_13": {
+    "x": -529,
+    "y": 677,
+    "definition": "fall"
+  },
+  "prospector_delver_14": {
+    "x": -566,
+    "y": 724,
+    "definition": "fall"
+  },
+  "prospector_delver_15": {
+    "x": -602,
+    "y": 771,
+    "definition": "fall"
+  },
+  "prospector_capstone": {
+    "x": 0,
+    "y": 1038,
+    "definition": "deep"
+  },
+  "homestead_head": {
+    "x": -80,
+    "y": 0,
+    "definition": "hands"
+  },
+  "homestead_angler_1": {
+    "x": -118,
+    "y": 92,
+    "definition": "fortune"
+  },
+  "homestead_angler_2": {
+    "x": -158,
+    "y": 123,
+    "definition": "patient"
+  },
+  "homestead_angler_3": {
+    "x": -198,
+    "y": 154,
+    "definition": "fortune"
+  },
+  "homestead_angler_4": {
+    "x": -237,
+    "y": 185,
+    "definition": "patient"
+  },
+  "homestead_angler_5": {
+    "x": -277,
+    "y": 216,
+    "definition": "fortune"
+  },
+  "homestead_angler_6": {
+    "x": -317,
+    "y": 247,
+    "definition": "patient"
+  },
+  "homestead_angler_7": {
+    "x": -356,
+    "y": 279,
+    "definition": "fortune"
+  },
+  "homestead_angler_8": {
+    "x": -396,
+    "y": 310,
+    "definition": "patient"
+  },
+  "homestead_angler_9": {
+    "x": -436,
+    "y": 341,
+    "definition": "fortune"
+  },
+  "homestead_angler_10": {
+    "x": -476,
+    "y": 372,
+    "definition": "patient"
+  },
+  "homestead_angler_11": {
+    "x": -515,
+    "y": 403,
+    "definition": "fortune"
+  },
+  "homestead_angler_12": {
+    "x": -555,
+    "y": 434,
+    "definition": "patient"
+  },
+  "homestead_angler_13": {
+    "x": -595,
+    "y": 465,
+    "definition": "fortune"
+  },
+  "homestead_angler_14": {
+    "x": -635,
+    "y": 496,
+    "definition": "patient"
+  },
+  "homestead_angler_15": {
+    "x": -674,
+    "y": 527,
+    "definition": "fortune"
+  },
+  "homestead_angler_16": {
+    "x": -714,
+    "y": 558,
+    "definition": "patient"
+  },
+  "homestead_builder_1": {
+    "x": -150,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_2": {
+    "x": -186,
+    "y": 0,
+    "definition": "sneak"
+  },
+  "homestead_builder_3": {
+    "x": -222,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_4": {
+    "x": -258,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_5": {
+    "x": -294,
+    "y": 0,
+    "definition": "sneak"
+  },
+  "homestead_builder_6": {
+    "x": -330,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_7": {
+    "x": -366,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_8": {
+    "x": -402,
+    "y": 0,
+    "definition": "sneak"
+  },
+  "homestead_builder_9": {
+    "x": -438,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_10": {
+    "x": -474,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_11": {
+    "x": -510,
+    "y": 0,
+    "definition": "sneak"
+  },
+  "homestead_builder_12": {
+    "x": -546,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_13": {
+    "x": -582,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_14": {
+    "x": -618,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_15": {
+    "x": -654,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_16": {
+    "x": -690,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_17": {
+    "x": -726,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_18": {
+    "x": -762,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_19": {
+    "x": -798,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_20": {
+    "x": -834,
+    "y": 0,
+    "definition": "stroll"
+  },
+  "homestead_builder_21": {
+    "x": -870,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_builder_22": {
+    "x": -906,
+    "y": 0,
+    "definition": "builder"
+  },
+  "homestead_hearthkeeper_1": {
+    "x": -118,
+    "y": -92,
+    "definition": "hearty"
+  },
+  "homestead_hearthkeeper_2": {
+    "x": -172,
+    "y": -135,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_3": {
+    "x": -227,
+    "y": -177,
+    "definition": "hearty"
+  },
+  "homestead_hearthkeeper_4": {
+    "x": -281,
+    "y": -219,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_5": {
+    "x": -335,
+    "y": -262,
+    "definition": "hearty"
+  },
+  "homestead_hearthkeeper_6": {
+    "x": -389,
+    "y": -304,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_7": {
+    "x": -443,
+    "y": -346,
+    "definition": "hearty"
+  },
+  "homestead_hearthkeeper_8": {
+    "x": -497,
+    "y": -389,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_9": {
+    "x": -551,
+    "y": -431,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_10": {
+    "x": -606,
+    "y": -473,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_11": {
+    "x": -660,
+    "y": -515,
+    "definition": "remedy"
+  },
+  "homestead_hearthkeeper_12": {
+    "x": -714,
+    "y": -558,
+    "definition": "remedy"
+  },
+  "homestead_capstone": {
+    "x": -966,
+    "y": 0,
+    "definition": "hearth"
+  }
+}
