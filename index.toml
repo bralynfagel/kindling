@@ -5167,6 +5167,18 @@ file = "moonlight-global-datapacks/kindling-loot/data/kindling/recipe/salvaging/
 hash = "2dc603ce8dc8c327cd77525e0dda3101253f636fe5b95a64e724015d73acb968"
 
 [[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/minecraft/loot_table/chests/shipwreck_map.json"
+hash = "c4c0b3ead6dbc4900e3b3e7b9e93ba61d761ee1b97b9fd5d670fb314813c206c"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/minecraft/loot_table/chests/underwater_ruin_big.json"
+hash = "f23c7eeec001e02ce223698dae84bc38c6d3b6d8e8db068cc9ccfe0a94cb1c56"
+
+[[files]]
+file = "moonlight-global-datapacks/kindling-loot/data/minecraft/loot_table/chests/underwater_ruin_small.json"
+hash = "ee4b47c950e373ca22ec6597f5088d218bd4209ce8ded30fc4e37c25e41a6904"
+
+[[files]]
 file = "moonlight-global-datapacks/kindling-loot/data/mowziesmobs/loot_table/chests/monastery_chest.json"
 hash = "63f31e29f2dd2b05cecf07e5afdbdee198171000558e854065a6a41e19bd6eab"
 
